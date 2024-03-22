@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses the Common Weakness Enumeration (CWE) entry CWE-111, which describes the weakness of direct use of unsafe Java Native Interface (JNI). When a Java application uses JNI to call code written in another language like C, it can expose the application to vulnerabilities in that code even if those vulnerabilities cannot occur in Java. Many safety features in Java do not apply to native code, making native code more susceptible to issues like buffer overflows. The example C code using gets() highlights how a buffer overflow could occur when Java calls unsafe native code via JNI. Potential mitigations include implementing error handling around JNI calls, avoiding JNI if the native library is not trusted, and preferring Java API equivalents when possible.
+
+# Summary bullet points
+
+* Java applications using Java Native Interface (JNI) to call native code can expose vulnerabilities not prevented by Java's safety features
+* Languages used to implement native code called by Java via JNI may be more prone to buffer overflows and other weaknesses
+* Example shows unsafe C code called by Java through JNI that could enable a buffer overflow
+* Mitigations include adding error handling around JNI, avoiding JNI with untrusted libraries, and using Java APIs instead of JNI when possible
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) entry
+================================================================================
+METADATA:
+prompt_tokens: 1517
+answer_tokens: 225
+time_taken: 19.83 seconds

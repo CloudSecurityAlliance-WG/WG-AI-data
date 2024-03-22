@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information about CWE-440 Expected Behavior Violation:
+
+# Summary
+
+CWE-440 refers to a feature, API, or function not performing according to its specification. This means some aspect of the software is not behaving as expected or documented, leading to incorrect use or quality degradation.
+
+The weakness typically arises during architecture/design or implementation phases. It can manifest in various technologies and platforms, including ICS/OT systems.
+
+Consequences may include quality degradation and impacts that vary by context. An example is interrupt handling code in a RISC-V system that improperly allows user input to manipulate supervisor interrupt settings. This could enable denial-of-service attacks or privilege escalation.
+
+Fixing these issues involves ensuring proper encapsulation and validation of inputs and outputs to prevent unintended behavior changes. Careful design reviews and testing focused on specified behavior are important.
+
+# Summary bullet points
+
+* CWE-440 refers to software not behaving according to specifications
+* Arises from architecture/design or implementation phases 
+* Can happen on various technologies and ICS/OT systems
+* Leads to quality degradation and security impacts depending on context
+* Example is RISC-V allowing user input to change privileged interrupt settings
+* Fixes involve proper encapsulation/validation and reviews focused on specifications
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition
+================================================================================
+METADATA:
+prompt_tokens: 1393
+answer_tokens: 212
+time_taken: 24.55 seconds

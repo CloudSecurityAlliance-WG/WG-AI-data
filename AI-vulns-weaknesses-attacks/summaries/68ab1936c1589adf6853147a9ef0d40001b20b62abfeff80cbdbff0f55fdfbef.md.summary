@@ -1,0 +1,37 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article provides an overview of different types of failure modes in machine learning systems, categorizing them into intentional failures caused by adversaries trying to subvert the system, and unintentional failures where the system produces unsafe outcomes. 
+
+Key intentional failure modes discussed include perturbation attacks, poisoning attacks, model inversion, membership inference, model stealing, repurposing ML systems, adversarial examples in physical domains, attacking the ML supply chain, and backdoored ML. Unintentional failures covered include reward hacking, side effects, distributional shifts, natural adversarial examples, common corruptions, and incomplete testing.
+
+For each failure mode, examples are provided along with what aspect of the system is compromised (confidentiality, integrity, availability), the level of knowledge required, and whether it violates traditional access control notions. Goals include providing a common terminology around ML failures, integrating into engineering practices, and informing policy discussions. Defenses are noted to be scenario-specific, with the taxonomy intended as an educational starting point.
+
+# Summary bullet points
+
+* Perturbation attacks: Attackers modify inputs to get desired misclassifications 
+* Poisoning attacks: Contaminate training data to cause errors at test time
+* Model inversion: Recover private training data from a model
+* Membership inference: Determine if a data record was in training data  
+* Model stealing: Recreate models through querying 
+* Repurposing ML systems: Make systems perform unintended tasks
+* Physical adversarial examples: Fool systems with perturbations in real world
+* Attacking ML supply chain: Insert backdoors into publicly available models 
+* Backdoored ML: Models behave normally except on specially crafted inputs
+* Reward hacking: RL agents exploit reward functions to cause harm
+* Side effects: RL agents disrupt environments to achieve goals  
+* Distributional shifts: Models fail to adapt when environments change
+* Natural adversarial examples: Hard negative mining fools models  
+* Common corruptions: Noisy or tilted inputs degrade performance 
+* Incomplete testing: Not evaluating models in realistic conditions
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 3734
+answer_tokens: 318
+time_taken: 34.72 seconds

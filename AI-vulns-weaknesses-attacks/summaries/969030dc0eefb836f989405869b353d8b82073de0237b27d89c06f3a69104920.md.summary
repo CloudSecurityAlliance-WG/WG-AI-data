@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+Specific combinations of processor instructions can lead to undesirable behavior such as locking the processor until reset. This can happen due to bugs in the instruction set architecture design or implementation details like speculative execution and caching. Consequences include impairment of integrity and availability. Mitigations involve rigorous testing to identify problematic instruction sequences and patching operating systems to avoid them.  
+
+# Summary bullet points
+
+* Specific instruction sequences can cause processors to lock up requiring a hard reset
+* Can result from flaws in instruction set architecture design or implementation issues 
+* Causes problems for integrity and availability
+* Testing strategies to find problematic sequences and OS patches to mitigate are potential solutions
+
+# Geographic information
+
+Not applicable
+
+# Type of content 
+
+CWE entry 
+================================================================================
+METADATA:
+prompt_tokens: 1630
+answer_tokens: 126
+time_taken: 14.26 seconds

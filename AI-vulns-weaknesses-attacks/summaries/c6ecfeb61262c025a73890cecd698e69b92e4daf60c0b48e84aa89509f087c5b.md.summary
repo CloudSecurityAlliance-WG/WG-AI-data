@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-614, a weakness related to not setting the secure attribute for sensitive cookies in HTTPS sessions. This causes the user agent to send those cookies in plaintext over an HTTP session, exposing sensitive data. It is a variant of cleartext transmission of sensitive information (CWE-319). The impact is that it allows remote attackers to more easily capture sensitive cookie data that should have been protected by HTTPS.
+
+# Summary bullet points
+
+* CWE-614 is a weakness related to not setting the secure attribute for sensitive cookies in HTTPS sessions
+* Causes user agent to send sensitive cookies in plaintext over HTTP, exposing data
+* Variant of cleartext transmission of sensitive information (CWE-319)  
+* Impact is remote attackers can more easily capture sensitive cookie data that should have been protected by HTTPS
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 932
+answer_tokens: 150
+time_taken: 11.58 seconds

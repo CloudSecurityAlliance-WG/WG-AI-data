@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the provided text:
+
+# Summary
+
+The text describes CWE-794, a weakness in software systems related to incomplete filtering of multiple instances of special elements. Specifically, it refers to a system receiving data from an upstream component but failing to filter out all instances of a special element before passing that data downstream. An example is provided of a system allowing "../" path traversal attempts in user input by only filtering out the first instance of "../" but not subsequent ones. This can allow attackers to traverse outside intended directories and access sensitive files. The key points relate to properly sanitizing all user input, not making assumptions about formats, and comprehensively filtering out all malicious data.
+
+# Summary bullet points
+
+* CWE-794 refers to incomplete filtering of multiple instances of special elements in data by a software system
+* Can allow attackers to traverse file directories outside intended permissions through path traversal 
+* Example shows system only filtering out first instance of "../" traversal, allowing subsequent instances to still work
+* Need to comprehensively filter all instances of malicious input like traversal attempts
+* Highlights importance of not making assumptions about data formats and properly sanitizing input
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website (Common Weakness Enumeration reference page)
+================================================================================
+METADATA:
+prompt_tokens: 796
+answer_tokens: 218
+time_taken: 20.16 seconds

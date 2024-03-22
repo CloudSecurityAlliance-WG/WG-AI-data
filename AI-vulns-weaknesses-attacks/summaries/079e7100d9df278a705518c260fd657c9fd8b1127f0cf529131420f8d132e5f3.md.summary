@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-231 weakness describes a situation where a product does not properly handle receiving more input values than expected. This can lead to unexpected application states and vulnerabilities. The key aspects are:
+
+- Products should have input validation to check for unexpected extra input values
+- Receiving unexpected extra input can lead to vulnerabilities like buffer overflows if the extra data overflows buffers
+- This is due to products expecting a certain number of input values and not properly handling cases with more values
+
+The weakness highlights the need for secure input validation and checking in products to prevent vulnerabilities from unexpected inputs.
+
+# Summary bullet points
+
+* CWE-231 refers to improper handling of extra input values beyond what is expected
+* Can lead to unexpected application states and vulnerabilities like buffer overflows
+* Occurs when a product expects a certain number of input values but does not check for or handle extra values
+* Extra data can overflow buffers if not properly checked
+* Secure input validation needed to prevent this weakness
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 644
+answer_tokens: 189
+time_taken: 13.91 seconds

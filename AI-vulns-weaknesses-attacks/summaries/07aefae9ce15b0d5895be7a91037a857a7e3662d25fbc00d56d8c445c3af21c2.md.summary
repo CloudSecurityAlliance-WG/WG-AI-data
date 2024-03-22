@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses LLM prompt injection, which is a technique adversaries can use to cause language models to act in unintended and potentially harmful ways. Prompt injections are crafted inputs that can bypass defenses or allow privileged commands. They can provide an initial foothold for further malicious activity. Prompt injections may be inserted directly by an attacker to generate harmful content or gain system access. They can also be inserted indirectly when the model ingests malicious prompts from another data source, providing backdoor access or targeting users. Prompt injection poses information security and AI security risks as it can be used to subvert expected model behavior.
+
+# Summary bullet points
+
+* LLM prompt injection causes models to act in unintended, potentially harmful ways
+* Crafted malicious prompts bypass defenses or allow privileged commands 
+* Can provide adversary initial access and foothold for further activity
+* Direct injection to generate harmful content or gain system access
+* Indirect injection via ingesting prompts from other data  
+* Subverts expected model behavior, causes information and AI security risks
+
+# Geographic information  
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 683
+answer_tokens: 187
+time_taken: 13.59 seconds

@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of missing documentation for the design of a product. This lack of documentation makes it more difficult to understand and maintain the product, as well as detect and fix potential vulnerabilities. 
+
+The weakness is considered an indirect quality issue that could make it easier to introduce security weaknesses or make them harder to detect. It is classified under documentation issues, cross-cutting problems related to hardware design, and gaps in details/data for ICS engineering.
+
+While a problematic practice, the entry notes this weakness has no direct security implications which is why mapping it to real-world vulnerabilities is prohibited. The rationale advises looking for weaknesses more directly related to insecure behaviors with security implications instead.
+
+# Summary bullet points
+
+* Describes weakness of missing documentation for product design
+* Lack of documentation makes product harder to understand, maintain, and secure
+* Indirect quality issue that could enable security weaknesses
+* Classified under documentation issues, hardware design, ICS engineering gaps  
+* Not directly a security risk itself which is why mapping to vulnerabilities prohibited
+* Advises focusing on weaknesses linked to direct insecure behaviors instead
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Entry
+================================================================================
+METADATA:
+prompt_tokens: 654
+answer_tokens: 204
+time_taken: 16.21 seconds

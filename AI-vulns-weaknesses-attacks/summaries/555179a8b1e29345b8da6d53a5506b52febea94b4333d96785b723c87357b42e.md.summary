@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-1230 describes the weakness of exposing sensitive information through metadata. This occurs when a product prevents direct access to a resource containing sensitive data, but does not sufficiently restrict access to metadata derived from that resource. Attackers could potentially reconstruct the original sensitive information by analyzing metadata such as activity dates, search indices, or statistical reports built from the data. 
+
+This weakness enables unauthorized information disclosure and violates proper authorization principles. It is applicable across languages, operating systems, and architectures. Recommended mitigations include restricting access to metadata and derived data products containing sensitive information residue.
+
+# Summary bullet points
+
+* CWE-1230 describes the exposure of sensitive information through metadata when access controls fail to restrict metadata
+* Can enable attackers to reconstruct original sensitive information by analyzing metadata
+* Violates principles of proper authorization and enables unauthorized information disclosure
+* Applicable broadly across languages, operating systems, and architectures
+* Mitigations include restricting access to metadata and derived data containing sensitive information
+
+# Geographic information
+Not applicable
+
+# Type of content
+Reference - Common Weakness Enumeration entry
+================================================================================
+METADATA:
+prompt_tokens: 741
+answer_tokens: 184
+time_taken: 14.57 seconds

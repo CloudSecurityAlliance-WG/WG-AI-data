@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-921 weakness describes the storage of sensitive data in files, devices, or mechanisms that do not have inherent access controls to restrict access. This means that anyone with access to the system can potentially read or modify the stored sensitive data. Examples given include memory cards, floppy disks, CDs, USB devices, and Android external storage. The consequences relate to confidentiality - attackers can read the sensitive data, and integrity - attackers can modify or delete the sensitive data. The weakness arises during architecture and design due to the omission of access control protections. It applies broadly to any language or platform, but is called out as being particularly relevant for mobile platforms.
+
+# Summary bullet points
+
+* CWE-921 refers to storing sensitive data without inherent access controls
+* Applies to file systems, memory cards, CDs, USB devices that lack access control
+* Enables attackers to read or modify sensitive data
+* Arises from omitting access control in architecture/design phase 
+* Impacts confidentiality and integrity of sensitive data
+* Especially relevant for mobile platforms like Android
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 819
+answer_tokens: 192
+time_taken: 16.63 seconds

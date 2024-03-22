@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of storing sensitive information in plaintext in memory. This makes the sensitive data vulnerable to unauthorized access if the memory content gets written to disk, stored in a core dump, remains uncleaned after program crashes, or gets exposed through other weaknesses. The weakness can enable attackers to steal confidential data like authentication credentials or sensitive personal information. Though exploitable mainly by administrators, the risk extends to physical attacks on swap files, unprotected core dumps, or inadvertent exposures.
+
+# Summary bullet points
+
+* Storing sensitive data in plaintext in memory creates risk of unauthorized access
+* Memory content can get written to disk, dumped in core file, left uncleaned after crashes
+* This enables attackers to steal confidential authentication credentials or personal data 
+* Risk is higher for admin access, but physical attacks on disks/dumps can also exploit it
+* Inadvertent exposures through other weaknesses also makes data theft possible
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry
+================================================================================
+METADATA:
+prompt_tokens: 889
+answer_tokens: 168
+time_taken: 16.43 seconds

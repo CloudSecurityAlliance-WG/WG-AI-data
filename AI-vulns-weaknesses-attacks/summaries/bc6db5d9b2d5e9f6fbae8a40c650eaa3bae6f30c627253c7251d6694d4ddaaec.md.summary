@@ -1,0 +1,36 @@
+Status: SUCCESS
+Message:  # Summary
+
+The paper introduces a new category of adversarial attacks called decision-based attacks. These attacks rely solely on the final decision of a machine learning model, such as the predicted class label, to craft adversarial examples. The key features of decision-based attacks are:
+
+- Highly relevant for real-world systems where only the final model decision is observable (e.g. autonomous vehicles, facial recognition systems). 
+- Do not require detailed model information or substitute models trained on similar data.
+- Potentially more robust against common defenses like gradient masking or adversarial training.
+
+The authors propose a new decision-based attack called the Boundary Attack. This iterative attack starts from a large adversarial perturbation and seeks to reduce the perturbation while staying adversarial by random walking along the decision boundary. The attack only requires the top prediction of the model and is flexible to different adversarial criteria. 
+
+Experiments on MNIST, CIFAR-10 and ImageNet classifiers demonstrate the Boundary Attack can find minimal adversarial perturbations competitive with state-of-the-art gradient-based attacks. It breaks defensive distillation, a common defense based on gradient masking. The attack is also effective in black-box settings, successfully fooling commercial models for brand and celebrity recognition.
+
+The Boundary Attack opens new possibilities to evaluate model robustness and security risks of deployed systems. Decision-based attacks in general are an important complementary technique alongside gradient-based and substitute model attacks.
+
+# Summary bullet points
+
+* Introduces decision-based attacks, relying solely on model predictions to craft adversarial examples. Highly relevant for real-world systems.
+* Proposes Boundary Attack, an iterative decision-based attack that starts from a large perturbation and seeks to reduce it while staying adversarial. 
+* Boundary Attack competitive with gradient-based attacks in fooling MNIST, CIFAR-10 and ImageNet classifiers with minimal perturbation.
+* Able to break defensive distillation, a defense based on gradient masking.
+* Successfully fools black-box commercial models for brand and celebrity recognition. 
+* Opens new avenues to assess model robustness and security risks of deployed machine learning systems.
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Conference paper
+================================================================================
+METADATA:
+prompt_tokens: 6697
+answer_tokens: 335
+time_taken: 37.55 seconds

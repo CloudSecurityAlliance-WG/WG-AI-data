@@ -1,0 +1,37 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content you provided:
+
+# Summary
+
+The content describes CWE-862, a weakness related to missing authorization checks in software. Specifically, it covers situations where software does not properly perform authorization checks when a user attempts to access resources or perform actions. This allows attackers to access data or functionality they should not have access to. The content provides background details, examples, potential consequences, mitigations, detection methods and related information for CWE-862.
+
+Key points:
+
+- Missing authorization checks allow unauthorized data access or unauthorized actions
+- Can lead to information exposures, denial of service, code execution, and privilege escalation 
+- Affects confidentiality, integrity, access control
+- Mitigations include authorization frameworks, default deny policies, restricting caching of sensitive pages
+- Detection methods include static/dynamic analysis and manual reviews
+
+# Summary bullet points
+
+* CWE-862 involves missing authorization checks that enable unauthorized access
+* Allows attackers to access sensitive data or privileged functionality
+* Impacts confidentiality, integrity, access control of data and systems
+* Divide software into anon/normal/privileged/admin areas with RBAC controls
+* Use authorization frameworks like ESAPI Access Control and JAAS
+* Manual and automated static/dynamic analysis can help detect issues
+* Critical weakness related to broken access control protections
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 2927
+answer_tokens: 219
+time_taken: 22.57 seconds

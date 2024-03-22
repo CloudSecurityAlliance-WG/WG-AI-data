@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the weakness of improper preservation of consistency between independent representations of shared state (CWE-1250). It explains that in distributed systems, components often keep local copies of shared data like state or cache. However, if the product does not ensure these local copies stay consistent, it can lead to vulnerabilities. For example, transactions may happen out of order or users may not get the same data. 
+
+The article provides an example of a processor's memory management unit distributing workload across shadow MMUs. If these MMUs get out of sync on the accessible memory ranges, an attacker could flood the target before the ranges are updated to exploit this.
+
+Overall, the key point is that consistency of shared state across distributed components is critical, and improper preservation of this can undermine security.
+
+# Summary bullet points
+
+* In distributed systems, components keep local copies of shared data like state and cache
+* If product does not ensure consistency across these copies, it can cause problems with transactions, data synchronization, etc. 
+* Example given of processor's MMU distributing workload across shadow MMUs
+* If accessible memory ranges get out of sync between MMUs, attacker could exploit before update
+* Highlights critical need to preserve consistency of shared state across distributed components 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Entry from Common Weakness Enumeration (CWE) community database of software and hardware weaknesses
+================================================================================
+METADATA:
+prompt_tokens: 1119
+answer_tokens: 235
+time_taken: 18.43 seconds

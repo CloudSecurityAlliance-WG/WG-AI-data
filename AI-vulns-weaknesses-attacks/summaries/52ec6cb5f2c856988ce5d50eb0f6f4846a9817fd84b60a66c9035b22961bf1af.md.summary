@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-333 weakness describes the potential failure or blocking of true random number generators (TRNGs) due to limited entropy sources, which can lead to denial of service crashes or hangs if not properly handled. If a system relies on TRNGs for security and does not properly rate limit usage, an attacker may be able to exhaust available entropy and cause the TRNG to fail or block. Proper mitigation requires limiting new connections or waiting if insufficient randomness is available rather than failing outright.
+
+# Summary bullet points
+
+* TRNGs have limited entropy sources and can fail or block if overused
+* Attackers may be able to create many new connections to exhaust TRNG entropy
+* Failure to handle TRNG blocking can lead to crashes or hangs
+* Proper mitigation involves rate limiting usage and waiting when randomness unavailable
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 949
+answer_tokens: 154
+time_taken: 12.24 seconds

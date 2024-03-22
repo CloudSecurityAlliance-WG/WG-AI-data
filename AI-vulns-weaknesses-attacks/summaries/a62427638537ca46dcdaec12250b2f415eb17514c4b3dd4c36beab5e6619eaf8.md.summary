@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the weakness of storing passwords in a recoverable format, which makes them vulnerable to password reuse attacks. It explains that even if passwords are encrypted, if the encryption is reversible, it still allows malicious actors to obtain the passwords and reuse them to access other services. The key points are:
+
+- Storing encrypted passwords provides little benefit over plain text since they can still be obtained and reused by attackers. 
+- An attacker who can recover passwords can impersonate users by reusing credentials on other services.
+- Compression algorithms should not be used to "encrypt" passwords since they are reversible. Strong non-reversible encryption should be used instead.
+- Hardcoding usernames and passwords into code or configs allows anyone reading those files to obtain credentials.Sensitive credentials should be encrypted if storing them is necessary.
+
+# Summary bullet points
+
+* Storing reversible encrypted passwords provides little benefit over plain text passwords.
+* Recovered passwords enable attackers to impersonate users by reusing credentials.  
+* Compression algorithms should not be used to "encrypt" passwords since they are reversible.
+* Hardcoding credentials into code or configs allows anyone reading those files to obtain them.
+* Sensitive credentials should be encrypted with strong non-reversible encryption.
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1187
+answer_tokens: 217
+time_taken: 19.86 seconds

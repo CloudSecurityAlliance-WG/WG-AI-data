@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper verification of cryptographic signatures (CWE-347). This occurs when a product fails to verify or incorrectly verifies the cryptographic signature for data. This can allow an attacker to gain access to sensitive data and possibly execute unauthorized code. Examples are provided where signature verification failures enabled spoofing attacks or allowed untrusted code execution. The entry notes that this weakness can be introduced in architecture/design or implementation phases. Automated static analysis tools can detect some instances of this weakness by modeling data flows. The weakness is relevant to cryptographic failures and impacts confidentiality, integrity and access control.
+
+# Summary bullet points
+
+* CWE-347 involves improperly or failing to verify cryptographic signatures which can enable attacks
+* Can allow attackers to access sensitive data and execute unauthorized code 
+* Introduced in architecture/design or implementation phases
+* Automated static analysis can detect some instances by modeling data flows
+* Enables spoofing attacks and untrusted code execution
+* Relevant to cryptographic failures
+* Impacts confidentiality, integrity and access control
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 1008
+answer_tokens: 188
+time_taken: 16.18 seconds

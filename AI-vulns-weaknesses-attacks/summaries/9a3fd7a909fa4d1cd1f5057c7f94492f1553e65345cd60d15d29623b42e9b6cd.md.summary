@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The weakness described is related to modifying the SSL context after SSL objects have already been created from it. This can potentially allow older SSL objects to be affected by changes made to the context after their creation, bypassing expected authentication and allowing sensitive data to be exposed. The key impacts are bypassing authentication checks and protections on data confidentiality.
+
+# Summary bullet points
+
+* Modifying SSL context after creating SSL objects from it can impact previously created SSL objects
+* Can bypass authentication that was expected to be in place 
+* Allows potential access to confidential data that was expected to be encrypted 
+* Main weakness is modifying context after object creation rather than setting up context completely first
+* Can lead to sniffing attacks on assumed protected communications
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 869
+answer_tokens: 146
+time_taken: 15.00 seconds

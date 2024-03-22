@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses the weakness of improper handling of Windows alternate data streams (ADS). ADS allow storing additional data and metadata associated with a file, but they can be used maliciously to hide information and bypass access restrictions. The vulnerability exists because systems do not properly prevent access to or detect usage of ADS. Attackers can leverage this to conceal file details or bypass protections. Mitigations focus on properly parsing filenames and handling ADS. Overall, the document highlights the security risks posed by mishandling ADS in Windows systems.
+
+# Summary bullet points
+
+* Alternate data streams (ADS) in Windows NT can store extra data and metadata about a file
+* Systems may not properly prevent access to or detect usage of ADS
+* This allows attackers to hide file information and bypass intended access restrictions
+* Mitigations include correctly parsing filenames and handling ADS
+* The weakness enables malicious activities to be concealed and protections bypassed
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 917
+answer_tokens: 172
+time_taken: 13.69 seconds

@@ -1,0 +1,33 @@
+Status: SUCCESS
+Message:  # Summary
+
+This text describes a technique called "Black-Box Transfer" for crafting adversarial data to attack machine learning models. The key ideas are:
+
+- The adversary uses proxy models that they have full access to and that are similar to the target model. The proxy models are created using other techniques like "Create Proxy ML Model" or "Train Proxy via Replication".
+
+- The adversary applies "White-Box Optimization" on the proxy models to generate adversarial examples. This means meticulously tweaking inputs to cause the model to make mistakes. 
+
+- If the proxy models are close enough to the target model, the adversarial examples should also fool the target model. So an attack that works on the proxy will likely work on the target too.
+
+- The adversary can use "ML Model Inference API Access" to test if the attack is working on the real target model, and refine the attack if needed.
+
+# Summary bullet points
+
+* Adversary creates proxy ML models similar to target model that they have full access to 
+* Applies White-Box Optimization on proxy models to craft adversarial data
+* If proxy models are close to target, attack transfers from proxy to target 
+* Can use ML Model Inference API Access to test attack on target and refine it
+* Used to attack machine translation services like Google Translate
+* Part of larger technique for crafting adversarial data to attack ML
+* Tactics: ML Attack Staging
+
+# Geographic information
+Not applicable
+
+# Type of content
+Webpage
+================================================================================
+METADATA:
+prompt_tokens: 688
+answer_tokens: 249
+time_taken: 20.57 seconds

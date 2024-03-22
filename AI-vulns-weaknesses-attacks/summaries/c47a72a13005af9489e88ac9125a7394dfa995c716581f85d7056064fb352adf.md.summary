@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-688 weakness describes a situation where a function or procedure is called with an incorrect variable or reference supplied as one of the arguments. This can lead to undefined behavior and resultant weaknesses or vulnerabilities. Some key points:
+
+- Occurs due to programmer typos or copy-paste errors, supplying the wrong variable name for example
+- Can result in quality degradation, crashes, or opening up other weaknesses
+- Difficult to detect in some languages, may require understanding of intended behavior 
+- Can occur more frequently with variable argument functions like format strings
+- Mapping guidelines recommend using this CWE ID to map to real-world vulnerabilities as it captures the root cause
+
+# Summary bullet points
+
+* Weakness where a function call passes the wrong variable or reference as an argument
+* Leads to undefined behavior and resultant weaknesses or vulnerabilities
+* Caused by typos or copy-paste errors by programmers
+* Results in quality degradation, crashes, or enabling other weaknesses
+* Hard to detect in some languages, requires understanding intended behavior
+* More common with variable argument functions like format strings  
+* Recommended for mapping to vulnerabilities as captures root cause
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE definition 
+================================================================================
+METADATA:
+prompt_tokens: 876
+answer_tokens: 203
+time_taken: 16.23 seconds

@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry describes an improper neutralization of web scripting syntax in HTTP headers vulnerability (CWE-644). This occurs when a product fails to properly sanitize user-controlled input added to HTTP response headers before sending them to the client. As a result, malicious input containing browser-executable code could end up in the headers, leading to cross-site scripting, HTTP response splitting or other attacks against clients. To mitigate this, output validation should be performed on data put in headers to filter/escape unsafe input. Script execution may also be disabled in clients. This impacts integrity and confidentiality at the technical level by allowing unauthorized code execution and data access. The vulnerability is seen as highly likely to be exploited.
+
+# Summary bullet points
+
+* CWE-644 deals with improper neutralization of HTTP response header input, allowing browser-executable code injection
+* Occurs when user input put into headers isn't properly sanitized before sending the HTTP response 
+* Can lead to XSS, HTTP response splitting or other client-side attacks
+* Mitigations include output validation of header data and disabling script execution on clients
+* Impacts integrity and confidentiality at a technical level through unauthorized code execution and data access
+* Seen as a highly likely vulnerability to be exploited
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Entry
+================================================================================
+METADATA:
+prompt_tokens: 940
+answer_tokens: 219
+time_taken: 16.62 seconds

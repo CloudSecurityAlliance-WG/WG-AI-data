@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+A missing immutable root of trust (RoT) in hardware can allow an attacker to bypass secure boot or execute untrusted boot code. A system-on-chip (SoC) uses secure boot to verify signed boot code before executing it. The SoC trusts the entity that signed the code. Data like "Secure Boot enabled" settings establish a hardware RoT that is crucial for secure boot. Typically the code and data comprising the RoT are stored in immutable memory like fuses or ROM. If that memory can be modified, an attacker can change the RoT to execute their code, compromising secure boot. Even if boot code is secure, mutable keys or hashes used for authentication mean the system is still vulnerable. Immutable memory like OTP or ROM should be used for all boot code, keys, hashes, and relevant data.
+
+# Summary bullet points
+
+* Missing immutable root of trust (RoT) in hardware allows attackers to bypass secure boot protections
+* System-on-Chips (SoCs) use secure boot to verify signed boot code before executing 
+* SoC trusts entity that signed the boot code 
+* Hardware settings like "Secure Boot enabled" establish crucial Root of Trust
+* Root of Trust code and data typically stored in immutable memory like fuses or Read Only Memory (ROM)
+* If Root of Trust memory is mutable, attackers can modify to execute their own boot code
+* Even if boot code is secure, mutable keys or hashes used for authentication still leave system vulnerable
+* Immutable memory like One-Time Programmable (OTP) or ROM should store all boot code, keys, hashes, relevant data
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE definition
+================================================================================
+METADATA:
+prompt_tokens: 1490
+answer_tokens: 273
+time_taken: 23.66 seconds

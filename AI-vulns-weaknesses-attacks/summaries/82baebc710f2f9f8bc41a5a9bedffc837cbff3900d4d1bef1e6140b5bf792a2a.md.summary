@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the CWE data based on the provided template:
+
+# Summary
+
+The document describes CWE-836, a weakness related to the use of password hashes instead of passwords for authentication. It explains that some systems record password hashes and compare a hash provided by the client to the stored hash to authenticate users. However, this allows an attacker to bypass authentication by obtaining the hash and replaying it without knowing the actual password. The document advises that comparing a client-provided hash to a stored hash provides no more security than using unhashed passwords.
+
+# Summary bullet points
+
+* Describes CWE-836 - Use of Password Hash Instead of Password for Authentication
+* Systems recording password hashes and comparing to client-provided hashes to authenticate
+* Allows attackers to steal hashes and replay them to bypass authentication without knowing passwords  
+* Comparing client-provided hashes to stored hashes not more secure than using unhashed passwords
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 852
+answer_tokens: 170
+time_taken: 13.13 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-222 weakness describes the truncation of security-relevant information in a way that obscures the source or nature of an attack. This can make it difficult to determine the origin of attacks and allow them to continue undetected. The truncated information could include logs, alerts, error messages or other data that provides insight into malicious activity. The weakness enables attacks like phishing and bypassing filters by hiding incriminating details. It falls under broader categories of information loss and audit/logging errors. Real-world vulnerabilities have allowed long URLs to bypass filters or excluded parts of requests from logs. The weakness highlights the need to properly handle security data to enable detection and response.
+
+# Summary bullet points
+
+* Truncation of security logs, alerts or other data can obscure the source or nature of attacks
+* Makes determining the root cause of issues difficult, allowing attacks to continue unnoticed 
+* Enables phishing and filter bypass attacks by hiding suspicious characteristics
+* Part of categories encompassing information loss and audit logging failures
+* Has enabled long URL attacks to bypass filters due to excluded content
+* Fails to properly handle critical security data needed for detection and response
+
+# Geographic information
+Not applicable
+
+# Type of content
+Website
+================================================================================
+METADATA:
+prompt_tokens: 703
+answer_tokens: 206
+time_taken: 18.08 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+Research labs and companies often have blogs highlighting their use of machine learning and its applications. These blogs, written by organizations or individual researchers, can provide practical details about machine learning systems, including underlying technologies, frameworks, APIs, and use cases. An adversary may search these blogs to better understand a victim organization's machine learning approaches and tailor an attack. Compared to academic publications, blogs tend to be more applied and may expose more implementation specifics.
+
+# Summary bullet points
+
+* Research organizations and companies frequently write blogs about their machine learning work and applications
+* These blogs can provide details on ML systems like frameworks, APIs, and real-world use cases 
+* Adversaries may search blogs to learn about a victim's ML approaches and tailor attacks
+* Blogs tend to be more applied than academic papers and may expose more ML implementation details
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+MITRE ATT&CK Technique Page
+================================================================================
+METADATA:
+prompt_tokens: 683
+answer_tokens: 157
+time_taken: 13.54 seconds

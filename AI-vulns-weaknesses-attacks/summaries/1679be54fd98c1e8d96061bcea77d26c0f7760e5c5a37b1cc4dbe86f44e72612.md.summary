@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of storing sensitive information in cleartext in the system registry. This allows attackers to easily access the sensitive information by reading the registry key. Even if the information is encoded in a non-human readable format, attackers could potentially determine the encoding used and then decode the information. This impacts confidentiality by exposing sensitive application data.
+
+# Summary bullet points
+
+* Storing sensitive data in cleartext in the system registry is a weakness
+* Attackers can access sensitive data by reading registry keys
+* Encoded data could still be decoded by attackers to access the sensitive information
+* Impacts confidentiality of application data
+* Was used in the past to store cleartext passwords in registry keys (CVE example given)
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 767
+answer_tokens: 140
+time_taken: 10.80 seconds

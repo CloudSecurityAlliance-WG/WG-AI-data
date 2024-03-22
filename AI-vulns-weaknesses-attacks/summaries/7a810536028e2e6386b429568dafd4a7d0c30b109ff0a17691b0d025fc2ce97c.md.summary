@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-558, a weakness related to using the getlogin() function in a multithreaded application. getlogin() returns the name of the user associated with the calling process, but it is not reentrant. This means that if called from multiple threads, the value returned can be changed by another thread and should not be relied upon. This can lead to issues like incorrect access control decisions if getlogin() is used carelessly in a multithreaded context to check permissions. The document recommends using getlogin_r() instead, which is reentrant and prevents issues with concurrent access.
+
+# Summary bullet points
+
+* getlogin() returns the username for the calling process but is not reentrant
+* Using getlogin() in multithreaded apps can result in incorrect values due to concurrent access
+* This can lead to broken access control if permissions are based on getlogin() 
+* getlogin_r() is the reentrant version that should be used instead in multithreaded contexts
+* Generally, using usernames for security is not best practice  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 819
+answer_tokens: 179
+time_taken: 16.11 seconds

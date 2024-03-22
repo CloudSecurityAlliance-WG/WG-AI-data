@@ -1,0 +1,33 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-27, a weakness related to path traversal vulnerabilities. Specifically, it involves the use of external input to construct a file path that should be restricted, but fails to properly neutralize multiple "../" sequences that allow traversing outside the intended directory. This enables attackers to access files or directories outside the restricted area. Examples of the vulnerable file path are provided, such as 'directory/../../filename'. 
+
+The document explains how this weakness allows attackers to bypass some path traversal protection schemes that only remove one "../" sequence. It also shows how it could bypass checks for "../" at the beginning of the path string.
+
+Details on the weakness's relationships, applicable platforms, common consequences, observed examples, and potential mitigations are provided. The mitigations emphasize input validation using allowlists and removing dangerous characters, as well as proper handling of decoding/encoding and canonicalization. Membership details and taxonomy mappings are also included.
+
+# Summary bullet points
+
+* CWE-27 involves path traversal via external input used to construct restricted file paths 
+* Fails to neutralize multiple "../" sequences that can resolve outside the directory
+* Allows accessing files/directories outside the restricted area
+* Bypasses some protections that only remove one "../" sequence
+* Bypasses checks for "../" at the beginning of the path string
+* Has child relationship to CWE-23 Relative Path Traversal
+* Applicable to languages that are not platform specific 
+* Impacts confidentiality and integrity by enabling reading/modifying of unintended files
+* Observed in apps allowing HTTP GET requests with encoded "../" strings
+* Mitigations focus on strict input validation and safe file path handling
+* Mapped to Software Fault Patterns SFP16 Path Traversal
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Description
+================================================================================
+METADATA:
+prompt_tokens: 1150
+answer_tokens: 287
+time_taken: 23.06 seconds

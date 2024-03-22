@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-1190 describes a weakness related to Direct Memory Access (DMA) devices being enabled too early in the boot process, before security configurations are established. This allows attackers to use the DMA devices to extract data from or gain privileges on the system. 
+
+DMA allows devices to transfer data directly to and from main memory without operating system interaction. DMA is faster but less secure. Virtualization technologies have introduced mitigations against DMA attacks, but these need to be configured during boot. The problem arises when DMA-capable devices are powered up early in the boot process, before protections are in place. These untrusted early boot devices could launch DMA attacks to access assets that should be protected.
+
+The mitigation is to utilize an input-output memory management unit (IOMMU) to control DMA access from the very start of the boot process.
+
+# Summary bullet points
+
+* CWE-1190 is a weakness related to DMA devices enabled too early during boot, before security is configured
+* DMA allows devices to directly access main memory, which is fast but insecure
+* Virtualization mitigations against DMA attacks need to be set up during boot 
+* Early boot DMA devices may be enabled before protections are in place
+* This allows untrusted devices to launch DMA attacks to access protected assets
+* Mitigation is to use an IOMMU to control DMA from the very start of boot  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Definition from Common Weakness Enumeration website
+================================================================================
+METADATA:
+prompt_tokens: 942
+answer_tokens: 252
+time_taken: 23.33 seconds

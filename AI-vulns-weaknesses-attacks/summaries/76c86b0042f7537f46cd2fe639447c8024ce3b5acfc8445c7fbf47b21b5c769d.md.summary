@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-920, a common weakness enumeration related to improper restriction of power consumption. It explains that in mobile or embedded devices that operate on limited battery power, if an application consumes too much power too quickly without properly restricting usage, it can drain the battery and cause the device and application to stop functioning. This can also increase costs for the device owner. While normal operation consumes power, an attacker could cause an application to use more power than intended on things like the display, CPU, GPS, etc. resulting in denial of service through resource consumption.
+
+# Summary bullet points
+
+* CWE-920 refers to improper restriction of power consumption typically in mobile or embedded devices
+* These devices operate on limited battery power that can't be automatically replenished
+* If an application excessively drains power, it can cause the device and application to cease functioning
+* This can also financially burden the device owner through increased power costs
+* Normal operation consumes power, but an attacker could manipulate an app to rapidly drain components like the display, CPU, GPS
+* This can result in denial of service through resource consumption until power is restored
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 842
+answer_tokens: 212
+time_taken: 16.72 seconds

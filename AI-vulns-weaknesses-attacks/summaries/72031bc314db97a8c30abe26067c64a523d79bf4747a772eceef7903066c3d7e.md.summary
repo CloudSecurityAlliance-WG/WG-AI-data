@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content you provided:
+
+# Summary
+
+The content describes CWE-777, a weakness in software systems where a regular expression is used for input validation or filtering but the expression does not contain anchors. This means malformed or malicious input could bypass the validation. Specifically, data could be prepended or appended to the malicious input that would still match the expression. The consequences depend on the context but could allow attackers to bypass protection mechanisms or exploit the system. Examples are given such as allowing path traversal through a web app's language parameter or malicious systems to be pinged by prepending 0x to an IP address. Potential mitigations are to always anchor regular expressions and understand exactly what input will match.
+
+# Summary bullet points
+
+* CWE-777 is using a regular expression without anchors for input validation
+* This could allow malicious or malformed input to bypass protections by prepending or appending data that still matches the expression
+* Consequences relate to bypassing of protection mechanisms and exploits depending on the context
+* Examples include path traversal in a web app and pinging unintended systems by prepending 0x to an IP
+* Mitigations are anchoring expressions and fully understanding what input will match
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1168
+answer_tokens: 220
+time_taken: 19.92 seconds

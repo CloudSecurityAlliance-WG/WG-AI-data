@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a weakness where the CPU hardware is not configured to support exclusivity of write and execute operations on memory. This allows an attacker to execute data from all of memory. CPUs typically provide a special bit to segregate areas of memory for code that can be executed vs data that should not be executed. Without this hardware-enforced exclusivity, an attacker could inject malicious code into memory and later execute it. The entry discusses how some CPUs use memory protection units (MPUs) or memory management units (MMUs) to carve out memory regions with specific permissions, but if these are not available or configured, there is no write exclusivity protection. 
+
+# Summary bullet points
+
+* CPU hardware weakness where memory write and execute exclusivity is not enforced, allowing code execution from all memory regions
+* CPUs normally provide special bit or MMU/MPU to segregate executable memory from data memory 
+* Without exclusivity, attackers can inject malicious code into memory and execute it later
+* Affects CPUs without the special bit or properly configured MMU/MPU protections
+* Allows execute unauthorized code or commands 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Entry
+================================================================================
+METADATA:
+prompt_tokens: 1031
+answer_tokens: 200
+time_taken: 19.50 seconds

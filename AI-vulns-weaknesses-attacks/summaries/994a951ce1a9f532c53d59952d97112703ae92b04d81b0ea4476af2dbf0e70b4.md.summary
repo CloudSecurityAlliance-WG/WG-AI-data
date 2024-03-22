@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-394 weakness describes when a product does not properly check when a function or operation returns a value that is legitimate for the function, but not expected by the product. This can lead to unexpected behavior or states that alter execution logic in ways that lead to vulnerabilities. 
+
+Key impacts include compromised integrity via unexpected states or altered execution logic. It is applicable across languages and often results from improper error handling or unchecked status conditions. Examples demonstrate vulnerabilities enabling denial of service, infinite loops, information disclosure through uninitialized memory, and bypassing of access restrictions.
+
+# Summary bullet points
+
+* CWE-394 refers to products not properly checking when functions return legitimate but unexpected values
+* Can lead to unexpected behavior/states and altered execution logic
+* Impacts integrity through unexpected states and altered execution 
+* Applicable across languages 
+* Often results from improper error handling or unchecked status codes
+* Enables vulnerabilities like DoS, infinite loops, info disclosure, access bypass
+
+# Geographic information
+Not applicable
+
+# Type of content
+Information page describing a common weakness type from the CWE wiki.
+================================================================================
+METADATA:
+prompt_tokens: 869
+answer_tokens: 182
+time_taken: 18.12 seconds

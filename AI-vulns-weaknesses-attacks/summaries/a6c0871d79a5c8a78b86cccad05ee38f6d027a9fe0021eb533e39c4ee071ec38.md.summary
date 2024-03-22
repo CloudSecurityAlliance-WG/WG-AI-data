@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of a product not properly determining its own internal state, causing it to incorrectly assume it is in one state when it is actually in another. This can lead to improper security-relevant operations. It is related to insufficient state verification, inability to handle out-of-order operations, and problems interpreting internal state. The impact is unexpected behavior depending on the product's function.
+
+# Summary bullet points
+
+* Product does not properly determine its internal state
+* Leads to incorrectly assuming it is in one state when it is actually in another
+* Causes improper security-relevant operations
+* Related to insufficient verification, out-of-order operation issues, multiple interpretation errors 
+* Impact is unexpected behavior depending on product function
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 698
+answer_tokens: 136
+time_taken: 13.63 seconds

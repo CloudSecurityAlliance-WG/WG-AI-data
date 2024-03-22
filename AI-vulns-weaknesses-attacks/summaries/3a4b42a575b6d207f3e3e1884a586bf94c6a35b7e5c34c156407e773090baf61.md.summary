@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of storing unencrypted sensitive information in environment variables. This can expose the sensitive information to unauthorized access as environment variables are accessible across processes and dependencies. The weakness can lead to confidentiality impacts through unintended disclosure of passwords, keys, or other secrets stored in environment variables.
+
+# Summary bullet points
+
+* Storing unencrypted sensitive data in environment variables can expose it to unauthorized access
+* Environment variables are accessible across processes and dependencies that may not need the information
+* Can lead to unintended disclosure of passwords, keys, or other secrets stored this way 
+* Should encrypt sensitive information stored in environment variables 
+* If encryption not feasible, use protected config files instead with reduced attack surface
+* Removing unused environment variables mitigates this weakness
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1074
+answer_tokens: 146
+time_taken: 11.01 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-289 weakness describes an authentication bypass vulnerability that can occur when a product performs authentication based on the name of a resource or user, but fails to properly check all possible names. This allows attackers to bypass authentication checks by using alternate encodings or variations of names. The key impacts are bypassing of access controls and protections.
+
+# Summary bullet points
+
+* CWE-289 refers to authentication bypass via use of alternate names or resources, when the authentication checks names but doesn't check for variations
+* It happens because the software doesn't check all possible name variations when doing authentication
+* Attackers can bypass authentication by using URL encoding or other name variations 
+* Main consequence is bypassing of access controls and protections
+* Mitigations include input validation, canonicalization before validation, avoiding name-based authentication decisions
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 1099
+answer_tokens: 151
+time_taken: 15.92 seconds

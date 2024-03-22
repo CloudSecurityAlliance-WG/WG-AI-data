@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes the weakness CWE-652, which is about improper neutralization of data within XQuery expressions, enabling "XQuery injection" attacks. Specifically, it involves using untrusted external input to dynamically construct an XQuery expression that is used to retrieve data from an XML database without properly sanitizing that input. This allows attackers to control the structure of the query and retrieve unauthorized data, modify application logic, bypass authentication checks, or otherwise control the application's behavior.
+
+The core issue is the lack of input validation on external data before using it to build dynamic XQuery queries. Potential mitigations include using parameterized XQuery queries to separate data and control planes, properly validating all external input, rejecting/filtering bad input, and escaping input properly before using it in XQuery expressions.
+
+XQuery injection has similarities to other code injection weaknesses like SQL injection, command injection, etc. The main difference is the target here is an XML database accessed via XQuery. Successful exploitation enables unauthorized access and control over sensitive XML data and application behavior. Proper input validation is key to preventing this weakness.
+
+# Summary bullet points
+
+* CWE-652 is about improper neutralization of external input used in dynamic XQuery queries for XML databases
+* Allows "XQuery injection" to control query structure and retrieve/modify unauthorized data 
+* Attacker can control application behavior, bypass auth checks, etc through malicious input
+* Core issue is lack of input validation on external data used in XQuery expressions 
+* Mitigations include parameterized queries, input validation, escaping, filtering
+* Similar to other code injection attacks (SQLi, CMDi, etc) but targets XML database
+* Enables data and app control, sensitive XML data exposure through dynamic queries
+* Proper input sanitization is key, validation on external data before XQuery use
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 947
+answer_tokens: 303
+time_taken: 22.53 seconds

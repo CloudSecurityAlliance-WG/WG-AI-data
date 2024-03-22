@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+This CWE entry describes the weakness of using a predictable seed to initialize a pseudo-random number generator (PRNG). Using a predictable seed like the process ID or system time significantly reduces the number of possible seeds an attacker would need to test to predict the random numbers generated. This can enable attacks like account takeover. The mitigation is to use unpredictable inputs like hardware with high entropy to seed the PRNG.
+
+# Summary bullet points
+
+* Using predictable values like process ID or system time to seed PRNGs makes the output predictable
+* Greatly reduces the number of seeds an attacker needs to test to break unpredictability 
+* Enables account takeover, information disclosure, and other attacks needing unpredictable numbers
+* Mitigate by using hardware with high entropy or other unpredictable sources to seed PRNG
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1171
+answer_tokens: 155
+time_taken: 12.83 seconds

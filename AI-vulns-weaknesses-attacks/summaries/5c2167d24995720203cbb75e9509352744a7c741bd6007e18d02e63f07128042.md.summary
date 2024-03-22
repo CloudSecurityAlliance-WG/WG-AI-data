@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-573 weakness occurs when a product does not properly follow specifications required by the programming language, environment, framework, protocol, or platform being used. This can lead to unintended behaviors and system vulnerabilities. Some examples include improperly implemented security checks, missing authentication steps, improper cryptographic padding, and not adhering to coding best practices. The impact ranges from quality degradation to serious system compromise depending on the context. Proper adherence to specifications is critical when leveraging external APIs and functionality.
+
+# Summary bullet points
+
+* CWE-573 is about not properly following required specifications when implementing system functionality.
+* This can lead to unintended behaviors and system vulnerabilities.
+* Examples include improper security checks, missing authentication steps, incorrect crypto padding, not following coding standards.
+* Impact ranges from quality issues to full system compromise depending on context.  
+* Critical when using external APIs to follow specifications properly.
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Entry from Common Weakness Enumeration (CWE) community database of software and hardware weaknesses
+================================================================================
+METADATA:
+prompt_tokens: 909
+answer_tokens: 169
+time_taken: 14.21 seconds

@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes the weakness of validating input before canonicalizing it, which can allow attackers to bypass protections by manipulating the input after validation but before canonicalization. This is problematic because canonicalization can alter the input in ways that make dangerous inputs valid again after validation. The extended description provides examples of how this could enable injection attacks or bypass authentication checks.
+
+The entry outlines mitigations like validating after canonicalization, as well as decoding/encoding properly. It provides examples of real-world vulnerabilities that were enabled by this weakness. Relationships and mappings clarify that this is a variant of insufficient workflow controls.
+
+Overall, the text highlights the importance of proper validation workflow to prevent security issues like injection that could be enabled by incorrect ordering. Care must be taken to validate after transformations like canonicalization.
+
+# Summary bullet points
+
+* Validating input before canonicalization allows bypassing of validation via manipulations after checking but before transforming input
+* Can enable injection attacks, authentication bypass, access control issues 
+* Mitigations include validating after canonicalization and proper decoding/encoding
+* Real-world vulnerabilities have allowed restriction bypass and injection due to this weakness 
+* Child of insufficient workflow controls (CWE-699)
+* Overlaps validation problems and alternate encoding attacks
+* Important to validate after transformations like canonicalization
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 1181
+answer_tokens: 226
+time_taken: 20.24 seconds

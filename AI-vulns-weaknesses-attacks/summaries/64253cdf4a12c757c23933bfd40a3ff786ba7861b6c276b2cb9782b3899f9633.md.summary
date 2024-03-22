@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of using a one-way cryptographic hash function with a predictable salt as part of the input when hashing inputs like passwords. This makes dictionary attacks easier by allowing attackers to pre-compute hash values using rainbow tables. Proper salts should be random and unpredictable to increase the difficulty of brute force attacks. 
+
+The entry explains that while salts make targeted cracking of individual passwords slightly harder, they do not provide substantial protection against modern attacks with massive computing resources. Other measures like adaptive hash functions that can increase computational effort are more effective.
+
+It provides examples of the weakness in practice and lists potential mitigations like using better hashing algorithms like bcrypt, scrypt or PBKDF2. It also suggests generating random salts for each password if those algorithms are not feasible.
+
+Overall, the predictable salt weakness disables some of the protection against dictionary attacks that good salting would provide. The mitigations focus on making brute force attacks require more computing effort to be practical.
+
+# Summary bullet points
+
+* Using predictable salts with one-way hashes makes dictionary attacks easier by allowing pre-computation
+* Rainbow table attacks become simpler compared to unpredictable salts 
+* Salts provide minimal protection against targeted password cracking with massive computing resources
+* Adaptive hash functions that increase computing effort over time are more effective than basic salts
+* Examples listed use constant salts or values derived from usernames 
+* Mitigations include better algorithms like bcrypt, scrypt, PBKDF2 
+* Also suggest per-password random salts if those algorithms not possible
+* Goal is to make brute forcing expensive in computation time and memory
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1747
+answer_tokens: 282
+time_taken: 26.30 seconds

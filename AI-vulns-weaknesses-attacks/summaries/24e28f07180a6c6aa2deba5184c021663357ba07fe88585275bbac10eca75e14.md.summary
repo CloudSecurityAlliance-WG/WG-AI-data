@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the given text:
+
+# Summary
+
+The text describes CWE-1338, a weakness related to improper protections against hardware overheating. It explains that hardware devices like electrical circuits and semiconductors can experience thermal side effects where energy gets dissipated as heat, increasing the device's temperature. Without adequate protections like thermal sensors, cooling, or insulation, malicious software could deliberately operate devices in ways that result in overheating, which can cause denial of service, safety issues, or reliability problems. The text recommends enforceable temperature limits, thermal sensors, automatic cooling or shutdown, and other countermeasures to mitigate this weakness.
+
+# Summary bullet points
+
+* Hardware devices can experience thermal side effects where energy dissipates as heat, increasing temperature
+* Lack of protections like thermal sensors, cooling, insulation leaves devices vulnerable to overheating from malicious software
+* Overheating can cause denial of service, safety issues, reliability problems
+* Recommends enforceable temperature limits, thermal sensors, automatic cooling/shutdown to mitigate
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1099
+answer_tokens: 173
+time_taken: 14.37 seconds

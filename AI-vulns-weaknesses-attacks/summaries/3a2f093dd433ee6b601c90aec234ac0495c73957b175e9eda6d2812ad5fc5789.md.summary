@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The art.attacks.inference.attribute_inference module provides classes for conducting attribute inference attacks. The attacks attempt to infer the value of a sensitive attribute from the other input features and, in some cases, the predictions of a target model. 
+
+The module includes baseline attacks as well as black-box, membership inference, and white-box attacks. The baseline attacks train a simple model to predict the sensitive attribute from the other features. The black-box attacks additionally utilize the predictions of the target model. The membership inference attack finds the sensitive attribute value that makes a membership inference attack most confident the sample is a member. The white-box attacks leverage internal details of tree-based classifiers.
+
+The attacks generally work by fitting a model on data with the sensitive attribute, then inferring values for new samples using the other input features and sometimes the target model's predictions. They support both continuous and categorical sensitive attributes.
+
+# Summary bullet points
+
+* Provides classes for conducting attribute inference attacks 
+* Includes baseline, black-box, membership inference, and white-box attacks
+* Baseline attacks train model on features to predict sensitive attribute
+* Black-box attacks also use target model predictions 
+* Membership inference attack finds value that maximizes membership confidence
+* White-box attacks utilize details of tree-based target models
+* Fit model on data with sensitive attribute, infer values for new samples
+* Support continuous and categorical sensitive attributes
+
+# Geographic information
+Not applicable
+
+# Type of content
+Python library module documentation
+================================================================================
+METADATA:
+prompt_tokens: 3061
+answer_tokens: 247
+time_taken: 21.97 seconds

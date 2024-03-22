@@ -1,0 +1,35 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-587, a common weakness related to assigning a fixed address to a pointer in software code. It explains that using a fixed address is not portable across environments and platforms, making the code prone to crashes or vulnerabilites if exploited. The key points are:
+
+- Assigning a pointer to a fixed memory address rather than null or 0 leaves code open to crashes or attackers exploiting expected addresses.
+
+- This happens because the address may not be valid when ported across platforms, causing crashes.
+
+- Attackers can also inject code at expected addresses or easily read/modify memory contents.
+
+- It is prevalent in C, C++, C#, and Assembly languages.
+
+- Potential mitigations include never setting a fixed pointer address.
+
+# Summary bullet points
+
+* Document describes software weakness CWE-587 - using fixed pointer addresses
+* Causes crashes or vulnerabilities when code is ported across platforms
+* Attacks can inject code or access memory at expected address
+* Prevalent in C, C++, C#, Assembly languages 
+* Mitigation is to avoid fixed pointer addresses
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 944
+answer_tokens: 191
+time_taken: 17.56 seconds

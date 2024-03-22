@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  # Summary
+
+The paper presents the concept of universal adversarial perturbations - small image-agnostic perturbations that can fool state-of-the-art deep neural network classifiers on most natural images with high probability. The key points are:
+
+- Universal adversarial perturbations exist that can fool classifiers on most natural images with over 80% probability, while being quasi-imperceptible to humans. An algorithm is proposed to compute such perturbations.
+
+- The universal perturbations generalize remarkably well across different classifiers and architectures, including VGG, GoogLeNet and ResNet. This makes them doubly universal - across images and models. 
+
+- The vulnerability to such perturbations reveals geometric correlations among different parts of classifiers' decision boundaries. A low-dimensional subspace is shown to exist that captures these correlations.
+
+- Random vectors in this subspace significantly outperform random perturbations in fooling classifiers, explaining the effectiveness of the computed universal perturbations. 
+
+- Fine-tuning the classifiers with perturbed images leads to some increase in robustness, but the networks still remain largely vulnerable to universal perturbations.
+
+# Summary bullet points
+
+* Universal adversarial perturbations exist that fool state-of-the-art deep neural networks on most natural images with high probability (>80%)
+* Proposed algorithm to compute image-agnostic perturbations by aggregating minimal perturbations sending data points to decision boundary
+* Perturbations generalize remarkably well to unseen images despite using small training set 
+* Also double universal - generalize across neural network architectures (VGG, GoogLeNet etc)
+* Reveals geometric correlations among parts of decision boundary 
+* Existence of low-dimensional subspace capturing these correlations explains effectiveness
+* Fine-tuning network with perturbed images only leads to mild robustness increase
+
+# Geographic information
+Not applicable
+# Type of content
+Research paper
+================================================================================
+METADATA:
+prompt_tokens: 6263
+answer_tokens: 270
+time_taken: 33.32 seconds

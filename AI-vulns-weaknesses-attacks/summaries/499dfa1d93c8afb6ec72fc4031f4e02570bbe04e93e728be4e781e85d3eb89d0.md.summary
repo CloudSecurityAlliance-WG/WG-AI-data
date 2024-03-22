@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of using a cryptographic key or password past its expiration date. This significantly increases the risk of the key being compromised by extending the window for potential cracking attacks. While expiration does not necessarily mean a key is compromised, the integrity risk increases over time so keys should be replaced regularly proportional to their strength. This weakness can allow attackers to bypass protection mechanisms and assume a user's identity. Examples are provided such as an SSL certificate validation check that doesn't check expiration dates.
+
+Potential mitigations include properly notifying users of impending expiration and explaining the importance of key rotation. User interfaces should also make it easy for users to generate new keys.
+
+# Summary bullet points
+
+* Using expired cryptographic keys increases risk of compromise over time
+* Expired keys can allow attackers to bypass authentication mechanisms
+* Failure to check certificate expiration dates in validation code is an example
+* Notify users of expiration and make key rotation easy to mitigate issues 
+* Replace keys regularly proportional to their cryptographic strength
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 967
+answer_tokens: 192
+time_taken: 16.74 seconds

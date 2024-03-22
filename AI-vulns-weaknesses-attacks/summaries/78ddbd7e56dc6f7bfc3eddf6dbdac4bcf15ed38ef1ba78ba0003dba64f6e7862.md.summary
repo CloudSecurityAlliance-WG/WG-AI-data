@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-837 weakness describes a situation where a product requires a user to only perform a particular action once, but fails to properly enforce this restriction. This could enable attackers to bypass intended usage limits and gain an advantage over other users. For example, in an e-voting system, an attacker could stuff the ballot box by voting multiple times. Or in an e-library, an attacker could check out the same limited e-book multiple times to prevent others from accessing it. The consequences vary by context but generally allow attackers to negatively impact other users or the correctness of the product's operation. Proper enforcement of usage limits is important for security and intended system behavior.
+
+# Summary bullet points
+
+* CWE-837 involves failing to enforce limits on a user only performing a particular action once when required by the product 
+* Attackers can bypass usage restrictions by performing actions multiple times  
+* Enables gaining advantage over proper users or impacting correctness
+* Example scenarios include e-voting, e-library lending, resource reservation
+* Consequences vary but allow harming other users or product operation
+* Properly enforcing usage limits is important for security and intended behavior
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 850
+answer_tokens: 208
+time_taken: 17.11 seconds

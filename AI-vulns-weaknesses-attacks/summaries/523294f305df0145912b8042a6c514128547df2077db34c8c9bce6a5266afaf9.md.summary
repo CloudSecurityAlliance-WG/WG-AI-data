@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The weakness described is external control of assumed-immutable web parameters, where a web application does not properly verify inputs that are expected to remain unchanged but can actually be modified externally, such as values in hidden form fields. This can allow attackers to modify critical data used by the application. Web apps often assume data passed in hidden form fields or cookies cannot be tampered with, but improper validation enables processing of malicious input. For example, custom cookies storing session data are commonly used in authentication and access control decisions. If these cookie values can be manipulated by the client, it could allow authentication bypass or privilege escalation. Storing sensitive data in cookies without protection also risks disclosure of user data.
+
+# Summary bullet points
+
+* Web apps often wrongly assume data in hidden form fields or cookies cannot be tampered with
+* Lack of validation on externally-controllable parameters can allow processing of malicious input
+* Manipulation of data used in authentication, access control, or holding sensitive data can enable attacks like SQL injection or privilege escalation 
+* Storing sensitive user data in client-accessible cookies risks disclosure if not properly protected
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1704
+answer_tokens: 213
+time_taken: 17.91 seconds

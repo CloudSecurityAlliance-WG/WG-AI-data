@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1107 weakness describes insufficient isolation of symbolic constant definitions in source code. This makes the code more difficult to maintain and indirectly reduces security by making it harder to find and fix vulnerabilities. It is categorized as an indirect weakness that reduces maintainability rather than having direct security implications.
+
+# Summary bullet points
+
+* CWE-1107 covers insufficient isolation of symbolic constant definitions in source code
+* This makes the code more difficult to maintain over time
+* Reduced maintainability indirectly harms security by making it harder to find and fix vulnerabilities 
+* The weakness is indirect with no direct security impact
+* It stems from poor coding practices that use symbolic constants without properly centralized or isolated definitions
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 671
+answer_tokens: 135
+time_taken: 10.78 seconds

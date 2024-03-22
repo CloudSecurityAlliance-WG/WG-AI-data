@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-821 weakness describes incorrect synchronization when accessing shared resources in a concurrent manner. Products that use shared resources concurrently but fail to properly synchronize access can lead to race conditions, unexpected behavior, data corruption, information disclosure, and altered execution logic. This is caused by the shared resource not being in the expected state when accessed due to improper synchronization. Proper locking, mutexes, semaphores and other synchronization primitives need to be used. This weakness is related conceptually to issues of concurrency, race conditions, and reentrant functions. Further research is needed on synchronization mechanisms and how they relate to these concepts.
+
+# Summary bullet points
+
+* CWE-821 refers to improper or missing synchronization when accessing shared resources from concurrent processes
+* Can lead to race conditions, unexpected behavior, data corruption, info disclosure, altered execution logic
+* Caused by shared resource not being in expected state when accessed
+* Proper locks, mutexes, semaphores needed for synchronization 
+* Related conceptually to concurrency, race conditions, reentrant functions
+* More research needed on sync mechanisms and relationship to these concepts
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 750
+answer_tokens: 191
+time_taken: 16.86 seconds

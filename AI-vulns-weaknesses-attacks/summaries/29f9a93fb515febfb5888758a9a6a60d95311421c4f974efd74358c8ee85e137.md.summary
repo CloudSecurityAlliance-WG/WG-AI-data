@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of using a less trusted data source instead of a more trusted one when handling sensitive information. This can allow attackers to more easily spoof or manipulate the data to bypass protections or access unauthorized resources. The example shows code that checks the HTTP_X_FORWARDED_FOR header to get the user's IP address when they connect through a proxy. However, this header can be spoofed by the user, allowing them to spoof an authorized IP address and bypass authentication. The fixed code instead uses the more trusted REMOTE_ADDR variable which is set by the web server itself.
+
+# Summary bullet points
+
+* CWE-348 describes using a less trusted data source instead of a more secure one when handling sensitive data
+* This allows attackers to more easily spoof or manipulate the data to bypass protections
+* Example shows code getting user's IP from HTTP_X_FORWARDED_FOR header which can be spoofed
+* Better to use REMOTE_ADDR set by web server, although still spoofable
+* By spoofing authorized IP, attackers could bypass authentication and access unauthorized resources
+* Could also launch denial of service attacks by exhausting resources with fake requests
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1016
+answer_tokens: 208
+time_taken: 19.70 seconds

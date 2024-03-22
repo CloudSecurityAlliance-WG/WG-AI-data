@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The weakness described is excessive execution of sequential searches of data resources. This occurs when a data query against a database table or view is configured in a way that does not use an index, causing sequential searches to be performed. 
+
+This can reduce performance of the product. If reachable by an attacker, the performance degradation could introduce a vulnerability. It is considered an indirect weakness that could make it easier to introduce security weaknesses or make them harder to detect.
+
+# Summary bullet points
+
+* Describes a weakness where data queries against databases are configured without using indexes, causing sequential searches
+* Can reduce performance of the product
+* If reachable by attacker, performance issues could lead to vulnerabilities
+* Considered an indirect weakness that enables other weaknesses
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 738
+answer_tokens: 145
+time_taken: 14.70 seconds

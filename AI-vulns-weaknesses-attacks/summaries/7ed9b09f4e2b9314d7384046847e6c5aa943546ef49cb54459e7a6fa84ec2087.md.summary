@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-1044, a weakness related to software architecture containing too many or too few horizontal layers compared to expected ranges. It is primarily a quality issue that can indirectly affect security by making the software harder to maintain and vulnerable. The recommended default is 4-8 layers. Too many/few layers reduces maintainability. It is categorized under poor coding practices.
+
+# Summary bullet points
+
+* Describes weakness CWE-1044 - architecture with too many or few horizontal layers
+* Primarily a quality issue, indirectly affects security 
+* Makes software harder to maintain and introduces vulnerabilities
+* Recommended default is 4-8 layers 
+* Too many/few layers reduces maintainability
+* Categorized under poor coding practices
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Definition from Common Weakness Enumeration database
+================================================================================
+METADATA:
+prompt_tokens: 727
+answer_tokens: 129
+time_taken: 13.07 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes covert timing channels, which convey information by modulating some aspect of system behavior over time. An external observer can monitor system behavior and infer protected information. Examples include observing page rates, transaction times, or access times to deduce sensitive data. Timing channels are a type of covert channel along with storage channels. They allow information leakage through observable timing discrepancies. 
+
+# Summary bullet points
+
+* Covert timing channels work by modulating system behavior over time to transmit information
+* External observers can monitor behavior like page rates and infer sensitive data 
+* Examples include transaction times, authentication times, access times
+* Part of a broader class of covert channels that also includes storage channels
+* Allows information leakage through observable timing discrepancies
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry (common weakness enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1097
+answer_tokens: 142
+time_taken: 15.75 seconds

@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content per your prompt:
+
+# Summary
+
+The document describes CWE-203 - Observable Discrepancy weakness. This is a software security weakness where the product behaves differently under different circumstances in a way that reveals security-relevant information about its state to an attacker. These observable discrepancies can take many forms like timing differences, control flow differences, error message differences etc. 
+
+Attackers can use these discrepancies to learn sensitive information about the system's operation or internal state, including cryptographic keys in some cases. This enables attacks like brute force attacks, side channel attacks to extract keys etc. Software systems should avoid having different responses under different conditions, to eliminate information leakage from observable discrepancies. Any observable differences should be minimized. Constant time algorithms should be used especially in encryption and decryption. Sufficient message sanitization should be done. 
+
+# Summary bullet points
+
+* Weakness where product behaves differently under different conditions, exposing security-relevant info
+* Discrepancies take forms like timing differences, error message differences etc 
+* Enables attackers to learn sensitive system info through observation 
+* Used in side channel attacks to break encryption
+* Brute force attacks can be easier by eliminating invalid inputs
+* Software systems should not have observable differences in responses  
+* Cryptographic algorithms should execute in constant time regardless of inputs
+* Error messages should be sanitized and consistent
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 2346
+answer_tokens: 242
+time_taken: 22.31 seconds

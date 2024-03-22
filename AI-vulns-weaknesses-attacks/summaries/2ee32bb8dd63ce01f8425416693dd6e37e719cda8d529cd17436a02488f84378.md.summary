@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summarization and analysis of the paper:
+
+# Summary
+
+The paper proposes a new threat model for generating adversarial examples based on the Wasserstein distance metric instead of the commonly used Lp norms. The Wasserstein distance measures the minimum cost of transporting mass between two distributions and has nice properties like capturing natural image manipulations. To generate Wasserstein adversarial examples, the authors develop an efficient procedure for projecting images onto a Wasserstein ball around the original image using ideas from Sinkhorn iterations. This projection procedure allows the use of projected gradient descent to craft adversarial attacks. Experiments on MNIST and CIFAR10 classifiers show that small Wasserstein perturbations are enough to drastically reduce accuracy while still reflecting semantic image content. Adversarial training provides the best defense, improving robustness significantly. While models provably robust to L1 attacks display some empirical robustness, fundamental obstacles prevent extending certification methods. Overall, Wasserstein adversarial examples present a promising new direction for understanding adversarial attacks.
+
+# Summary bullet points
+
+* Proposes Wasserstein threat model for adversarial examples, which measures cost of moving pixel mass unlike Lp norms 
+* Derives fast approximate Wasserstein ball projection using modified Sinkhorn iteration 
+* Generates examples via projected gradient descent, perturbations keep semantic structure
+* Attacks reduce MNIST and CIFAR10 model accuracy significantly with small Wasserstein radii  
+* Adversarial training provides best defense, L1 robust models show some empirical robustness
+* Fundamental limitations prevent extending certification methods to Wasserstein attacks
+
+# Geographic information
+"Not applicable"
+
+# Type of content
+Academic Paper
+================================================================================
+METADATA:
+prompt_tokens: 8682
+answer_tokens: 251
+time_taken: 33.82 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1086 weakness describes a class that contains an unnecessarily large number of child classes, defined as more than 10 by default. This makes the software more difficult to understand and maintain, indirectly reducing security by making it harder to find and fix vulnerabilities. It also can make introducing new vulnerabilities easier. The issue impacts maintainability and is considered an indirect weakness that enables other more direct weaknesses.
+
+# Summary bullet points
+
+* CWE-1086 refers to a class with more than 10 child classes, which is considered excessive
+* Having too many child classes hurts maintainability and makes the software harder to understand
+* This indirectly impacts security by making it more difficult to find and fix vulnerabilities
+* It can also make it easier to introduce new vulnerabilities unintentionally  
+* CWE categorizes this as an indirect weakness enabling other more direct weaknesses
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 711
+answer_tokens: 157
+time_taken: 13.29 seconds

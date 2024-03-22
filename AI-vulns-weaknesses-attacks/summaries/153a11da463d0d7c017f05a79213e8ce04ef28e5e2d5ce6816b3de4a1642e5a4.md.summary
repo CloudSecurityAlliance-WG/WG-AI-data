@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a weakness where a product decodes the same input twice, which can bypass protection mechanisms between the decoding operations. This double decoding enables attackers to introduce dangerous inputs after security checks, execute unauthorized code or commands, cause confidentiality/integrity issues, or impact availability. Examples are provided of this weakness being exploited in various applications via techniques like SQL injection or cross-site scripting using double URL encoding or hex encoding to bypass input validation. 
+
+Potential mitigations include: avoiding making security decisions based on resource names that can have alternate names, validating all inputs thoroughly, specifying output encodings explicitly, and ensuring inputs are decoded/canonicalized only once before validation.
+
+# Summary bullet points
+
+* Decoding the same input twice can bypass protection mechanisms and enable attacks 
+* Attacks exploiting this weakness can lead to unauthorized code execution, data access/modification, DoS
+* Known instances involve double URL encoding, hex encoding, etc. to bypass input validation
+* Mitigations include thorough input validation, avoiding alternate input names, explicit output encodings
+* Inputs should be decoded/canonicalized only once before validation checks
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 1150
+answer_tokens: 193
+time_taken: 18.68 seconds

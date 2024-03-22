@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+Systems-on-Chip (SoCs) use security tokens to control access to sensitive assets like encryption keys. These tokens identify which SoC components can perform actions like read, write, or compute on those assets. Since security tokens are integral to maintaining security, they must be properly protected. A common weakness is improperly restricting the assignment of security tokens, allowing a malicious component to spoof a trusted component's identity by reprogramming its token. This could enable unauthorized access to sensitive assets, violating confidentiality, integrity, and availability.
+
+# Summary bullet points
+
+* SoCs use security tokens to control access to sensitive assets like encryption keys
+* Tokens identify which components can perform actions like read, write, compute on assets
+* Tokens must be properly protected as they are integral to SoC security
+* Weakness is improperly restricting token assignment 
+* Allows malicious component to reprogram its token to spoof a trusted component
+* Can enable unauthorized access to assets, violating confidentiality, integrity, availability
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1306
+answer_tokens: 171
+time_taken: 15.53 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the technique "Acquire Public ML Artifacts" used by adversaries to identify machine learning artifacts from public sources. These artifacts include software, data, models and configurations associated with machine learning systems. Adversaries target artifacts related to the victim organization to understand their machine learning approach and aid in creating proxy models or crafting adversarial data inputs. The technique helps adversaries in resource development for attacking machine learning systems. Mitigation involves limiting public release of information related to organizational machine learning practices.
+
+# Summary bullet points
+
+* Adversaries search public sources to acquire machine learning artifacts associated with victim organizations
+* Artifacts include ML software, data, models and configurations that provide insights into victim's ML approach
+* Aids creating proxy models and crafting adversarial data to attack victim's ML systems 
+* Part of resource development tactic for attackers
+* Mitigation involves limiting public ML information release
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website article
+================================================================================
+METADATA:
+prompt_tokens: 732
+answer_tokens: 160
+time_taken: 11.63 seconds

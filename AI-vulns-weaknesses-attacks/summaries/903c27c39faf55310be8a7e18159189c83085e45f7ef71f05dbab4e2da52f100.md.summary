@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the text, formatted according to the template you provided:
+
+# Summary
+
+The text describes CWE-1303, a weakness related to non-transparent sharing of microarchitectural resources. Modern processors use techniques like caching and speculation to improve performance, but details are hidden from programmers. Sharing resources across contexts opens covert channels to leak information between contexts. Examples of shared resources used this way are caches, branch predictors, and load/store buffers. Speculation and out-of-order execution give attackers more control over leaked data. Undocumented resource sharing makes it extremely difficult to protect assets. Microarchitectural side channels have leaked cryptographic keys, ASLR offsets, and arbitrary memory. Mitigations involve hardware and software techniques like partitioned caches, new instructions, and disabling high-resolution timers. As of CWE 4.9, the CWE Hardware SIG is further analyzing hardware weaknesses like this, especially related to transient execution attacks. The entry may change significantly in CWE 4.10 as a result.
+
+# Summary bullet points
+
+* Modern processors use hidden techniques like caching and speculation to improve performance
+* Sharing microarchitectural resources across contexts opens covert channels for leaking information
+* Examples of shared resources used this way are caches, predictors, and load/store buffers 
+* Speculation/out-of-order execution increase attacker control over leaked data
+* Undocumented sharing makes protecting assets extremely difficult
+* Leaked sensitive items include crypto keys, ASLR offsets, arbitrary memory
+* Mitigations involve hardware/software like partitioned caches and new instructions 
+* The CWE Hardware SIG is further analyzing transient execution hardware issues
+* This CWE entry may change significantly in version 4.10
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1254
+answer_tokens: 270
+time_taken: 21.56 seconds

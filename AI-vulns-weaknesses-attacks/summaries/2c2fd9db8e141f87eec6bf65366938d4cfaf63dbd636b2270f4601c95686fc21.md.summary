@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes a vulnerability in the Struts web application framework where automatic input validation via a Struts bean has been disabled. This disables the Struts Validator and custom validation logic, exposing the application to attacks related to insufficient input validation. 
+
+# Summary bullet points
+
+* Automatic input validation via Struts beans can be turned off, disabling the Struts Validator 
+* Disabling the Validator exposes applications to insufficient input validation issues
+* This allows injection of malicious input that can lead to XSS, command injection, and other attacks
+* Mapping in Struts disables form validation, increasing vulnerability surface 
+
+# Geographic information
+
+Not applicable
+
+# Type of content 
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 842
+answer_tokens: 115
+time_taken: 10.30 seconds

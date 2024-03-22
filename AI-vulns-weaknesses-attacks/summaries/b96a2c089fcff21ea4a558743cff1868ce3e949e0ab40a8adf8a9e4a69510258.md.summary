@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses CWE-562, a weakness related to returning the address of a stack variable from a function. This can cause unintended program behavior, typically crashes, because the stack frame is invalidated when the function returns. The returned pointer will no longer point to the intended variable. This can enable attackers to modify memory or expose sensitive information. Some mitigations are using static analysis tools to detect this weakness and fixing the code to not return stack addresses.
+
+# Summary bullet points
+
+* CWE-562 refers to returning a pointer to a stack variable from a function
+* This can cause crashes or unintended behavior because the stack frame is invalidated after the function returns
+* The returned pointer will no longer point to the intended variable
+* Can enable attackers to modify memory or read sensitive information
+* Mitigations include static analysis to detect, and fixing code not to return stack addresses 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1143
+answer_tokens: 168
+time_taken: 16.32 seconds

@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-303 weakness describes an incorrect implementation of an established authentication algorithm that is required for a product. This could allow authentication to be bypassed. It is a child of weak authentication and a parent of missing critical steps in authentication. It is applicable across languages and platforms. The impact is accessing control bypass. An observed example is a conditional that should have been an "or" instead of an "and" in CVE-2003-0750. It is part of an authentication bypass cluster and comprehensive access control categorization. The operational mapping is realization during implementation of an architectural security tactic.
+
+# Summary bullet points
+
+* Describes incorrect implementation of required established authentication algorithm 
+* Can allow authentication bypass
+* Child of weak authentication, parent of missing critical step in authentication
+* Applies across languages and platforms
+* Impact is access control bypass
+* CVE example was incorrect conditional logic
+* Part of authentication bypass cluster and access control categorization
+* Caused by incorrect realization of authentication during implementation
+
+# Geographic information
+Not applicable
+
+# Type of content
+Definition
+================================================================================
+METADATA:
+prompt_tokens: 692
+answer_tokens: 177
+time_taken: 11.63 seconds

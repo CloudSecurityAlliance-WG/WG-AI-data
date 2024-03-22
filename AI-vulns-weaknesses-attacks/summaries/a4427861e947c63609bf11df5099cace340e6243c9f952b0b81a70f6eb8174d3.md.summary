@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text discusses adversarial examples, which are malicious inputs sent to AI/ML systems with the intent to fool or mislead them. It explains how researchers were able to construct sunglasses that could trick image recognition systems into not properly recognizing faces. The text warns that if you have not threat modeled your AI/ML system and dependencies, you are likely at risk of adversarial attacks. It provides an example of how a malicious customer could insert a backdoor into a company's AI algorithm during training, allowing them to later reconstruct the algorithm for their own purposes. Overall, the text emphasizes the need to secure AI/ML systems against adversarial threats through practices like threat modeling.
+
+# Summary bullet points
+
+* Adversarial examples are malicious inputs sent to fool AI/ML systems
+* Researchers created sunglasses that could trick image recognition systems
+* If you haven't threat modeled your AI/ML system, you're at risk 
+* Malicious customers could insert backdoors during training
+* Backdoors allow later reconstruction of the algorithm
+* Securing against adversarial threats requires practices like threat modeling
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website
+================================================================================
+METADATA:
+prompt_tokens: 1627
+answer_tokens: 188
+time_taken: 17.28 seconds

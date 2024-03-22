@@ -1,0 +1,36 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-807: Reliance on Untrusted Inputs in a Security Decision, a software weakness related to relying on untrusted inputs like cookies, environment variables, form fields etc. in making security decisions like authentication and authorization. Attackers can modify these inputs to bypass protections. It provides extended description, examples, mitigations, detection methods and references for this weakness.
+
+Key points:
+
+- Untrusted inputs like cookies and form fields should not be relied upon in security decisions without encryption, integrity checking etc.
+
+- Can allow attackers to bypass authentication, access sensitive data, gain privileges by modifying untrusted inputs used incorrectly.
+
+- Mitigations include storing state only on server side, duplicating checks client side on server side as well to avoid tampering.
+
+# Summary bullet points
+
+* Weakness involves relying on untrusted inputs like cookies, environment variables, form fields to make security decisions, which attackers can modify to bypass protections
+* Can bypass authentication, access sensitive data, execute code by tampering with untrusted inputs
+* Store state on server side only, encrypt/integrity check untrusted client side data
+* Duplicate security checks made on client side on server side as well
+* Use frameworks that maintain state instead of implementing manually
+* Identify all untrusted inputs and modify design not to rely on them if possible
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 2489
+answer_tokens: 237
+time_taken: 21.61 seconds

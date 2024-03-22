@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary of the key information from the text formatted using the provided template:
+
+# Summary
+
+The text describes CWE-939, a weakness related to improper authorization in handlers for custom URL schemes. It explains that mobile platforms and other architectures allow custom URL schemes for communication between apps, but poor implementation can lead to security issues. As an example, it shows iOS and Android code that handles custom URL schemes but does not restrict access, allowing a malicious website to invoke functionality without prompting the user. The mitigations advise implementing user prompts for potentially dangerous actions and restricting access using an allow list of trusted apps.
+
+# Summary bullet points
+
+* Mobile platforms use custom URL schemes for inter-app communication, but poor implementations enable security weaknesses
+* Gives examples of iOS and Android code that handles custom schemes but lacks proper access restrictions
+* This allows malicious sites to invoke functionality and take undesirable actions without any user prompt
+* Actions like modifying data should require user confirmation before executing
+* Suggests mitigations like allow listing apps that can use the scheme or prompting user for dangerous operations  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 1231
+answer_tokens: 204
+time_taken: 21.84 seconds

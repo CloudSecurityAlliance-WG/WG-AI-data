@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the document:
+
+# Summary
+The document proposes a broad class of momentum-based iterative methods to generate adversarial examples that can effectively fool both white-box models (models the attacker has full access to) and black-box models. Key points:
+- Integrating momentum into iterative fast gradient sign method (FGSM) helps stabilize update directions and escape poor local maxima, resulting in adversarial examples that transfer better to black-box models while still fooling white-box models. 
+- Attacking ensemble of models instead of a single model improves transferability of adversarial examples across models. Especially effective is ensembling models by averaging their logits.
+- The proposed momentum iterative FGSM (MI-FGSM) attack achieves near 100% success rate fooling white-box models, while also fooling black-box models at 2x higher rate than vanilla iterative FGSM.
+- Even models trained with ensemble adversarial training, considered highly robust, are vulnerable to black-box attacks from the proposed momentum iterative ensemble method.
+Overall, the proposed momentum-based iterative ensemble attack methods generate adversarial examples that achieve both high white-box and black-box attack success, posing security issues for deploying deep learning models.
+
+# Summary bullet points
+* Integrating momentum into iterative attacks like FGSM stabilizes update directions, helping escape poor local maxima and improving transferability.  
+* Attacking ensemble of models instead of single model further improves transferability of adversarial examples.
+* Averaging logits of models is most effective ensemble scheme for attacks. 
+* Proposed momentum iterative FGSM (MI-FGSM) attack achieves near 100% on white-box with higher black-box attack rate than vanilla iterative FGSM.
+* Highly robust models trained with ensemble adversarial training are still vulnerable to black-box attacks from the proposed momentum iterative ensemble attack method.  
+
+# Geographic information
+Not applicable
+
+# Type of content
+Academic Paper
+================================================================================
+METADATA:
+prompt_tokens: 7895
+answer_tokens: 289
+time_taken: 37.44 seconds

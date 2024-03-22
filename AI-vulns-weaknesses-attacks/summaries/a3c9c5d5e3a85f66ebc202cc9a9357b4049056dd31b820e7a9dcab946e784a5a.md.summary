@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+Relative path traversal is a vulnerability where user input is used to construct a file path that should be restricted to a certain directory, but does not properly neutralize sequences like ".." that can resolve to a location outside that directory. This allows attackers to traverse the filesystem and access or modify files outside the intended restricted directory. Some common consequences include executing unauthorized code or commands, modifying critical files like programs or libraries, reading sensitive data, and crashing the system.
+
+# Summary bullet points
+
+* Relative path traversal allows attackers to access files and directories outside an intended restricted directory by using sequences like ".." to traverse up the filesystem.
+* It occurs when user input is used to construct paths but insufficient validation is performed. 
+* Attackers can use it to execute code, modify critical files, read sensitive data, and crash systems by overwriting or deleting key files.
+* Consequences range from data theft and code execution to denial of service.
+* Mitigations include stringent input validation, proper encoding/decoding, and built-in path canonicalization functions.
+
+# Geographic information
+
+Not applicable
+
+# Type of content 
+
+Article - Common Weakness Enumeration (CWE) entry from MITRE/CWE.MITRE.org
+================================================================================
+METADATA:
+prompt_tokens: 2924
+answer_tokens: 196
+time_taken: 24.71 seconds

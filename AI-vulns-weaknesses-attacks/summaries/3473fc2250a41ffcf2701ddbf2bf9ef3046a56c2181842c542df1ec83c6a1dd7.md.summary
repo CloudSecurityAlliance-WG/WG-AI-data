@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text appears to be excerpted from a website called PLOT4ai, which contains a library of AI/ML threats classified into 8 categories. The site encourages users who are new to PLOT4ai to read the HOW TO guide first. The excerpt focuses on explainability as an AI risk - whether an AI system needs to be able to explain its logic and decisions to users, especially when those decisions can significantly impact users. Data leakage is also mentioned as an AI risk. The text contains multiple duplicate paragraphs and formatting issues that seem to stem from it being extracted from a webpage.
+
+# Summary bullet points
+
+* Text is from PLOT4ai website, which contains library of 86 AI/ML threats in 8 categories 
+* New users encouraged to read HOW TO first
+* Focuses on AI explainability as a risk - whether decisions need explaining to users
+* Especially when decisions can highly impact users
+* Data leakage also mentioned as an AI risk
+* Duplicate paragraphs and formatting issues due to web extraction
+
+# Geographic information
+Not applicable
+
+# Type of content
+Website/Library
+================================================================================
+METADATA:
+prompt_tokens: 1435
+answer_tokens: 184
+time_taken: 14.19 seconds

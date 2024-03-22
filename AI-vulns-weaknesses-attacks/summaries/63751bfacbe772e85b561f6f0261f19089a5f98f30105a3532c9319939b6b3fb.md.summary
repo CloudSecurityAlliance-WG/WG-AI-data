@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-425 weakness describes when a web application does not properly enforce access controls on restricted URLs, scripts, or files. This allows attackers to directly access resources through forced browsing without going through proper authorization checks. The consequence is often authentication bypass, path disclosure, or accessing privileged functionality. It overlaps with authentication errors, modification of assumed-immutable data, and container errors. It can enable subsequent weaknesses like XSS, SQLi, or remote file inclusion. Mitigations focus on consistently applying authorization checks before allowing access to any restricted resources.
+
+# Summary bullet points
+
+* CWE-425 refers to web apps not properly enforcing access control on restricted resources, enabling forced browsing
+* Attackers can directly access restricted URLs, scripts, files without passing authorization checks 
+* Often leads to authentication bypass, path disclosure, accessing privileged functions 
+* Overlaps authorization errors, modification of assumed-immutable data, container errors
+* Can enable subsequent weaknesses like XSS, SQLi, remote file inclusion
+* Mitigations involve consistently checking authorization on restricted resources 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1222
+answer_tokens: 177
+time_taken: 15.22 seconds

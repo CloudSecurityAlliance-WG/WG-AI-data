@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The weakness described is improper protection against electromagnetic fault injection (EM-FI) attacks on devices such as integrated circuits. EM-FI attacks involve producing localized, transient magnetic fields near a device to induce faults that can bypass security mechanisms, leak sensitive information, modify program flow, etc. Successful attacks may allow attackers to gain privileged access, execute arbitrary code, and more. Specific vulnerabilities include improper protection of security-critical information stored in device fuses that gets loaded into shadow registers at boot time. Mitigations include redundancy, error checking, default-deny program logic, adding randomness to timing, runtime integrity checking, sensors, and physical shields around critical components.
+
+# Summary bullet points
+
+* Electromagnetic fault injection (EM-FI) attacks induce faults by creating localized magnetic fields near devices
+* Induced faults can bypass security mechanisms, leak sensitive data, alter program flow
+* Stored security-critical data like fuse values can be compromised when loaded into shadow registers 
+* Consequences include gaining privileged access, code execution, modification of memory or program flow
+* Mitigations include redundancy, error checking, default-deny program logic, timing randomness, integrity checking, sensors, shields
+
+# Geographic information  
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1484
+answer_tokens: 199
+time_taken: 24.27 seconds

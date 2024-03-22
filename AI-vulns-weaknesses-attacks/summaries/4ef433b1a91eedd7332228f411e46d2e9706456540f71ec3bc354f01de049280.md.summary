@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of missing password field masking in products. When passwords are entered without masking, they are visible to attackers, allowing password capturing. This increases access control vulnerabilities. The mitigation is to require password field masking in web applications. Static analysis security testing tools can detect some instances by modeling data flows.  
+
+# Summary bullet points
+
+* Products lacking password field masking during entry increase vulnerability to attackers observing and capturing passwords
+* ChildOf insufficient credential protection, related to credentials management errors and user interface security issues
+* Enables attackers to bypass protection mechanisms through access control impact  
+* Mitigation is requiring web application password field masking 
+* Static analysis tools can find some instances by analyzing flows for vulnerable patterns  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 744
+answer_tokens: 140
+time_taken: 10.85 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The content describes the weakness CWE-942, which is about permissive cross-domain policies that allow access from untrusted domains in Flash or Silverlight applications. A cross-domain policy file defines what domains can make cross-domain requests to access data on a server. If the policy allows untrusted domains through wildcards or being overly permissive, attackers could manipulate and steal data through malicious Flash or Silverlight apps that users unknowingly execute. Consequences include stealing session cookies and sensitive data, making requests to websites on the victim's behalf, and installing malware. Mitigations involve not using wildcards in policies, restricting policies with meta-options, and reducing the attack surface exposed throughpolicies.  
+
+# Summary bullet points
+
+* CWE-942 involves permissive cross-domain policies in Flash or Silverlight that allow untrusted domains to access data
+* Cross-domain policies define what domains can access server data via cross-domain requests  
+* Overly permissive policies with wildcards or unlimited access enable attacks through malicious Flash or Silverlight apps
+* Attacks allow stealing cookies/data, unauthorized requests, and malware installation
+* Mitigations include avoiding wildcards, restricting policies with meta-options, and reducing exposed attack surface
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1504
+answer_tokens: 205
+time_taken: 17.90 seconds

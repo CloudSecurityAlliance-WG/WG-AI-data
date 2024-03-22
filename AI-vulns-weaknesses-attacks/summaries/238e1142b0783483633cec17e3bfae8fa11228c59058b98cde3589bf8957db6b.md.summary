@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+Data remanence occurs when confidential data stored in memory devices remains readable after attempts to erase or clear the memory. This can happen due to optimization techniques that only erase metadata rather than content, or due to physical properties of memory circuits that retain charge. Attackers could potentially recover sensitive data through remnant reads. Mitigations include secure erase commands, crypto erase, physical destruction, and testing to ensure proper erasure.
+
+# Summary bullet points
+
+* Data remanence leaves confidential data readable after erase attempts due to optimization or physical properties 
+* File metadata may be erased but not content in performance optimizations
+* Memory charge retention depends on power, refresh rates, temperature - data decay over time
+* Remnant data recovery possible through memory reads 
+* Mitigations: secure erase, crypto erase, physical destruction, testing after erases
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Database Entry
+================================================================================
+METADATA:
+prompt_tokens: 1360
+answer_tokens: 149
+time_taken: 12.48 seconds

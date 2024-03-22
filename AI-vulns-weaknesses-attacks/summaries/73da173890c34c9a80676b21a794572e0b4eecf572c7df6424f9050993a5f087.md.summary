@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+CWE-414 describes a weakness where a product fails to check if a lock is present before performing sensitive operations on a resource. This can allow attackers to access functionality or data that they should not have access to. The main consequences are compromised integrity and availability of data, instability, denial of service, and application crashes. 
+
+This weakness is applicable across multiple languages and platforms. It often occurs during architecture/design and implementation phases. Mitigations focus on implementing reliable locking mechanisms to control access to shared resources.
+
+# Summary bullet points
+
+* CWE-414 involves failing to check for lock presence before sensitive operations
+* Attackers can access unauthorized functionality/data, modify application data
+* Causes instability, denial of service, crashes
+* Cross-platform, happens in design and implementation phases  
+* Mitigate by adding reliable locking mechanisms
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 666
+answer_tokens: 148
+time_taken: 15.19 seconds

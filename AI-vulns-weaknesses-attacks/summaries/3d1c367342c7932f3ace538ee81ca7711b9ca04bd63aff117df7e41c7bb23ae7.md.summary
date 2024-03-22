@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-491, a weakness related to the cloneable() method in Java classes. Specifically, it refers to classes that have a public cloneable() method that is not declared final. This allows objects to be created without calling the constructor, which can cause the object to be in an unexpected state. The key mitigation is to make the cloneable() method final.  
+
+# Summary bullet points
+
+* Describes CWE-491 - Public cloneable() Method Without Final in Java classes
+* Issue arises when cloneable() method is public but not declared final
+* Allows creating objects without calling constructor, leading to unexpected state
+* Mitigation is to make the cloneable() method final
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 840
+answer_tokens: 131
+time_taken: 9.62 seconds

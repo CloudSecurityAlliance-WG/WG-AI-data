@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the CWE data:
+
+# Summary
+
+The CWE entry describes a weakness where systems or system-on-a-chip (SoC) that utilize read-only memory (ROM) for booting lack the ability to patch vulnerabilities discovered in the ROM code after shipping. This leaves the system in a vulnerable state indefinitely since the ROM code cannot be updated. The extended description explains that ROM code is used to implement security mechanisms like root-of-trust but contains immutable code. The inability to patch vulnerabilities leaves the system open to compromise by adversaries. 
+
+The relationships show this is a child of the weakness of relying on an updateable component. For mitigations, it suggests building in secure patch support in the ROM to allow code to be patched on next boot or using hardware fuses that can be programmed to enable limited patching.
+
+# Summary bullet points
+
+* Systems using ROM for secure boot cannot patch vulnerabilities found in ROM code since it is immutable
+* Lack of patchability leaves systems indefinitely exposed to compromise of ROM vulnerabilities
+* ROM code implements critical security functions like root-of-trust that need to stay secure
+* Mitigations include patch support in ROM or use of programmable hardware fuses for limited patching
+* Example shows SoC peripheral wrapper hardcoding Linux boot ROM data, preventing boot from patchable ROM
+* Fix makes ROM data selectable from patchable ROM vs Linux ROM based on signal
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry
+================================================================================
+METADATA:
+prompt_tokens: 1448
+answer_tokens: 247
+time_taken: 29.48 seconds

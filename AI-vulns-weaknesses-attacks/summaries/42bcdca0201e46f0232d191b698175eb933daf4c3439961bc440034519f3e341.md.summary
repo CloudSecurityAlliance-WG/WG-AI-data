@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a weakness where a system-on-chip (SoC) does not include necessary security identifiers in transactions between integrated components. This allows unauthorized access or actions when processing transactions without appropriate access controls to validate the transaction source. Consequences range from denial-of-service to privilege escalation allowingunauthorized code execution.
+
+# Summary bullet points
+
+* CWE entry describes missing security identifiers in system-on-chip (SoC) transactions 
+* Transactions not properly access controlled via validated security identifiers 
+* Allows unauthorized system access and actions from invalid transactions
+* Range of consequences from denial-of-service to privilege escalation 
+* Allows unauthorized code execution through uncontrolled transactions
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1268
+answer_tokens: 114
+time_taken: 12.70 seconds

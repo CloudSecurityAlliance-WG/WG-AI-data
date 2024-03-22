@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-525, a weakness related to web applications not using appropriate caching policies for pages and forms containing sensitive information. This can result in sensitive data being stored in the browser cache and exposed to unauthorized parties. The key points are:
+
+- Web apps should use restrictive caching policies for sensitive data to prevent it lingering in the browser cache
+- Public terminals are most at risk as subsequent users can view cached sensitive data
+- Mitigations include protecting cached info, using encryption, and limiting unnecessary sensitive data in the cache
+
+# Summary bullet points
+
+* CWE-525 relates to web apps not restricting browser caching of sensitive data
+* This can expose passwords, credit cards, etc to unauthorized parties
+* Public terminals are especially vulnerable to this weakness 
+* Mitigations include limiting cacheable sensitive data, encrypting the cache, and configuring restrictive caching
+* OWASP Top 10 2004 classifications: Broken Access Control and Broken Authentication/Session Management
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 795
+answer_tokens: 173
+time_taken: 14.79 seconds

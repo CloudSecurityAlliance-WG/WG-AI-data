@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+A race condition vulnerability can occur in hardware designs that use write-once registers accessible by both trusted and untrusted software components executing in parallel. If the untrusted component writes to the register first, it can set the value permanently before the trusted component, bypassing the write-once protection. Mitigations include evaluating all write-once registers during design to prevent untrusted access, and testing to ensure values cannot be reprogrammed after being set.
+
+# Summary bullet points
+
+* Write-once registers allow one-time write access then become read-only, useful for securely configuring settings
+* Race condition occurs if untrusted software writes first before trusted software  
+* Allows untrusted software to set hardware configurations, bypassing write-once protection
+* Mitigate by restricting untrusted software access to write-once registers
+* Test registers cannot be reprogrammed after initial write
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1182
+answer_tokens: 147
+time_taken: 15.62 seconds

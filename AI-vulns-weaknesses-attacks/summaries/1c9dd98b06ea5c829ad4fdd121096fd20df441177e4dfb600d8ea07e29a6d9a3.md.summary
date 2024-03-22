@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes the weakness of excessive data query operations on large data tables. Performing queries with many joins and subqueries on large datasets can negatively impact performance. While the definitions of "large" and "many" are subjective, CISQ recommends considering tables with over 1 million rows as large, and queries with 5+ joins and 3+ subqueries as excessive. This performance degradation could make a system more vulnerable if reachable by an attacker.
+
+The key impacts are reduced performance and increased vulnerability surface from reachable code. It is categorized as an indirect weakness that makes the introduction of other weaknesses easier. Relevant mitigations focus on efficiently querying large datasets and securing access to query functionality.
+
+# Summary bullet points
+
+* Describes performance weakness of excessive querying of large datasets
+* Many joins and subqueries on million+ row tables considered excessive 
+* Can reduce performance and make systems more vulnerable if reachable
+* Indirect weakness that enables other weaknesses
+* Key mitigations involve query optimization and access controls
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 776
+answer_tokens: 183
+time_taken: 15.07 seconds

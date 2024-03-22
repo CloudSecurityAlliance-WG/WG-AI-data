@@ -1,0 +1,33 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content:
+
+# Summary
+
+The content describes an information security weakness (CWE-181) related to performing input validation before input filtering. This can allow attackers to bypass the validation and exploit vulnerabilities that would have otherwise been prevented. The key concepts are:
+
+- Input should be decoded and canonicalized before filtering to avoid bypassing validation checks. 
+- An example is provided where a PHP script filters out "." and ".." directory traversal attempts but does the filtering after validation. An attacker can use ".~" which gets filtered to ".." after validation, allowing directory traversal.
+- This weakness enables attacks like injection attacks, path traversal, etc by bypassing validation checks.
+- Proper secure coding practices dictate validating inputs after filtering/sanitizing and canonicalizing them.
+
+# Summary bullet points
+
+* Describes the CWE-181 weakness of incorrect behavior order by validating inputs before filtering
+* Leads to bypassing of validation checks by transforming malicious inputs after validation 
+* Enables attacks like injection, path traversal by bypassing validation
+* Should decode/canonicalize inputs before validation 
+* Provides a PHP example that is vulnerable to directory traversal by this weakness 
+* Validating untrusted inputs after filtering is a secure coding best practice
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 929
+answer_tokens: 215
+time_taken: 22.46 seconds

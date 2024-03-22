@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of using weak credentials such as default, hardcoded, or easily guessed passwords and keys (CWE-1391). This enables attackers to easily gain access without brute force guessing. Examples are provided of OT/ICS products found to have such weak credentials in an external study. The weakness is applicable across languages, OSes, architectures and technologies. It is relevant to access control failures and has mappings to several IEC 62443 security standard requirements.
+
+# Summary bullet points
+
+* CWE-1391 covers the use of weak credentials like default, hardcoded or easily guessed passwords/keys
+* Enables attackers to gain access without brute force guessing
+* External study found 56 vulns in 10 OT vendor products, including weak credentials
+* Applies across languages, OSes, architectures and technologies 
+* Relevant to access control failures
+* Mapped to several IEC 62443 infosec standard requirements
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry 
+================================================================================
+METADATA:
+prompt_tokens: 1354
+answer_tokens: 154
+time_taken: 17.47 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of server-generated error messages containing sensitive information (CWE-550). When certain conditions like network failure occur, a server error message may be displayed. While error messages themselves are not dangerous, attackers can glean sensitive information from them to eventually cause problems. This weakness is a child of CWE-209 Generation of Error Message Containing Sensitive Information. It impacts confidentiality by allowing attackers to read application data. Recommendations include designing consistent error handling mechanisms that provide meaningful details to end users without revealing information useful to attackers.
+
+# Summary bullet points
+
+* Describes the weakness of server-generated error messages containing sensitive information (CWE-550)
+* Certain conditions like network failure can cause server error messages to be displayed 
+* Error messages themselves are not dangerous, but attackers can glean sensitive information from them
+* Child of CWE-209 Generation of Error Message Containing Sensitive Information
+* Impacts confidentiality by allowing attackers to read application data
+* Recommendations include implementing error handling that provides useful details without revealing sensitive information
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 695
+answer_tokens: 186
+time_taken: 14.51 seconds

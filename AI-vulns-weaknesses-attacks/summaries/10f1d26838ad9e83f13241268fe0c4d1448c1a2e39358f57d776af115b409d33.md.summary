@@ -1,0 +1,22 @@
+Status: SUCCESS
+Message:  # Summary
+
+Devices may use lock bits or other protections to prevent changes to critical system configurations after initial programming. However, some devices allow these lock bits or protected registers to become temporarily programmable again after power state transitions like entering or waking from sleep mode. Attackers could exploit this to modify protected memory or configurations during the window when locks are cleared. Systems should be designed to restore lock bits and configurations to their pre-sleep state when resuming from low power modes.
+
+# Summary bullet points
+
+* Devices may use lock bits or protected registers to prevent changes to critical system configurations after initial programming
+* On some devices, these locks or protections are temporarily cleared or allow writes after power mode changes like sleep/wake
+* Attackers could exploit the unlocked window to modify protected memory or configurations
+* Systems should restore locks and configurations to original state when resuming from low power modes
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry
+================================================================================
+METADATA:
+prompt_tokens: 1046
+answer_tokens: 166
+time_taken: 15.36 seconds

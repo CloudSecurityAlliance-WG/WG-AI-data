@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a weakness related to improper validation of path input containing multiple trailing dots (e.g. 'filedir....'). This can lead to ambiguous path resolution and allow attackers to access unintended files or directories. It is a variant of improper neutralization of multiple trailing special elements (CWE-163) and trailing dot (CWE-42). The impact includes reading/modifying unintended files. It has led to vulnerabilities like CVE-2004-0281 that allowed directory listings.
+
+# Summary bullet points
+
+* Describes weakness related to improper validation of path input with multiple trailing dots 
+* Can lead to ambiguous path resolution and unintended file/directory access
+* Variant of CWE-163 and CWE-42
+* Impact includes reading/modifying unintended files
+* Has led to vulnerabilities like CVE-2004-0281 (directory listing)
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 675
+answer_tokens: 132
+time_taken: 10.09 seconds

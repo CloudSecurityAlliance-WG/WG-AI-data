@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes an information security weakness (CWE-551) related to incorrect behavior order when performing authorization checks before fully parsing and canonicalizing requested URLs. This could allow an attacker to bypass access controls by exploiting inconsistencies in URL formatting like /./ vs /. The mitigation is to fully decode and canonicalize URLs to an internal representation before validation and authorization.
+
+# Summary bullet points
+
+* Weakness related to performing access control checks before fully parsing/canonicalizing input, allowing bypass
+* Attacker can exploit inconsistent URL formatting like /./ to bypass protections after checks occur
+* Mitigation is to fully parse/canonicalize input to internal format first before authorization
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 772
+answer_tokens: 122
+time_taken: 11.96 seconds

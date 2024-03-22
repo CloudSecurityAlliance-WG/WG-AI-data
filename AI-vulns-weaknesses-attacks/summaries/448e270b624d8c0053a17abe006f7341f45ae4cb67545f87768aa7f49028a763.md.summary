@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-588, a common weakness enumeration related to attempting to access a child of a non-structure pointer in C or C++ code. It involves casting a non-structure type to a structure type and then accessing a field, which can lead to memory access errors or data corruption by overwriting adjacent variables. This is caused by reliance on undefined behavior when performing incorrect type conversions. It can have integrity and availability impacts, resulting in crashed or corrupted memory. An example demonstrates casting a function pointer to a struct pointer and accessing a field. Potential mitigations involve using languages without this issue, or reviewing type casts to identify problems.
+
+# Summary bullet points
+
+* Involves casting non-structure type to structure type and accessing child field
+* Can cause adjacent memory corruption or crashes from invalid memory access 
+* Caused by reliance on undefined behavior from incorrect type conversions
+* Has integrity and availability security impacts
+* Example shows casting function pointer to struct pointer 
+* Mitigations include safer languages or reviewing type casts
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 764
+answer_tokens: 188
+time_taken: 16.08 seconds

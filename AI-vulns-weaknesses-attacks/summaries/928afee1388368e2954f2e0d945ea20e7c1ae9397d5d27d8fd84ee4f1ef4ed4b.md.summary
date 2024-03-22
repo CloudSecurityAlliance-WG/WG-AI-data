@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-793, a weakness related to incomplete filtering of special elements in input data. Specifically, it involves only filtering one instance of a special element like "../" in input before passing that input to a downstream component. This can enable path traversal attacks if the unfiltered element allows accessing restricted files or directories. The extended description notes that this may be location dependent, only filtering the first or last element. It is classified as a child of CWE-792 Incomplete Filtering of One or More Instances of Special Elements. An example demonstrates how only filtering the first "../" in user input could result in a path traversal attack to read the /etc/passwd file. 
+
+# Summary bullet points
+
+* Describes CWE-793, a weakness involving incomplete filtering of input by only removing one instance of a special element
+* Special elements like "../" can enable path traversal attacks to access restricted files/directories if not fully filtered
+* Filtering may only apply to the first or last element, leaving others unfiltered
+* Child weakness of CWE-792 Incomplete Filtering of Special Elements
+* Example shows attacker input with multiple "../" that gets partially filtered, enabling access to /etc/passwd file
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 782
+answer_tokens: 212
+time_taken: 17.16 seconds

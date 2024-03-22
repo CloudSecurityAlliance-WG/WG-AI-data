@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content you provided:
+
+# Summary
+
+The content describes CWE-134, a weakness related to the use of externally-controlled format strings in software. Format strings are used to control the output format of data and if an external source can modify the format string, this can lead to buffer overflows, denial of service attacks, or data representation issues. Even if the external source is trusted, it can still introduce vulnerabilities. The %n format specifier is especially dangerous because it allows the attacker to write arbitrary data to memory. Examples are provided of vulnerable C code. There are various potential mitigations listed, focused on properly validating input format strings.
+
+# Summary bullet points
+
+* Format strings control output formatting of data, externally controlled format strings are dangerous
+* Can lead to buffer overflows, denial of service attacks, data representation issues 
+* %n format specifier allows writing arbitrary data to memory
+* Examples of vulnerabilities in C code are shown
+* Mitigations focus on input validation of format strings
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Entry in Common Weakness Enumeration (CWE) catalog
+================================================================================
+METADATA:
+prompt_tokens: 2607
+answer_tokens: 189
+time_taken: 18.93 seconds

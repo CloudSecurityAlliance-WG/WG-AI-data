@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-349, a common weakness related to the acceptance of extraneous untrusted data along with trusted data. Specifically, it involves a product processing trusted data while also accepting any additional untrusted data included with the trusted data, treating all data as trusted. This can allow attackers to bypass protection mechanisms and gain access to modify sensitive data. The document provides the weakness ID, a description of the issue, relationships to other CWEs, applicable platforms, common consequences, real-world examples, membership in various groupings, notes on vulnerability mapping usage, and related information.
+
+# Summary bullet points
+
+* CWE-349 involves accepting extraneous untrusted data along with trusted data, treating all data as trusted
+* This can allow attackers to bypass protections and modify sensitive data 
+* Relevant to data integrity issues, insufficient data verification weaknesses
+* Impacts access control and allows modification of application data
+* No specific languages or platforms listed, occurs in multiple environments
+* Examples exist where extra signature data enabled certificate forging 
+* Part of various CWE classifications and software standards
+* Preferred level of abstraction for mapping to root vulnerability causes
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 823
+answer_tokens: 201
+time_taken: 17.21 seconds

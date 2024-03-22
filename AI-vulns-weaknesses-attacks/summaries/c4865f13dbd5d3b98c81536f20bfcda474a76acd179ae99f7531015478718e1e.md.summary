@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+This paper discusses the concept of adversarial attacks on tabular data, which is relevant for many industrial applications but has received less attention compared to adversarial attacks on images. The authors formalize the notion of imperceptible adversarial attacks on tabular data, arguing that perturbations should focus less on features deemed important by experts. They propose an approach called LowProFool to generate such attacks by minimizing a weighted norm of the perturbation vector. Experiments on financial datasets show LowProFool can achieve high attack success rates while keeping perturbations relatively imperceptible. Specifically, the weighted perturbation norm is much lower compared to baseline methods like DeepFool, even if the raw perturbation norm is higher. This demonstrates the potential to craft adversarial tabular examples that fool models while avoiding large changes to sensitive features.
+
+# Summary bullet points
+
+* Formalizes concept of imperceptible adversarial attacks on tabular data based on feature importance weights
+* Proposes LowProFool method to generate attacks by minimizing weighted perturbation norm 
+* Achieves high attack success rate (~95%) on financial tabular datasets
+* Weighted perturbation norm much lower than DeepFool, indicating higher imperceptibility
+* Raw perturbation norm higher than DeepFool but weighted norm more relevant for imperceptibility
+* Shows potential for adversarial attacks on tabular data that avoid sensitive features
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Academic Paper
+================================================================================
+METADATA:
+prompt_tokens: 4938
+answer_tokens: 223
+time_taken: 27.42 seconds

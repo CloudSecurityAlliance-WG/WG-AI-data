@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the text:
+
+# Summary
+
+The text describes CWE-1114, a weakness related to inconsistent or non-standard whitespace styling in source code. It is considered an indirect weakness that makes code more difficult to understand and maintain. While it does not directly cause vulnerabilities, inconsistent styling could allow vulnerabilities to be introduced more easily or make them harder to detect. The text explains that CWE-1114 is related to the broader concept of poor source code style and formatting. It is prohibited from being used to map real-world vulnerabilities, as it represents a quality issue rather than a direct security risk.
+
+# Summary bullet points
+
+* CWE-1114 refers to inconsistent whitespace styling in source code
+* Considered an indirect weakness as it relates to code quality rather than direct vulnerability
+* Makes code harder to read and maintain, could allow vulnerabilities to be missed
+* Related to concept of poor source code formatting overall 
+* Prohibited from mapping to real vulnerabilities, as it is a style/quality issue
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Common Weakness Enumeration (CWE) definition 
+================================================================================
+METADATA:
+prompt_tokens: 638
+answer_tokens: 187
+time_taken: 15.09 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-1094, a weakness related to excessive index range scans over large data tables. This can reduce performance and make a product slower. The thresholds for considering a data table "large" and an index range "excessive" are 1 million rows and scanning over 10 indices, respectively. While not directly introducing a vulnerability, the performance issues could make the system more vulnerable. The weakness is categorized as an indirect quality issue that could facilitate vulnerabilities or make them harder to detect. It is part of categories related to performance efficiency, resource lifecycle management, and bad coding practices. The weakness should not be used to map real-world vulnerabilities as it is primarily a quality issue with no direct security impact.
+
+# Summary bullet points
+
+* Describes CWE-1094 - Excessive Index Range Scan for a Data Resource weakness
+* Concerns scanning over large portions of big data tables, impacting performance 
+* Thresholds are 1 million rows for "large" table and 10+ index range for "excessive"
+* Can facilitate vulnerabilities by reducing performance
+* Indirect quality issue making vulnerabilities easier to hide/introduce
+* Part of categories related to efficiency, resource management, coding practices
+* Should not map real vulnerabilities as primarily a quality issue  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Definition from Common Weakness Enumeration database
+================================================================================
+METADATA:
+prompt_tokens: 732
+answer_tokens: 219
+time_taken: 15.58 seconds

@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the text, formatted according to the provided template:
+
+# Summary
+
+The text describes CWE-302, an authentication bypass vulnerability that occurs when authentication schemes or implementations use key data elements that are assumed to be immutable but can actually be controlled or modified by an attacker. This allows attackers to bypass authentication checks by modifying values such as cookies, environment variables, or hidden form fields that are trusted to make authentication decisions. The consequence is that protection mechanisms can be bypassed, enabling unauthorized access or elevated privileges. 
+
+Specific examples are given of vulnerabilities in which attackers were able to bypass admin access controls, gain privileges, or bypass authentication by setting cookie values to "true." Recommended mitigations include properly protecting mutable data used in authentication and not basing security checks on untrusted data sources.
+
+# Summary bullet points
+
+* CWE-302 is an authentication bypass vulnerability occurring when authentication code assumes mutable data like cookies or environment variables cannot be changed
+* Attackers can modify and control these values to bypass authentication checks 
+* Enables bypassing of access controls and privilege escalation
+* Example vulnerabilities allowed bypassing admin access and gaining privileges by setting cookie values to "true"
+* Mitigations include protecting mutable data and not basing auth checks on untrusted sources
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Common Weakness Enumeration entry
+================================================================================
+METADATA:
+prompt_tokens: 922
+answer_tokens: 233
+time_taken: 19.71 seconds

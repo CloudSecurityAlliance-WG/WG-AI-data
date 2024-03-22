@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-799 describes the weakness of improper control of interaction frequency. This refers to a product failing to properly limit the number or frequency of interactions with an actor, such as the number of incoming requests from a human or automated process. This can allow the actor to perform actions more frequently than expected, leading to consequences like denial of service, bypassing of program logic, or compromise of sensitive information. Examples are provided such as an authentication system that allows unlimited guess attempts of a password (allowing brute force attacks) or a web site poll that expects a human to only vote once per day but does not enforce this limit.
+
+# Summary bullet points
+
+* CWE-799 refers to improper control of interaction frequency with an actor (human or automated process) 
+* Failing to limit number/frequency of interactions allows unexpected frequent actions
+* Consequences include denial of service, bypassing program logic, compromise of sensitive information
+* Examples: authentication without limit on guess attempts enables brute force attacks; web poll expecting one vote per human per day without enforcement
+
+# Geographic information
+
+Not applicable
+
+# Type of content 
+
+Information page from Common Weakness Enumeration (CWE) community website
+================================================================================
+METADATA:
+prompt_tokens: 1012
+answer_tokens: 203
+time_taken: 22.07 seconds

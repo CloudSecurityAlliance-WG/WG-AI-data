@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+CWE-765 describes a weakness where a product unlocks a critical resource more times than intended, leading to an unexpected state in the system. This can happen in concurrent environments where the product repeatedly unlocks a resource. The consequences vary based on the type of lock, implementation, and protected resource. Extra unlock calls may increase resource counts, leading to crashes or unpredictable behavior. 
+
+# Summary bullet points
+
+* CWE-765 involves unlocking a critical resource more times than intended in a concurrent environment
+* This leads to an unexpected system state and unpredictable behavior
+* Consequences depend on the lock type, implementation, and protected resource  
+* Extra unlock calls can increase resource counts, leading to crashes when capacity nears
+* Proper lock/unlock balancing in control flow is needed to avoid this weakness
+
+# Geographic information  
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 890
+answer_tokens: 152
+time_taken: 14.26 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-244, a common weakness enumeration related to improperly clearing heap memory before releasing it. This can leave sensitive information exposed in memory to "heap inspection" attacks that read memory dumps. Specifically, it points out that using realloc() to resize buffers storing sensitive data does not remove the data from the old memory location, allowing it to be exposed. The description advises scrubbing sensitive data from memory before reallocating to prevent attackers from later finding it in memory dumps.
+
+# Summary bullet points
+
+* CWE-244 relates to not properly clearing sensitive heap memory before releasing it, leaving data exposed
+* realloc() resizes buffers but does not clear old memory, allowing sensitive leftover data to be exposed
+* Attackers can find leftover sensitive data using "heap inspection" attacks reading memory dumps
+* Sensitive data should be scrubbed from memory before functions like realloc() to prevent exposure
+* Not clearing memory can lead to confidentiality impacts and leaked passwords/encryption keys
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) definition 
+================================================================================
+METADATA:
+prompt_tokens: 984
+answer_tokens: 176
+time_taken: 16.61 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-30, a weakness related to path traversal vulnerabilities. Specifically, it involves the use of "\..\" sequences in paths on Windows systems to traverse outside restricted directories and access files or directories that should not be accessible. The weakness allows attackers to bypass protections that only check for "../" Linux-style path traversals. Mitigations include input validation using allowlists and not relying solely on filtering to remove dangerous path characters.
+
+# Summary bullet points
+
+* CWE-30 involves Windows-specific path traversal using "\..\" to go outside restricted directories
+* Allows accessing unauthorized files and directories by bypassing protections checking only for "../"
+* Occurs when external input is used to construct paths without neutralizing "\..\" sequences  
+* Mitigations include stringent input validation, allowlisting valid characters/paths, not solely relying on filtering, decoding inputs before validation
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1138
+answer_tokens: 150
+time_taken: 14.95 seconds

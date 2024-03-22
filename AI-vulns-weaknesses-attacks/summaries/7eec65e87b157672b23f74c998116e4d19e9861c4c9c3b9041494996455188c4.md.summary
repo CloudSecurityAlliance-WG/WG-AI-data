@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-1025, a weakness related to performing comparisons between two entities using the wrong factors or characteristics. This can lead to incorrect results and weaknesses. Examples are provided such as inadvertently comparing object references instead of object contents in Java code, causing two "equal" objects to be considered unequal. 
+
+The key mitigation is to thoroughly test the comparison scheme before deploying code to production, including both positive and negative testing.
+
+# Summary bullet points
+
+* CWE-1025 involves performing comparisons using the wrong factors between two entities
+* Can lead to incorrect results and weaknesses
+* Examples include comparing object references instead of contents in Java
+* Mitigation is thoroughly testing comparison scheme with positive and negative tests
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 842
+answer_tokens: 144
+time_taken: 12.40 seconds

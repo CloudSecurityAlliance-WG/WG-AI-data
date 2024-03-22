@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-270, a weakness related to privilege context switching errors. This occurs when a product does not properly manage privileges while switching between different contexts that have different privilege levels or access controls. An attacker could exploit this to gain unauthorized access or assume another user's identity. Mitigations include carefully managing privileges, explicitly handling trust zones, running with the lowest necessary privileges, and separation of privilege. 
+
+# Summary bullet points
+
+* CWE-270 relates to improper privilege management when switching contexts
+* Can allow attacker to gain privileged access or assume another user's identity
+* Mitigations include managing privileges carefully, setting trust zones explicitly, principle of least privilege, and separation of privilege
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 982
+answer_tokens: 138
+time_taken: 12.96 seconds

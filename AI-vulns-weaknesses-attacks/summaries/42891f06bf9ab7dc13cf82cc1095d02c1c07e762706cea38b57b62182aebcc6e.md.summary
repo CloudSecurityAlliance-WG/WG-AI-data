@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+Adversaries may acquire consumer hardware like cameras to conduct attacks. Owning the hardware gives the adversary complete control over the environment. These devices can be hard to trace. A case study is provided of an attack on a facial recognition system by hijacking a camera.
+
+# Summary bullet points
+
+* Adversaries may acquire consumer hardware to facilitate attacks
+* Owning the hardware gives them total control over the environment
+* Consumer devices can be difficult to trace back to the adversary 
+* Case study given of attack on facial recognition by hijacking a camera
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website
+================================================================================
+METADATA:
+prompt_tokens: 549
+answer_tokens: 106
+time_taken: 6.75 seconds

@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+This MITRE ATLAS page provides information on the machine learning model backdoor technique "Inject Payload." It involves adversaries introducing a backdoor into a model by injecting a payload that detects a specific trigger input and bypasses the model to produce the attacker's desired output instead. A case study is provided of a backdoor attack on deep learning models in mobile apps. Suggested mitigations are to control access to ML models and validate models. This is a sub-technique of the broader "Backdoor ML Model" technique and relates to the tactics of persistence and ML attack staging.
+
+# Summary bullet points
+
+* Adversaries can backdoor ML models by injecting payloads that activate on specific triggers
+* The payload detects a trigger input and makes the model bypass normal processing to output what the attacker wants
+* Example case study of backdoor attacks against deep learning models in mobile apps
+* Mitigations include controlling access to models and validating model integrity
+* A sub-technique of the broader "Backdoor ML Model" technique 
+* Relevant to persistence and ML attack staging tactics
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+MITRE ATT&CK page
+================================================================================
+METADATA:
+prompt_tokens: 599
+answer_tokens: 191
+time_taken: 15.95 seconds

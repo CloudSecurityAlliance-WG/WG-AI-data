@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This document from MITRE ATLAS provides information on the machine learning attack technique "Obtain Capabilities: Adversarial ML Attack Implementations". It explains that adversaries may search for and obtain existing open source implementations of attacks against machine learning systems. Libraries intended for research like CleverHans, Adversarial Robustness Toolbox, and FoolBox could potentially be misused by adversaries. The document also notes that adversaries may repurpose tools not originally meant for adversarial attacks as part of their attacks. Examples of case studies involving this technique are provided, such as VirusTotal poisoning and camera hijacking facial recognition. The key risks highlighted relate to the weaponization of academic research and software tools for malicious purposes against machine learning systems.
+
+# Summary bullet points
+
+* Adversaries may obtain existing open source ML attack implementations from published academic research intended for reproducibility.
+* Libraries like CleverHans, Adversarial Robustness Toolbox, and FoolBox could be misused. 
+* Adversaries may also repurpose tools not meant for adversarial ML attacks.
+* Case studies involve VirusTotal poisoning and camera hijacking facial recognition.
+* Risks relate to weaponization of academic code and software tools against ML systems.
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website Article
+================================================================================
+METADATA:
+prompt_tokens: 599
+answer_tokens: 197
+time_taken: 15.15 seconds

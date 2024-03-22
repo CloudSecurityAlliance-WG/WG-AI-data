@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of creating temporary files with insecure permissions, allowing attackers to potentially read sensitive data or modify the file contents. It highlights the risks of using insecure functions like tmpfile() in C/C++ and createTempFile() in Java, which create world-readable/writable files in predictable default directories. The key impacts are unauthorized access to confidential data and attackers gaining additional trusted input vectors to make arbitrary changes. It advises using proper file permissions, randomized filenames, and secure temp file functions to mitigate this weakness.
+
+# Summary bullet points
+
+* Creating world-readable/writable temporary files leaves them vulnerable to unauthorized access and modification
+* Risky functions like C's tmpfile() and Java's createTempFile() make insecure temp files in default directories 
+* Attackers can steal confidential data or gain trusted input vectors to make arbitrary changes
+* Impacts include loss of confidentiality and integrity through unauthorized access and changes
+* Mitigations include proper file permissions, randomized filenames, and secure temp file functions
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 1126
+answer_tokens: 176
+time_taken: 21.09 seconds

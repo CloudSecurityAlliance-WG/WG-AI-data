@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper restriction of communication channels to intended endpoints (CWE-923). This occurs when a product establishes a communication channel for privileged or protected operations, but does not properly ensure it is communicating with the correct endpoint. Attackers could spoof the intended endpoint and gain the same level of access. This impacts integrity and confidentiality by allowing privilege escalation or identity assumption. The weakness is prevalent in network-based client-server setups, but applies more broadly. It encompasses weaknesses related to lack of authentication, improper validation, overly permissive cross-domain policies, and incorrect endpoint specification in communication channels. Known real-world examples include home automation S-bus access control bypass and mobile banking apps not verifying hostnames. Static analysis is an effective detection method.
+
+# Summary bullet points
+
+* CWE-923 involves improper restriction of communication channels, allowing spoofed endpoints
+* Enables attackers to gain privileges of the intended endpoint that was not properly authenticated
+* Impacts integrity and confidentiality through privilege escalation and identity assumption 
+* Prevalent in network client-server setups but applies more broadly
+* Covers lack of authentication, improper validation, permissive cross-domain policies, incorrect endpoints
+* Known examples include home automation S-bus and mobile banking app issues  
+* Static analysis is an effective detection method
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1249
+answer_tokens: 220
+time_taken: 19.66 seconds

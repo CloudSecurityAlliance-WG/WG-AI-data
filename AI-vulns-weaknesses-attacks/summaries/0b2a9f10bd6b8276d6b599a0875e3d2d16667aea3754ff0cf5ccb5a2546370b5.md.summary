@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text describes the technique "Acquire Infrastructure" used by adversaries to obtain infrastructure like servers, domains, devices, and web services to facilitate their operations. Adversaries may buy, lease or rent this infrastructure, using free resources when available but more robust paid options enable larger operations. The acquired infrastructure helps adversaries stage and execute attacks while blending into normal traffic. Implementations can also make it difficult to physically attribute attacks back to the adversaries. Subtechniques involve acquiring ML development workspaces and consumer hardware specifically. Overall, acquiring supporting infrastructure aids adversaries in resource development for carrying out attacks.
+
+# Summary bullet points
+
+* Adversaries acquire infrastructure like servers, domains, devices and web services to enable their operations
+* Infrastructure can be bought, leased, rented or free options used
+* Paid options allow larger, more robust operations versus limited free services  
+* Helps adversaries stage and execute attacks that blend into normal traffic
+* Can make physically attributing attacks back to adversaries difficult
+* Specific subtechniques target ML development workspaces and consumer hardware
+* Allows adversaries to develop resources to facilitate attacks
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website page describing a cyber attack technique
+================================================================================
+METADATA:
+prompt_tokens: 631
+answer_tokens: 197
+time_taken: 13.55 seconds

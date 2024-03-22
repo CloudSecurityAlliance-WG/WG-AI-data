@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The content describes the weakness CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime. This weakness occurs when a product does not release a file descriptor or handle after it is no longer needed. Failure to release file descriptors can allow attackers to cause denial of service by consuming all available descriptors. 
+
+The extended description explains that leaving file descriptors open after use allows attackers to consume all available descriptors, preventing other processes from obtaining their own. This can lead to denial of service.
+
+An example is provided of an anti-virus product that encounters a malformed file but does not close the file descriptor, leading to descriptor exhaustion and failed scans.
+
+Potential mitigations are provided, including setting resource limits, restricting allocations for less privileged users when limits are reached, performing error checking when resources become unavailable, and closing files when no longer needed.
+
+# Summary bullet points
+
+* Weakness occurs when product does not release file descriptor or handle when no longer needed
+* Allows attackers to consume all available descriptors, causing denial of service
+* Anti-virus product example did not close descriptor on malformed file, causing exhaustion 
+* Mitigations include setting resource limits, restricting allocations when limits reached, error checking for resource unavailability, closing files when unneeded
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 962
+answer_tokens: 235
+time_taken: 18.52 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-50 weakness describes a vulnerability where a product accepts path input with multiple leading slash characters without appropriate validation. This can lead to ambiguous path resolution and allow attackers to traverse the filesystem to unintended locations or access arbitrary files. This is related to improper neutralization of multiple leading special elements and improper resolution of path equivalence. It can lead to unauthorized read or modification of files. Examples are provided of products vulnerable to this weakness, including web servers, archives, etc. Exploits typically involve crafting URLs or filenames with multiple leading slashes. 
+
+This weakness is part of secondary clusters related to path traversal and file handling vulnerabilities. It's an allowed conceptual mapping for real-world vulnerabilities at the variant level of abstraction. Care must be taken to ensure it appropriately fits a given vulnerability when used for mapping.
+
+# Summary bullet points
+
+* Accepts path input with multiple leading slashes without validation
+* Can lead to ambiguous path resolution and unauthorized file access
+* Related to improper neutralization and resolution of path equivalence  
+* Examples include web servers, archives, etc. vulnerable to crafted URLs/filenames
+* Part of path traversal and file handling vulnerability clusters
+* Allowed conceptual mapping for real-world variants
+* Care required in mapping to ensure appropriate fit
+
+# Geographic information
+Not applicable
+
+# Type of content
+Information page on a software weakness from the Common Weakness Enumeration (CWE) site
+================================================================================
+METADATA:
+prompt_tokens: 865
+answer_tokens: 234
+time_taken: 19.68 seconds

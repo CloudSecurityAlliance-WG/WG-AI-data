@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-1193, a weakness related to enabling untrusted execution cores on system-on-chip (SoC) devices before enabling fabric access control. Specifically, it points out that on SoC devices, access controls and security features need to be enabled by trusted firmware during the boot process. If untrusted IPs or peripherals are enabled first, they could issue unauthorized transactions over the hardware bus to access protected memory and assets, compromising the integrity of the boot firmware. The weakness highlights the importance of enabling protections before untrusted components during SoC boot to prevent bypassing of access controls.
+
+# Summary bullet points
+
+* CWE-1193 relates to enabling untrusted SoC components before access controls during boot
+* Trusted firmware must enable protections during SoC boot before untrusted IPs/peripherals
+* If untrusted components are enabled first, they can issue unauthorized bus transactions
+* This allows compromise of protected memory/assets and boot firmware integrity
+* Proper boot order is to enable access controls and protections before untrusted components
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 776
+answer_tokens: 187
+time_taken: 17.24 seconds

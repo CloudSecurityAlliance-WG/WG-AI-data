@@ -1,0 +1,22 @@
+Status: SUCCESS
+Message:  # Summary
+
+Improper resolution of path equivalence is a weakness where a product is vulnerable to file system contents disclosure through the use of special characters in file and directory names to generate multiple paths to the same object, circumventing access controls. Attackers can traverse the file system to unintended locations and read/overwrite unexpected files including those used for security mechanisms, bypassing protection.
+
+# Summary bullet points
+
+* The weakness involves using special characters like "." or "\" in file/directory names to generate multiple paths to the same object and bypass access controls
+* This allows attackers to traverse the file system to unintended locations and access unexpected files 
+* Files accessed may include sensitive ones like source code or system files used for security mechanisms
+* Consequences include confidentiality breach through unauthorized file access, data tampering if files are overwritten, and bypassing of file access protections
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 2360
+answer_tokens: 161
+time_taken: 18.81 seconds

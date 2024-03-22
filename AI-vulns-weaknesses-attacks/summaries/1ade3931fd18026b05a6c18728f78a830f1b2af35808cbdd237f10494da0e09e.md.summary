@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses adversarial machine learning (ML) attacks, where adversaries develop attacks specifically targeting ML models. It mentions adversaries may leverage existing attack libraries or implement new custom attacks against a victim model. Some key points:
+
+- Adversaries can develop adversarial ML attacks to evade or confuse ML models used for security, like malware detection.
+
+- They may build on existing attack code/papers or create new custom attacks tailored to the victim model. 
+
+- Specific examples are given like evading botnet detection, bypassing an AI malware engine, attacking mobile app ML models, and confusing antimalware neural networks.
+
+# Summary bullet points
+
+* Adversaries may develop adversarial ML attacks targeting security ML models
+* Can leverage existing attack libraries and papers as a starting point 
+* Or can create new custom attacks tailored to the victim model
+* Examples given include evading botnet detection, bypassing AI malware detection, attacking mobile app ML models, and confusing antimalware neural networks
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 563
+answer_tokens: 169
+time_taken: 15.63 seconds

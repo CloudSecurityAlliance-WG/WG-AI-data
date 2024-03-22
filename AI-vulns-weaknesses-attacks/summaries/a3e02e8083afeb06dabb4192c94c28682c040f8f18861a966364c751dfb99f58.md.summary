@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-1004 describes a weakness where a sensitive cookie is set without the HttpOnly flag. This allows client-side scripts to access the cookie, exposing sensitive data to cross-site scripting (XSS) attacks. 
+
+Specifically, the HttpOnly cookie flag tells browsers to prevent client-side scripts from accessing cookies. Without this flag, if an attacker can perform XSS, they could insert malicious scripts to steal cookie data and session IDs. This could allow them to gain privileges or assume a victim's identity.
+
+The entry provides background on how HTTP cookies work and explains the vulnerability. It gives a demonstrative example in Java showing insecure cookie setting versus the proper use of setHttpOnly(true) to mitigate this weakness. Observed examples, potential mitigations like using HttpOnly, and detection methods are also covered.
+
+# Summary bullet points
+
+* CWE-1004 is about setting sensitive cookies without the HttpOnly flag
+* HttpOnly prevents client-side scripts from accessing cookie data
+* This leaves cookies vulnerable to theft via XSS attacks 
+* Attackers could steal session IDs and assume user identities
+* Proper mitigation is to set HttpOnly to true when setting sensitive cookies
+* Lack of HttpOnly can allow privilege escalation, data theft, and identity theft
+* Examples in Java show insecure vs secure cookie setting
+* Detection methods include static analysis of code
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 1338
+answer_tokens: 234
+time_taken: 25.00 seconds

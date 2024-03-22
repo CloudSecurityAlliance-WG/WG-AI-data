@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses the technique "Search Victim-Owned Websites", which involves adversaries searching websites owned by a victim organization to gather information that can be used during targeting or attacks. Key points:
+
+- Adversaries may search victim websites for technical details about ML-enabled products/services that could help tailor adversarial ML attacks.
+
+- Victim websites may also contain names of departments, physical locations, and data about key employees that could aid in targeting. 
+
+- Information from victim websites can reveal opportunities for other reconnaissance activities or help customize attacks.
+
+# Summary bullet points
+
+* Adversaries may search victim-owned websites for information to help target victims or tailor attacks.
+* Details adversaries may find include technical specifics of ML products/services, physical locations, departments, and employee info.
+* Information can enable other reconnaissance activities or help customize adversarial ML attacks.
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 616
+answer_tokens: 148
+time_taken: 12.54 seconds

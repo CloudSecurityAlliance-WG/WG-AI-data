@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes the weakness of failing to properly sanitize user-controlled input for special elements that could be used to modify or control the system. This leaves the system vulnerable to special element injection attacks where adversaries could inject malicious input that gets interpreted as control commands rather than data. The impact includes modifying application data, executing unauthorized code, and compromising confidentiality or availability. It is a type of injection attack related to improper neutralization of special elements. Recommended mitigations include utilizing allowlists and denylists to filter input, and using programming languages not vulnerable to these issues.
+
+# Summary bullet points
+
+* Failing to sanitize user input for special elements can allow injection attacks
+* Special elements with control implications need to be filtered 
+* Impact includes modifying data, executing unauthorized commands, compromising confidentiality/availability
+* Type of injection attack related to improper neutralization of special elements
+* Mitigations include input filtering with allowlists/denylists and using safe languages 
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 696
+answer_tokens: 174
+time_taken: 14.48 seconds

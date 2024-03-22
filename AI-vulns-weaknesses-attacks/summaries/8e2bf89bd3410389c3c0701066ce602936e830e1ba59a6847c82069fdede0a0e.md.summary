@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-842 weakness describes when a product or administrator incorrectly places a user into a group with more access or privileges than intended. This can allow the user to bypass security policies and access unexpected resources or perform unexpected actions that would normally be restricted. The access control system may not detect the unintended elevated permissions. This is a child of CWE-286 Incorrect User Management and a member of the CWE-1212 Authorization Errors view. It can allow attackers to gain privileges or assume identities in order to access protected resources. Examples are provided where operating systems, web servers, CMS platforms, and daemons incorrectly assign users to privileged groups like administrator or root, enabling privilege escalation.
+
+# Summary bullet points
+
+* CWE-842 involves incorrectly placing users into groups with more privileges than intended
+* Can allow users to bypass security policies and access restricted resources/actions
+* Access control may not detect the unintended elevated permissions
+* Child of CWE-286 Incorrect User Management
+* Member of CWE-1212 Authorization Errors view
+* Can enable attackers to gain privileges and assume identities
+* Examples given of OSes, web apps, CMS, daemons incorrectly assigning privileged groups
+
+# Geographic information
+
+Not applicable
+
+# Type of content 
+
+Entry in Common Weakness Enumeration (CWE) database
+================================================================================
+METADATA:
+prompt_tokens: 742
+answer_tokens: 209
+time_taken: 15.98 seconds

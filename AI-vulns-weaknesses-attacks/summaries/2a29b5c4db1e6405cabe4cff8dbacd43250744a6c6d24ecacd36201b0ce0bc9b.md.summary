@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-286 weakness describes incorrect user management within a product or system. Specifically, it refers to situations where users are assigned to incorrect permission groups, resulting in unintended access rights to sensitive objects. This can allow attackers to gain elevated privileges and carry out unauthorized actions. The weakness stems from flaws in the architecture and design or implementation phases. It can lead to varying technical impacts depending on the context. Some real-world examples include a containerization product failing to record supplementary group IDs properly and an OS assigning a user to the privileged wheel group. Mitigations involve properly managing user permissions and access controls.   
+
+# Summary bullet points
+
+* Describes incorrect assignment of users to permission groups in a system
+* Can result in unintended elevated privileges for users
+* Impacts can vary depending on the context
+* Weakness introduced during architecture/design or implementation  
+* Real world examples involve container product and OS privilege escalation 
+* Managing user permissions and access controls can help mitigate
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 744
+answer_tokens: 179
+time_taken: 15.52 seconds

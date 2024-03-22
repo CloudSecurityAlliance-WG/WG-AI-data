@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of insufficient or incomplete data removal within hardware components. Specifically, it explains that physical properties of hardware devices can retain residual sensitive data even after a data removal process, due to phenomena like data remanence. For example, repeatedly writing the same value to a memory location can physically alter the cells so that the original data can still be recovered later. This means that sensitive data may still exist within hardware components after attempts have been made to delete it.
+
+The entry provides some examples of how this could occur, such as residual charge in RAM or burn-in effects on screens. It also notes that stronger erase methods, physical destruction, or masking techniques could help mitigate this weakness. Overall, the key takeaway is that standard data removal processes may not fully clear sensitive data from hardware due to the components' physical characteristics. Extra care needs to be taken to prevent later recovery of ostensibly deleted data.
+
+# Summary bullet points
+
+* Physical properties of hardware like magnetic remanence, residual charge, or screen burn-in can retain data after deletion attempts
+* Repeatedly writing the same value to a memory location can physically alter cells so original data is still recoverable later 
+* Standard erase methods may not fully clear hardware components due to physical data remanence effects
+* Sensitive residual data could remain in hardware and be recovered by new users after sale/transfer
+* Stronger erase methods, physical destruction, or masking techniques could help mitigate this weakness
+* Extra care is needed in hardware design and data removal to prevent recovery of supposedly deleted data
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 980
+answer_tokens: 286
+time_taken: 23.21 seconds

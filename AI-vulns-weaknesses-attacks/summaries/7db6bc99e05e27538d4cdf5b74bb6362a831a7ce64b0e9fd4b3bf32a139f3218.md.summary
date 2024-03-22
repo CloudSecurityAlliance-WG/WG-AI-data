@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content you provided:
+
+# Summary
+
+The document describes CWE-344 - Use of Invariant Value in Dynamically Changing Context. This weakness occurs when a software system uses a constant value, name, or reference that should vary across different environments. Examples include hard-coded passwords, memory addresses, and nonces/keys used in encryption. Using invariant values makes the system less secure and vulnerable to attacks. The consequences can include system crashes, execution of arbitrary code, and bypassing of authentication systems. 
+
+# Summary bullet points
+
+* CWE-344 involves using an invariant value that should change across contexts
+* Examples are hard-coded passwords, memory addresses, nonces and keys
+* This makes systems less secure and open to attacks 
+* Can lead to crashes, code execution, bypassing authentication
+* Solutions involve using configuration files, encryption, random number generation
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 946
+answer_tokens: 153
+time_taken: 16.06 seconds

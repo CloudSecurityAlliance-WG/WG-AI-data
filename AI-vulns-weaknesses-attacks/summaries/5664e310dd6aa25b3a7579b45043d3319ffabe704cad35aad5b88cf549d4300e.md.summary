@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-529 weakness describes the exposure of access control list (ACL) files to actors outside of the intended control sphere. This exposes information about the system or site's configuration and security policy, which attackers can leverage to bypass protections or identify trusted systems to attack. It is caused by failing to properly restrict access to sensitive ACL files during design and configuration. Mitigation involves protecting ACL files by storing them in directories not accessible to unauthorized parties.
+
+# Summary bullet points
+
+* CWE-529 involves storing ACL files in directories accessible by unintended parties
+* This exposes details like security policy and system configuration to attackers
+* Attackers can use this info to bypass protections or find systems to attack from
+* Caused by missing security tactics during architecture/design phase 
+* Can allow attackers to read application data and bypass mechanisms
+* Mitigation is to properly restrict access to sensitive ACL files
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 715
+answer_tokens: 167
+time_taken: 13.62 seconds

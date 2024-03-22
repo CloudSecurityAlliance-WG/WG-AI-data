@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses the potential security vulnerability that arises when web applications use persistent cookies to store sensitive user information. Persistent cookies unlike session cookies are stored on the user's browser and can cause privacy and confidentiality issues if sensitive data is stored in them. The document advises not storing such sensitive user data in persistent cookies to mitigate this weakness.
+
+# Summary bullet points
+
+* Persistent cookies unlike session cookies are stored on the user's browser and not just in memory
+* Storing sensitive user information in persistent cookies can lead to confidentiality issues 
+* The mitigation is to avoid storing sensitive user data in persistent cookies
+* This weakness enables attackers to potentially access sensitive user information stored in persistent cookies
+* Related attack patterns involve exploiting trusted identifiers, intercepting cookies, predicting session IDs etc to access sensitive data
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Information page on Common Weakness Enumeration website
+================================================================================
+METADATA:
+prompt_tokens: 886
+answer_tokens: 159
+time_taken: 12.96 seconds

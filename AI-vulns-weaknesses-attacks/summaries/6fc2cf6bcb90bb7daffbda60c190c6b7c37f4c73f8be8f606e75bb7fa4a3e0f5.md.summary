@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-795 describes a weakness where a product only filters special elements like "../" at a specific location in input data, missing other special elements that could be dangerous. This can enable attacks like path traversal by an attacker providing specially crafted input that gets partially filtered before being processed by a downstream component. 
+
+The key aspects related to information security and AI security are:
+
+- Input validation vulnerabilities that allow malicious data to bypass filters/sanitization in part of the data flow, enabling potential exploits down the line.
+
+- The importance of comprehensive filtering/sanitization of untrusted input to prevent injection attacks. Piecemeal filtering often misses attack vectors.
+
+# Summary bullet points
+
+* CWE-795 involves only filtering potentially dangerous input elements like "../" at a specific location, missing other special elements.
+* This can allow path traversal and other attacks by malicious input with special elements in other positions that bypass the filter. 
+* Products receive data from upstream components and only filter certain positions, missing dangerous elements in other spots.
+* Can enable downstream attacks in components that process the insufficiently filtered data.
+* Regular expressions or substrings only checking for patterns at a certain point miss elements elsewhere.
+* Input validation must filter all dangerous elements, not just in specific positions/patterns.
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry
+================================================================================
+METADATA:
+prompt_tokens: 1009
+answer_tokens: 230
+time_taken: 22.18 seconds

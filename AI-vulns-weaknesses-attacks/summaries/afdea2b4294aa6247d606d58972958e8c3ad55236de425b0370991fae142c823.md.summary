@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text appears to describe a library of AI/ML threats called PLOT4ai that contains 86 threats across 8 categories. It focuses on one particular threat related to collecting and using behavioral data to feed AI systems. This data could reinforce conformity behaviors by labeling certain behaviors as positive or negative. An authoritarian government exploiting this to encourage specific behaviors is provided as a concerning example. The text advises that collecting and using behavioral data to feed AI systems puts you at risk of enabling this and related threats.
+
+# Summary bullet points
+
+* PLOT4ai is a library containing 86 AI/ML threats categorized into 8 groups
+* One threat is collecting and using behavioral data to feed AI systems
+* This could reinforce conformity by labeling behaviors as positive or negative 
+* Authoritarian regimes could exploit this to encourage specific behaviors 
+* Doing this puts you at risk of enabling such threats
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website
+================================================================================
+METADATA:
+prompt_tokens: 1555
+answer_tokens: 163
+time_taken: 15.24 seconds

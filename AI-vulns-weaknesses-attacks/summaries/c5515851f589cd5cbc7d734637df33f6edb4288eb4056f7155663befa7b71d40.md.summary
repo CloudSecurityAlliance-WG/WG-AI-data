@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+This text describes a technique called "Create Proxy ML Model: Train Proxy via Gathered ML Artifacts" from the MITRE ATT&CK framework for adversarial machine learning. The technique involves an adversary gathering machine learning artifacts like data, model architectures, or pre-trained models that are representative of a target model. The adversary can then use these artifacts to train their own proxy model that mimics the behavior of the target model. This proxy model can subsequently be used to develop attacks against the target model without directly interacting with it. The text provides some rationale for why an attacker might want to create such a proxy model. It also links to a case study demonstrating the technique and lists some related sub-techniques under the broader "Create Proxy ML Model" technique.
+
+# Summary bullet points
+
+* Create Proxy ML Model: Train Proxy via Gathered ML Artifacts is an adversarial machine learning technique from MITRE ATT&CK 
+* Involves gathering ML artifacts like data, architectures, pre-trained models to replicate a target model
+* Artifacts gathered must be representative of the target model
+* Proxy model can be used to develop attacks without accessing the target model
+* Can validate attacks before attempting them on the target model
+* Provided as sub-technique under broader Create Proxy ML Model technique
+* Case study demonstrates technique using GPT-2 model replication
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Framework technique description
+================================================================================
+METADATA:
+prompt_tokens: 623
+answer_tokens: 236
+time_taken: 19.85 seconds

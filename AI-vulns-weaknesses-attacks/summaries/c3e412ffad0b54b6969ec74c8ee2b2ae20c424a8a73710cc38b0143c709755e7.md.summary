@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the CWE data on externally controlled references to resources in another sphere:
+
+# Summary
+
+The CWE entry describes an externally controlled reference weakness where the product uses an external input to resolve to a resource outside of the intended control sphere. This could enable attackers to access unauthorized files, data, or system resources. Examples provided include a Java servlet that takes a URL parameter and redirects the user to that site without validation, allowing phishing attacks. Other examples demonstrate resolving external XML entity references, reading arbitrary files via XXE attacks, and bypassing restrictions using the Java Reflection API.
+
+The weakness is related conceptually to path traversal and symbolic link following attacks, where the external input specifies a location path instead of just a simple file name. It overlaps conceptually with CWE-99 (Resource Injection) which covers external control of resource identifiers like file names and port numbers.
+
+Overall this category represents a design weakness where external inputs are used to reference resources in another trust sphere without proper validation, access controls, or sanitization. This frequently leads to impacts like unauthorized data access, data modification, and security bypass.
+
+# Summary bullet points
+
+* External input controls reference to resource in different trust sphere
+* Attacker can access unauthorized files, data, system resources
+* Java example shows servlet redirect to phishing site via user input 
+* Related to path traversal and symlink following attacks
+* Overlaps with CWE-99 Resource Injection covering external control of resource identifiers
+* Design weakness enabling security bypass, unauthorized access, data modification
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1321
+answer_tokens: 276
+time_taken: 27.54 seconds

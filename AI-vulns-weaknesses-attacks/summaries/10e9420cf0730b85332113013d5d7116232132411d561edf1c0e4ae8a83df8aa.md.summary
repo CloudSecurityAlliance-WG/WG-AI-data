@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of transmitting sensitive or security-critical data in cleartext over a communication channel that can be intercepted by unauthorized parties. This allows adversaries to easily access confidential information during transmission over networks, hardware interfaces, remote debugging channels, etc. Proper encryption should be used to protect such data in transit.
+
+Examples are provided of cleartext transmission vulnerabilities in programmable logic controllers, building management systems, cloud storage services, and more. Consequences can range from data confidentiality loss to changing how systems operate.
+
+Mitigations emphasize encrypting data end-to-end with cryptographic protocols before transmission. Other defensive measures involve using HTTPS across entire sessions, securing hardware data paths, and proper testing/monitoring.
+
+# Summary bullet points
+
+* Sending sensitive data in cleartext allows unauthorized interception and access during transmission
+* Applies to networking, hardware interfaces, debugging channels, wireless, and more 
+* Enables attackers to steal credentials, PII, operational parameters, etc.
+* Example weaknesses in PLCs, building controllers, cloud storage misconfigurations
+* Consequences range from confidentiality loss to altering system functions
+* Mitigate by encrypting data properly before transmission
+* Use cryptographic protocols end-to-end and across entire sessions
+* Secure hardware paths from critical data to applications
+* Perform thorough testing and monitoring for cleartext issues
+
+# Geographic information
+Not applicable
+
+# Type of content 
+CWE (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 2510
+answer_tokens: 219
+time_taken: 23.88 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content:
+
+# Summary
+
+The article from the Common Weakness Enumeration (CWE) describes the weakness CWE-1394: Use of Default Cryptographic Key. This refers to products that use default cryptographic keys for critical functionality, which makes it easier for attackers to bypass authentication if admins do not change the defaults. It provides a description and examples of the weakness as well as potential mitigations, such as prohibiting default values or forcing admins to change credentials on installation. The content relates to authentication vulnerabilities resulting from the use of default cryptographic keys.
+
+# Summary bullet points
+
+* CWE-1394 refers to the use of default cryptographic keys in products for critical functionality
+* Using defaults makes it easier for attackers to bypass authentication across organizations
+* Examples are provided of products using default SSH keys, encryption keys, and SSL keys
+* Mitigations include prohibiting default values and forcing admins to set new keys on installation 
+* The weakness can enable attackers to gain privileges or assume identities
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Reference entry from Common Weakness Enumeration website
+================================================================================
+METADATA:
+prompt_tokens: 774
+answer_tokens: 187
+time_taken: 18.78 seconds

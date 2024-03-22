@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes the machine learning attack technique "Create Proxy ML Model: Use Pre-Trained Model". This technique involves an adversary using a readily available pre-trained machine learning model as a stand-in or proxy for the victim's actual model. The goal is to help stage an attack against the victim's model. For example, the adversary could test attacks against the proxy model before targeting the real model. Or analyzing the proxy may reveal vulnerabilities that also apply to the victim's model. This technique allows attackers to prepare and refine attacks more easily compared to experimenting directly on the victim system.
+
+# Summary bullet points
+
+* Adversaries may use off-the-shelf pre-trained models as proxies for victim models to aid in attack staging
+* Using proxy models allows testing attacks and revealing vulnerabilities more easily than targeting actual victim models directly 
+* Goals include refining techniques on proxy before attacking real model
+* Part of broader attack strategy of creating proxy ML models 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Description of machine learning attack technique
+================================================================================
+METADATA:
+prompt_tokens: 503
+answer_tokens: 179
+time_taken: 11.55 seconds

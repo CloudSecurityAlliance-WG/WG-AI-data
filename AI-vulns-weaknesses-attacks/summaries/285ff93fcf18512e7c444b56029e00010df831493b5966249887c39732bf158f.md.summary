@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-420 weakness describes a situation where a product protects a primary channel, but does not use the same level of protection for an alternate channel that can be used to access the product. This allows an attacker to bypass the protections on the primary channel by using the alternate, less protected channel. It is caused by failing to identify and appropriately protect all channels that can be used to access sensitive functionality or data.
+
+The consequences of CWE-420 can enable attackers to gain privileged access, assume identities, or bypass protection mechanisms in a system. It is applicable to any software system that uses channels to mediate access. 
+
+Some examples provided include a database server that assumes local clients have authenticated allowing remote attackers access, not restricting access to an underlying database allowing queries that bypass restrictions, allowing brute force guessing over an API instead of only through the GUI, and allowing access to modify configurations over an insufficiently protected named pipe.
+
+# Summary bullet points
+
+* CWE-420 involves failing to protect an alternate channel to the same level as the primary channel
+* This enables attackers to bypass protections on the primary channel 
+* Can allow gaining privileged access, assuming identities, or bypassing protections
+* Applies to any software system using channels to control access
+* Examples include bypassing database access restrictions and allowing brute force guessing over APIs
+* Caused by failing to identify and protect all accessible channels appropriately
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition 
+================================================================================
+METADATA:
+prompt_tokens: 1173
+answer_tokens: 255
+time_taken: 20.43 seconds

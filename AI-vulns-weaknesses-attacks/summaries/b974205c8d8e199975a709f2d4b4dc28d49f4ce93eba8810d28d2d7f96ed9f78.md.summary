@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The CWE entry describes the weakness of insufficient visual distinction of homoglyphs presented to users (CWE-1007). Homoglyphs are visually similar or identical glyphs that are treated as distinct by programs but may be displayed identically to users. This can enable attacks like phishing, where an adversary creates a spoofed URL, username, or email address using homoglyphs that looks legitimate to the user but redirects to a malicious site or account under the adversary's control. The summary specifically calls out the ability for attackers to use Cyrillic or other international homoglyphs to mimic Latin characters and deceive users into trusting malicious sites/accounts. It provides examples of observed attacks abusing homoglyphs and potential mitigations like displaying Punycode for international domain names.
+
+# Summary bullet points
+
+* Homoglyphs are visually identical or similar glyphs that are distinct to software but appear the same to users
+* Can be abused for phishing attacks by creating spoofed URLs, usernames, email addresses
+* Examples use Cyrillic characters that appear identical to Latin alphabet
+* Can ultimately enable stealing credentials, XSS attacks, log forgery
+* Browsers can display Punycode for international domain names to mitigate
+* Email filters can block mixing of character sets
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1716
+answer_tokens: 219
+time_taken: 23.22 seconds

@@ -1,0 +1,22 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses the weakness of using hardcoded security-relevant constants instead of symbolic names in code. It explains that hardcoded constants increase the likelihood of mistakes during maintenance or policy changes, as developers may not update all occurrences of the constants. This can lead to incorrect security decisions or enable attackers if the code is exposed. The document recommends using configuration files or symbolic names for flexibility and easier maintenance.
+
+# Summary bullet points
+
+* Using hardcoded security-relevant constants instead of symbolic names increases risk of mistakes during code changes.
+* Hardcoded constants may not all get updated if policy changes, allowing incorrect decisions.
+* Hardcoded constants can become exposed to attackers if code gets disclosed. 
+* Recommendation is to use symbolic names or configuration files for flexibility.
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1050
+answer_tokens: 144
+time_taken: 12.22 seconds

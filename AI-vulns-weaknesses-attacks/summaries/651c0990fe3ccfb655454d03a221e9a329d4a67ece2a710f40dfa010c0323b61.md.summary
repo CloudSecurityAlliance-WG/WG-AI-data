@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-151, a weakness related to the improper neutralization of comment delimiters. Specifically, it involves a product receiving input from an upstream component but failing to properly neutralize or incorrectly neutralizing special elements that could be interpreted as comment delimiters when sent downstream. This can allow attackers to inject unexpected comments to bypass security controls or hide malicious code.
+
+The consequences of this weakness are that it can lead to unexpected application states and behaviors that violate integrity. Some real-world examples are provided where attackers leveraged improper comment delimiter handling in mail clients, comment fields, and web applications for command execution, information hiding, and bypassing warnings.
+
+Potential mitigations focus on proper input validation using allowlists, escaping special characters, and encoding outputs. Decoding inputs before validation and avoiding double decoding are also recommended.
+
+Overall, the document provides useful details on the nature of the weakness, its impacts, and how to address it in software development. The key takeaway is that specially crafted comment delimiters can be exploited if not properly handled.
+
+# Summary bullet points
+
+* CWE-151 involves the improper neutralization of comment delimiter handling when data is passed between software components
+* Can allow attackers to inject unexpected comments to bypass security controls or hide malicious code
+* Real-world examples have led to command execution, information hiding, and security warning bypasses 
+* Consequences relate to unexpected application state and integrity violations
+* Mitigations revolve around proper input validation, output encoding, allowlisting acceptable inputs, and safe decoding practices
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 1115
+answer_tokens: 263
+time_taken: 26.29 seconds

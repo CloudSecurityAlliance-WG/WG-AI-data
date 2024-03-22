@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This document from MITRE ATLAS describes the technique of crafting adversarial data using black-box optimization attacks against machine learning models. Black-box attacks involve an adversary having black-box or API access to a target ML model to query it. These attacks are less effective than white-box attacks but require much less access to the model. They typically require more model queries to craft effective adversarial examples. The document summarizes how black-box attacks work and provides mitigation strategies such as obfuscating model outputs, restricting the number of queries allowed, input restoration, and adversarial input detection. It also links to case studies of black-box attacks against botnet detection and Microsoft Edge.
+
+# Summary bullet points
+
+* Black-box attacks involve API access to query a target ML model to craft adversarial data 
+* Less effective than white-box attacks but require less model access
+* Typically require more model queries to craft adversarial data
+* Mitigations include output obfuscation, query limits, input restoration, adversarial detection  
+* Case studies of black-box attacks against botnet detection and Microsoft Edge
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Threat intelligence database
+================================================================================
+METADATA:
+prompt_tokens: 629
+answer_tokens: 188
+time_taken: 15.11 seconds

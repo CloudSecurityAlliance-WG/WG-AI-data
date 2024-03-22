@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+This paper proposes a simple iterative method to generate targeted universal adversarial perturbations (UAPs) for deep neural networks (DNNs) used in image classification. The method combines the simple iterative method for non-targeted UAPs with the fast gradient sign method for targeted adversarial examples. Experiments using CIFAR-10 and ImageNet models demonstrate that small, almost imperceptible targeted UAPs can be generated that cause the models to largely classify test images into a specified target class. The success rates for the targeted UAPs are significantly higher than random UAPs. The results indicate the existence and easy generatability of targeted UAPs, showing vulnerabilities of DNNs to adversarial attacks.
+
+# Summary bullet points
+
+* Proposes simple iterative method to generate targeted UAPs for DNN image classification models
+* Combines non-targeted UAP method with fast gradient sign method for targeted attacks  
+* Experiments show small, almost imperceptible targeted UAPs make models classify images into target class
+* Success rates significantly higher than random UAPs
+* Indicates existence and easy generation of targeted UAPs
+* Demonstrates vulnerabilities of DNNs to adversarial attacks
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Conference paper
+================================================================================
+METADATA:
+prompt_tokens: 2917
+answer_tokens: 194
+time_taken: 17.30 seconds

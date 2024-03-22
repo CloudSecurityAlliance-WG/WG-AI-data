@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the provided data:
+
+# Summary
+
+The document describes the CWE-184 software weakness related to incomplete denylists for disallowed inputs. This weakness occurs when a software protection mechanism relies on a denylist to block certain dangerous inputs, but the denylist is incomplete. This allows attackers to bypass the protection mechanism by providing malicious input that is not on the denylist. The incomplete denylist weakness can enable further weaknesses like OS command injection, cross-site scripting, and arbitrary file uploads. Recommended solutions include fixing the root validation cause rather than relying solely on denylists, and having rigorous processes to compile complete denylists covering all dangerous inputs.  
+
+# Summary bullet points
+
+* CWE-184 refers to incomplete denylists for blocking dangerous inputs in software
+* Leads to bypass of protection mechanisms and enabling further weaknesses
+* Occurs when denylist is missing dangerous inputs that should be disallowed
+* Can result in OS command injection, XSS, arbitrary file uploads, etc. 
+* Fix root validation issues rather than just rely on denylists
+* Have rigorous processes to build complete denylists covering all dangerous inputs
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 924
+answer_tokens: 198
+time_taken: 19.79 seconds

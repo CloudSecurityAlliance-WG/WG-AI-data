@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+Adversaries may create accounts with various services to target systems, gain access to resources needed to stage machine learning attacks, or impersonate victims. The MITRE ATT&CK framework classifies this technique as "Establish Accounts" (T1585). Two case studies are provided as examples: the camera hijack attack on a facial recognition system, and the ClearviewAI misconfiguration. This shows how adversaries can exploit accounts with services that utilize machine learning systems to stage attacks.
+
+# Summary bullet points
+
+* Adversaries create accounts to target systems, access needed resources, or impersonate victims
+* Technique classified as "Establish Accounts" (T1585) in MITRE ATT&CK 
+* Camera hijack on facial recognition system provided as case study example
+* ClearviewAI misconfiguration also provided as case study
+* Shows how adversary accounts with ML services can enable attacks
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - MITRE ATLAS description of adversary technique
+================================================================================
+METADATA:
+prompt_tokens: 523
+answer_tokens: 148
+time_taken: 13.64 seconds

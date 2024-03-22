@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-832 weakness describes the vulnerability of a product attempting to unlock a resource that is not actually locked. This can lead to memory corruption, denial of service crashes or exits, unauthorized code execution, and modification of the unlocked resource. The root cause is improper locking (CWE-667). Real-world examples have led to kernel panics or arbitrary memory overwrites.
+
+# Summary bullet points
+
+* Attempting to unlock a resource that is not locked
+* Can cause memory corruption, crashes, unauthorized code execution
+* Caused by improper locking (CWE-667) 
+* Observed in OS kernels, leading to panics or memory overwrites
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 764
+answer_tokens: 114
+time_taken: 11.25 seconds

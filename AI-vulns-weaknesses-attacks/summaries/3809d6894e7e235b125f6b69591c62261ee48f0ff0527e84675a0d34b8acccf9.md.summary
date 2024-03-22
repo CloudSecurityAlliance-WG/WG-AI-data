@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The content describes a weakness (CWE-781) related to improper address validation in IOCTL (I/O control) code that uses the METHOD_NEITHER option. This can allow attackers to supply arbitrary memory addresses, leading to arbitrary code execution, unauthorized access to memory, denial of service, and other impacts. The problem arises because with the METHOD_NEITHER option, the IOCTL code itself is responsible for validating any addresses supplied to it, but fails to do so properly. Proper input validation using helper functions like ProbeForRead and ProbeForWrite is recommended, as well as avoiding METHOD_NEITHER if possible, using proper access control, and managing user-supplied buffers carefully.
+
+# Summary bullet points
+
+* Describes weakness CWE-781 - Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code
+* Issue arises from IOCTL code using METHOD_NEITHER option but failing to validate supplied addresses
+* Allows supply of arbitrary addresses, enabling code execution, memory access, DoS
+* Recommends input validation using ProbeForRead/ProbeForWrite helpers 
+* Also suggests avoiding METHOD_NEITHER, proper access control, managing buffers
+* Notes issue is likely under-studied but exploitation requires some skill
+* Mentions vulnerability often requires local access but remote possible 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Reference - Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 1199
+answer_tokens: 211
+time_taken: 18.11 seconds

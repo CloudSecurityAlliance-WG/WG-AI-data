@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content:
+
+# Summary
+
+The document describes an information security weakness (CWE-179) related to incorrect behavior order for input validation in software applications. Specifically, it refers to validating user input before applying protection mechanisms that modify the input. This could allow an attacker to bypass the validation via dangerous inputs that only arise after the modification. To avoid this, validation should occur after input has been canonicalized and cleansed. Examples are provided of path traversal vulnerabilities where input validation occurs before canonicalization, allowing attackers to bypass filtering. The mitigation is to decode and canonicalize input to the application's internal representation before validation to prevent introducing dangerous inputs after validation.
+
+# Summary bullet points
+
+* Weakness related to input validation occurring before input canonicalization/cleansing, allowing bypass 
+* Attacker can provide input that passes initial check but exposes vulnerability after modification
+* Examples with path traversal by having validation before canonicalization of input paths  
+* Mitigation is to validate only after decoding and canonicalizing input
+* Applies when validation precedes modifications of any kind that could produce dangerous inputs
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1388
+answer_tokens: 198
+time_taken: 22.28 seconds

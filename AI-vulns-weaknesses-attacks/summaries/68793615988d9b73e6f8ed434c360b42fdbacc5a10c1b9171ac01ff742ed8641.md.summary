@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes server-side request forgery (SSRF), a vulnerability where a web server receives a malicious URL request from an upstream component and retrieves the contents of the URL without sufficiently validating that the request is being sent to the expected destination. This allows attackers to use the vulnerable server as a proxy to access internal systems or conduct port scanning of internal networks. Consequences include exposing sensitive application data, executing unauthorized code or commands, and bypassing firewall protections. Key techniques to prevent SSRF include input validation and proper access controls when retrieving remote URL contents. The vulnerability is prevalent in web servers and related technologies and allows serious impacts to confidentiality and integrity. It ranks highly on recent lists of critical web application weaknesses.
+
+# Summary bullet points
+
+* SSRF involves a web server receiving and retrieving a malicious URL without sufficient validation, allowing attackers to use the server as an unintended proxy
+* Consequences include port scanning internal networks, accessing sensitive documents and data, and bypassing firewalls  
+* It enables attackers to access resources and systems they couldn't reach directly
+* Input validation and access controls are key prevention techniques
+* Impacts confidentiality and integrity of web applications and related components
+* Highly prevalent, dangerous weakness for web servers and technologies
+* Ranked highly on recent lists like OWASP Top 10 and CWE Top 25 weaknesses
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition
+================================================================================
+METADATA:
+prompt_tokens: 1247
+answer_tokens: 250
+time_taken: 20.48 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content you provided:
+
+# Summary
+
+The document describes CWE-323, a common weakness enumeration related to reusing a nonce or key pair in encryption. It explains that nonces should only be used once per occasion to prevent replay attacks. If a nonce is reused, an attacker could intercept encrypted data and resend it to impersonate a user or execute unauthorized commands. The document provides code examples in C and C++ that incorrectly reuse a hardcoded nonce value when encrypting and sending password or command data over a network. This could allow an attacker to bypass authentication or gain elevated privileges by capturing and replaying this network traffic.
+
+# Summary bullet points
+
+* CWE-323 refers to reusing a nonce or key pair in encryption, which should only be used once per occasion
+* Reusing nonces can allow replay attacks where attackers resend captured encrypted data
+* This can let attackers bypass authentication, gain privileges, or execute unauthorized commands
+* Examples show code incorrectly reusing a hardcoded nonce when encrypting passwords or commands sent over networks
+* Attackers could intercept and replay this data to impersonate users or execute arbitrary commands
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 957
+answer_tokens: 210
+time_taken: 16.61 seconds

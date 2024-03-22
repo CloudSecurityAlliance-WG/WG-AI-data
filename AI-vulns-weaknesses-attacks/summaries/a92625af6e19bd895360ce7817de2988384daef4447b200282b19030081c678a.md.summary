@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses the technique of manually modifying input data to craft adversarial examples. It explains how adversaries can use their knowledge of a target machine learning model to make small changes to parts of the data that are most influential to the model's outputs. Through trial and error, they can create adversarial data that fools the model. Two case studies are mentioned demonstrating uses of this technique to evade malware detection models. Overall, the document provides an overview of how attackers can manually tweak data to create adversarial inputs and fool machine learning systems.
+
+# Summary bullet points
+
+* Adversaries can manually modify input data to craft adversarial examples 
+* They can use knowledge of the target model to change influential parts of the data
+* Goal is to fool the model through trial and error modification of the data
+* Technique has been used to evade malware detection models
+* Enables attackers to manually create adversarial data to trick ML systems
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Encyclopedia entry
+================================================================================
+METADATA:
+prompt_tokens: 546
+answer_tokens: 176
+time_taken: 13.87 seconds

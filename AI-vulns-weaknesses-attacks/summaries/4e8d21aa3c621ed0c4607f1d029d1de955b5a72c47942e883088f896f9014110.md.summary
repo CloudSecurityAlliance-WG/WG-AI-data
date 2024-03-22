@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of omitting a break statement within a switch or similar construct in software code. This causes unintended logic to execute, leading to unexpected application behavior. It provides code examples in Java and C demonstrating the issue. The consequences are altering execution logic and performing unintended actions. It recommends avoiding fall-through capabilities or clearly documenting intent if used. Potential mitigations include using if statements instead or documenting fall-through logic. The weakness can lead to critical code executing incorrectly. Automated static analysis can detect some instances.
+
+# Summary bullet points
+
+* Omitting a break statement in a switch construct causes unintended code execution
+* Can lead to critical code running in situations where it should not
+* Causes altered execution logic and unexpected application behavior
+* Gives Java and C code examples demonstrating the weakness 
+* Recommends avoiding fall-through logic or clearly documenting if used
+* Suggests using if statements instead as a safer alternative
+* Mentions that automated static analysis can detect some instances
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition 
+================================================================================
+METADATA:
+prompt_tokens: 1193
+answer_tokens: 182
+time_taken: 14.67 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper handling of inconsistent special elements in input. This occurs when a product does not properly process input that contains inconsistencies between special characters or reserved words. An example is when paired characters appear in the wrong order or are not properly nested. This can lead to denial-of-service attacks, bypassing protection mechanisms, or hiding malicious activities. Recommended mitigations include using allowlists and denylists for input validation to only allow expected input, decoding and canonicalizing input before validation, and not relying solely on searches for malicious input.
+
+# Summary bullet points
+
+* Weakness involves improper handling of inconsistent special elements like special characters or reserved words in input
+* Can occur when paired characters appear in wrong order or are not properly nested 
+* Leads to potential denial-of-service attacks, bypassing protections, or hiding malicious actions
+* Mitigations include allowlisting/denylisting input, decoding/canonicalizing before validation, not relying solely on malicious input detection
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 961
+answer_tokens: 172
+time_taken: 13.80 seconds

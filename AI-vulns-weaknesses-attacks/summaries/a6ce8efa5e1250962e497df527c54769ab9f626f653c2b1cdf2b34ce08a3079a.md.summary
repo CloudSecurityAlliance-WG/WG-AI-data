@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-156 weakness describes improper neutralization of whitespace in input validation. Specifically, it refers to cases where a system receives input but does not properly handle or filter out whitespace characters like spaces, tabs, etc. before passing that input to downstream components. This can result in unexpected behavior if the downstream component interprets whitespace differently. Consequences may include integrity issues, unexpected system states, and resource consumption attacks using carefully crafted inputs with excessive whitespace.
+
+The key mitigation strategies include comprehensive input validation using allowlists,  proper output encoding/escaping, and decoding/canonicalizing inputs before validation. Developers should anticipate and account for whitespace and other special characters in inputs. Validation should go beyond just filtering obviously malicious inputs and should conform to strict specifications.
+
+# Summary bullet points
+
+* CWE-156 refers to improper handling of whitespace characters in input validation
+* Can result in downstream components interpreting whitespace unexpectedly, leading to integrity issues or unexpected system states
+* Consequences may include excessive resource consumption using crafted inputs with excessive whitespace
+* Mitigations include comprehensive input validation, output encoding, and canonicalizing inputs before validation
+* Developers should anticipate and account for whitespace and other special characters in inputs
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1074
+answer_tokens: 206
+time_taken: 19.81 seconds

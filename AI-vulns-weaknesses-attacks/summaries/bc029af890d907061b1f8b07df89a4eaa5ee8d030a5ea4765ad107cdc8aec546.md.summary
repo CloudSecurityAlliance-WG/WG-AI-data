@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a hardware weakness where integrated circuits and hardware intellectual properties may provide device configuration controls that need to be programmed by trusted firmware or software after device power reset. These controls are often protected by a lock bit which, when set, should prevent further modification of certain system configurations. However, if the lock bit does not effectively protect all system registers or controls that could modify the protected system configuration, an adversary may be able to modify protected hardware configuration. This could allow an attacker to modify critical system parameters like memory configuration or disable critical temperature shutdown protections.
+
+# Summary bullet points
+
+* Hardware intellectual properties provide device configuration controls that need trusted programming after reset
+* Controls expected to be locked and unmodifiable after lock bit is set  
+* If lock bit does not protect all modifiable system registers/controls, protected configuration can still be modified
+* Attackers could modify memory protections or disable critical sensors like temperature shutdown
+* Lock bit design and coverage needs to be reviewed to ensure consistency  
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE entry
+================================================================================
+METADATA:
+prompt_tokens: 1431
+answer_tokens: 190
+time_taken: 23.07 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content:
+
+# Summary
+
+The document defines CWE-1023 - Incomplete Comparison with Missing Factors, a type of software weakness related to performing incomplete comparisons between entities. This occurs when a comparison does not include all necessary factors or characteristics of the entities being compared. The consequence is the potential to operate on the wrong object or make incorrect security decisions by not considering all required factors. Examples are provided such as comparing truck objects based only on make and model but excluding the year, or authenticating users by only partially checking passwords. Mitigations include thoroughly testing comparison logic, and related weaknesses are incorrect comparisons in general or incomplete comparisons for specific types of data like input filtering.
+
+# Summary bullet points
+
+* CWE-1023 defines weakness of incomplete comparisons missing necessary factors when comparing entities 
+* Leads to operating on wrong objects or faulty security decisions
+* Examples are truck comparisons missing model year or authentication checking only partial passwords
+* Testing comparison logic and negative testing helps catch issues  
+* Related to incorrect comparisons (CWE-697) and incomplete filtering weaknesses
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition  
+================================================================================
+METADATA:
+prompt_tokens: 1140
+answer_tokens: 200
+time_taken: 21.12 seconds

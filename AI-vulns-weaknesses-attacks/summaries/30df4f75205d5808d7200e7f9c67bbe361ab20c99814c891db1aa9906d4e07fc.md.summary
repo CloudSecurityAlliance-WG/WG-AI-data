@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-572, a weakness related to improperly calling a thread's run() method instead of start() when trying to launch a new thread. This causes the run() method to execute in the caller's thread instead of a separate thread. It provides background on the issue, relationships to other weaknesses, applicable platforms, potential consequences, demonstrative examples, mitigations, detection methods, and information about mapping the weakness to vulnerabilities. The key points are:
+
+- Calling run() instead of start() executes the code in the caller's thread, not a separate thread.
+- This can lead to quality degradation and incorrect synchronization. 
+- It often indicates a programmer mistake where they intended to launch a thread but used the wrong method.
+- It primarily affects Java. 
+- Mitigations involve using start() instead of run().
+- Automated static analysis can detect some instances of this weakness.
+- It is child of and related to improper synchronization weaknesses.
+
+# Summary bullet points
+
+* Calling Thread's run() instead of start() causes code to run in caller's thread, not a new thread
+* Leads to quality degradation and synchronization issues
+* Common Java mistake where programmer intends to start thread but uses wrong method 
+* Mitigation is to use start() instead of run()  
+* Automated static analysis can find some instances
+* Child of and related to improper synchronization weaknesses
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE definition
+================================================================================
+METADATA:
+prompt_tokens: 875
+answer_tokens: 235
+time_taken: 19.49 seconds

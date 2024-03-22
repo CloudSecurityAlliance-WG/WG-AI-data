@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content:
+
+# Summary
+
+The content describes CWE-306, a weakness related to missing authentication for critical functionality in software. It explains that without proper authentication, critical functionality could be accessed by attackers to gain privileges, access sensitive data, or execute arbitrary code. Examples are provided such as SCADA protocols, Bluetooth devices, and cloud storage buckets that are accessible without authentication. Recommendations include adding authentication checks, using authentication libraries, and properly configuring cloud storage access. 
+
+# Summary bullet points
+
+* CWE-306 refers to missing authentication checks for critical software functionality
+* This allows attackers to potentially gain privileges, access sensitive data, or execute arbitrary code
+* Examples include SCADA protocols, Bluetooth devices, debug ports, and publicly accessible cloud storage
+* Recommendations include adding authentication, using authentication libraries, and configuring cloud access controls
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 2820
+answer_tokens: 152
+time_taken: 16.35 seconds

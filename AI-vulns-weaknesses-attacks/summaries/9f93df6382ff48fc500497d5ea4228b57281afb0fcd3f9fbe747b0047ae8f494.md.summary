@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes the "Verify Attack" technique used by adversaries to test the effectiveness of their attacks against machine learning models before deploying them more broadly. It explains that adversaries can verify attacks by using inference APIs or offline copies of the target model. This allows them to gain confidence that their approach works and carry out attacks later against multiple edge devices running the same model. The technique may be difficult to detect since adversaries can use a minimal number of queries or offline model copies. Overall, the document highlights the risk of adversaries verifying attacks in order to optimize effectiveness before broader deployment.
+
+# Summary bullet points
+
+* Adversaries can verify efficacy of attacks against ML models via inference APIs or offline model copies
+* Gives adversaries confidence their approach works before broader deployment 
+* Allows attacks to be carried out later against many edge devices running the target model
+* May be hard to detect since few queries or offline copies can be used
+* Document highlights risk of attack verification for optimization before deployment
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 633
+answer_tokens: 190
+time_taken: 15.14 seconds

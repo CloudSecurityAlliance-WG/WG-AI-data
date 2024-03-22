@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration entry CWE-175 describes the weakness of improper handling of mixed encoding. This occurs when a product does not properly process inputs that use multiple different encodings. This can lead to unexpected behavior or state due to the system incorrectly interpreting the encoding. Potential mitigations include input validation to sanitize inputs, specifying expected output encodings, and ensuring inputs are decoded/canonicalized consistently before validation.
+
+# Summary bullet points
+
+* CWE-175 involves improper handling when an input uses multiple/mixed encodings
+* Can lead to unexpected system state or behavior due to encoding confusion  
+* Mitigations include input validation, specifying output encodings, consistent decoding/canonicalization of inputs
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1001
+answer_tokens: 122
+time_taken: 13.12 seconds

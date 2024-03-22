@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-86, a weakness related to the improper neutralization of invalid characters in identifiers within web pages. Specifically, it points out that some web browsers may remove invalid character sequences, but variants with null characters or other encodings may bypass filters, allowing for cross-site scripting (XSS) or other attacks. The key points are:
+
+- Invalid character sequences in identifiers like tag names or URI schemes may enable XSS or other attacks if not properly neutralized.
+- Web browsers may filter some invalid sequences, but variants with null chars or alternate encodings may bypass filters.  
+- This can allow attackers to conduct injection attacks or bypass protection mechanisms that assume consistent encoding.
+- Setting session cookies to HttpOnly can mitigate XSS attacks against user session cookies in supported browsers.
+- Static analysis can automatically detect some instances of this weakness.
+
+# Summary bullet points
+
+* Invalid characters in web page identifiers like tag names and URI schemes can enable XSS or other attacks if not properly neutralized
+* Web browsers may filter some invalid sequences but variants may bypass filters
+* Inconsistent output encodings can allow attackers to conduct injection attacks
+* HttpOnly session cookies can mitigate XSS attacks against user session cookies
+* Static analysis can detect some instances of this weakness
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1122
+answer_tokens: 230
+time_taken: 18.63 seconds

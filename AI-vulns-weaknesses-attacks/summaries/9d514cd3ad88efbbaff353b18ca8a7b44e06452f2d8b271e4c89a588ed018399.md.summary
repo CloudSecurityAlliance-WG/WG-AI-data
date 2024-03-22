@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the text, formatted according to the provided template:
+
+# Summary
+
+The text describes CWE-672, a weakness related to operating on a resource after it has expired or been released. Specifically, it involves a product accessing or using a resource after that resource has expired, been released, or revoked. Consequences of this weakness include potential unauthorized access to sensitive data or system crashes. Examples are provided of issues like use after free errors in C code where a pointer is freed but still used afterward. Overall, the weakness stems from a failure to properly check and handle resource expiration and release.
+
+# Summary bullet points
+
+* CWE-672 involves operating on an expired or released resource
+* Consequences include unauthorized data access and system crashes
+* Examples involve use after free and similar pointer issues in C code
+* Weakness stems from failure to properly check and handle resource expiration/release  
+
+# Geographic information  
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1437
+answer_tokens: 171
+time_taken: 16.21 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes an information security weakness related to the processing of uploaded files in PHP applications. Specifically, it refers to the use of four deprecated global variables ($varname, $varname_size, $varname_name, $varname_type) to handle uploaded files. These variables can be easily overwritten by attackers, allowing them to manipulate the application into processing arbitrary unauthorized files. This could lead to sensitive file disclosure or modification.
+
+The entry recommends upgrading to newer PHP versions and using built-in functions like is_uploaded_file() and move_uploaded_file() to properly verify uploaded files. Additional mitigations include writing a custom verification function if stuck with older PHP versions.
+
+# Summary bullet points
+
+* CWE-616 describes an information security weakness in processing uploaded files in PHP using four insecure global variables 
+* These variables ($varname, etc.) can be overwritten by attackers to force processing of unauthorized files
+* This could allow attackers to disclose or modify sensitive files on the server
+* Recommends upgrading PHP version and using built-in verification functions
+* Additional mitigation is writing a custom verification function if stuck on older PHP
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 1004
+answer_tokens: 192
+time_taken: 16.39 seconds

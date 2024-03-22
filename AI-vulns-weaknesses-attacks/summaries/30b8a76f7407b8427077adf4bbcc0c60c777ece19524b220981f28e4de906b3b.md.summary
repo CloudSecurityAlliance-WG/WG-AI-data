@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper synchronization when multiple threads or processes access a shared resource that can only be accessed exclusively by one process at a time. It explains that without proper synchronization to ensure sequential serialized access, the resulting behavior can be unpredictable and lead to data corruption, denial of service and other impacts. Proper synchronization requires mechanisms like locking, mutexes and semaphores and checking return values to handle errors. Examples demonstrate code snippets that could allow race conditions due to improper synchronization when accessing shared resources.
+
+# Summary bullet points
+
+* CWE-662 involves improper synchronization when multiple threads/processes access a shared resource that requires exclusive sequential access 
+* Without synchronization, simultaneous access can lead to unpredictable behavior including data corruption, denial of service
+* Proper synchronization requires mechanisms like locks, mutexes, semaphores to enable serialized access
+* Return values from synchronization functions must be checked for errors to avoid race conditions
+* Examples show improperly synchronized code that could introduce race conditions on shared resources
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 1428
+answer_tokens: 186
+time_taken: 17.21 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-356 describes a weakness where a product's user interface fails to warn users before undertaking unsafe actions on their behalf. This makes it easier for attackers to trick users into damaging their own systems. Examples provided include allowing users to execute suspicious downloaded files without a warning, extract setuid/setgid files without a warning, or bypass warnings about dangerous email attachments. The consequences can include loss of information, hidden malicious activities, and loss of system integrity.
+
+# Summary bullet points
+
+* CWE-356 involves a product's user interface failing to warn users before unsafe actions
+* This enables attackers to more easily trick users into damaging their own systems 
+* Examples include allowing execution of suspicious downloads or extraction of setuid/setgid files without warnings
+* Consequences include information loss, hidden malicious activities, and loss of system integrity
+* Related to information loss/omission (CWE-221) and user interface security issues (CWE-355)
+* Can overlap with privilege/permission issues 
+* Affected platforms include any software with a user interface
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 832
+answer_tokens: 185
+time_taken: 16.45 seconds

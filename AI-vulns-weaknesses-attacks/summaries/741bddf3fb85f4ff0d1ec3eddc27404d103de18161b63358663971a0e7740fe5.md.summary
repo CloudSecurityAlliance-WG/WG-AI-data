@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-771 weakness describes a situation where a product fails to properly maintain a reference to an allocated resource, preventing the resource from being reclaimed later. This can lead to resource exhaustion if left unchecked, allowing attackers to launch denial-of-service attacks by depleting available resources. Proper reference tracking and resource management, including garbage collection, can mitigate this weakness.
+
+# Summary bullet points
+
+* CWE-771 refers to missing references to allocated resources, preventing later reclamation
+* Can cause resource exhaustion and denial-of-service attacks if resources are leaked
+* Mostly applies to languages without automatic garbage collection
+* Child of CWE-400 Uncontrolled Resource Consumption
+* Resource-limiting settings can help prevent complete resource exhaustion 
+* Error handling for resource unavailability also important
+* Ranked medium likelihood of exploit
+* Taxonomy mapped to various software development guidelines and standards
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 951
+answer_tokens: 151
+time_taken: 16.58 seconds

@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses the concept of societal harm as a type of external harm that can result from AI systems. It defines societal harms as harmful outcomes that reach the general public or specific vulnerable groups, such as exposing children to inappropriate content. The document is from MITRE's Adversarial ML Threat Matrix (ATLAS) framework for classifying different types of threats to machine learning systems. 
+
+It categorizes societal harm as a sub-technique under the broader technique of external harms resulting from AI systems. Other sub-techniques listed include financial harm, reputational harm, user harm, and intellectual property theft related to machine learning models. The framework links societal harm to the tactics of impacting confidence, safety, and equity through AI systems. Overall, the document provides definitions and a taxonomy for understanding potential societal dangers from irresponsible or unethical use of AI technology.
+
+# Summary bullet points
+
+* Societal harms are harmful AI outcomes reaching the general public or vulnerable groups 
+* Example given is exposure of children to vulgar content
+* Part of MITRE framework for threats to machine learning systems
+* Categorized under broader external harms technique
+* Linked to tactics of impacting confidence, safety, and equity
+* Other related sub-techniques listed as well
+
+# Geographic information  
+
+Not applicable
+
+# Type of content
+
+Reference document from framework/taxonomy 
+================================================================================
+METADATA:
+prompt_tokens: 537
+answer_tokens: 217
+time_taken: 17.18 seconds

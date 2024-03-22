@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses the weakness of dangling database cursors (CWE-619). A dangling cursor occurs when a database cursor is not properly closed after use, leaving it accessible to other users with the original privileges. This can enable SQL injection attacks and unauthorized access to sensitive data. Proper mitigation requires closing cursors immediately after accessing them and ensuring they are closed even when exceptions occur. The issue arises from unhandled exceptions or anytime cursors are not closed properly after use.
+
+# Summary bullet points
+
+* Dangling cursors occur when database cursors are not properly closed after use
+* Dangling cursors remain accessible to other users with original privileges
+* Can enable SQL injection attacks and unauthorized data access 
+* Mitigation requires immediately closing cursors after use
+* Also closing on exceptions
+* Typically happens due to unhandled exceptions
+* Can occur anytime cursors not closed properly
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 844
+answer_tokens: 161
+time_taken: 13.94 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1120 weakness describes excessive code complexity, which makes code more difficult to understand and maintain. This can indirectly affect security by making it harder to find and fix vulnerabilities. It can also reduce performance and potentially introduce new vulnerabilities. Excessive complexity is quantified by standard metrics. This weakness is related to other more specific weaknesses like excessive lines of code, excessive nesting depth, and excessive attack surface. It is categorized as an issue that can indirectly enable vulnerabilities by reducing code quality. The mapping guidance indicates it can be used to map some real-world vulnerabilities, but careful review is required when doing so.
+
+# Summary bullet points
+
+* CWE-1120 covers excessive code complexity that makes code hard to understand and maintain
+* This indirectly impacts security by making vulnerabilities harder to find and fix
+* It can also reduce performance and potentially enable new vulnerabilities
+* Complexity is measured by standard quantitative metrics
+* Related to other weaknesses like too many lines of code or deep nesting
+* Categorized as indirectly enabling vulnerabilities as a quality issue
+* Can potentially map some real-world vulnerabilities but requires careful review
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 757
+answer_tokens: 203
+time_taken: 15.47 seconds

@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry discusses the weakness of using single-factor authentication and recommends using multi-factor authentication instead. It explains that single-factor authentication, often just a password, is vulnerable to compromise. If an attacker obtains the password, they can gain full access. Multi-factor authentication adds extra layers of protection, so if one factor is compromised, the account is still protected. 
+
+The entry provides examples of single-factor authentication in C and Java that just check if a password hash matches. It explains weaknesses around using plain text passwords and weak hashing algorithms. It also notes lack of salting passwords as an issue.
+
+Potential mitigations include implementing multiple independent authentication schemes to reduce the risk if one method is compromised.
+
+# Summary bullet points
+
+* CWE-308 discusses the weakness of single-factor authentication versus multi-factor 
+* Single-factor using just a password is vulnerable if password is compromised
+* Multi-factor authentication adds extra layers of protection if one factor compromised
+* Examples in C and Java show just checking password hash 
+* Weaknesses noted around plain text passwords, weak hashes, no salting
+* Mitigation is to implement multiple authentication schemes
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1099
+answer_tokens: 200
+time_taken: 24.68 seconds

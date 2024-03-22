@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-435, a weakness related to improper interaction between multiple correctly behaving entities. When systems or processes combine independent components, new behaviors can emerge at the system level. If interactions between components are not fully accounted for, some behaviors may be incorrect or insecure, known as interaction errors. Examples are provided of vulnerabilities caused by porting code across platforms with different case sensitivity rules. The weakness is conceptual and high-level, intended to describe compliant products, unlike API abuse or interpretation conflicts involving non-compliant products. Research gaps exist in studying and classifying interaction weaknesses.
+
+# Summary bullet points
+
+* CWE-435 involves emergent vulnerabilities from integrating compliant, correctly-behaving components 
+* New system behaviors resulting from component interactions may be flawed if not fully analyzed
+* Examples involve porting code across platforms with different case sensitivity rules
+* Distinct from API abuse or interpretation conflicts stemming from non-compliant components  
+* A conceptual weakness needing more research into subclasses and taxonomy  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry
+================================================================================
+METADATA:
+prompt_tokens: 1005
+answer_tokens: 172
+time_taken: 17.83 seconds

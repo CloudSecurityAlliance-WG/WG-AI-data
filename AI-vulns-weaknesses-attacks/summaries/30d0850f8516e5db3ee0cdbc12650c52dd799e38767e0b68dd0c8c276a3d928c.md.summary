@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text discusses the technique of adversaries discovering the ontology of a machine learning model's output space. This could involve repeated queries to the model to force it to enumerate what it can detect, or finding the ontology in configuration files or documentation. Knowing the model's ontology helps adversaries understand how it is used and create more targeted attacks. The text provides an example of evading a face identification system using physical countermeasures, and suggests mitigations like obfuscating model outputs and restricting the number of queries allowed.
+
+# Summary bullet points
+
+* Adversaries may discover ML model ontology through repeated queries or reviewing configs/docs
+* Knowing ontology helps adversaries understand model usage and craft attacks 
+* Example given of evading face ID system via physical changes
+* Suggested mitigations: obfuscate outputs, restrict number of queries
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - MITRE ATLAS description of AI attack technique
+================================================================================
+METADATA:
+prompt_tokens: 602
+answer_tokens: 155
+time_taken: 13.17 seconds

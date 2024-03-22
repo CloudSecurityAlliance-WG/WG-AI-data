@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1089 weakness describes a potential vulnerability where a product uses a very large data table with an excessive number of indices. This can reduce performance, especially if the relevant code is reachable by an attacker. The key thresholds are a table with over 1 million rows being considered "large", and more than 3 indices considered "excessive".
+
+This is categorized under asymmetric resource consumption issues, bad coding practices, performance efficiency quality measures, and comprehensive resource lifecycle management. It can indirectly introduce security weaknesses by making them harder to detect or easier to exploit. The impact is reduced performance, with likelihood dependent on whether attackers can reach the relevant code.
+
+# Summary bullet points
+
+* Describes large data tables with many indices causing performance issues
+* 1 million+ rows considered a "large" table by default 
+* More than 3 indices considered "excessive" by default
+* Can indirectly introduce security weaknesses
+* Impact is reduced performance
+* Likelihood depends on if attackers can reach relevant code
+* Categorized under various weakness types and quality measures
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Database Entry
+================================================================================
+METADATA:
+prompt_tokens: 762
+answer_tokens: 190
+time_taken: 13.81 seconds

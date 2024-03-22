@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes an weakness where a product does not properly handle situations where the number of parameters, fields, or arguments with the same name exceeds the expected amount. This can lead to unexpected behavior or state in the system. It often occurs when only one parameter with a given name is expected, but multiple are provided. This weakness is related to improper handling of parameters in general and can play a role in multiple interpretation issues and HTTP attacks like HTTP parameter pollution.
+
+# Summary bullet points
+
+* CWE-235 refers to a weakness where a system does not properly handle extra or unexpected parameters or arguments
+* It often occurs when a system expects only one parameter with a given name but receives multiple
+* Can lead to unexpected system state or behavior
+* Related to improper parameter handling in general (CWE-233)
+* Plays a role in multiple interpretation and HTTP attacks like parameter pollution
+* Rated as a variant weakness, good for mapping to vulnerabilities
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 700
+answer_tokens: 184
+time_taken: 13.52 seconds

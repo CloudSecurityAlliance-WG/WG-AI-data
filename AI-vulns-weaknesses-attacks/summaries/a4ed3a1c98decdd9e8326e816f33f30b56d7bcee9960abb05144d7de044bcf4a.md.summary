@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of insufficient technical or engineering documentation for software/hardware products. This makes the products more difficult to maintain and indirectly affects security by making it harder to find and fix vulnerabilities. It also forces security consultants to waste time learning the product instead of focusing on finding flaws. For hardware, lack of documentation makes it hard to verify functionality and ensure it works as expected.
+
+# Summary bullet points
+
+* Insufficient documentation makes products harder to maintain, indirectly harming security 
+* With poor documentation, consultants waste time learning the product instead of finding vulnerabilities
+* For hardware, lack of docs makes it difficult to verify functionality and behavior
+* Can't ensure hardware operates within acceptable tolerances without documentation
+* Documentation may include things like HDLs, netlists, Gerber files, Bills of Materials, EDA files, etc.
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 1154
+answer_tokens: 155
+time_taken: 16.85 seconds

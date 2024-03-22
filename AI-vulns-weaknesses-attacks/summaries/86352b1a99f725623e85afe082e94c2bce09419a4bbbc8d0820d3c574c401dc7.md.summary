@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content according to the prompt:
+
+# Summary
+
+The content describes a race condition weakness (CWE-362) which occurs when code that accesses a shared resource runs concurrently with other code, but lacks proper synchronization. This can violate exclusivity and atomicity properties. It leads to vulnerabilities like denial of service, crashes, unauthorized access to data, etc. Proper synchronization using locks, mutexes, etc. is needed to avoid race conditions. The content provides examples of race conditions and mitigations. It also maps the weakness to related attack patterns, references and taxonomies. 
+
+# Summary bullet points
+
+* Race conditions occur when concurrent code accesses a shared resource without proper synchronization
+* Can lead to violations of exclusivity and atomicity properties
+* Causes vulnerabilities like denial of service, crashes, unauthorized data access
+* Proper locks, mutexes, thread safe functions needed to avoid race conditions 
+* Examples of race conditions are provided including account transfers, improper locking in threads
+* Mitigations include synchronization primitives, minimizing shared resources, thread safe functions
+* Mapped to access patterns like leveraging race conditions and time-of-check time-of-use races
+* Related to improper synchronization weakness and other concurrent execution weaknesses
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Definition - Common Weakness Enumeration
+================================================================================
+METADATA:
+prompt_tokens: 3678
+answer_tokens: 209
+time_taken: 25.86 seconds

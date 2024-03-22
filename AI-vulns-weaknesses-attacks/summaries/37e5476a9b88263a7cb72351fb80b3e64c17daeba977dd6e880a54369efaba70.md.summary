@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The text describes CWE-1247, which is a weakness related to improper protection against voltage and clock glitches in hardware devices. It explains that devices should contain circuitry and sensors to detect voltage and clock anomalies that could allow attackers to bypass security mechanisms. Without proper protections, attackers could exploit hardware vulnerabilities to access sensitive information or take control of the system.
+
+The document provides background details, relationships to other weaknesses, potential mitigations, detection methods, and references. Key points relate to ensuring secure boot protections cannot be bypassed through physical tampering techniques. Specific hardware features like Tunable Replica Circuits and Razor flip-flops are mentioned to help mitigate glitch attacks.
+
+# Summary bullet points
+
+* CWE-1247 refers to lack of protections against voltage and clock glitching attacks that could allow bypassing of security mechanisms
+* Glitch attacks could enable attackers to gain privileges, read/modify memory, and execute unauthorized code
+* Hardware should have circuitry and sensors to detect glitches and prevent exploitation 
+* Mitigations involve hardware techniques like Tunable Replica Circuits and Razor flip-flops
+* Secure boot protections need redundancy to prevent bypass through fault injection
+* Design reviews should check if software power management features are accessible to unprivileged code
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 2064
+answer_tokens: 224
+time_taken: 19.14 seconds

@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes the CWE-59 weakness related to improper link resolution before file access, also known as "link following". This occurs when a product attempts to access a file based on a filename without properly preventing that filename from identifying a link or shortcut that resolves to an unintended resource. Attackers can exploit this to traverse the file system to unintended locations and read/overwrite files. If used files are for security mechanisms, it may allow bypassing protections. It provides background details, modes of introduction, common consequences, observed examples, potential mitigations, detection methods, and related information.
+
+# Summary bullet points
+
+* CWE-59 is an improper link resolution weakness that can enable attackers to access unintended files and directories
+* Also known as "link following", it occurs when filenames are not properly checked for shortcuts/symlinks 
+* Can allow attackers to traverse the filesystem and read/write arbitrary files
+* May enable bypassing of security mechanisms if used files are compromised
+* Applies to various platforms like Windows, Linux, Unix
+* Mitigations include principle of least privilege and good compartmentalization 
+* Detection methods include static/dynamic analysis, fuzz testing, design reviews
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website
+================================================================================
+METADATA:
+prompt_tokens: 2210
+answer_tokens: 207
+time_taken: 22.15 seconds

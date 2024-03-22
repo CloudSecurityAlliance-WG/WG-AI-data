@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text appears to be extracted from a website called PLOT4ai, which contains a library of AI/ML threats classified into 8 categories. The site encourages users who are new to PLOT4ai to read the HOW TO section first. There are 86 threats related to AI/ML in the library. The threats seem to be in the form of questions that aim to uncover potential issues with AI/ML systems, such as whether decisions are being made without human intervention, if datasets could have copyright restrictions, and if proprietary libraries/elements are being used that could limit what you can do. There is a Creative Commons license and reference list provided at the end.
+
+# Summary bullet points
+
+* Text extracted from PLOT4ai website containing AI/ML threat library
+* Library has 86 AI/ML threats classified into 8 categories 
+* Threats are questions that reveal potential AI/ML issues
+* Questions on human intervention, copyrights, proprietary elements
+* Creative Commons licensed with reference list
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website
+================================================================================
+METADATA:
+prompt_tokens: 1447
+answer_tokens: 170
+time_taken: 15.36 seconds

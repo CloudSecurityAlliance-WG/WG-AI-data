@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-621 weakness describes a vulnerability where external input is used to determine the names of variables that information is extracted into, without verifying that the variable names are valid. This could allow attackers to overwrite sensitive data or program variables. For example, in PHP, the extract() function can be used in a similar way to the deprecated register_globals feature, allowing arbitrary overwriting of global variables. Mitigations include using allowlists of valid variable names, refactoring code to avoid extraction routines, and using extract() options like EXTR_SKIP and EXTR_PREFIX_ALL in PHP.
+
+# Summary bullet points
+
+* CWE-621 refers to the variable extraction error weakness where external input determines extraction variable names without validation, enabling overwrite attacks
+* Could allow overwriting sensitive data or program variables when extracting external input into variables 
+* Occurs in PHP extract() calls mimicking deprecated register_globals functionality 
+* Possible in other interpreted languages with similar capabilities
+* Mitigations include allowlisting valid extraction variable names, refactoring code, and using defensive extract() options in PHP
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 950
+answer_tokens: 182
+time_taken: 16.97 seconds

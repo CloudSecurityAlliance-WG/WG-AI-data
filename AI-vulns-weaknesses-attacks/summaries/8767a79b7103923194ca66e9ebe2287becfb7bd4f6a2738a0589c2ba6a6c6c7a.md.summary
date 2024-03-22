@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The content describes CWE-940, a weakness related to improper verification of the source of a communication channel. Specifically, it refers to cases where a product establishes a communication channel to handle an incoming request, but does not properly verify that the request comes from an expected/authorized origin. As a result, an attacker could gain access to unexpected functionality or privileges by spoofing the origin of requests. 
+
+The content provides examples of this weakness in Android and iOS applications that use custom URL schemes to communicate between a web view and native code. Since the applications do not check the origin of intents or URL requests, a malicious website loaded in the web view could trigger functionality meant only for trusted applications.
+
+Potential mitigations include using mechanisms to validate the identity of the source, like certificates, and checking/allowlisting applications that can interface with sensitive functionality exposed through custom URL schemes.
+
+# Summary bullet points
+
+* Weakness related to not properly verifying source/origin of incoming communication channel requests
+* Attacker can spoof origin and gain unintended access or privileges 
+* Shown in apps with web views and custom URL schemes to call native code
+* Android app example shows malicious site triggering user account deletion 
+* iOS app example shows site accessing sensitive data/functions meant for trusted apps
+* Mitigations include validating source identity and allowlisting applications
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1214
+answer_tokens: 250
+time_taken: 21.03 seconds

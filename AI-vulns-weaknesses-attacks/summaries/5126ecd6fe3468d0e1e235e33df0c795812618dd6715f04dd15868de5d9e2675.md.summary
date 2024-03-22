@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-912, a common weakness enumeration related to hidden functionality in software products. It states that hidden functionality that is not documented or accessible can increase attack surface and expose additional weaknesses. Examples are malicious code, developer shortcuts, and undisclosed features like telnet servers. Even non-malicious hidden functionality can alter execution logic and impact integrity. The document details relationships to other CWEs, applicable platforms, common consequences, observed examples, and potential mitigations like code coverage analysis.
+
+# Summary bullet points
+
+* CWE-912 involves hidden, undocumented functionality in software products
+* Can take forms like malicious code, developer shortcuts, Easter eggs, etc. 
+* Increases attack surface even if non-malicious functionality
+* Can alter execution logic and impact integrity
+* Related to incorrect functionality provision and embedded malicious code
+* Applicable across technologies and ICS/OT systems
+* Examples include backdoors and undisclosed telnet servers
+* Mitigations include code coverage analysis to uncover hidden functionality
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+Common Weakness Enumeration (CWE) definition  
+================================================================================
+METADATA:
+prompt_tokens: 820
+answer_tokens: 178
+time_taken: 17.39 seconds

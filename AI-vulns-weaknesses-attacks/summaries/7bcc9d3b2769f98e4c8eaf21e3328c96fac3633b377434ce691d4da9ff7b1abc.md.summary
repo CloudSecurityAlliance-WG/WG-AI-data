@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the provided text:
+
+# Summary
+
+The text describes CWE-692, a common weakness in software systems related to incomplete denylists for defending against cross-site scripting (XSS) attacks. It explains that denylist-based protections against XSS attacks often have gaps that allow attackers to bypass them with XSS variants. Browsers interpret web pages in complex and varied ways, making comprehensive denylisting very difficult. The "XSS Cheat Sheet" provides many examples of attacks designed to bypass incomplete denylists. CWE-692 is a child weakness of CWE-184 (Incomplete List of Disallowed Inputs) and can lead to cross-site scripting vulnerabilities that allow execution of unauthorized code or commands. An example vulnerability from 2007 is cited where the denylist filtering was incomplete.
+
+# Summary bullet points
+
+* CWE-692 is an incomplete denylist vulnerability that can allow XSS attacks
+* Denylist protections against XSS often have gaps due to browser complexity 
+* The XSS Cheat Sheet has attacks designed to bypass incomplete denylists
+* CWE-692 stems from CWE-184 (Incomplete List of Disallowed Inputs) 
+* Can lead to unauthorized code execution via resultant XSS vulnerabilities
+* Example from 2007 showed incomplete denylist filtering vulnerable to XSS
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Entry from Common Weakness Enumeration (CWE) catalogue
+================================================================================
+METADATA:
+prompt_tokens: 532
+answer_tokens: 209
+time_taken: 18.54 seconds

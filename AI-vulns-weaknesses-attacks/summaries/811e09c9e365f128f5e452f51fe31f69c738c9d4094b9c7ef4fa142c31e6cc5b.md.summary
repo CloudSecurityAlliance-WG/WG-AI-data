@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+This document from the MITRE ATLAS website describes a technique that adversaries may use called "Search Application Repositories". The summary is:
+
+Adversaries may search open application repositories like app stores during reconnaissance to find apps that contain machine learning components to target. They may craft search queries to specifically find apps with ML capabilities. The next step is often to acquire public ML artifacts from those apps. This technique is categorized under the Reconnaissance tactic. MITRE provides a case study about a backdoor attack on deep learning models in mobile apps as an example. They also suggest a mitigation of limiting the release of public information about apps' ML capabilities.
+
+# Summary bullet points
+
+* Adversaries may search open app repositories to find apps with ML components to target 
+* They craft search queries to specifically find apps with ML capabilities
+* The next step is often to acquire public ML artifacts from those apps
+* This technique is categorized under the Reconnaissance tactic
+* MITRE provides a case study of a backdoor attack on deep learning models in mobile apps
+* Suggested mitigation is to limit public info released about apps' ML capabilities  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website page
+================================================================================
+METADATA:
+prompt_tokens: 556
+answer_tokens: 207
+time_taken: 14.32 seconds

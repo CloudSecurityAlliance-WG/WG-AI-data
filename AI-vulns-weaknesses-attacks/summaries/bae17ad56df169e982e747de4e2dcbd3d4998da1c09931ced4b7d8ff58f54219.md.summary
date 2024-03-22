@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of a product failing to prevent external actors from influencing the definition of its control spheres. A control sphere refers to the set of resources and behaviors accessible to specific users or groups. Typically, products define control spheres in code or via administrator configuration. If external parties can modify these definitions, it enables attacks. For example, a shared web server allowing local users to edit files that configure publisher permissions could let them access article creation functionality reserved for publishers. This results from insufficient permissions on sphere definition files. Another example is malicious PATH environment variable modification granting access to the wrong directory for loading libraries. The key impact is breaking intended access control boundaries.
+
+# Summary bullet points
+
+* Failing to prevent external actors from modifying product control sphere definitions
+* Control spheres define accessible resources and behaviors for users/groups 
+* Products typically define spheres in code or administrator configuration
+* External modification enables violating intended access control boundaries
+* One cause is insufficient permissions on files used for sphere definitions
+* Examples: shared web server allowing sphere config file edits, PATH var change
+* Key impact is attackers gaining unintended access to resources/functionality
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry
+================================================================================
+METADATA:
+prompt_tokens: 940
+answer_tokens: 214
+time_taken: 21.37 seconds

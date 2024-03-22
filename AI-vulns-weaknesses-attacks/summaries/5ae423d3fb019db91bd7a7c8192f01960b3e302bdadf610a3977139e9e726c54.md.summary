@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of an unimplemented or unsupported feature in a user interface (UI). Specifically, it refers to a situation where a UI function for a security feature appears to be supported and provides feedback suggesting it is functional, but the underlying functionality has not actually been implemented. This can lead to a discrepancy between what users expect based on the UI and the system's actual capabilities.
+
+The entry categorizes this issue as a child of two broader weaknesses - UI discrepancy for a security feature, and lack of administrator control over security. It is applicable across software platforms and languages. Potential consequences include varied technical impacts depending on the context. Provided examples include cases where a GUI configuration tool's security settings don't actually enable options as expected, and routers failing to implement access control list keywords as expected.
+
+Suggested mitigations include thorough functionality testing of UIs before deployment to identify unsupported features. The entry notes that more research is needed on this topic.
+
+# Summary bullet points
+
+* UI security feature appears supported but underlying functionality not implemented
+* Child issue of UI discrepancy and lack of admin security control
+* Impacts vary by context
+* Examples: GUI tools not enabling options, routers not enforcing ACLs
+* Suggest testing UIs to find unsupported features 
+* More research needed on prevalence
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry (Common Weakness Enumeration reference)
+================================================================================
+METADATA:
+prompt_tokens: 772
+answer_tokens: 241
+time_taken: 20.33 seconds

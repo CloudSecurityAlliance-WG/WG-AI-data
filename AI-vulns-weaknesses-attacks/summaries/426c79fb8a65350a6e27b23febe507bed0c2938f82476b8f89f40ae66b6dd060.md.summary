@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-44, a weakness related to improper validation of path input containing internal dots (e.g. 'file.name'), which can lead to ambiguous path resolution and unauthorized access to files or directories. It is a child of the more general CWE-41 (Improper Resolution of Path Equivalence) and a parent of CWE-45 (Path Equivalence: 'file...name' - Multiple Internal Dots). The impact includes potential reading/modifying of unintended files. It applies across programming languages and can enable path traversal attacks. The document provides background on the weakness, relationships to other CWEs, potential consequences, and information on vulnerability mapping and taxonomy.
+
+# Summary bullet points
+
+* CWE-44 relates to improper validation of path input with internal dots (e.g. 'file.name'), enabling ambiguous path resolution
+* Can lead to unauthorized file/directory access or modification 
+* Child of CWE-41, parent of CWE-45
+* Impacts confidentiality and integrity through unintended file access
+* Applies across programming languages
+* Enables path traversal attacks 
+* Mapped to real-world vulnerabilities
+* Part of weaknesses related to file handling and path traversal
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Common Weakness Enumeration (CWE) definition 
+================================================================================
+METADATA:
+prompt_tokens: 678
+answer_tokens: 188
+time_taken: 15.17 seconds

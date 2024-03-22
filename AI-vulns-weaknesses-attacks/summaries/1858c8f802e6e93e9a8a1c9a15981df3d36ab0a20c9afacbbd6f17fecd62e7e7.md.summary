@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-599, a vulnerability related to missing validation of OpenSSL certificates. Specifically, it points out that some products use OpenSSL and trust or use certificates without properly validating them using the SSL_get_verify_result() function. This could allow attackers to use invalid, expired, or otherwise insecure certificates to spoof trusted hosts or conduct other attacks. The vulnerability is a child of CWE-295 Improper Certificate Validation.
+
+The document explains that failing to validate certificates could allow attackers to read application data that is not properly secured or bypass protection mechanisms through spoofing/redirection. It provides an code example in C demonstrating a vulnerability where the certificate is obtained but not validated.
+
+The document recommends ensuring proper authentication in system design and understanding/implementing necessary certificate validation checks. It notes the similarity of CWE-599 to CWE-295, but points out CWE-599 is more narrowly focused on OpenSSL certificates specifically.
+
+# Summary bullet points
+
+* Describes vulnerability CWE-599 related to missing OpenSSL certificate validation
+* Failing to validate certificates with SSL_get_verify_result() leaves products vulnerable 
+* Attackers could use invalid/expired/insecure certificates to spoof trusted hosts
+* Could result in unauthorized reading of app data or bypassing protections
+* Provides code example of obtaining certificate without validating it 
+* Recommends proper authentication in design and implementing cert validation checks
+* Similar to CWE-295 but more narrow focus on OpenSSL certificates 
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 958
+answer_tokens: 235
+time_taken: 18.84 seconds

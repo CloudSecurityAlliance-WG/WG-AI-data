@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry provides guidance on weak password requirements, emphasizing the importance of strong passwords to protect system access and prevent unauthorized access. It recommends password policies enforce minimum password length, restrict password reuse and common passwords, include mixed character sets, and consider secondary authentication factors. Specific password policy details depend on the system's threat model and risks. The entry cautions weak password policies make it significantly easier for attackers to compromise user accounts through guessing or brute force attacks.  
+
+# Summary bullet points
+
+* Weak password policies, lacking complexity requirements, increase risk of attackers compromising user accounts
+* Strong password policies should enforce:
+  * Minimum and maximum password lengths
+  * Restrictions on reuse and common passwords 
+  * Mixed character sets (letters, numbers, symbols)
+* Secondary authentication factors beyond passwords help mitigate risks
+* Password policies should align with system's threat model and risks
+* Weak passwords enable attackers to more easily guess passwords and gain system access
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry (Common Weakness Enumeration) 
+================================================================================
+METADATA:
+prompt_tokens: 1434
+answer_tokens: 174
+time_taken: 19.25 seconds

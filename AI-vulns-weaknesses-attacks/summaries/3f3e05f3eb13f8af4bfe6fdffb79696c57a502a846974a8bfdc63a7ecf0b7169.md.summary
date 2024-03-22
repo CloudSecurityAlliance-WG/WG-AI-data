@@ -1,0 +1,22 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper neutralization of expression or command delimiters. This occurs when a product receives input but does not properly handle special elements that could be interpreted as delimiters when sent downstream. If delimiters are injected, absent, or malformed, unexpected actions may occur when data is parsed. This can allow attackers to inject unauthorized code or commands or alter execution logic. Recommended mitigations include validating input properly using allowlists and denylists, encoding dynamic outputs, double decoding inputs, and assuming all inputs are malicious.
+
+# Summary bullet points
+
+* Improper neutralization of expression/command delimiters is a weakness where input is not properly sanitized before being passed downstream
+* Injected, absent, or malformed delimiters can cause unwanted actions when data is parsed 
+* This can allow execution of unauthorized code/commands or alteration of logic flow
+* Mitigations include input validation, output encoding, double decoding inputs, and assuming maliciousness of inputs
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 1105
+answer_tokens: 169
+time_taken: 15.05 seconds

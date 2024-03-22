@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-279 weakness describes a situation where a product sets object permissions in a way that violates the intended permissions specified by the user while the product is executing. This can lead to unauthorized access to sensitive data. The key impacts are compromised confidentiality and integrity of application data. This weakness can allow attackers to access or modify data they should not have access to. It is caused during implementation of architectural security tactics.
+
+To mitigate this weakness, privileges should be carefully managed and trust zones explicitly separated. Compartmentalization of the system using privilege separation principles is recommended to create safe areas with unambiguous trust boundaries. Sensitive data should not be allowed to leave trusted compartments. The principle of least privilege should guide appropriate use of privileges.
+
+# Summary bullet points
+
+* Sets object permissions incorrectly, violating intended permissions by user
+* Permissions set while product is executing 
+* Leads to unauthorized data access or modification
+* Impacts confidentiality and integrity 
+* Caused by improper implementation of security tactics
+* Mitigate by carefully managing privileges, compartmentalization, and least privilege principle
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 901
+answer_tokens: 196
+time_taken: 15.89 seconds

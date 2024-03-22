@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes a weakness where a class contains a virtual method but does not have an associated virtual destructor. This can lead to undefined behavior and reliability issues, potentially introducing vulnerabilities if reachable by an attacker. The key points are:
+
+- Classes with virtual methods should have virtual destructors to ensure proper cleanup and avoid reliability and security issues. 
+- Omitting a virtual destructor in such classes can lead to undefined behavior and crashes.
+- This weakness makes it easier to introduce related vulnerabilities and harder to detect them.
+
+# Summary bullet points
+
+* CWE-1087 refers to a class having a virtual method without a virtual destructor
+* Can lead to undefined behavior and reliability/security issues
+* Omitting a virtual destructor prevents proper cleanup in derived classes
+* Enables related vulnerabilities and makes them harder to detect
+* Rated as an indirect weakness that reduces reliability
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 732
+answer_tokens: 164
+time_taken: 15.89 seconds

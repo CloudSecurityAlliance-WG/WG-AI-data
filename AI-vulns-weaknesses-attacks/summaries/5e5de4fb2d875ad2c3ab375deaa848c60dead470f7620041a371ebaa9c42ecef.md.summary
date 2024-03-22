@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the data you provided:
+
+# Summary
+
+The text describes the weakness CWE-1240, which is the use of a cryptographic primitive or algorithm that has an insecure, non-standard, or unproven implementation. It explains that cryptographic primitives and algorithms rely on mathematical robustness and extensive review to be considered secure. Using ad-hoc or custom implementations often introduces vulnerabilities that can compromise confidentiality or allow attacks. Even vetted primitives can become insecure over time if new cryptanalysis techniques are discovered, so it is important to continually update implementations. The text provides various examples of cryptographic weaknesses, mitigations, and recommendations, emphasizing the need to use industry-approved primitives properly and keep them up to date. It notes that this is especially critical for hardware implementations that cannot be easily patched.
+
+# Summary bullet points
+
+* Cryptographic primitives rely on mathematical robustness and are only secure after extensive review by experts 
+* Using custom or ad-hoc implementations often introduces vulnerabilities 
+* Even vetted primitives can become insecure over time as cryptanalysis advances
+* Important to use proper industry-approved primitives and implementations  
+* Critical to keep cryptographic implementations up to date as recommendations evolve 
+* Particularly challenging for hardware implementations that cannot be easily patched
+* Examples given of weak or broken cryptographic techniques
+* Mitigations focus on using strongest available primitives properly, crypto agility, proper key management
+
+# Geographic information  
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 2794
+answer_tokens: 242
+time_taken: 24.18 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a weakness where a product implements an authentication technique but skips a critical step, weakening the technique. This makes it easier for attackers to bypass authentication or conduct brute force attacks. The skipped step deviates from the defined authentication algorithm specification. It is a child weakness of improper following of specifications and incorrect authentication algorithm implementation. It can allow attackers to gain privileges, obtain sensitive information, or execute arbitrary code. Examples are provided of vulnerabilities where a shared secret is not verified in a RADIUS packet enabling authentication bypass and where skipping the first start up step of a protocol enables authentication bypass. SAST tools can effectively detect instances of this weakness. It is part of the OWASP Top 10 categories for broken authentication and authorization failures which lead to compromise of systems and data.
+
+# Summary bullet points
+
+* Product authentication implementation skips critical step, deviating from algorithm specification
+* Enables attackers to more easily bypass authentication or conduct brute force attacks
+* Child weakness of violating specifications and incorrect authentication implementation  
+* Can allow privilege escalation, data disclosure, arbitrary code execution
+* Static analysis tools can effectively detect instances of this weakness
+* Part of OWASP Top 10 related to broken authentication and insufficient authorization
+
+# Geographic information  
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 854
+answer_tokens: 227
+time_taken: 18.78 seconds

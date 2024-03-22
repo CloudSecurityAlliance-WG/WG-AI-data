@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-656 weakness describes the risk of relying too heavily on security through obscurity in product design. This means using a protection mechanism that depends primarily on the secrecy of its algorithms or key data, such that knowledge of these would allow the mechanism to be defeated. While obscurity can be one layer of defense, if it is the primary means of protection, the system is vulnerable if reverse engineered. This violates secure design principles. Examples of this weakness include reliance on hidden form fields in web apps, hard-coded cryptographic keys in executables, or sequence numbers in network protocols. Mitigations involve using publicly vetted algorithms when possible and considering whether knowledge of the system design alone is enough to break it during threat modeling.
+
+# Summary bullet points
+
+* CWE-656 refers to over-reliance on security through obscurity in product design, violating secure design principles
+* Primary protection depends too heavily on secrecy of algorithms, keys, etc. such that reverse engineering defeats it  
+* Can enable attackers to easily bypass security mechanisms if critical knowledge is obtained
+* Examples include hidden web form fields, hard-coded encryption keys, network sequence numbers 
+* Mitigations include using publicly vetted crypto, considering reverse engineering risk
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1153
+answer_tokens: 216
+time_taken: 16.82 seconds

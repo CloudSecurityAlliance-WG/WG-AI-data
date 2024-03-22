@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+In the MITRE ATLAS technique AML.T0043.000, White-Box Optimization refers to a method where the adversary has full access to the target ML model and directly optimizes adversarial examples against it. This allows the adversary to craft highly effective adversarial examples tailored to that specific model. The technique has been used in attacks against Microsoft Azure services, face identification systems, and language models like GPT. 
+
+Mitigation focuses on distributing or randomizing parts of the model to make it harder for the adversary to fully characterize and directly optimize against. Overall this technique represents a serious threat since it allows an advanced adversary to precisely tune attacks against a target system.
+
+# Summary bullet points
+
+* White-Box Optimization gives the adversary full access to the target ML model.
+* With access, the adversary can directly optimize adversarial data like images, audio, or text tailored to that model. 
+* This creates highly effective attacks compared to indirect optimization.
+* Example attacks have disrupted Azure services, broken face identification systems, and poisoned AI models like GPT.
+* Mitigation relies on distributing or randomizing the model to prevent full characterization.
+* Powerful technique allowing advanced adversaries to precisely craft attacks.
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+MITRE ATT&CK Technique Page
+================================================================================
+METADATA:
+prompt_tokens: 595
+answer_tokens: 210
+time_taken: 21.61 seconds

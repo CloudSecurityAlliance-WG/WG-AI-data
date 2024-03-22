@@ -1,0 +1,21 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes the weakness of relying on machine-dependent data representations in code. Using low-level data constructs that vary across different processors and machines makes code harder to maintain and port across environments. This indirectly reduces security by making it more difficult to find and fix vulnerabilities.
+
+# Summary bullet points
+
+* Describes the weakness of relying on machine-dependent data representations in code
+* Using low-level variable data constructs makes code harder to maintain and port
+* Indirectly harms security by increasing difficulty of finding and fixing vulnerabilities
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 715
+answer_tokens: 105
+time_taken: 10.26 seconds

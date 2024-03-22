@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of obscuring security-relevant information by recording it under an alternate name rather than the canonical name of the affected entity. This can allow attackers to hide malicious activities by providing an alternate filename that obscures the real target. It is a child of the "Information Loss or Omission" weakness and can lead to impacts like gaining privileges or assuming identities by hiding activities.
+
+# Summary bullet points
+
+* Records security information using alternate name rather than canonical name of affected entity
+* Can allow attackers to obscure real target file by providing alternate filename 
+* Child of "Information Loss or Omission" weakness
+* Impacts include gaining privileges and assuming identities by hiding malicious activities
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 830
+answer_tokens: 136
+time_taken: 13.09 seconds

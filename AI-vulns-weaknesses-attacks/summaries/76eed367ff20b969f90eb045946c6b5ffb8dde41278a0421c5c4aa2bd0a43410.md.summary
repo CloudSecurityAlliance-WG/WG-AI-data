@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-87, a weakness related to improper neutralization of alternate cross-site scripting (XSS) syntax. It explains that the weakness occurs when a product fails to properly neutralize user-controlled input containing alternate script syntax, allowing attackers to conduct XSS attacks. The weakness stems from incomplete input validation or filtering that only works on lowercase "script" tags and fails to catch alternate capitalizations. Potential mitigations include resolving all input, carefully checking against an allowlist, output encoding, setting session cookies to HttpOnly, and writing data with filtering enabled.
+
+# Summary bullet points
+
+* CWE-87 is an improper neutralization of alternate XSS syntax weakness 
+* It occurs when user input with alternate script syntax is not properly neutralized
+* Leads to XSS attacks due to incomplete input validation or filtering
+* Mitigations include thorough input checking, output encoding, HttpOnly cookies
+* Affects confidentiality, integrity and availability through data access and code execution
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1170
+answer_tokens: 166
+time_taken: 17.78 seconds

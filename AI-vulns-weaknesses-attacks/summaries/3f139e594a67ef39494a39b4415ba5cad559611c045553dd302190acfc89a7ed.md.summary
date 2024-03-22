@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-33, a common weakness enumeration related to path traversal vulnerabilities using multiple dots (....). It explains that this weakness allows attackers to traverse the file system outside of restricted directories by using external input with .... sequences. The document provides details on how this traversal works technically, relationships to other CWEs, applicable platforms, common consequences, observed examples, and potential mitigations like input validation and careful filename validation.
+
+# Summary bullet points
+
+* CWE-33 refers to a path traversal weakness using .... (multiple dots) to traverse outside intended directories 
+* Allows attackers to access files/directories outside of restricted areas via external input with .... sequences
+* Related to relative path traversal (CWE-23) and collapse into unsafe values (CWE-182)
+* Applicable across languages and platforms that take external input for pathnames
+* Consequences include reading/modifying unintended files and directories
+* Observed in vulnerabilities like CVE-2000-0240, CVE-2000-0773, CVE-1999-1082
+* Mitigations focus on stringent input validation, allowlisting filenames, limiting dots in filenames
+
+# Geographic information
+Not applicable
+
+# Type of content
+Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 1217
+answer_tokens: 177
+time_taken: 21.33 seconds

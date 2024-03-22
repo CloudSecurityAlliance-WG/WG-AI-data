@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-827 weakness describes a vulnerability where a product does not properly restrict references to Document Type Definitions (DTDs). This allows attackers to reference arbitrary DTDs, which could expose files, consume excessive resources, or make unauthorized HTTP requests on the attacker's behalf. 
+
+The extended description explains that as DTDs are processed, they may try to read or include files on the system. If an attacker controls the DTD, they could specify sensitive resources to access or provide malicious content. An example is that the SOAP specification prohibits SOAP messages containing DTDs.
+
+# Summary bullet points
+
+* CWE-827 is an improper control of document type definitions (DTDs) 
+* Attackers can reference arbitrary DTDs to exploit the system
+* Consequences include file exposure, resource consumption denial of service attacks, and unauthorized HTTP requests
+* DTD processing may try to read/include files, allowing attackers to access sensitive resources
+* SOAP prohibits DTDs in SOAP messages
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 872
+answer_tokens: 168
+time_taken: 16.74 seconds

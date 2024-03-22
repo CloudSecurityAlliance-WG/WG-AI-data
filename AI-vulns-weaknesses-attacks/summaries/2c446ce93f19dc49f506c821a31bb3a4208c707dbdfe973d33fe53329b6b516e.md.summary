@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1100 weakness describes insufficient isolation of system-dependent functions in software. This means that system-specific functionality is not properly modularized or encapsulated into separate components. The impact of this weakness is reduced maintainability and portability of the software, which can indirectly lead to security issues by making it more difficult to find and fix vulnerabilities. The weakness is considered an indirect weakness that enables other more direct software weaknesses.
+
+# Summary bullet points
+
+* CWE-1100 is an indirect software weakness that enables other weaknesses
+* It involves failure to properly isolate system-dependent functions into modules
+* This reduces maintainability, portability and makes fixing vulnerabilities more difficult
+* Can allow vulnerabilities to be introduced more easily
+* Is a child of the CWE-1061 (Insufficient Encapsulation) weakness
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 687
+answer_tokens: 141
+time_taken: 12.59 seconds

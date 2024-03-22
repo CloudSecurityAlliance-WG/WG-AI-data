@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the text:
+
+# Summary
+
+The text describes CWE-1111, a weakness in the Common Weakness Enumeration (CWE) system. CWE-1111 stands for "Incomplete I/O Documentation" and refers to cases where a product's documentation does not adequately define inputs, outputs, or system/software interfaces. This is considered an indirect weakness that makes it easier to introduce security issues or makes them harder to detect. The weakness is prohibited from being used to map to real-world vulnerabilities as it is primarily a quality issue with no direct security implications. 
+
+The text provides background on CWE and classifications for CWE-1111. It is labeled as a child of "Insufficient Technical Documentation" (CWE-1059) and a member of "Documentation Issues" (CWE-1225). It is also considered relevant to the research concepts and software development views in CWE. The text states it should not be used for vulnerability mapping and analysts should look for weaknesses with more direct security implications instead.
+
+# Summary bullet points
+
+* CWE-1111 stands for "Incomplete I/O Documentation" in the Common Weakness Enumeration (CWE) system
+* Refers to cases where product documentation does not adequately define inputs, outputs, interfaces 
+* Considered an indirect weakness that enables security issues or makes them harder to detect
+* Labeled as a quality issue with no direct security implications 
+* Prohibited from being used to map to real-world vulnerabilities
+* Child of CWE-1059 "Insufficient Technical Documentation"
+* Member of CWE-1225 "Documentation Issues"
+* Relevant to CWE research concepts and software development views
+* Analysts should focus on weaknesses with more direct security implications
+
+# Geographic information
+Not applicable
+
+# Type of content
+Reference entry from Common Weakness Enumeration (CWE) system
+================================================================================
+METADATA:
+prompt_tokens: 593
+answer_tokens: 276
+time_taken: 20.45 seconds

@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of relying on cookies for security-critical operations without properly validating the cookies or checking their integrity. Attackers can easily modify cookies, allowing them to bypass authentication, conduct injection attacks, or otherwise modify inputs unexpectedly. Examples are provided of vulnerabilities where admin privileges were gained by simply editing the "role" cookie.
+
+It recommends avoiding using cookie data for security decisions or thoroughly validating/checking integrity of cookies before using them in this way. Protecting critical cookies from replay attacks is also advised. Potential mitigations are outlined in the architecture design, implementation, and operation phases.
+
+Automated static analysis tools can help detect some instances of this weakness by modeling data flows from inputs to sensitive operations.
+
+# Summary bullet points
+
+* Relying on cookies for security operations without validating can let attackers bypass authentication or conduct injection attacks by modifying cookie values
+* Example given of gaining admin privileges by changing "role" cookie value 
+* Recommends avoiding security decisions based on cookie data or thoroughly validating/checking integrity first
+* Protecting critical cookies from replay attacks also advised 
+* Outlines mitigations in architecture, implementation, and operations phases
+* Static analysis tools can automatically detect some instances of this weakness
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) database entry
+================================================================================
+METADATA:
+prompt_tokens: 1195
+answer_tokens: 218
+time_taken: 22.48 seconds

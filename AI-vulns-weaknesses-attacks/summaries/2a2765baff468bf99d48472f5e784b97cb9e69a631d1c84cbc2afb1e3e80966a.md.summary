@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses hardware internal or debug modes that allow override of locks (CWE-1234). It explains that device configuration controls are often programmed and locked after device reset to prevent unauthorized modification. However, hardware debug features may allow overriding these locks, enabling access to protected memory regions and system configuration. This could compromise security as sensitive data becomes accessible.
+
+The example demonstrates a register with lock protection that can be bypassed in scan or debug modes. The mitigation is to either remove the debug/scan overrides or protect enabling of those modes. Another example shows register locks getting reset in debug mode, allowing access to protected registers. The fix is to exclude the debug reset from the register lock reset logic.
+
+# Summary bullet points
+
+* Device configuration is locked after reset to prevent unauthorized changes 
+* Hardware debug/test modes may allow overriding locks
+* This enables access to protected memory regions and system configuration
+* Examples show registers with lock protection that get bypassed in debug modes
+* Mitigations include removing overrides or restricting debug mode access
+* Debug resets should exclude register lock reset logic
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition
+================================================================================
+METADATA:
+prompt_tokens: 1386
+answer_tokens: 199
+time_taken: 20.12 seconds

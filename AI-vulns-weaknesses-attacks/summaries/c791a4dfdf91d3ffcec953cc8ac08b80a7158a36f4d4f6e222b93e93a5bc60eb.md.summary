@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-206 describes the weakness of observable internal behavioral discrepancy in software products. Specifically, it refers to when a product performs multiple internal behaviors or steps to produce a final result, but those individual behaviors are visible to external observers in a way that enables attackers to gain insights into the product's internal state or decision points. This can simplify attacks by revealing progress and internal workings that should ideally be hidden from attackers.
+
+Examples are given such as a login system that behaves differently based on whether a provided username exists or not. By monitoring the differing responses, attackers could enumerate valid usernames. Similarly, UIs that show observable differences in how they handle alphanumeric vs non-alphanumeric characters in passwords can expose partial internal state about the password check process.
+
+The mitigation suggests standardizing error handling and responses as much as possible so that attackers cannot infer internal state or progress by distinguishing differences in responses to their probing. Care should be taken not to confirm or deny the success or failure of sensitive operations through observable differences exposed to external parties.
+
+# Summary bullet points
+
+* The weakness refers to products that perform multiple internal steps or behaviors to produce a final result, but allow those individual behaviors to be observed separately.
+* This enables attackers to gain insights into internal state and decision points that should ideally be hidden. 
+* Examples include login systems that behave differently based on username validity, allowing user enumeration.
+* UIs that treat alphanumeric and non-alphanumeric password chars differently also demonstrate the weakness.
+* The mitigation is to standardize responses to not reveal internal state or steps.
+* Error handling should be consistent and not confirm/deny success or failure of sensitive operations.
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry 
+================================================================================
+METADATA:
+prompt_tokens: 884
+answer_tokens: 307
+time_taken: 28.67 seconds

@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-922 weakness describes the insecure storage of sensitive information without properly restricting unauthorized read or write access. This can allow attackers to steal or modify sensitive data, compromising confidentiality, integrity, and availability. Proper access controls should be implemented to limit access to sensitive data.
+
+# Summary bullet points
+
+* CWE-922 involves storing sensitive data without properly restricting unauthorized access
+* This can allow attackers to steal (confidentiality breach) or modify (integrity breach) sensitive information
+* It can also lead to deletion of data and denial of service (availability breach) 
+* Proper access controls should be implemented to limit read and write access to sensitive data
+* This weakness is caused by missing security tactics during design and development phases
+* Automated static analysis can detect some instances of this weakness in code
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Definition from Common Weakness Enumeration database
+================================================================================
+METADATA:
+prompt_tokens: 940
+answer_tokens: 150
+time_taken: 14.04 seconds

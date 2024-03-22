@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-624 weakness describes a vulnerability where a regular expression engine allows user-controlled input to be executed as code. This can happen in two ways:
+
+1. The regular expression contains executable components and includes user-controlled input.
+2. The language allows users to enable regex execution by adding pattern modifiers. 
+
+This has been demonstrated in PHP's preg_replace() function when users can add an "e" modifier to enable code execution. It may be possible in other languages as well. Successful exploitation allows attackers to execute arbitrary code or commands.
+
+This weakness can lead to impacts on confidentiality, integrity, and availability. It enables attackers to execute unauthorized code or commands on the system.
+
+# Summary bullet points
+
+* CWE-624 describes a regex vulnerability that allows user input to be executed as code
+* Can happen when regex contains executable components using user input 
+* Or if language allows users to enable regex execution with modifiers
+* Shown in PHP `preg_replace()` when adding "e" modifier 
+* May affect other languages too
+* Leads to unauthorized code execution
+* Impacts confidentiality, integrity, availability 
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 854
+answer_tokens: 191
+time_taken: 16.25 seconds

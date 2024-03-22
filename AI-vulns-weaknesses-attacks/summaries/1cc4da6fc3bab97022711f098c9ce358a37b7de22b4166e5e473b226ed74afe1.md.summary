@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-256 weakness describes the storage of passwords in plain text, which can result in system compromise if an attacker gains access to the password. Storing passwords in plain text in application configuration files, properties, or memory increases the risk that a malicious actor could obtain the password and gain access to password-protected resources. Even if passwords are obscured using encoding, this does not adequately protect them.
+
+# Summary bullet points
+
+* Storing passwords in plaintext can allow attackers to gain privileges or assume identities if they access the passwords
+* Passwords stored in cleartext in application configuration files, properties, memory or registries are easily read if accessed
+* Obscuring passwords using encoding does not protect them adequately since encodings are easily detected and decoded 
+* Leaving passwords in memory instead of clearing them immediately after use also poses a security risk
+* Plaintext password storage has been observed in operational technology products, enabling attackers to alter product operation
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1529
+answer_tokens: 174
+time_taken: 16.42 seconds

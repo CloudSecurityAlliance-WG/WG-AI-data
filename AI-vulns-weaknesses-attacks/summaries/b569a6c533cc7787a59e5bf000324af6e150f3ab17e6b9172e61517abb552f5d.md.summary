@@ -1,0 +1,39 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses CWE-589, a common weakness related to calling non-ubiquitous APIs. It describes how using API functions that do not exist on all versions of a target platform can cause portability issues, inconsistencies, denial of service, or other consequences. 
+
+The key points are:
+
+- Using APIs that are not supported on all OS versions can lead to vulnerabilities
+- Functions are often deprecated or obsolete for security reasons and should not be used
+- Always test code on all platforms it targets to avoid issues 
+- Test on both newest and oldest targeted platforms
+- Static analysis tools can detect some instances of this weakness 
+
+The weakness is related to inconsistent API implementations across platforms. It can indirectly enable vulnerabilities by making code less portable or harder to analyze. It is part of several code quality standards that aim to prevent insecure coding practices.
+
+# Summary bullet points
+
+* Using API functions that do not exist on all target platform versions can cause portability problems or inconsistencies
+* Can allow denial of service or other consequences
+* Security-related functions are often deprecated or obsolete and should not be used
+* Always test code on all platforms it targets
+* Test on both newest and oldest targeted platforms  
+* Develop system to test for non-portable APIs
+* Static analysis tools can detect some instances 
+* Indirectly makes code less secure by enabling vulnerabilities or making them harder to detect
+* Part of secure coding standards and software fault pattern categorizations
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 933
+answer_tokens: 266
+time_taken: 22.40 seconds

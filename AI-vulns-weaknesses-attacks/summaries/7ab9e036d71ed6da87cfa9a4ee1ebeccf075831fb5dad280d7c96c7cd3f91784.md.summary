@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-397 weakness describes the issue of declaring that a method throws a generic Exception or Throwable in languages like Java and C++. This makes error handling difficult for callers of that method because they cannot anticipate and handle specific exception types. It is better to declare only specific exception types that callers should handle. Early C++ standards allowed functions to declare exception types they may throw, enabling them to declare broad exceptions like std::exception. This has the same negative effect of hiding potential exception types from callers.
+
+# Summary bullet points
+
+* Declaring methods to throw generic Exception or Throwable exceptions makes error handling difficult for callers
+* Callers cannot anticipate and handle specific exception types if only a generic exception is declared
+* Better to declare only specific exceptions that callers should handle
+* Early C++ versions allowed declaring broad exception types like std::exception, hiding potential exceptions from callers
+* Obscures exception details and prevents callers from properly handling errors
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition
+================================================================================
+METADATA:
+prompt_tokens: 1209
+answer_tokens: 175
+time_taken: 14.95 seconds

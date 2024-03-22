@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes the weakness of improper handling of hardware behavior in exceptionally cold environments. Specifically, it refers to situations where hardware devices or firmware lack appropriate protections to maintain the goals of security primitives when the device is cooled below standard operating temperatures. An example provided is that of a Physical Unclonable Function (PUF) paired with temperature-sensitive entropy sources like DRAM or SRAM. If the PUF primitive is used in a cryptographic construction that doesn't account for full adversary control of the PUF seed data, a weakness arises from the entropy source's behavior at low temperatures, where power cycling may not clear volatile memory as expected. This can compromise integrity, authentication, and confidentiality guarantees.
+
+# Summary bullet points
+
+* Hardware or firmware may lack protections to maintain security primitive goals when cooled below standard operating temps
+* Example: PUF paired with DRAM/SRAM entropy source used in crypto construction without accounting for behavior changes at low temps
+* Can result in unexpected state of volatile memory across power cycles if not designed for
+* Compromises integrity, authentication, confidentiality guarantees of security primitives
+* Does not cover external "cold boot" attacks attempting to read cooled RAM
+* Mitigation: Account for security primitive behavior under low temperature conditions
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 1041
+answer_tokens: 223
+time_taken: 21.25 seconds

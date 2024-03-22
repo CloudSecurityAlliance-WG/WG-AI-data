@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the provided text:
+
+# Summary
+
+The text describes CWE-327, a common weakness related to the use of broken or risky cryptographic algorithms in software. It explains that insecure cryptography can allow sensitive data to be exposed or modified, identities to be spoofed, and other impacts. Cryptographic algorithms are difficult to develop securely and even highly regarded ones have been broken over time as attacks improve. Thus, standard, community-vetted algorithms should be used rather than custom or private ones. The text notes challenges specific to implementing cryptography in hardware as well. Examples of risky algorithms like DES and SHA-1 are provided, contrasted with recommended algorithms like AES and SHA-2/SHA-3. Mitigations focus on using secure libraries, allowing cryptographic algorithms to be upgraded, key management, and proper implementation of industry-standard techniques. An example describes vulnerabilities found in 2022 across multiple OT vendor products related to weak cryptography.
+
+# Summary bullet points
+
+* Insecure cryptography can allow sensitive data exposure, data modification, identity spoofing
+* Developing robust cryptographic algorithms is extremely difficult 
+* Even well-regarded algorithms have been broken over time as compute power grows and attacks improve
+* Custom or private algorithms should be avoided in favor of standard, community-vetted ones
+* Upgrading algorithms in hardware can be challenging but should be designed for upfront
+* Examples of broken algorithms: DES, SHA-1; better options: AES, SHA-2/SHA-3
+* Software mitigations: use vetted libraries, allow upgrades, manage keys properly, follow standards 
+* 2022 research described weak crypto issues in products across 10 OT vendors
+
+# Geographic information
+Not applicable
+
+# Type of content 
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 3268
+answer_tokens: 270
+time_taken: 31.37 seconds

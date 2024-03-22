@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the text:
+
+# Summary
+
+The text describes CWE-1266, a common weakness related to improper scrubbing of sensitive data from decommissioned devices. It explains that when a product like hardware or software is taken out of service, best practices require the administrator to properly remove or overwrite any sensitive data stored on the device before decommissioning it. Failing to do so leaves sensitive data vulnerable to attackers.
+
+Sensitive data that requires scrubbing includes proprietary information, user credentials, network details, etc. The text recommends building scrubbing capabilities into the design architecture from the beginning, rather than trying to add it later. It also advises manufacturers to clearly document where sensitive data resides and provide detailed policies and procedures for properly removing that data when decommissioning devices. An example is given of needing to provide a special utility to scrub EEPROM data that is not accessible through normal admin interfaces.
+
+Key takeaways are the need for proper data scrubbing procedures when hardware/software is decommissioned, challenges in adding those procedures if not part of the initial design, the breadth of data needing protection, and manufacturer responsibility in facilitating secure data removal.
+
+# Summary bullet points
+
+* CWE-1266 deals with failure to properly remove sensitive data when decommissioning devices 
+* Best practices and regulations require scrubbing sensitive data from hardware/software being decommissioned
+* Not doing so leaves proprietary details, credentials, network info, etc vulnerable to attackers
+* Such scrubbing capabilities should be built into design architecture from the start 
+* Manufacturers should document where sensitive data resides and provide detailed scrubbing procedures
+* Might need to supply special utilities to remove data not accessible normally
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 951
+answer_tokens: 293
+time_taken: 24.97 seconds

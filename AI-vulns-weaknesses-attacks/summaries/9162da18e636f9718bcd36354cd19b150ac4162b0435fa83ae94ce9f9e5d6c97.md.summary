@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes the CWE-698 software weakness called Execution After Redirect (EAR). This weakness occurs when a web application sends a redirect to another location, but instead of exiting, it executes additional code. This could allow unauthorized access or denial of service attacks. Examples are provided where attackers gained access to admin functions or performed attacks through EAR. The consequences include altered execution logic, unauthorized code execution, and impacts to confidentiality, integrity and availability. Recommendations include proper control flow implementation and scoping.
+
+# Summary bullet points
+
+* CWE-698 Execution After Redirect (EAR) occurs when code continues executing after a redirect
+* This could allow unauthorized access or denial of service attacks 
+* Examples given where EAR allowed access to admin functions and enabled attacks
+* Consequences include altered logic flow and impacts to confidentiality, integrity and availability
+* Proper control flow implementation and scoping recommended to prevent
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 912
+answer_tokens: 169
+time_taken: 14.19 seconds

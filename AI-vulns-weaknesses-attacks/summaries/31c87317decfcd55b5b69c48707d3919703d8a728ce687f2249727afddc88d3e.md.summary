@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-350, a common weakness related to relying on reverse DNS resolution for a security-critical action. It explains that performing reverse DNS lookup to obtain a hostname and using that to make a security decision is vulnerable, as DNS names can be easily spoofed. As a result, attackers may be able to bypass authentication, hide activities by spoofing log files, or conduct other attacks. Methods of DNS spoofing include compromising a DNS server or having control over a DNS server associated with the attacker's IP address. The document advises using other identity verification methods not vulnerable to spoofing, such as usernames/passwords or certificates.
+
+# Summary bullet points
+
+* Performing reverse DNS resolution to obtain hostnames for security decisions is vulnerable, as DNS can be spoofed
+* Attackers can spoof DNS via compromised servers or controlling servers associated with their IP 
+* Can allow authentication bypass, altered log files to hide activity, and other attacks
+* Should use other identity verification not vulnerable to spoofing instead, like usernames/passwords or certificates
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1614
+answer_tokens: 196
+time_taken: 17.09 seconds

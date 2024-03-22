@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes a potential weakness where a product contains client code with a function or method that makes an excessive number of data access or query calls through a data manager, rather than using efficient database capabilities. This can reduce performance. If the relevant code is reachable by an attacker, the performance degradation could introduce a vulnerability. CISQ recommends a default maximum of 2 data accesses per function/method to avoid this issue.
+
+This is considered primarily a quality issue rather than a direct security weakness. However, it can indirectly make it easier to introduce security weaknesses or make them harder to detect. The excessive data access calls can also be leveraged for denial of service if reachable by an attacker.
+
+# Summary bullet points
+
+* CWE-1073 describes client code functions making excessive data access/query calls rather than efficient database use
+* Can reduce performance and make denial of service possible if reachable by attackers
+* Considered a quality issue rather than direct security weakness
+* CISQ recommends maximum of 2 data accesses per function/method
+* Can indirectly facilitate introducing undetected security weaknesses
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 744
+answer_tokens: 200
+time_taken: 16.31 seconds

@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-253, a common weakness enumeration related to incorrect check of function return values in software. It explains that if software incorrectly checks return values from functions, it may fail to detect errors or exceptional conditions. Important functions return values indicating success or failure of actions, which programs rely on to handle any resulting errors properly. Failure to check return values correctly can lead to unexpected system states, crashes, or other unintended behavior. 
+
+The document provides examples of incorrect return value checking in C code that could miss errors from functions like malloc(). It recommends using languages with exceptions, checking all function return values properly, always returning appropriate values or throwing exceptions from functions, and checking return values thoroughly.
+
+# Summary bullet points
+
+* CWE-253 is about incorrect check of function return values in software
+* Important functions return success/failure values that programs must check
+* Not checking return values properly misses errors and leads to crashes or unexpected behavior 
+* Examples in C show missing possible errors from malloc()
+* Recommends exceptions, careful return value checking, returning values/throwing exceptions, and thorough checking
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) description
+================================================================================
+METADATA:
+prompt_tokens: 989
+answer_tokens: 210
+time_taken: 18.31 seconds

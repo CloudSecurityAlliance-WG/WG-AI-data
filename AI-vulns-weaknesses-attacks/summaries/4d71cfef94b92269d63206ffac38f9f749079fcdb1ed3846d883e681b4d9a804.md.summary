@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes the weakness of accepting path input with a trailing dot (e.g. 'filedir.') without proper validation. This can lead to ambiguous path resolution and allow attackers to traverse the filesystem to unintended locations or access arbitrary files. It is a variant of improper path resolution and trailing special element neutralization weaknesses. Known consequences include bypassing access controls and exposing source code. Examples of vulnerabilities exploiting this weakness resulting in source code disclosure and bypassing directory access restrictions are provided.
+
+# Summary bullet points
+
+* Accepting path input with trailing dot ('filedir.') without validation can lead to ambiguous path resolution
+* Allows attackers to traverse filesystem and access unintended files/locations 
+* Variant of improper path resolution and trailing element neutralization weaknesses
+* Known consequences include bypassing access controls and source code disclosure
+* Historical examples have led to source code disclosure and bypassing directory access restrictions
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Entry
+================================================================================
+METADATA:
+prompt_tokens: 719
+answer_tokens: 164
+time_taken: 11.36 seconds

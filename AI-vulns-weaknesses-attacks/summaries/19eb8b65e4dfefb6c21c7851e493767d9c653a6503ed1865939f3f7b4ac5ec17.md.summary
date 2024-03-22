@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1090 weakness describes a method in one class that directly accesses a member element from another class, indicating poor encapsulation. This makes the software more difficult to understand and maintain, indirectly reducing security by increasing the effort needed to find and fix vulnerabilities. It also potentially enables the introduction of new vulnerabilities more easily. CWE-1090 is categorized as an encapsulation issue that reduces maintainability. It is noted that this weakness is prohibited from use in mapping real-world vulnerabilities, as it is primarily a quality issue with no direct security impact.
+
+# Summary bullet points
+
+* CWE-1090 involves a method in one class directly accessing a member element from another class
+* This indicates poor encapsulation, reducing understandability and maintainability
+* May indirectly harm security by increasing effort to find/fix vulnerabilities, and enabling easier introduction of new vulnerabilities 
+* Categorized as an encapsulation issue that reduces maintainability
+* Usage prohibited for mapping real-world vulnerabilities as primarily a quality issue with no direct security impact
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 705
+answer_tokens: 177
+time_taken: 13.22 seconds

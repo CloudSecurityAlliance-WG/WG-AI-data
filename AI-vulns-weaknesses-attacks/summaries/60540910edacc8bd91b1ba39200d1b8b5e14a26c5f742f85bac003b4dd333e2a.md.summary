@@ -1,0 +1,35 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of violating well-established secure design principles when developing products. This can introduce security vulnerabilities or make it easier for developers to introduce related weaknesses later. Because code relies heavily on design, design flaws can be difficult to fix. This weakness is related to broader concepts like improper adherence to coding standards, unnecessary complexity, and reliance on security through obscurity.  
+
+Examples of this weakness include:
+
+- Network switches reverting to hub functionality when attacked, exposing traffic to eavesdropping
+- Complexity of the IPSEC specification leading to implementation bugs and incompatibilities 
+- Single sign-on systems allowing wider access if one account is compromised
+- Predictable TCP initial sequence numbers allowing connection hijacking
+- Lack of authentication enabling arbitrary access in BMC systems
+
+The key principles this weakness violates are: economy of mechanism (keep things simple), complete mediation (validate everything), and psychological acceptability (don't surprise the user). Products should be designed not just for functionality but also for security.
+
+# Summary bullet points
+
+* Violates established secure design principles, introducing weaknesses or making them easier to introduce later
+* Related to improper coding standards, unnecessary complexity, obscurity reliance
+* Examples: switches exposing traffic when tables overflow, IPSEC complexity bugs, SSO account compromise impact 
+* Principles violated: economy of mechanism, complete mediation, psychological acceptability 
+* Products should be designed for both functionality and security
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1464
+answer_tokens: 242
+time_taken: 26.50 seconds

@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-796, a weakness related to only filtering special elements relative to a marker when processing input data. Specifically, it involves a product receiving data from an upstream component, but only accounting for special elements like "../" positioned at the beginning or end of a string. This fails to filter out other occurrences of those special elements that could enable attacks. An example shows Perl code that strips out "../" at the start of user input, but doesn't catch additional "../" strings later in the input that could be used for path traversal attacks to access sensitive system files. 
+
+The key information security issues highlighted include:
+
+- Failing to comprehensively filter all instances of dangerous special elements like "../" can enable path traversal attacks
+- Input validation must account for special elements anywhere in the input, not just relative to markers like start/end of string
+- This can allow attackers to bypass filters and access/modify unauthorized files or system areas
+
+# Summary bullet points
+
+* Describes vulnerability CWE-796 related to only filtering special input elements relative to a marker
+* Involves product only filtering dangerous input like "../" at start/end of string
+* Fails to catch other instances of those elements later in input
+* Can enable path traversal attacks to access sensitive files
+* Gives Perl code example that strips "../" at start but misses later occurrences 
+* Those can be used to traverse file paths and access unauthorized areas
+* Highlights need to filter all instances of special elements, not just by markers
+* Input validation must account for entire input string
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 788
+answer_tokens: 282
+time_taken: 22.62 seconds

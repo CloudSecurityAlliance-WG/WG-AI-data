@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the provided data:
+
+# Summary
+
+The text describes CWE-1304, a vulnerability that can occur when a product performs a power save/restore operation but does not properly ensure the integrity of the configuration state before and after the operation. This could allow an attacker with access to modify the saved configuration state while the product is powered down, enabling privilege escalation, disabling protections, or causing hardware damage when restored. 
+
+The vulnerability is caused by missing internal integrity guarantees during architecture design or missing external integrity verification during integration. Mitigations involve incorporating cryptographic integrity checks of the configuration state within the product hardware itself or via a trusted external agent. The checks should occur before power-down and after restore to detect unauthorized modifications.
+
+# Summary bullet points
+
+* CWE-1304 is a vulnerability where integrity of hardware configuration state is not preserved properly during power save/restore operations
+* Allows attackers with access to modify saved state while powered down, enabling privilege escalation, disabling protections, or causing hardware damage
+* Caused by lack of integrity guarantees or verification checks before power-down and after restore
+* Mitigations include cryptographic integrity checks within hardware or by trusted external agent to detect unauthorized modifications
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1222
+answer_tokens: 218
+time_taken: 20.26 seconds

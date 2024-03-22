@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes an account lockout mechanism vulnerability where the mechanism can be too easily triggered, allowing attackers to lock out legitimate users' accounts as a denial of service attack. The entry provides background on account lockout as a security feature against brute force password attacks, but notes it can be exploited by attackers to deny service. It describes the consequence being availability issues from denial of service against user accounts. The mitigations suggest more intelligent throttling based on IP address, gradually increasing lockout times, and alternatives to lockout like puzzles.
+
+# Summary bullet points
+
+* Account lockout mechanisms are used to counter brute force password attacks 
+* Overly restrictive mechanisms allow denial of service by locking out legitimate users
+* Attackers can exploit this to win auctions, disrupt services, etc by locking out users
+* Consequence is denial of service against availability of user accounts
+* Suggested mitigations include more intelligent throttling, increasing lockout times,CAPTCHA puzzles
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 973
+answer_tokens: 174
+time_taken: 16.74 seconds

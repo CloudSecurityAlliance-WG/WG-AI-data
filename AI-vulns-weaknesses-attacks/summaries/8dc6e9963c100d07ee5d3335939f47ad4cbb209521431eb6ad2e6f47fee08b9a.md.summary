@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content you provided:
+
+# Summary
+
+The content describes the weakness CWE-1300 - Improper Protection of Physical Side Channels. This weakness occurs when a device does not have sufficient protections to prevent physical side channels like power consumption, electromagnetic emissions, or acoustic emissions from exposing sensitive information. An attacker could monitor these side channels to detect patterns and infer sensitive data. Known attacks include extracting cryptographic keys or decrypting encrypted messages. 
+
+Mitigations include adding shielding, tamper protections, or masking techniques to make side channel measurements more difficult. Algorithms can also be designed to minimize conditional branches that could leak information. Testing methodologies like Test Vector Leakage Assessment (TVLA) can be used pre-silicon or post-silicon to detect vulnerabilities.  
+
+# Summary bullet points
+
+* Physical side channels like power, EM emissions, or acoustics can leak sensitive data 
+* Attackers can monitor side channels to find patterns and extract secrets
+* Known attacks extract crypto keys or decrypt encrypted messages
+* Mitigations include shielding, tamper protections, masking techniques
+* Algorithms can minimize branches that cause data-dependent power usage  
+* Testing approaches like TVLA detect issues pre-silicon or post-silicon
+
+# Geographic information
+
+Not applicable
+
+# Type of content 
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 2425
+answer_tokens: 206
+time_taken: 25.05 seconds

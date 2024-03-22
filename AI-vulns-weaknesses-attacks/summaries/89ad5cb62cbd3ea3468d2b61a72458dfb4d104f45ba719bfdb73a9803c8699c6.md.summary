@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text describes a technique called "Acquire Infrastructure: ML Development Workspaces" used by adversaries to develop and stage machine learning attacks. It states that developing these attacks often requires expensive compute resources like GPUs, so adversaries may try to anonymously use free resources like Google Colab or cloud services from major providers to stand up temporary resources. Using multiple workspaces can help adversaries avoid detection. The goal is to efficiently acquire the infrastructure needed to conduct operations.
+
+# Summary bullet points
+
+* Adversaries need expensive compute resources like GPUs to develop machine learning attacks
+* They may anonymously use free services like Google Colab or major cloud providers to get resources
+* Using multiple workspaces can help avoid detection 
+* This allows efficient acquisition of infrastructure to conduct operations
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Webpage
+================================================================================
+METADATA:
+prompt_tokens: 583
+answer_tokens: 141
+time_taken: 9.99 seconds

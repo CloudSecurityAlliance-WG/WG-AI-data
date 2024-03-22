@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-84 describes an improper neutralization of encoded URI schemes in a web page, which enables cross-site scripting (XSS) attacks. The vulnerability arises when user-controlled input containing executable script disguised with URI encodings is not properly neutralized before being displayed in a web page. This allows attackers to inject arbitrary web scripts or HTML into the web page via crafted input data. Some common consequences include unexpected changes to the web page state and execution of malicious scripts by site visitors. Potential mitigations include input validation, output encoding, setting HttpOnly session cookies, and attack surface reduction. Prominent real-world examples are provided, including vulnerabilities in Microsoft Exchange Server, Novell GroupWise, and insecure usage of BBcode image tags.
+
+# Summary bullet points
+
+* CWE-84 relates to improper neutralization of encoded URI schemes in web pages, enabling XSS attacks
+* The issue arises when user input with encoded executable scripts is not properly sanitized
+* Attackers can leverage this to inject arbitrary JavaScript or HTML into vulnerable web pages
+* Common impacts include unexpected state changes and execution of malicious scripts by site visitors 
+* Mitigations involve input validation, output encoding, HttpOnly cookies, and attack surface reduction
+* Real-world instances exist in Microsoft Exchange, Novell GroupWise, and BBcode image tags
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Entry
+================================================================================
+METADATA:
+prompt_tokens: 1200
+answer_tokens: 225
+time_taken: 17.55 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper control of a resource throughout its lifetime of creation, use, and release. Resources often have explicit instructions on how they should be created, used and destroyed. When code does not follow these instructions, it can lead to unexpected behaviors and potentially exploitable states. Even without explicit instructions, various principles are expected to be adhered to regarding resource lifetime management. This weakness can manifest in many specific ways, as indicated by the various child weaknesses listed.
+
+# Summary bullet points
+
+* Resources often have explicit instructions for creation, use and destruction that should be followed
+* Not following resource lifetime management principles can lead to unexpected behavior and exploitable states
+* This is a high-level abstraction weakness with many specific child weaknesses
+* Affects control over resource lifetime events like creation, use, release, update, etc. 
+* Can result in exposure to incorrect sphere, data leaks, reliance on components that can't be updated, etc.
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition 
+================================================================================
+METADATA:
+prompt_tokens: 1061
+answer_tokens: 173
+time_taken: 19.06 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes a vulnerability called authentication bypass by capture-replay, categorized under CWE-294. This weakness exists when the product's design allows a malicious user to sniff network traffic and bypass authentication by replaying captured messages to the server. This enables access to resources that would otherwise require proper authentication. Capture-replay attacks exploit the sending of valid commands that can be observed and replayed to the server with minor modifications. They are difficult to protect against without cryptography to sign messages and ensure sequence numbers are not tampered with. 
+
+# Summary bullet points
+
+* Describes vulnerability "authentication bypass by capture-replay" (CWE-294)
+* Exists when design allows sniffing and replay of network traffic to bypass auth
+* Enables access to restricted resources without proper authentication
+* Capture-replay attacks observe and replay valid commands 
+* Difficult to defeat without cryptography to sign messages and ensure sequence number integrity
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) vulnerability description
+================================================================================
+METADATA:
+prompt_tokens: 976
+answer_tokens: 171
+time_taken: 15.44 seconds

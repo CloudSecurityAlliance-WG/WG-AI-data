@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the text:
+
+# Summary
+
+The text describes CWE-322, a weakness related to key exchange without entity authentication. It explains that this weakness occurs when a product performs a key exchange with another entity without verifying the identity of that entity. This enables attackers to impersonate one of the entities by modifying traffic between them. Typically this involves a client contacting a malicious server impersonating a trusted server. If the client skips authentication or ignores a failure, the attacker can then access sensitive information or credentials.
+
+# Summary bullet points
+
+* CWE-322 is a weakness related to key exchange without verifying the identity of the entities involved
+* Allows attackers to impersonate entities by modifying traffic between two communicating entities
+* Often involves clients contacting malicious servers impersonating trusted servers
+* Attacker can then potentially access authentication credentials or traffic
+* Occurs when systems skip authentication during key exchange
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) description
+================================================================================
+METADATA:
+prompt_tokens: 1001
+answer_tokens: 169
+time_taken: 15.14 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-315, a weakness related to the cleartext storage of sensitive information in cookies. It explains that storing sensitive information like usernames, passwords, or account IDs in plaintext cookies leaves that information vulnerable to attackers who gain access to the cookies. Even if the information is encoded, attackers may be able to determine the encoding and then decode the data. The document provides examples of this vulnerability from past CVEs, details methods for the automated detection of this weakness, and maps the weakness to related attack patterns and software weakness taxonomy nodes. It emphasizes that sensitive information should be encrypted rather than stored in plaintext cookies to mitigate this weakness.
+
+# Summary bullet points
+
+* Storing sensitive information in plaintext cookies leaves it vulnerable to attackers who gain cookie access
+* Past examples include storing admin passwords, usernames, passwords, and account IDs in cleartext cookies  
+* Attackers may be able to decode encoded but not encrypted cookie data
+* Can be detected via static analysis searching data and control flows for vulnerable patterns  
+* Mapped to weaknesses related to exposed data and failure to encrypt
+* Related attack patterns target accessing, manipulating, and retrieving data from cookies
+* Sensitive cookie data should be encrypted to mitigate this weakness
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 957
+answer_tokens: 226
+time_taken: 20.55 seconds

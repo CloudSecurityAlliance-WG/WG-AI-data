@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-695 - Use of Low-Level Functionality. This weakness refers to a product using low-level functionality that is explicitly prohibited by the framework or specification it is supposed to operate under. Some key points:
+
+- Using low-level functionality can violate specifications in unexpected ways, disable built-in protections, introduce vulnerabilities, or expose functionality to attack.
+- It is relevant to API and function errors. 
+- An example is provided of Java code that uses the Java Native Interface (JNI) to call C code that has a buffer overflow vulnerability due to use of the unsafe gets() function. The native C code can access and manipulate Java objects, expanding the attack surface.
+- Detection methods include static analysis to find potentially vulnerable patterns connecting sources to sinks.
+- It is a type of poor coding practice.
+
+# Summary bullet points
+
+* Using low-level functionality that violates a product's specifications can disable protections, create inconsistencies, or expose functionality.
+* An example shows Java using JNI to call native C code with a buffer overflow vulnerability due to using gets(). 
+* The native code can access Java objects, expanding the attack surface.
+* Detection methods include static analysis to find vulnerable data flows from sources to sinks. 
+* It enables attackers to violate intended functionality and protections.
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Entry from Common Weakness Enumeration (CWE) community database of software and hardware weaknesses
+================================================================================
+METADATA:
+prompt_tokens: 1428
+answer_tokens: 239
+time_taken: 21.97 seconds

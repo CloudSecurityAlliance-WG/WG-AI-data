@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes an improper export of Android application components, specifically Activities, Services, and Content Providers, without properly restricting access. This can allow malicious apps to access sensitive data or functionality, modify state, or trick users by impersonating the vulnerable app. Mitigations include explicitly preventing export with android:exported="false" or using signature level protection.
+
+# Summary bullet points
+
+* Describes improper export of Android Activities, Services, and Content Providers without access restrictions
+* Can allow malicious apps to access sensitive data/functionality, modify state, or trick users 
+* Mitigations include preventing export or using signature level protection
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 1306
+answer_tokens: 112
+time_taken: 12.85 seconds

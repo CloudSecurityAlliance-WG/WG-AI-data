@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-241 describes the weakness of a product improperly handling or incorrectly handling input when an element is not the expected data type. For example, expecting a digit 0-9 but receiving a letter A-Z instead. This can lead to crashes, assertion errors, or bypassing of validation checks. Potential mitigations include:
+
+- Input validation - Assume all inputs are malicious and validate against an allow list of known good inputs that conform to strict specifications. Reject inputs that don't conform. Consider length, type, range, missing inputs, syntax, consistency, and business rules.
+
+- Decode/canonicalize inputs before validation to avoid double decoding and bypassing checks.
+
+It can impact integrity by resulting in crashes, errors, or unexpected system states. The consequences vary by context. Observed examples include an FTP server crash from unexpected input and an anti-virus product assert error from non-numeric input.
+
+# Summary bullet points
+
+* CWE-241 describes improper handling of unexpected data types
+* Occurs when input is not the expected data type, e.g. expecting a digit but receiving a letter
+* Can result in crashes, errors, unexpected behavior, or bypassing of validation checks
+* Input validation is a key mitigation - reject invalid input, canonicalize before validation
+* Impacts integrity through crashes, errors or unexpected system states
+* Consequences are context specific and can vary
+* Examples include FTP server crash and anti-virus product assert error 
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1001
+answer_tokens: 247
+time_taken: 21.41 seconds

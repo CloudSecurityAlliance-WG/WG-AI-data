@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  Here is the formatted summary of the content:
+
+# Summary
+The paper presents an efficient "poison brewing" method for targeted data poisoning attacks against neural networks. The attack matches the gradient of poisoned data to a target image gradient during training to cause misclassification of that target. It requires only a single pretrained model, is efficient (takes the cost of roughly 1 epoch to create poisons), and scales to large datasets like ImageNet. Experiments show it reliably poisons models, outperforming prior poisoning methods. The attack causes targeted misclassification in ImageNet models by manipulating just 0.1% of the training data. It evades detection and filtering-based defenses. Only strong differential privacy provides a partial defense but significantly harms accuracy. Thus data poisoning poses a severe threat to the integrity of neural network models.  
+
+# Summary bullet points
+
+* Presents efficient "poison brewing" method that matches gradients of poisons and target image.
+* Requires only single pretrained model, efficient (~1 epoch to create poisons).  
+* First attack to reliably compromise ImageNet models manipulating just 0.1% of training data.
+* Outperforms prior poisoning methods like MetaPoison and Poison Frogs on CIFAR-10.  
+* Evasion of filtering defenses; only strong differential privacy partially defends.
+* Poses severe threat to integrity of neural network models trained from compromised data.
+
+# Geographic information  
+Not applicable
+
+# Type of content
+Conference paper (CVPR 2021)
+================================================================================
+METADATA:
+prompt_tokens: 11904
+answer_tokens: 225
+time_taken: 29.13 seconds

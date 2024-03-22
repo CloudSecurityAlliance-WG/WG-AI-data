@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the CWE entry on sensitive data storage in improperly locked memory:
+
+# Summary
+
+The CWE entry describes a weakness where sensitive data is stored in memory that is not properly locked, allowing the data to be written to disk swap files by the virtual memory manager. This can expose the sensitive data to unauthorized access. It provides background on memory locking functions like VirtualLock() and mlock() and notes that they are not always effective at preventing swapping to disk. The entry recommends identifying sensitive data and using appropriate platform locking mechanisms to protect it.
+
+# Summary bullet points
+
+* CWE-591 covers storing sensitive data in improperly locked memory
+* Virtual memory manager can swap sensitive data in memory to disk swap files
+* Functions like VirtualLock() and mlock() try to lock memory pages to prevent swapping 
+* These functions not always effective, have limitations, or need special privileges 
+* Memory locks should be checked to ensure they succeeded
+* Sensitive data needs identified and protected with platform locks
+* Can lead to confidentiality breach by exposing data in swap files
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 909
+answer_tokens: 201
+time_taken: 17.65 seconds

@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The weakness described is inclusion of functionality from an untrusted source sphere. This refers to importing or including executable code, such as a library, from a source outside the intended control sphere. Without sufficient protection, this external functionality could be malicious or introduce its own weaknesses which could lead to various consequences like execution of unauthorized code or commands.
+
+Some examples of potential impact include injection attacks, information exposure by granting excessive privileges to the untrusted functionality, Cross-Site Scripting (XSS) vulnerabilities, stealing user cookies or open redirect to malware.
+
+# Summary bullet points
+
+* Importing executable functionality like a library from an untrusted source sphere
+* Insufficient protection can allow malicious or vulnerable external code
+* Potential consequences include injection attacks, information exposure, XSS, stealing cookies, open redirect
+* Examples include untrusted web widgets, libraries, other third-party code
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE definition 
+================================================================================
+METADATA:
+prompt_tokens: 2780
+answer_tokens: 160
+time_taken: 19.63 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-82 describes an improper neutralization of scripting elements within HTML image (IMG) tag attributes, such as the source (SRC) attribute, in a web page. Attackers can embed cross-site scripting (XSS) exploits into IMG tag attribute values, which get executed when the page loads in a victim's browser. This can lead to the attacker reading sensitive application data or executing unauthorized code or commands. Examples of real-world vulnerabilities mapped to CWE-82 are provided, along with potential mitigations like output encoding, setting the HTTP-only cookie flag, and attack surface reduction.
+
+# Summary bullet points
+
+* CWE-82 involves improper neutralization of script in HTML IMG tag attributes in web pages
+* Attackers can embed XSS exploits in IMG tag attribute values like SRC 
+* Exploits get executed when the page loads in victim's browser
+* Can lead to reading app data or executing unauthorized code
+* Examples of real vulnerabilities mapped to CWE-82 are provided 
+* Mitigations: output encoding, HTTP-only cookie flag, attack surface reduction
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 1048
+answer_tokens: 184
+time_taken: 14.31 seconds

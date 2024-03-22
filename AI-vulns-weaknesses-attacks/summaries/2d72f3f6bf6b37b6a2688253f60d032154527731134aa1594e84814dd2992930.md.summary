@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-360 weakness describes the issue of trusting system event data without proper authentication. System events like messages and notifications often lack authentication mechanisms, allowing attackers to spoof identities or trigger unauthorized actions. Applications may print secret data, grant privileges, or execute commands based on unvalidated system events. This enables privilege escalation, information disclosure, and arbitrary code execution. Proposed mitigations include never trusting event data for security purposes and verifying the authenticity of events. Examples are given of attackers using techniques like the Shatter attack to bypass GUI protections via spoofed system events.
+
+# Summary bullet points
+
+* System events often lack authentication and can be spoofed
+* Trusting events enables privilege escalation, disclosure, code execution 
+* Events used to trigger printing secrets, granting privileges, commands
+* Mitigations: never trust events for security, verify authenticity
+* Examples of Shatter attack bypassing UI through false events
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 904
+answer_tokens: 161
+time_taken: 14.51 seconds

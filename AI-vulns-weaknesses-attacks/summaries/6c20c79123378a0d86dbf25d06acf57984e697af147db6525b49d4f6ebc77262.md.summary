@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-1064, a weakness related to having an invokable control element such as a function or method that has an excessive number of parameters. This makes the code more difficult to understand and maintain, indirectly reducing security. CISQ recommends a maximum of 7 parameters.
+
+# Summary bullet points
+
+* CWE-1064 is a weakness where an invokable control element like a function has too many parameters, making the code harder to maintain
+* This indirectly impacts security by making it more difficult to find and fix vulnerabilities
+* CISQ recommends a default maximum of 7 parameters per function
+* It is considered primarily a quality issue rather than a direct security risk
+* Mapped as prohibited for use in vulnerability mapping
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 726
+answer_tokens: 138
+time_taken: 10.20 seconds

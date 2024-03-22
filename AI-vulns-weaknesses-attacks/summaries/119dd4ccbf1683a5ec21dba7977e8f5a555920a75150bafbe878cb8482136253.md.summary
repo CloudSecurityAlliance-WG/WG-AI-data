@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes the weakness of an unsafe ActiveX control being incorrectly marked as safe for scripting. ActiveX controls are components that can be used by web pages and other applications to enable additional functionality. However, unsafe ActiveX controls can potentially allow attackers to execute malicious code or commands. If an unsafe control is incorrectly marked as safe for scripting, it could be accessed by web pages to exploit vulnerabilities and impact confidentiality, integrity, and availability. The key impacts include allowing attackers to execute unauthorized code or commands.
+
+# Summary bullet points
+
+* Describes the weakness of an unsafe ActiveX control being incorrectly marked as safe for scripting
+* ActiveX controls are components that can enable additional functionality in web pages and applications
+* Unsafe ActiveX controls can allow attackers to execute malicious code if misused
+* Incorrectly marking unsafe controls as safe for scripting allows them to be accessed and exploited
+* Can impact confidentiality, integrity and availability by allowing unauthorized code execution
+* Observed examples include bypassing spam filters, accessing COM objects, and reading protected files
+* Mitigations include properly restricting unsafe controls and setting "kill bits" to block browser access
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 815
+answer_tokens: 210
+time_taken: 18.25 seconds

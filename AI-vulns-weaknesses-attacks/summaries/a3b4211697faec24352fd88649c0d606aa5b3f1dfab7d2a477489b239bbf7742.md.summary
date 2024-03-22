@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses various types of adversarial prompting techniques that can be used to attack or "jailbreak" large language models (LLMs) in order to bypass safety controls and elicit harmful, dangerous, or otherwise undesirable outputs. It covers techniques like prompt injection, prompt leaking, jailbreaking characters like DAN, the Waluigi effect, game simulation, and more. The key takeaway is that while models have improved, adversarial prompts remain an issue due to the inherent flexibility in how prompts can be formatted. Researchers continue working on more robust defenses.
+
+# Summary bullet points
+
+* Prompt injection involves concatenating trusted and untrusted input that leads the LLM to ignore the original instruction and execute the injected one instead
+* Prompt leaking uses adversarial prompts to expose confidential or proprietary information contained in the original prompt 
+* Jailbreaking characters like DAN aim to bypass safety controls and content policies to force the LLM to generate unfiltered responses
+* The Waluigi effect makes it easier to elicit the opposite of an intended property after training the LLM on that property
+* Game simulation prompts can instruct the LLM in a hypothetical context that enables undesirable outputs
+* Defenses include reinforcing instructions, parameterizing components, formatting tricks, adversarial prompt detectors, and fine-tuned or non-instruction based models
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Article
+================================================================================
+METADATA:
+prompt_tokens: 3887
+answer_tokens: 220
+time_taken: 27.04 seconds

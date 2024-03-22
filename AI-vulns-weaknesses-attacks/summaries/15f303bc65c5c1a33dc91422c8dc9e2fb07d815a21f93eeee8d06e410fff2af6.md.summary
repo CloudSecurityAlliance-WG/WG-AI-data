@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry provides information on CWE-140: Improper Neutralization of Delimiters. This weakness occurs when a product fails to properly neutralize or incorrectly neutralizes delimiters, allowing attackers to insert delimiters like field separators to manipulate input and gain unauthorized access or privileges. Consequences include unexpected application states and behaviors. Mitigations focus on strict input validation using allowlists and denylists, output encoding, and proper decoding/canonicalization of inputs.
+
+# Summary bullet points
+
+* CWE-140 involves improper neutralization of delimiters like field separators, allowing manipulation of input.
+* Can enable attackers to insert delimiters and gain unauthorized access or privileges. 
+* Leads to unexpected application state and behaviors.
+* Mitigations include strict input validation, output encoding, denylists and allowlists.
+* Decoding/canonicalization of inputs also recommended before validation.
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1108
+answer_tokens: 143
+time_taken: 16.10 seconds

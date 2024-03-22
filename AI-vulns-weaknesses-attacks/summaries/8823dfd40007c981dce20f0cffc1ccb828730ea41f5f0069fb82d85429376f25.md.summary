@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content from CWE on hard-coded passwords:
+
+# Summary
+
+The content describes the weakness of using hard-coded passwords in software systems, either for inbound authentication or for outbound connections to external components. Hard-coding passwords makes them easily discoverable and exploitable by attackers. There are two main variants:
+
+1) Inbound - The software contains authentication code that checks for a specific hard-coded password. This allows anyone with knowledge of the password to access the system.
+
+2) Outbound - The software connects to an external system using a hard-coded password. This allows anyone with access to the software's code to discover the credentials and potentially access the external system.
+
+The consequences include attackers gaining privileged access, compromising security controls, and putting safety systems at risk if used in critical infrastructure. Suggested mitigations include encrypting stored credentials, utilizing temporary generated passwords, restricting feature access, and using password hashes instead of plain text passwords.
+
+# Summary bullet points
+
+* Hard-coding passwords into software enables attackers to easily discover and exploit them to gain privileged access
+* Two variants: inbound authentication and outbound connections to external systems 
+* Consequences range from account takeover to compromising operational safety in ICS/OT systems
+* Mitigations include encryption, temporary passwords, access restrictions, and password hashes over plain text
+
+# Geographic information
+Not applicable
+
+# Type of content
+Information security weakness definition (CWE)
+================================================================================
+METADATA:
+prompt_tokens: 2504
+answer_tokens: 230
+time_taken: 23.55 seconds

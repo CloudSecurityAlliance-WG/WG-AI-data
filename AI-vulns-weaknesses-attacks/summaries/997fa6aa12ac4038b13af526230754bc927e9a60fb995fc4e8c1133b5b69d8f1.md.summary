@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summarization and analysis of the given data:
+
+# Summary
+
+The document describes CWE-1022, a weakness related to the use of web links that open in new browser windows or tabs, without properly preventing the target page from modifying security properties like the location of the original page. Specifically, it explains that when using HTML tags like `target="_blank"`, the new page opened can access the `window.opener` object of the original page, which contains information like the location. Attackers could leverage this to redirect users to malicious phishing sites by changing `window.opener.location`. The mitigation is to use the rel attributes `noopener` or `noreferrer` which nullify the opener, preventing tampering. Or when opening new windows in JavaScript, set `window.opener` to null explicitly. Overall, this is a way attackers can stealthily redirect users to conduct social engineering or exploits.
+
+# Summary bullet points
+
+* HTML links with target="_blank" allow opened page to access window.opener object of original page 
+* window.opener contains sensitive information like location, allows cross-origin redirect
+* Attackers can change window.opener.location to redirect users to phishing sites  
+* Mitigate by using rel="noopener" or rel="noreferrer" to nullify opener object
+* Also in JS, manually set window.opener to null after opening new window
+* Enables stealthy phishing attacks through invisible cross-origin redirects
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1396
+answer_tokens: 225
+time_taken: 27.81 seconds

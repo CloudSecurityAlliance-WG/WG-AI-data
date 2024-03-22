@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes a potential software weakness where a serializable data element contains non-serializable member elements. This can reduce reliability by preventing the product from running properly. If reachable by an attacker, it could introduce a vulnerability. Examples are serializable attributes in .NET and inheritance of java.io.Serializable in Java. It is considered an indirect weakness that makes it easier to introduce security issues or makes them harder to detect.
+
+# Summary bullet points
+
+* Describes weakness where serializable data element contains non-serializable members
+* Can reduce reliability and prevent product from running properly
+* If reachable by attacker, could introduce vulnerability
+* Examples in .NET and Java serializable classes 
+* Considered indirect weakness that enables other security issues
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Entry
+================================================================================
+METADATA:
+prompt_tokens: 716
+answer_tokens: 135
+time_taken: 10.51 seconds

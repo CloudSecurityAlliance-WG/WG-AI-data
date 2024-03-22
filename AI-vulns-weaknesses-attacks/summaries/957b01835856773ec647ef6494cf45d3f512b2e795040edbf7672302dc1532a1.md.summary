@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This document from MITRE ATLAS discusses the technique of external harms, where adversaries abuse their access to a victim system and use its resources to cause additional harms beyond just compromising the system itself. These external harms can be financial, reputational, harm users, harm society, or steal machine learning intellectual property. The document summarizes the technique and provides a case study of how arbitrary code execution in Google Colab could enable these harms. It emphasizes the risks of adversaries leveraging compromised systems for broader attacks.
+
+# Summary bullet points
+
+* Adversaries can abuse access to compromise systems and cause external harms beyond just controlling the system
+* External harms include financial, reputational, user, societal, and machine learning intellectual property theft 
+* Case study shows how arbitrary code execution in Google Colab could enable broader attacks
+* 5 types of external harms are outlined as subtechniques 
+* Part of the Impact tactic in the MITRE ATT&CK framework
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+MITRE ATT&CK Technique page
+================================================================================
+METADATA:
+prompt_tokens: 562
+answer_tokens: 171
+time_taken: 15.62 seconds

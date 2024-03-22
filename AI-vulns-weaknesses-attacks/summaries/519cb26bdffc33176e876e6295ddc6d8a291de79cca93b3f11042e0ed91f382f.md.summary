@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The CWE entry describes a weakness where confidential information on a hardware device is not adequately protected from access by third-party Outsourced Semiconductor Assembly and Test (OSAT) vendors. During the manufacturing process, the device may be in a vulnerable pre-production state with debug modes enabled when it enters the OSAT facility. Even with NDAs, there is still risk of accidental or malicious exposure of confidential data. Example consequences include an attacker obtaining a key that unlocks all parts for a generation of devices, enabling severe impacts. Mitigations focus on limiting data exposure to OSATs, securely scrubbing non-volatile memory before release to OSATs, and securing communication channels.  
+
+# Summary bullet points
+
+* Confidential data on hardware devices not protected from third-party OSAT vendor access during manufacturing
+* Debug modes may allow access to confidential data in pre-production state 
+* Despite NDAs, risk remains of accidental or malicious data exposure
+* Example consequence is compromise of master key for entire product generation
+* Mitigations include limiting data access, scrubbing non-volatile memory, securing communications
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 1342
+answer_tokens: 193
+time_taken: 20.77 seconds

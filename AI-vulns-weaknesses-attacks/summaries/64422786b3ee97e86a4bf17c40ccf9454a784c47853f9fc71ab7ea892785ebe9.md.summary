@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-283, a common weakness enumeration related to unverified ownership. Specifically, it refers to when a product does not properly verify that a critical resource is owned by the proper entity. This can allow attackers to gain unauthorized access and privileges.
+
+The example provided is of a Python function that kills a process based on a process ID passed to it. The original flawed version does not check that the requesting user actually owns the process being killed. This could let a user kill arbitrary processes they don't own. The improved version adds a check to validate the requesting user owns the process before killing it.
+
+Potential mitigations include carefully managing privileges and trust zones in the software, enforcing separation of privilege principles, and requiring multiple conditions to be met before granting access to system resources.
+
+# Summary bullet points
+
+* CWE-283 refers to unverified ownership, when products don't check critical resources are owned by proper entities
+* This can allow attackers to gain unauthorized access and privileges by accessing resources they shouldn't have access to
+* Example shows Python function to kill a process that doesn't check if requesting user owns that process
+* Improved version checks ownership before killing process to prevent killing arbitrary processes
+* Mitigations include managing privileges carefully, enforcing separation of privilege principles, and requiring multiple conditions before granting resource access
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website
+================================================================================
+METADATA:
+prompt_tokens: 865
+answer_tokens: 240
+time_taken: 17.33 seconds

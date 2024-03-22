@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of performing cryptographic operations without ensuring the supporting input units are ready with valid data (CWE-1279). This can compromise the security of the encrypted result. Many cryptographic hardware units depend on other units like random number generators or fuse units to provide key inputs. If those units are not initialized and providing good entropy or keys, using their output in cryptographic operations substantially weakens security. An example is shown where a crypto routine falls back to a hardcoded seed value if the RNG self-test fails, severely harming encryption strength.
+
+# Summary bullet points
+
+* Performing crypto operations without verifying supporting input units leads to weak security
+* Hardware crypto often depends on other hardware like RNGs and fuse units for key inputs 
+* Must ensure RNGs, fuse, and other input units are initialized and giving good entropy/keys
+* Using poor entropy or keys from failed units severely weakens encryption
+* Example shows falling back to weak hardcoded seed if RNG fails test
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 907
+answer_tokens: 181
+time_taken: 17.98 seconds

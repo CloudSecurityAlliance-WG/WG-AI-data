@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the technique of denial of machine learning (ML) service, where adversaries target ML systems with a flood of requests to degrade or shut down service. ML systems require significant specialized compute and can become overloaded. Adversaries can craft inputs that force useless compute, overloading the systems. The article provides a case study of achieving code execution in MathGPT via prompt injection as an example. It also lists potential mitigations like restricting the number of model queries and detecting adversarial inputs.  
+
+# Summary bullet points
+
+* Adversaries can flood ML systems with requests to overwhelm resources and deny service
+* ML systems require lots of specialized compute and can be expensive bottlenecks
+* Adversaries craft useless compute-heavy inputs to intentionally overload systems 
+* Case study given of executing code in MathGPT via prompt injection 
+* Mitigations include limiting model queries and detecting adversarial inputs
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website article
+================================================================================
+METADATA:
+prompt_tokens: 577
+answer_tokens: 159
+time_taken: 12.31 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the technique "Erode ML Model Integrity" (AML.T0031) from the MITRE ATT&CK Framework for Machine Learning Systems. The goal of this technique is for adversaries to degrade the performance of a machine learning model over time by feeding it adversarial data inputs. This erodes confidence in the system and causes the victim organization to waste time and money trying to fix it or perform the automated tasks manually. 
+
+The article provides four case studies demonstrating real-world examples of this technique being used to attack machine translation services, facial recognition services, chatbots, and AI writing assistants. It also suggests four mitigation strategies: model hardening to make models more robust, using ensemble methods, detecting adversarial inputs, and restoring perturbed inputs.
+
+# Summary bullet points
+
+* Adversaries can feed models adversarial data to degrade performance over time 
+* Erodes confidence in the system, causes wasted time and money for victim organization
+* Provides examples attacking translation services, facial recognition, chatbots, writing assistants
+* Mitigations include model hardening, ensemble methods, detecting adversarial inputs
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article summarizing a technique from the MITRE ATT&CK Framework for Machine Learning Systems
+================================================================================
+METADATA:
+prompt_tokens: 565
+answer_tokens: 195
+time_taken: 14.73 seconds

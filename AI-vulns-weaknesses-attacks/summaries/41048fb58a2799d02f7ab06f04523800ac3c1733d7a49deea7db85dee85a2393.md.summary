@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-555 weakness describes the storage of plaintext passwords in configuration files for J2EE applications. This allows attackers to easily access password-protected resources by reading the configuration file. It is a child of the more general CWE-260 weakness covering storage of passwords in configuration files. The impact is bypassing access controls by obtaining the password. Mitigations include not hardcoding passwords and encrypting them before storage. CWE-555 is part of the OWASP Top Ten 2004 and related to compromised configuration management.
+
+# Summary bullet points
+
+* Describes storage of plaintext passwords in J2EE application configuration files
+* Allows attackers to easily access password-protected resources by reading the file
+* Child of the more general CWE-260 - Password in Configuration File
+* Impact is bypassing access controls by obtaining the password
+* Mitigations include not hardcoding passwords and encrypting before storage
+* Part of OWASP Top Ten 2004 and related to compromised configuration management
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 694
+answer_tokens: 166
+time_taken: 12.72 seconds

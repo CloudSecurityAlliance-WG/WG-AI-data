@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper handling of invalid use of special elements in user input. Such special elements, if not properly filtered or managed, could adversely affect system behavior and integrity. Related weaknesses include improper handling of missing or additional special elements, or inconsistent special elements. Potential consequences include unexpected system state or behavior. Recommended mitigations include input validation using allowlists and denylists, output encoding, and proper quoting and escaping of arguments containing special characters. 
+
+# Summary bullet points
+
+* Describes weakness of improper handling of invalid use of special elements in user input
+* If not properly filtered or managed, could adversely affect system behavior and integrity
+* Related weaknesses cover missing, additional, or inconsistent special elements
+* Potential consequences include unexpected system state or behavior
+* Recommended mitigations:
+    * Input validation with allowlists and denylists
+    * Output encoding 
+    * Proper quoting and escaping of special characters
+
+# Geographic information  
+"Not applicable"  
+
+# Type of content
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 1163
+answer_tokens: 167
+time_taken: 16.37 seconds

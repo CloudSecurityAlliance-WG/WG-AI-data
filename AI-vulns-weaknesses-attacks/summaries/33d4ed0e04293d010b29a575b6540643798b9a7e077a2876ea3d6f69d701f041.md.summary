@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text describes a technique called "LLM Prompt Injection" which allows an adversary to inject harmful prompts directly into an LLM (large language model) system. This can allow the adversary to gain initial access, persist in the system, evade defenses, and escalate privileges. A case study is provided of using prompt injection in MathGPT to achieve code execution. The technique has a sub-technique called "LLM Prompt Injection: Indirect" and is part of the broader "LLM Prompt Injection" parent technique.
+
+# Summary bullet points
+
+* LLM Prompt Injection allows an adversary to directly inject harmful prompts into an LLM system
+* Can be used to gain initial access, persist, evade defenses, and escalate privileges 
+* Case study given of using prompt injection in MathGPT to achieve code execution
+* Has a sub-technique called "LLM Prompt Injection: Indirect"
+* Part of the broader "LLM Prompt Injection" parent technique
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website page describing a cybersecurity technique
+================================================================================
+METADATA:
+prompt_tokens: 572
+answer_tokens: 163
+time_taken: 12.03 seconds

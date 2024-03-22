@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of inefficient CPU computation in software products. This occurs when the product uses algorithms that are not optimized for efficiency given the developer's needs. It can lead to reduced performance that impacts users. If attackers can trigger worst-case complexity, it could introduce vulnerabilities like denial of service through resource consumption. It is related to asymmetric resource consumption but differs in focusing on computation rather than other resources. It can be introduced in architecture, design or implementation phases. Consequences include availability impacts like denial of service through CPU resource consumption and reduced performance. An example is given of a GraphQL server allowing excessive CPU use.
+
+# Summary bullet points
+
+* Software weakness where products use non-optimized algorithms leading to inefficient CPU usage
+* Can impact performance in noticeable ways for users
+* May allow attackers to trigger denial of service if they can influence computational complexity  
+* Related to asymmetric resource consumption but focuses on computation inefficiency
+* Introduced in architecture, design, implementation phases 
+* Consequences include denial of service through CPU consumption, reduced performance
+* Example given of GraphQL server allowing excessive CPU use
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 750
+answer_tokens: 206
+time_taken: 14.03 seconds

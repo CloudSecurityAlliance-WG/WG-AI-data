@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the text, formatted according to the template you provided:
+
+# Summary
+
+The text describes CWE-561, a common weakness enumeration related to dead code. Dead code refers to code that can never be executed at runtime due to constraints from the surrounding code. The presence of dead code indicates problems with code quality that need to be addressed. It can reduce maintainability and is a sign of poor quality.
+
+The text provides examples of dead code in C++, Java, and other languages. It describes relationships to other CWEs, including irrelevant code, expressions that are always false/true, and programming weaknesses related to quality and best practices. Potential mitigations are offered, such as removing dead code before deployment and using static analysis tools.
+
+Detection methods are also listed, highlighting the effectiveness of techniques like inspection, automated static analysis, dynamic analysis, and manual review of source code. Memberships and taxonomy mappings are provided, connecting CWE-561 to secure coding standards for C, C++, Perl and software quality measures.           
+
+# Summary bullet points
+
+* Dead code refers to code that can never be executed at runtime due to constraints from surrounding code
+* Indicates problems with code quality that need fixing and is a sign of poor quality
+* Reduces maintainability of code
+* Examples provided in C++, Java, other languages
+* Related to CWEs for irrelevant code and unconditional expressions 
+* Mitigations include removing dead code before deployment and using static analysis tools
+* Detection via inspection, static analysis, dynamic analysis, manual code review
+* Mapped to secure coding standards and software quality measures
+
+# Geographic information  
+
+Not applicable
+
+# Type of content  
+
+Common Weakness Enumeration (CWE) definition 
+================================================================================
+METADATA:
+prompt_tokens: 1373
+answer_tokens: 282
+time_taken: 24.06 seconds

@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes a technique called "Insert Backdoor Trigger" which is a subtechnique of "Craft Adversarial Data." The adversary adds a perceptual trigger into inference data that is imperceptible or non-obvious to humans. This allows the adversary to produce a desired effect in the target ML model when used together with the "Poison ML Model" technique. The trigger acts as a backdoor, allowing the adversary to control the model's behavior. A case study is provided of a backdoor attack on deep learning models in mobile apps.
+
+# Summary bullet points
+
+* The "Insert Backdoor Trigger" technique involves adding an imperceptible or non-obvious perceptual trigger into inference data.
+* The trigger acts as a backdoor, allowing the adversary to control the behavior of the target ML model. 
+* This technique is used with "Poison ML Model" to produce the adversary's desired effect in the model.
+* A case study demonstrates this attack on deep learning models in mobile apps.
+* The "Insert Backdoor Trigger" technique is a subtechnique of "Craft Adversarial Data."
+* There are 4 other subtechniques of "Craft Adversarial Data" listed.
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Description of technique from MITRE ATT&CK framework for adversarial machine learning
+================================================================================
+METADATA:
+prompt_tokens: 592
+answer_tokens: 206
+time_taken: 16.02 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-24, a weakness related to path traversal vulnerabilities. Specifically, it involves the use of external input to construct a file path that should be restricted, but does not properly neutralize "../" sequences that can allow traversing outside the intended directory. This enables attackers to access files or directories outside the restricted area. The weakness is applicable across platforms and languages. It can lead to impacts on confidentiality and integrity by allowing attackers to read or modify unintended files and directories. Potential mitigations revolve around proper input validation, filtering "../" sequences, using allowlists instead of denylists, and avoiding decoding inputs multiple times.
+
+# Summary bullet points
+
+* Document describes CWE-24 path traversal weakness where external input constructs restricted file paths but does not neutralize "../" sequences
+* Allows traversing file system outside intended restricted directory, enabling access to unintended files/directories 
+* Applicable across platforms and languages
+* Can impact confidentiality and integrity by allowing reading/modifying of unintended files
+* Mitigations include input validation, filtering "../", allowlisting inputs, not double decoding
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration entry (CWE)
+================================================================================
+METADATA:
+prompt_tokens: 1160
+answer_tokens: 188
+time_taken: 16.62 seconds

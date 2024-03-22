@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The weakness described is missing a check for certificate revocation after the initial check when performing privileged actions. This can result in a race condition where the certificate is revoked after the initial check but before subsequent actions are taken, allowing those actions to inappropriately succeed. The result is that an entity may gain privileges or assume an identity that has been revoked. This can lead to unauthorized access to data or manipulation of data. The mitigation is to check the certificate revocation status before each privileged action rather than only checking once initially.
+
+# Summary bullet points
+
+* Weakness is not checking certificate revocation status after initial check before privileged actions
+* Can cause race condition where certificate revoked after initial check but before later actions 
+* Allows revoked certificates to still succeed in actions, gaining improper privileges/identity
+* Results in unauthorized data access or modification
+* Mitigate by checking revocation before each privileged action instead of only initially
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition from MITRE for common weakness enumeration
+================================================================================
+METADATA:
+prompt_tokens: 1000
+answer_tokens: 188
+time_taken: 13.88 seconds

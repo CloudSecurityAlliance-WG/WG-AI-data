@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+This article from MITRE ATLAS describes a machine learning supply chain compromise technique where adversaries compromise open source ML models that a victim organization may use for fine tuning. The compromise could be through traditional malware inserted into the model files, or via adversarial techniques that manipulate the model itself. The goals include initial access or implanting backdoors into systems that utilize the models. Mitigations focus on controlling access to models, validating models before use, and using code signing and secure distribution channels.
+
+# Summary bullet points
+
+* Describes supply chain compromise of open source ML models used for fine tuning
+* Goals include initial access to systems and implanting backdoors 
+* Compromise methods include malware in model files or adversarial techniques 
+* Mitigations: access controls, model validation, code signing, secure distribution
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Threat intelligence database
+================================================================================
+METADATA:
+prompt_tokens: 670
+answer_tokens: 148
+time_taken: 14.60 seconds

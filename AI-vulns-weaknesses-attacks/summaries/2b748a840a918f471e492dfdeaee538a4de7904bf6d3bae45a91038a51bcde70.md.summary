@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-291 weakness describes the vulnerability of relying solely on IP addresses for authentication. IP addresses can be easily spoofed, allowing attackers to impersonate trusted clients. Proper authentication should use additional factors beyond IP address, such as usernames/passwords or certificates. 
+
+This weakness enables attackers to hide activities, gain privileges, and assume false identities by spoofing IP addresses. The likelihood of exploit is high due to the ease of IP address spoofing. 
+
+Examples are provided in C and Java where authentication checks only the request packet's claimed source IP address. This allows the address to be spoofed, bypassing authentication.
+
+# Summary bullet points
+
+* IP addresses can be easily spoofed, unreliable for sole means of authentication
+* Enables attackers to hide activities, gain privileges by impersonating trusted IP addresses
+* High likelihood of exploit due to ease of IP spoofing 
+* Examples in C and Java show authentication checks only source IP address claim
+* Proper authentication should use additional factors like usernames/passwords/certificates
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 1043
+answer_tokens: 178
+time_taken: 16.11 seconds

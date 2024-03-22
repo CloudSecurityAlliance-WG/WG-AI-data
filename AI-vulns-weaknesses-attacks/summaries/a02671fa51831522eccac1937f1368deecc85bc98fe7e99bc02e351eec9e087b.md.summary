@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-124 entry describes the weakness of buffer underwrite, also known as buffer underflow, where a program writes to a buffer using an index or pointer that references a memory location before the start of the buffer. This typically happens when a pointer is decremented before the buffer, pointer arithmetic results in a negative position, or a negative index is used. The consequences include crashing, executing arbitrary code if the memory can be controlled, bypassing protections, and violating policies by modifying data incorrectly. Common languages affected are C and C++. Mitigations involve validating indices and pointers to ensure they are within expected ranges. 
+
+# Summary bullet points
+
+* Buffer underwrite/underflow is writing to a buffer with a pointer referencing before the start of the buffer
+* Typically happens from decrementing a pointer too far, pointer math resulting in negative position, using negative index
+* Consequences include crashes, arbitrary code execution, bypassing protections, data corruption
+* Affects C and C++ commonly 
+* Mitigations involve validating pointer indices stay within expected ranges
+
+# Geographic information  
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) reference entry 
+================================================================================
+METADATA:
+prompt_tokens: 1512
+answer_tokens: 187
+time_taken: 20.33 seconds

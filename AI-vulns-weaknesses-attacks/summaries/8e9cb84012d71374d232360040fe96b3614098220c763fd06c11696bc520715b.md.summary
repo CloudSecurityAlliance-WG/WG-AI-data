@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This article from MITRE ATLAS discusses a technique called "LLM Jailbreak" which adversaries could use to bypass restrictions and controls placed on large language models (LLMs). Specifically, adversaries could carefully craft prompts designed to put the LLM in a uncontrolled state where it will respond to any input from the user. Once an LLM is successfully "jailbroken" in this way, it can be exploited by adversaries to generate responses that were not intended by the LLM's creators. This poses risks in terms of using LLMs in unsafe or harmful ways. The tactic enables adversaries to escalate privileges and evade defenses put in place on LLMs. Overall, LLM Jailbreak illustrates vulnerabilities in large language models that could potentially be exploited if not properly secured.
+
+# Summary bullet points
+
+* Adversaries could use carefully crafted prompt injections to "jailbreak" large language models (LLMs)
+* A jailbroken LLM would freely respond to any input, bypassing controls, restrictions or guardrails
+* Allows LLM exploitation in unintended and potentially unsafe ways 
+* Enables privilege escalation and defense evasion tactics
+* Poses risks if LLMs are not properly secured against such attacks
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Article
+================================================================================
+METADATA:
+prompt_tokens: 490
+answer_tokens: 198
+time_taken: 17.37 seconds

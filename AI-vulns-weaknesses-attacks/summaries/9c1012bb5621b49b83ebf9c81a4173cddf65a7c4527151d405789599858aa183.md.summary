@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes integer underflow (CWE-191), a weakness where a product subtracts one value from another and the result is less than the minimum integer value. This causes the value to wrap around to a large positive number instead of the correct negative result. It can happen with both signed and unsigned integers. It often leads to undefined behavior, crashes, data corruption, buffer overflows, and resource consumption. 
+
+Integer underflow is caused by incorrect calculations, especially with user input. It can allow attackers to trigger buffer overflows or cause denial of service. CWE-191 is at the base abstraction level preferred for mapping vulnerabilities. It has observed examples in firewall and packet processing software. Detection methods include static analysis tools that model data flow. Relevant mitigations include checking for integer underflow and validating user input.
+
+# Summary bullet points
+
+* Integer underflow occurs when subtracting values yields a result less than the minimum integer
+* Often causes wraps to large positive values instead of correct negative result 
+* Affects signed and unsigned integers
+* Leads to undefined behavior, crashes, data corruption, resource consumption
+* Allows denial of service, buffer overflows, arbitrary code execution
+* Caused by incorrect calculations, especially with user input
+* Base abstraction level good for vulnerability mapping
+* Observed in firewall and packet software 
+* Detect with static analysis modeling data flow
+* Mitigate by checking for underflow and validating input
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry (Common Weakness Enumeration)  
+================================================================================
+METADATA:
+prompt_tokens: 1292
+answer_tokens: 257
+time_taken: 25.47 seconds

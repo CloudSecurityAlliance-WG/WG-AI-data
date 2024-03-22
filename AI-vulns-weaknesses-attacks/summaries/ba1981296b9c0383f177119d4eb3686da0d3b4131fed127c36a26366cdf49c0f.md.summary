@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  Here is the summarization and analysis of the given text according to the prompt and template you provided:
+
+# Summary
+
+The text describes CWE-524, a common weakness enumeration related to the use of caches containing sensitive information. It explains that applications often use caches to improve efficiency, but if those caches can be accessed by unauthorized actors, it exposes sensitive information stored in them. Specifically, it classifies CWE-524 as the use of a cache that contains sensitive information that can be read by someone outside the intended control sphere. It provides examples of types of sensitive information that may be stored in caches, including passwords and financial data. The description advises protecting information stored in caches, not storing unnecessarily sensitive information in caches, and considering encryption. It also notes that static analysis tools can automatically detect some instances of this weakness. Overall, the text provides an overview of the security weakness CWE-524 and why exposing cached sensitive information creates a vulnerability.
+
+# Summary bullet points
+
+* CWE-524 involves using a cache containing sensitive information that unauthorized actors can access 
+* Applications use caches to improve efficiency but they can expose sensitive data if not properly secured
+* Types of sensitive information at risk include passwords, financial data, connections, resources  
+* Mitigations include protecting cached info, limiting sensitive data cached, and encrypting caches
+* Static analysis tools can automatically detect some cases of improper caching of sensitive data
+
+# Geographic information
+Not applicable
+
+# Type of content
+Common Weakness Enumeration (CWE) definition 
+================================================================================
+METADATA:
+prompt_tokens: 827
+answer_tokens: 251
+time_taken: 20.54 seconds

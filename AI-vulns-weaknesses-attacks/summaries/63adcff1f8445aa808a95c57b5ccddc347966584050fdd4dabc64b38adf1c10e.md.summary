@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1076 weakness describes insufficient adherence to expected conventions in software design, code, or documentation. This makes the software more difficult to maintain and indirectly reduces security by increasing vulnerability risk. It encompasses weaknesses related to coding style, class design, persistence, and global variables. The key points are:
+
+- Not following conventions increases maintenance burden and vulnerability risk 
+- Covers weakness related to coding style, class design, data persistence, globals
+- Is an indirect weakness that enables other more direct weaknesses
+- Discourages mapping real vulnerabilities to this CWE 
+
+# Summary bullet points
+
+* Insufficient adherence to conventions in design, code or docs
+* Increases maintenance burden and vulnerability risk  
+* Covers weaknesses related to coding style, class design, data persistence, globals
+* Indirect weakness that enables other more direct weaknesses
+* Discourages mapping real vulnerabilities to this CWE
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 734
+answer_tokens: 155
+time_taken: 15.37 seconds

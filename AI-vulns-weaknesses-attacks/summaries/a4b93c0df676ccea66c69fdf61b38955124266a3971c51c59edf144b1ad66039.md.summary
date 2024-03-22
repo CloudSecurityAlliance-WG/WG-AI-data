@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-773 weakness describes a situation where a product fails to properly maintain references to file descriptors or handles. This prevents those resources from being reclaimed and can lead to resource exhaustion, denying other processes access to critical file operations. Specifically, if attackers can influence resource allocation, they may be able to deplete available resources like file descriptors. This could cause denial-of-service through resource consumption.
+
+Key mitigations include setting resource limits through functions like setrlimit() where available, restricting allocations as limits are reached, and performing proper error checking in case resources become unavailable.
+
+# Summary bullet points
+
+* CWE-773 refers to improper reference tracking for resources like file descriptors/handles
+* Can let attackers deplete available resources by allocating without releasing
+* Causes denial-of-service through resource exhaustion
+* Mitigations include resource limits, allocation restrictions, and error checking
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 848
+answer_tokens: 152
+time_taken: 14.81 seconds

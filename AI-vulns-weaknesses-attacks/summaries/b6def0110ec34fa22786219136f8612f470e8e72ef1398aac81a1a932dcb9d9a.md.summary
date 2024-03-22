@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-274 weakness describes a situation where a product does not properly handle cases where it has insufficient privileges to perform an operation. This can lead to altered execution logic or other weaknesses. It is related to improper privilege management, improper handling of exceptional conditions, and privilege dropping/lowering errors. It can manifest when security tactics are incorrectly implemented. Consequences include disruption of execution logic and unauthorized access. Examples are provided of systems crashing or allowing unintended access when lacking necessary privileges.
+
+The weakness points out that privileges and permissions represent two aspects of access control - privileges relate to actors while permissions relate to resources. Proper access control requires matching actor privileges to resource permissions.
+
+It notes the similarity to the CWE-280 weakness covering improper handling of insufficient permissions/privileges and indicates CWE-274 may be deprecated in favor of CWE-280 in the future.
+
+# Summary bullet points
+
+* Covers situations where products don't properly handle lacking necessary privileges to perform operations
+* Can enable logical errors or unauthorized access
+* Related to improper privilege management and exception handling weaknesses  
+* Can occur when security design/implementation is flawed
+* Highlights connection between privileges (actors) and permissions (resources) in access control
+* Provides examples like firewall crash and unintended admin access
+* Very similar to CWE-280, may be merged/deprecated in future
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Definition from Common Weakness Enumeration database
+================================================================================
+METADATA:
+prompt_tokens: 887
+answer_tokens: 235
+time_taken: 24.06 seconds

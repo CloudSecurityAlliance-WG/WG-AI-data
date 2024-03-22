@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the potential for adversaries to infiltrate machine learning systems to steal intellectual property and cause economic harm. It notes that proprietary training data used to develop ML models can be costly to obtain and annotate, making it an attractive target for exfiltration and theft. An additional threat is the theft of ML models themselves, which could allow adversaries unlimited free use of paid ML-as-a-service offerings. The article cites two case studies demonstrating intellectual property theft in machine translation services and arbitrary code execution via a public collaborative notebook service. It recommends access controls over models and data along with encryption of sensitive information as key mitigations. 
+
+# Summary bullet points
+
+* Adversaries may infiltrate ML systems to steal costly proprietary training data via exfiltration
+* Theft of ML models enables free unlimited use of paid MLaaS offerings, harming IP owners  
+* Case studies: attacks stealing IP from machine translation services and executing arbitrary code with Google Colab
+* Mitigations: control access to models/data, encrypt sensitive information
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Article
+================================================================================
+METADATA:
+prompt_tokens: 660
+answer_tokens: 181
+time_taken: 20.29 seconds

@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the text:
+
+# Summary
+
+The paper investigates the problem of embedding inversion, which involves reconstructing the original text from its dense text embedding. The authors frame this as a controlled generation problem, where the goal is to generate text such that its embedding is as close as possible to the target embedding. They propose Vec2Text, an iterative method that guesses an initial hypothesis and refines it over multiple steps by re-embedding and correcting the hypothesis text to bring its embedding closer to the target. 
+
+Experiments show that Vec2Text can recover 92% of 32-token Wikipedia inputs exactly from embeddings of a black-box state-of-the-art encoder. It also recovers inputs reasonably well in out-of-domain datasets. When tested on clinical notes from MIMIC-III, it can recover 89% of full names from embeddings. The results indicate text embeddings leak as much private information as raw text, implying they should be treated with similar precautions regarding privacy.
+
+# Summary bullet points
+
+* Paper investigates problem of inverting dense text embeddings to recover original text 
+* Proposes Vec2Text method which iteratively refines hypothesis text to match target embedding
+* Can recover 92% of 32-token Wikipedia inputs exactly from black-box state-of-the-art encoder
+* Also recovers inputs reasonably well on out-of-domain datasets 
+* Tested on MIMIC-III clinical notes, recovers 89% of full names from embeddings
+* Results show text embeddings leak as much private information as raw text
+* Implies embeddings should be treated with similar privacy precautions as raw data
+
+# Geographic information
+Not applicable
+
+# Type of content
+Academic Paper
+================================================================================
+METADATA:
+prompt_tokens: 7507
+answer_tokens: 260
+time_taken: 33.96 seconds

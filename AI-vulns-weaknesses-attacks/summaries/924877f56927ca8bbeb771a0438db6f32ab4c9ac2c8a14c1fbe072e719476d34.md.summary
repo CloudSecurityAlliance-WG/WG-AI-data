@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content:
+
+# Summary
+
+The Common Weakness Enumeration (CWE) entry describes an origin validation error weakness (CWE-346) where a product fails to properly verify the source of data, communication channel, or other system input, allowing an attacker to access functionality or data that should be restricted. This can enable privilege escalation, impersonation, and other consequences depending on the system context. It is related conceptually to insufficient authentication and authorization controls. Examples of origin validation errors include missing checks in custom URL schemes, Intent mechanisms in Android, accepting DNS records from untrusted sources, and web apps that fail to validate origins of requests due to improper compartmentalization. Properly implemented origin/source validation controls, allowlists, authentication, and authorization schemes can mitigate origin validation errors.
+
+# Summary bullet points
+
+* CWE-346 entails improperly or insufficiently verifying the source of input, enabling unauthorized access or spoofing
+* Consequences relate to violated assumptions about trust boundaries and authorized sources of input
+* Child concepts include improper access control, data authenticity verification failures  
+* Related weaknesses include improper authentication, authorization failures, UI misrepresentation
+* Applicable across software lifecycles, especially architecture/design and implementation
+* Examples span web apps, Android, iOS, DNS, LDAP insufficient origin/source checking
+* Mitigations center on properly verifying & allowing sources of input to restrict access
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1538
+answer_tokens: 232
+time_taken: 26.55 seconds

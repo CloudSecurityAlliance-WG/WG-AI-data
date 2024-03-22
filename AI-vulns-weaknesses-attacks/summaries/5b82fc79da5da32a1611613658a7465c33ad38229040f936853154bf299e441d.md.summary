@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-669 weakness describes the incorrect transfer of resources or behaviors between different control spheres in a system. This can provide unintended access or control over those resources. Examples include uploading dangerous file types without restriction, allowing path traversal to access files outside an intended directory, importing credentials from an untrusted external source without validation, and exposing private data in an API that is not properly sanitized. The consequences can include unauthorized access, data exposure, code execution, denial of service and more depending on the specific flaw.
+
+# Summary bullet points
+
+* CWE-669 covers transferring resources between spheres incorrectly in a multi-user system
+* Can provide unintended access or control over resources 
+* Examples include unrestricted file upload, path traversal to access unintended files, importing unvalidated external credentials
+* Consequences include unauthorized access, data exposure, code execution, denial of service
+* Related to flaws like improper input validation, using external untrusted control spheres
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1562
+answer_tokens: 166
+time_taken: 17.77 seconds

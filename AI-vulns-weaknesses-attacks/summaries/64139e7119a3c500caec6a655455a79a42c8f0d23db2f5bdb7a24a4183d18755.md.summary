@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-651, a weakness related to the exposure of WSDL files containing sensitive information. WSDL files are used in web services architectures to provide information on publicly accessible services. If such a file is accessible to unintended parties, contains information on methods that should not be public, or helps attackers guess the names/locations of non-public methods, it can lead to information exposure. Possible consequences include attackers finding sensitive information in the WSDL or invoking non-public methods. Recommended mitigations focus on limiting access to the file, removing unnecessary sensitive details, and using generic method names.
+
+# Summary bullet points
+
+* WSDL files describe web service methods and can contain sensitive details
+* If exposed beyond intended audience, this can lead to information disclosure
+* Also a risk if file has info on non-public methods or helps guess private method names 
+* Possible attack impact includes finding sensitive data or invoking private methods
+* Mitigations: restrict access, remove unnecessary info, use generic method names
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 948
+answer_tokens: 180
+time_taken: 13.99 seconds

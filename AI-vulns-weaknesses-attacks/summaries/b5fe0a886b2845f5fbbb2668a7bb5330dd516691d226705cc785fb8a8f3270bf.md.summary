@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-915 discusses the weakness of improperly controlled modification of dynamically-determined object attributes. This occurs when a product receives input that specifies multiple attributes or properties to initialize or update in an object, but does not properly control which attributes can be modified. If internal attributes are unexpectedly modified, it could lead to vulnerabilities. This is related to concepts like mass assignment, autobinding, or object injection in various languages. Potential consequences include modification of sensitive data, execution of unauthorized code, and alteration of execution logic. Suggested mitigations include using allowlists of attributes that can be modified, signing/sealing deserialized data, input validation against allowlists, and refactoring code to only expose intended getter/setter functions. The entry discusses examples in languages like Ruby, ASP.NET, PHP, and Python.
+
+# Summary bullet points
+
+* Weakness involves product receiving input specifying multiple object attributes to set but not properly controlling which ones
+* Can allow unexpected modification of sensitive, internal attributes leading to vulnerabilities
+* Also called mass assignment, autobinding, object injection depending on language 
+* Consequences include data modification, unauthorized code execution, logic alteration
+* Mitigations: attribute allowlists, signing deserialized data, input validation, limiting setters
+* Affects Ruby, ASP.NET, PHP, Python etc.
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1778
+answer_tokens: 218
+time_taken: 24.30 seconds

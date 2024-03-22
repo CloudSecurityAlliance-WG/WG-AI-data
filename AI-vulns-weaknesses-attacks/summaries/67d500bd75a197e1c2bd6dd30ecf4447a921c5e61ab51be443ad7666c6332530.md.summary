@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1174 weakness describes an ASP.NET application misconfiguration where the model validation framework is not used or is used incorrectly. This can lead to vulnerabilities like cross-site scripting, process control, and SQL injection by allowing unchecked input. The misconfiguration is an architectural/design or implementation issue that enables the introduction of security weaknesses that may not be easily detected.
+
+# Summary bullet points
+
+* CWE-1174 is an ASP.NET application misconfiguration weakness related to improper use of the model validation framework
+* Can lead to cross-site scripting, process control, and SQL injection vulnerabilities from unchecked input
+* Is an architectural/design or implementation issue that introduces hard to detect security weaknesses 
+* Indirect weakness that makes it easier to introduce security issues or makes them harder to detect
+* Part of 2021 OWASP Top 10 Category A05 - Security Misconfiguration
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 641
+answer_tokens: 151
+time_taken: 11.47 seconds

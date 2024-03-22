@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the tactic of unsecured credentials, where adversaries search compromised systems to find insecurely stored credentials that can be used to further access or control systems. It notes credentials may be stored in plaintext files, environment variables, operating systems, applications, registries or other locations. The article references the MITRE ATT&CK framework's T1152 technique for unsecured credentials and provides a case study link showing how vulnerabilities in AI systems like MathGPT could allow code execution via prompt injection to steal credentials. 
+
+Overall, the article highlights the risks of improperly secured credentials on systems and how adversaries actively seek out these vulnerabilities to escalate privileges, access data, or conduct other malicious activities. Properly storing and securing credentials is critical, especially for sensitive systems like AI and machine learning platforms that may have increased access or capabilities.
+
+# Summary bullet points
+
+* Adversaries search compromised systems looking for insecurely stored credentials 
+* Credentials may be stored plainly in files, environment variables, OS, applications, registries etc.
+* References MITRE ATT&CK T1152 unsecured credentials technique
+* Provides case study of prompt injection in MathGPT allowing code execution to steal credentials
+* Unsecured credentials allow adversaries to further access/control systems
+* Critical to properly store and secure credentials on sensitive systems like AI/ML
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 497
+answer_tokens: 221
+time_taken: 17.30 seconds

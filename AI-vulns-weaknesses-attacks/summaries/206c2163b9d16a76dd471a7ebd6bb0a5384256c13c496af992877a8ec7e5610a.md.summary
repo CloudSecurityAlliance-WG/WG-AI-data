@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-578 weakness describes a violation of the Enterprise JavaBeans (EJB) specification whereby an EJB uses the Java Class Loader to obtain resources like files or create custom class loaders. This goes against the EJB specification guidelines and can compromise security and prevent the EJB container from properly managing the runtime environment.
+
+# Summary bullet points
+
+* Violates Enterprise JavaBeans (EJB) specification by using the Java Class Loader
+* Can allow EJBs to access local file system, create custom class loaders, etc. 
+* Compromises security enforced by the EJB container
+* Prevents EJB container from properly managing runtime environment
+* Applicable to Java implementations using EJB
+* Mitigation is to not use the Class Loader within EJBs
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1079
+answer_tokens: 132
+time_taken: 11.56 seconds

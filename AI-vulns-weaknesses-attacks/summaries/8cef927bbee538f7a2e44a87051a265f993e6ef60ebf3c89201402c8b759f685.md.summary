@@ -1,0 +1,39 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-363, a weakness related to race conditions that enable malicious link following. Specifically, it involves a product that checks the status of a file or directory before accessing it. This check produces a race condition where the file can be replaced with a link before the access occurs, causing the product to access the wrong file. This can allow attackers to trick the product into accessing arbitrary files. 
+
+The document provides an extended description, relationships to other CWE weaknesses, applicable platforms, common consequences, a demonstrative example in PHP, and references. The key points are:
+
+- Race conditions with a small time window between checks and use can allow attackers to access unintended files.
+
+- This weakness enables improper link following (CWE-59) by replacing files with links after status checks occur. 
+
+- It can lead to confidentiality and integrity impacts by allowing attackers to read or modify unintended files.
+
+- Applicable to any language, not just PHP demonstrated.
+
+- Can cause products to access the wrong files.
+
+# Summary bullet points
+
+* Describes a race condition weakness (CWE-363) involving status checks on files/directories before access
+* These checks allow the file/directory to be replaced by a link afterwards
+* Enables malicious link following (CWE-59) by tricking products into accessing unintended files
+* Attacker can increase the race condition time window through slowing the system or many attacks
+* Applicable to any language, not just the PHP example
+* Can violate confidentiality and integrity by allowing access to unintended files
+* Attacker can trick product into accessing the wrong arbitrary files they control
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 964
+answer_tokens: 280
+time_taken: 20.44 seconds

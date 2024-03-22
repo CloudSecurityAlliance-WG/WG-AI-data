@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The Common Weakness Enumeration (CWE) entry describes the weakness of accessing memory locations before the start of a buffer, typically by decrementing a pointer or index to a position before the buffer. This leads to out-of-bounds memory access that often results in memory corruption, crashes, or exposure of sensitive information. Common sources of this weakness are unchecked user input used as array indexes or other buffer offsets and improper manipulation of pointers. Potential consequences include crashing or restarting systems, executing unauthorized code if buffer contents can be controlled, and violation of security policies.
+
+Detections methods include fuzz testing inputs to explore unexpected code paths and behaviors. Preventative coding techniques focus on properly validating and handling buffer indexes, sizes, offsets to avoid referencing memory outside buffer boundaries.
+
+# Summary bullet points
+
+* CWE-786: Access of memory location before start of buffer 
+* Typically occurs by decrementing pointer or index before buffer 
+* Leads to out-of-bounds memory access and corruption
+* Can cause crashes, system restarts, code execution, policy violations 
+* Detection with fuzz testing
+* Prevention via proper input validation and bounds checking
+
+# Geographic information
+Not applicable
+
+# Type of content
+Information Security Vulnerability Definition
+================================================================================
+METADATA:
+prompt_tokens: 1455
+answer_tokens: 203
+time_taken: 22.61 seconds

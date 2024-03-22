@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article describes the "Obtain Capabilities" technique used by adversaries to search for and acquire software tools that can be used in malicious operations targeting machine learning systems. It states that adversaries may obtain existing adversarial machine learning attack implementations or repurpose generic software tools for use against ML systems. In both cases, adversaries may customize the capabilities to target a specific ML system. The technique allows adversaries to develop resources that can later be used to attack or exploit vulnerabilities in ML systems.
+
+# Summary bullet points
+
+* Adversaries search for and obtain software capabilities for use in operations targeting ML systems
+* Capabilities may be adversarial ML attack implementations designed to fool or manipulate ML models
+* Generic software tools may also be repurposed for malicious attacks on ML
+* Adversaries may modify or customize capabilities to target a particular ML system 
+* The technique falls under the Resource Development tactic as it allows adversaries to build up attack capabilities
+* Subtechniques are Obtain Capabilities: Adversarial ML Attack Implementations and Obtain Capabilities: Software Tools
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website article
+================================================================================
+METADATA:
+prompt_tokens: 551
+answer_tokens: 189
+time_taken: 15.58 seconds

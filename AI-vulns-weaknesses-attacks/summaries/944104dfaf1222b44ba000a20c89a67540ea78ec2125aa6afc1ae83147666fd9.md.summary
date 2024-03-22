@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-696 weakness describes a situation where multiple related behaviors or operations are performed in the wrong order, resulting in security vulnerabilities. Some examples provided include:
+
+- Validating user input before canonicalizing the input, allowing bypass of validation checks through techniques like directory traversal. The proper order should be to canonicalize then validate.
+
+- Reading sensitive files into memory before checking user access permissions. This unnecessarily loads files the user may not have access to. The check should happen first. 
+
+- Enabling access to a protected asset before properly checking the access control permissions. This could allow unauthorized access before the checks occur.
+
+The key points are that order of operations matters from a security perspective, and validating/authorizing access should happen before enabling access or exposing sensitive data. Performing authorization too late allows windows for attack or data exposure.
+
+# Summary bullet points
+
+* Weakness involves multiple related behaviors performed in the wrong order, enabling resultant vulnerabilities
+* One example is validating user input before canonicalizing, allowing bypass through directory traversal 
+* Another example is reading files before checking user access permissions, exposing data unnecessarily
+* Also seen when access to protected assets is enabled before authorization checks occur
+* Proper order should check permissions/validate access first, then enable access/exposure
+* Authorization after asset access allows attack windows to violate controls
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition 
+================================================================================
+METADATA:
+prompt_tokens: 1337
+answer_tokens: 234
+time_taken: 22.27 seconds

@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-1104 - Use of Unmaintained Third Party Components. This common weakness enumeration entry talks about the vulnerabilities that can arise from using third party software components in products that are no longer actively maintained or supported by the original developer. Using such unmaintained components makes it difficult to fix bugs, vulnerabilities, or quality issues. It also indirectly affects security by making it harder to find and fix vulnerabilities in the product. The lack of maintenance can lead to obsolete code or make it easier to introduce new vulnerabilities.
+
+# Summary bullet points
+
+* CWE-1104 focuses on use of unmaintained third party software components in products
+* Using such components that lack active maintenance/support creates vulnerabilities
+* Harder to fix bugs, quality issues, security flaws in unmaintained third party code  
+* Indirectly harms security through reduced ability to find/fix vulnerabilities
+* Unmaintained code can become obsolete over time
+* Easier to introduce new vulnerabilities into product due to lack of updates
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Common Weakness Enumeration reference entry
+================================================================================
+METADATA:
+prompt_tokens: 760
+answer_tokens: 190
+time_taken: 13.11 seconds

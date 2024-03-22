@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1050 weakness describes excessive platform resource consumption within a loop, which can reduce performance or enable denial of service attacks if an attacker can influence the number of loop iterations. Specifically, it refers to a loop that contains a control element that directly or indirectly consumes resources like messages, sessions, locks, or file descriptors. This can make the product perform more slowly over time.
+
+# Summary bullet points
+
+* CWE-1050 refers to excessive platform resource consumption within a loop body or loop condition
+* This can reduce performance over time as resources like messages, sessions, locks, file descriptors build up
+* It can also enable denial of service if an attacker controls the number of loop iterations
+* It is considered an indirect weakness that can make it easier to introduce other security weaknesses
+* Relationships show it is a child of asymmetric resource consumption and a member of bad coding practices
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 742
+answer_tokens: 167
+time_taken: 13.65 seconds

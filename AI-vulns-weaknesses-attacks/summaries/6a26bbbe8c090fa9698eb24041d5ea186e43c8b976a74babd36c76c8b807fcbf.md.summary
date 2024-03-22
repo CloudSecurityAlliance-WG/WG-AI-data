@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a weakness where the logic used to set a system to a secure state relies on an unblown fuse. An attacker can blow the fuse to set the system to an insecure state. Fuses are used to store security configuration data and an unblown fuse represents a logic 0 while a blown fuse is a logic 1. Fuses generally can't be reset from 1 to 0. If the system uses negative logic to check the fuse value and determine the security state, an attacker could blow the fuse and drive the system to an insecure state that bypasses protections and gives the attacker privileges. 
+
+# Summary bullet points
+
+* CWE entry describes weakness where logic to set secure system state relies on unblown fuse
+* Fuses used to store security config data, unblown=logic 0, blown=logic 1
+* Fuses generally can't be reset 1 to 0 
+* If system uses negative logic to check fuse value for security state, attacker can blow fuse to drive system to insecure state
+* Insecure state bypasses protections and can give attacker privileges
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 986
+answer_tokens: 198
+time_taken: 14.92 seconds

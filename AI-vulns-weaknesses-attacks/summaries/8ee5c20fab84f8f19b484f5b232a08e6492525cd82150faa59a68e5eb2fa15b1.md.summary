@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-114, a weakness related to executing commands or loading libraries from an untrusted source or environment. This can allow an attacker to execute malicious commands and payloads on behalf of the application. The key points are:
+
+- Process control vulnerabilities allow an attacker to change the command executed by a program or change the environment a command executes in to alter its meaning. 
+
+- Data from an untrusted source used to construct a command string can allow command injection. Loading untrusted libraries can also execute malicious code.
+
+- This causes the application to execute the attacker's commands with its level of privilege, possibly giving system control.
+
+- Potential mitigations include validating input and loaded libraries and ensuring libraries are from a trusted source. Static analysis tools can help detect instances of this weakness.
+
+# Summary bullet points
+
+* Process control vulnerabilities allow command injection or malicious control of command environment
+* Data from untrusted sources in command strings enable command injection 
+* Loading untrusted libraries can execute malicious attacker code
+* Attacker gains privilege level of vulnerable application, possibly full system control
+* Mitigations include input validation, using trusted libraries, static analysis
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1652
+answer_tokens: 211
+time_taken: 21.28 seconds

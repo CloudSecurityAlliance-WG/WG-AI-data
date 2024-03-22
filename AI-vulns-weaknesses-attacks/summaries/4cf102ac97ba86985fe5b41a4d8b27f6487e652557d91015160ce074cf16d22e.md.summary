@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The weakness described is related to pseudo-random number generators (PRNGs) that use the same seed value every time they are initialized. This leads to predictable output that attackers could exploit to bypass protections. Specifically, if the seed value is guessed or known, the attacker can determine the random numbers that will be produced by the PRNG. This allows things like account IDs and session IDs to be predicted and potentially hijacked. The mitigations suggested include not reusing PRNG seeds, using hardware-based random number generation, and using cryptographic modules that conform to standards like FIPS 140-2.
+
+# Summary bullet points
+
+* Pseudo-random number generators (PRNGs) using the same seed value each initialization leads to predictable output
+* If attacker guesses/knows the seed, they can determine the PRNG's output 
+* Allows account IDs, session IDs, etc to be predicted and hijacked
+* Mitigations: don't reuse seeds, use hardware random number generation, use standardized crypto modules
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1250
+answer_tokens: 178
+time_taken: 17.63 seconds

@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text appears to be extracted from a website called PLOT4ai, which contains a library of threats related to AI and ML systems. It classifies 86 threats into 8 different categories. The site encourages users to assess whether their AI systems could negatively impact human rights and fairness. 
+
+Specifically, it poses questions to health sector AI developers about whether their systems could improperly impact patient care. It asks if the AI's outputs are accurate, fair, and free from bias. It also questions whether AI content moderation systems could unintentionally restrict free speech by automatically blocking opinions. The core message is that AI developers should critically evaluate their systems to avoid unintended consequences.
+
+# Summary bullet points
+
+* PLOT4ai is a library containing 86 categorized threats related to AI/ML systems
+* It focuses on risks to human rights and fairness from AI systems
+* Asks if health AI could improperly impact patient care 
+* Questions if AI outputs are accurate, fair and unbiased
+* Raises concern that content moderation AI could block speech
+* Encourages critical evaluation to avoid unintended harms
+
+# Geographic information
+Not applicable
+
+# Type of content
+Website
+================================================================================
+METADATA:
+prompt_tokens: 1711
+answer_tokens: 192
+time_taken: 17.47 seconds

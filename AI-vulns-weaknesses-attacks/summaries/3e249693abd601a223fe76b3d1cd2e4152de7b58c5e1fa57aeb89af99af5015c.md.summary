@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-353 weakness describes when a product uses a transmission protocol that does not include a mechanism for verifying the integrity of data during transmission, such as a checksum. This means there is no way to determine if data has been corrupted in transmission. The lack of checksums removes the first application-level check that could detect corrupted data. This impacts data integrity and non-repudiation, as changes to data cannot be detected. 
+
+The mitigations suggest adding an appropriately sized checksum to the protocol to validate data before use. Checksums should be properly implemented on each message sent.
+
+# Summary bullet points
+
+* CWE-353 refers to missing checksums or other integrity checks in network transmission protocols
+* This prevents detection of corrupted data and hides changes made to data
+* Mitigations include adding checksums to protocol messages before sending
+* Checksums provide first application-level validation of data integrity
+* Impacts data integrity and non-repudiation capabilities
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 1139
+answer_tokens: 167
+time_taken: 14.44 seconds

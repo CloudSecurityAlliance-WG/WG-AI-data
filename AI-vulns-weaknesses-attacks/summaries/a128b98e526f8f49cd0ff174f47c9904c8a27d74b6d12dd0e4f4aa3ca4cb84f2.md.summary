@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The CWE entry describes the weakness of incorrectly specifying the destination in a communication channel (CWE-941). This occurs when a product initiates an outgoing request but does not correctly specify the intended recipient. Attackers may be able to spoof trusted servers and steal data or cause denial of service. There are two main issues: 1) If an attacker can control the destination, they can force connections to malicious/untrusted destinations to steal data or conduct DDoS attacks. 2) If the product incorrectly specifies the destination, an attacker who controls that destination may be able to spoof trusted servers. This can occur due to misconfiguration or other weaknesses that lead to incorrect parsing of addresses.  
+
+# Summary bullet points
+
+* CWE-941 involves incorrectly specifying the destination in a communication channel when initiating an outgoing request
+* This allows attackers to spoof trusted servers and steal data or cause denial of service
+* If attackers can control the destination, they can force connections to malicious endpoints for attacks
+* If the product incorrectly specifies the destination, attackers who control that destination can spoof trusted servers  
+* Causes include attacker control, misconfiguration, incorrect parsing of addresses
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Entry
+================================================================================
+METADATA:
+prompt_tokens: 1133
+answer_tokens: 214
+time_taken: 23.15 seconds

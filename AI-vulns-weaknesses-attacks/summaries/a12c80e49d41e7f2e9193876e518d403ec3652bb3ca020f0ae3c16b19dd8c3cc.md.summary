@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-1267, a weakness related to the use of obsolete encoding mechanisms to implement access controls in system-on-a-chip (SoC) hardware. Specifically, it involves transactions generated within an SoC that contain security tokens meant to control access to protected assets. If the policy encoding scheme that maps transactions to security tokens uses obsolete assumptions, it can inadvertently allow access by untrusted bus masters. This could enable malicious modifications of protected memory or unauthorized execution of commands. The weakness highlights the need to carefully review token decoder designs and policy encodings for consistency issues that could lead to privilege escalation or information disclosure.
+
+# Summary bullet points
+
+* CWE-1267 involves the use of obsolete encoding schemes to map bus transactions to security tokens for access control in system-on-a-chip (SoC) hardware
+* Transactions within an SoC contain identity and security token information that determines access to protected assets
+* If the mapping of transactions to tokens uses outdated assumptions, an untrusted bus master could gain unintended access 
+* This could lead to unauthorized modification of protected memory, execution of commands, or disclosure of sensitive data
+* Highlights the need to review decoder and policy encoding designs for flaws that enable privilege escalation
+* Testing transaction and programming flows pre- and post-silicon can help identify inconsistencies  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition 
+================================================================================
+METADATA:
+prompt_tokens: 1285
+answer_tokens: 227
+time_taken: 24.76 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-668, a common weakness enumeration related to the exposure of a resource to the wrong control sphere, providing unintended actors with inappropriate access. It explains that resources like files and directories may be inadvertently exposed through insecure permissions or a program operating on the wrong object. This effectively defines a control sphere that should prevent access to certain resources, but if permissions are insecure or the program allows unintended access, the resource is exposed to the wrong party.
+
+The weakness is related to broader concepts of improperly controlling resources and can enable various more specific weaknesses that lead to exposure of sensitive information, insecure files, public cloneable methods without final modifiers, etc. It is generally discouraged for mapping to real vulnerabilities because it is too high-level and often misused. More specific weaknesses related to the specific mistake enabling the exposure should be used instead.
+
+# Summary bullet points
+
+* Resources like files and directories may be inadvertently exposed through insecure permissions or programs operating on wrong objects
+* Exposing resources to unintended actors breaks intended control spheres and access limitations  
+* Related to improper resource control and enabling weaknesses like exposed sensitive information, public cloneable methods, insecure files etc
+* Discouraged for mapping real vulnerabilities because too high level, should map to specific weakness enabling exposure instead
+
+# Geographic information
+Not applicable
+
+# Type of content
+Common Weakness Enumeration (CWE) definition 
+================================================================================
+METADATA:
+prompt_tokens: 1228
+answer_tokens: 236
+time_taken: 24.45 seconds

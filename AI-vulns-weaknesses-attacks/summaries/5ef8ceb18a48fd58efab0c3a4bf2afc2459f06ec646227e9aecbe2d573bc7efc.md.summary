@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-523, a common weakness enumeration related to unprotected transport of credentials. Specifically, it points out that login pages often fail to use adequate measures to protect usernames and passwords while in transit from the client to the server. It recommends enforcing SSL use for login pages to encrypt the traffic and prevent eavesdropping or alteration of the contents. The document details the weakness relationships, relevant architectural concepts, modes of introduction during architecture/design via omission of security tactics, common consequences like gaining privileges/assuming identity, potential mitigations like SSL enforcement, and detection methods like static analysis. It also maps the weakness to various security frameworks like OWASP Top 10.
+
+# Summary bullet points
+
+* CWE-523 relates to unprotected transport of credentials on login pages from client to server
+* Fails to protect usernames and passwords in transit, enabling eavesdropping or content alteration
+* Recommends enforcing SSL on login pages to encrypt traffic 
+* Omission of security tactics during architecture/design enables introduction 
+* Consequences include gaining privileges/assuming identity
+* Mitigations include SSL enforcement on login pages 
+* Static analysis can detect some instances by analyzing data flows
+* Mapped to multiple security frameworks like OWASP Top 10
+
+# Geographic information
+Not applicable
+
+# Type of content
+Encyclopedia Entry
+================================================================================
+METADATA:
+prompt_tokens: 934
+answer_tokens: 210
+time_taken: 14.74 seconds

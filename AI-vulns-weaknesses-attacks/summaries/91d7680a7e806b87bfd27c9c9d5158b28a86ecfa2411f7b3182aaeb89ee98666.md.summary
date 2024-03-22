@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-152 weakness describes a vulnerability where a product receives input but does not properly neutralize special elements that could be interpreted as macro symbols. This allows attackers to inject malicious macro code that gets expanded when processed by downstream components. Consequences may include exposure of sensitive information or unexpected application state changes. Recommended mitigations focus on input validation, output encoding, and proper decoding/canonicalization of inputs before validation.  
+
+# Summary bullet points
+
+* CWE-152 refers to improper neutralization of macro symbols in software input
+* Can allow attacker injection of macro code that gets improperly expanded downstream
+* Consequences may include information exposures or unexpected state changes
+* Mitigations include input validation, output encoding, decoding/canonicalizing input
+* Under-studied weakness with gaps in research
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Common Weakness Enumeration entry
+================================================================================
+METADATA:
+prompt_tokens: 1092
+answer_tokens: 140
+time_taken: 15.59 seconds

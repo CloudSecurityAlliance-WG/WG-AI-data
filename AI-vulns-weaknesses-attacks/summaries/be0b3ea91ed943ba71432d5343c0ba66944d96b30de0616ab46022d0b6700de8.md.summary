@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The CWE entry describes a context switching race condition weakness (CWE-368) where a product performs a series of non-atomic actions to switch between contexts that cross privilege or security boundaries. A race condition allows an attacker to modify or misrepresent the product's behavior during the context switch. This is commonly seen in web browser vulnerabilities where the attacker can perform actions while the browser transitions between trusted and untrusted domains. The browser may perform actions on one domain using the trust level and resources of the other domain.
+
+# Summary bullet points
+
+* CWE-368 describes a context switching race condition weakness where a product switches between contexts crossing privilege/security boundaries
+* The weakness stems from a series of non-atomic actions during the context switch 
+* A race condition allows an attacker to modify or misrepresent behavior during the switch
+* Commonly seen in web browsers transitioning between trusted and untrusted domains
+* The browser may perform actions on one domain but using permissions/resources of the other
+* This can lead to attackers accessing or modifying privileged application data
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1019
+answer_tokens: 200
+time_taken: 18.30 seconds

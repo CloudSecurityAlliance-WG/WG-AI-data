@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of self-generated error messages containing sensitive information (CWE-210). When an application encounters an error condition, it may generate diagnostic or error messages that inadvertently expose sensitive information about the system's configuration or internal workings. This information could help an attacker exploit other vulnerabilities. Examples include full pathnames of configuration files or debugging information from exceptions and stack traces. The key impacts are:
+
+- Exposure of sensitive system details that aid attackers 
+- Potential enabling of exploits through path traversal or symbolic links
+
+To mitigate this weakness, debugging information should not make it into production releases. Error messages should be generic and not reveal specifics about the application's internal state or configuration.
+
+# Summary bullet points
+
+* Self-generated error messages can contain sensitive system information
+* Attackers can use exposed pathnames, configuration details, etc. to find and exploit vulnerabilities 
+* Mitigations include removing debugging information before production release
+* Error messages should be made generic so they don't reveal internal specifics
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weaknesses Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 925
+answer_tokens: 182
+time_taken: 17.67 seconds

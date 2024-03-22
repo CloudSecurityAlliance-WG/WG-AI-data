@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The CWE entry describes the weakness of insufficient type distinction, where a product does not properly distinguish between different types of elements. This can lead to insecure behavior. Examples are given such as a browser not distinguishing between user-initiated and synthetic events, or a product not comparing all required data in two separate elements. This can cause loss of access control lists if the product thinks the elements are the same when they are not. The key aspects are the product's failure to distinguish element types, leading to incorrect assumptions and insecure behavior. Proper type checking and comparisons are needed to avoid introducing vulnerabilities.
+
+# Summary bullet points
+
+* CWE-351 describes the weakness of insufficient type distinction in a product 
+* Occurs when product does not distinguish properly between element types
+* Can lead to insecure behavior due to incorrect assumptions about data
+* Examples include browser not distinguishing event types and product not comparing all data in elements
+* Consequences include loss of access controls and data integrity issues
+* Needs proper type checking and comparisons to avoid vulnerabilities
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry
+================================================================================
+METADATA:
+prompt_tokens: 697
+answer_tokens: 199
+time_taken: 14.77 seconds

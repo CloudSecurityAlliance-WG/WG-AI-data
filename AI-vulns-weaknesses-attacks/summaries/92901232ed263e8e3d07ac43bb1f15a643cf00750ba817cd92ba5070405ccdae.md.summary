@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-471 weakness describes when a product fails to properly protect assumed-immutable data from modification by an attacker. This occurs when certain inputs critical to application functioning are modifiable when they should not be, such as hidden web form fields, cookies, and reverse DNS lookups. Consequences include compromised integrity through unauthorized data modification and unexpected application state. Mitigations focus on implementing integrity checks on untrusted data sources and storing critical data in trusted locations safe from external influence.
+
+# Summary bullet points
+
+* CWE-471 involves the product's failure to protect assumed-immutable data from modification by an attacker
+* Affects inputs like web form fields, cookies, and reverse DNS lookups that are presumed immutable but aren't
+* Leads to compromised data integrity and unexpected application behavior
+* Mitigations include integrity checks on untrusted data and storing critical data securely
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition
+================================================================================
+METADATA:
+prompt_tokens: 1014
+answer_tokens: 151
+time_taken: 15.42 seconds

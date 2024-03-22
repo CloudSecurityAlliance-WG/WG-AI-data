@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summarization and analysis template filled out for the given text:
+
+# Summary  
+
+The paper proposes a new clean-label poisoning attack called Bullseye Polytope that creates a convex polytope around a target image in feature space. The attack optimizes the position of poison samples so that the target image resides close to the "center" of the polytope. This improves attack transferability and speed compared to prior work like Convex Polytope. Experiments show Bullseye Polytope achieves 7-27% higher success rates in transfer learning settings while being 10-36x faster. The attack is also extended to a multi-target mode which makes it robust to variations in test images. Defenses based on nearest neighbors and centroid checks are evaluated.
+
+# Summary bullet points
+
+* Proposes Bullseye Polytope, a fast and transferable clean-label poisoning attack for transfer learning 
+* Crafts a convex polytope around the target in feature space by optimizing poison samples
+* Pushes the target close to the "center" of the polytope which improves attack transferability  
+* Achieves 7-27% higher success rates than prior work while being 10-36x faster
+* Extends the attack to a multi-target mode to make it robust to test image variations  
+* Evaluates defenses like nearest neighbors and centroid checks against the attack
+
+# Geographic information  
+
+Not applicable
+
+# Type of content  
+
+Conference paper (EuroS&P 2021)
+================================================================================
+METADATA:
+prompt_tokens: 15594
+answer_tokens: 219
+time_taken: 41.93 seconds

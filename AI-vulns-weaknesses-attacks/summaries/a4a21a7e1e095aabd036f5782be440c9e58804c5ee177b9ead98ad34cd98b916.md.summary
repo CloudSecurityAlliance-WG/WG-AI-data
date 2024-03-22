@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is the summarization and analysis of the provided text:
+
+# Summary
+
+The paper explores the vulnerability of machine learning models to adversarial examples - inputs that are specially crafted to cause models to produce incorrect outputs. It demonstrates transferability of adversarial examples between models trained using the same or different techniques. New methods are presented to craft adversarial examples for non-differentiable models like support vector machines and decision trees. A technique is enhanced to train substitute models that approximate remote classifiers with only queries to the classifier as input. Substitute models are trained with deep learning and logistic regression to match classifiers using techniques like neural networks, logistic regression, SVM, decision trees, nearest neighbors. Refinements are added to improve accuracy and reduce complexity of substitute learning. Finally, attacks are conducted against commercial machine learning APIs by Amazon and Google by training substitutes to mimic their classifiers, crafting adversarial samples on substitutes, and leveraging transferability to misclassify the remote models at high rates with only 800 queries. Key aspects covered are the vulnerability of ML models to adversarial manipulation across techniques, transferability allowing black box attacks without model knowledge, improvements to substitute training, and successful demonstration on commercial APIs.
+
+# Summary bullet points
+
+* Machine learning models across techniques are vulnerable to adversarial examples specially crafted to cause misclassifications
+* Adversarial examples transfer between models trained with the same technique (intra-technique) and even across different techniques (cross-technique)  
+* New methods presented to craft adversarial examples for non-differentiable models like SVMs and decision trees
+* Technique enhanced to train substitute models approximating classifiers by querying them, using deep learning and logistic regression
+* Substitutes matched various classifier types (DNN, LR, SVM, DT, kNN) with high accuracy  
+* Refinements added to improve accuracy and reduce complexity of substitute training
+* Black box attacks conducted against ML classifiers from Amazon and Google by training substitutes and exploiting transferability
+* Substitutes caused 96.19% and 88.94% misclassification rates on Amazon and Google classifiers with only 800 queries  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Academic Paper
+================================================================================
+METADATA:
+prompt_tokens: 11635
+answer_tokens: 343
+time_taken: 32.18 seconds

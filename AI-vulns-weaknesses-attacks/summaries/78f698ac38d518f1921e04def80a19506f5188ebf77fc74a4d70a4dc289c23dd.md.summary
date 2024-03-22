@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of embedded malicious code in software products. This refers to malicious code intentionally inserted by developers that can execute unwanted commands or access/send private data without the user's consent. Examples given include Trojan horses, trapdoors, timebombs, and logic bombs. Specific vulnerabilities listed are sending credit card numbers to the developer's email address or running arbitrary commands. Mitigations focus on code reviews to find and remove malicious code.
+
+# Summary bullet points
+
+* CWE-506 covers malicious code intentionally inserted into software products that violates user security/privacy
+* Examples are Trojan horses, trapdoors, timebombs, logic bombs that run unwanted commands or access private data  
+* An example is developer code that emails users' credit card numbers to the developer’s personal address
+* Mitigations include manual code reviews and static/dynamic analysis tools to find and remove malicious code
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) database entry
+================================================================================
+METADATA:
+prompt_tokens: 979
+answer_tokens: 158
+time_taken: 16.19 seconds

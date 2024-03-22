@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper handling of undefined parameters. This occurs when a product does not properly handle or incorrectly handles a situation where a particular parameter, field, or argument name is not defined or supported by the product. This can lead to unexpected states or crashes. Examples are provided of an IRC client crashing due to a undefined parameter in a message, and a router crashing or making incorrect route modifications due to invalid attributes in a BGP update. This weakness is a child of improper handling of parameters in general. It is applicable to all languages and platforms.
+
+# Summary bullet points
+
+* The weakness occurs when a product does not handle or incorrectly handles undefined parameters, fields, or argument names
+* Can lead to crashes, unexpected states, or incorrect behavior
+* Examples given of an IRC client and a router crashing due to undefined parameters
+* Is a child weakness of improper handling of parameters in general
+* Applies to all languages and platforms
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition 
+================================================================================
+METADATA:
+prompt_tokens: 654
+answer_tokens: 183
+time_taken: 14.78 seconds

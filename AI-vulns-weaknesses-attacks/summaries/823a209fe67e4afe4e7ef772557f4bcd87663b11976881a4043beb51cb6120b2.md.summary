@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+This text discusses poisoning attacks on machine learning models, where an attacker contaminates the training data to manipulate the model's predictions. It provides an example of a medical dataset where researchers introduced malicious samples that changed a model's dosage predictions for patients. 
+
+The text mentions other data tampering scenarios, such as deliberate or unintentional manipulation by AI/ML designers, data manipulation during storage or processing, and attackers leveraging knowledge of data filtering schemes. It also discusses adversaries manipulating hyperparameters to influence model behavior, either intentionally for attacks or accidentally by overfitting.
+
+The key message is that poisoning attacks and data tampering can severely impact model performance and lead to discrimination if bias is introduced. Companies need protections against these threats from external attackers as well as insider risks.
+
+# Summary bullet points
+
+* Poisoning attacks contaminate training data to manipulate ML model predictions
+* Example of attack on medical dataset that changed dosage predictions by 75% for patients
+* Data tampering by designers, engineers, during storage and processing
+* Attackers leveraging data filtering schemes to introduce malicious input 
+* Manipulating hyperparameters to influence model behavior, overfit models
+* Attacks can introduce bias and discrimination issues
+* Protections needed against external and insider data manipulation risks
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 3361
+answer_tokens: 216
+time_taken: 22.47 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-917 weakness describes a vulnerability where user-controlled input is improperly neutralized before being inserted into expression language (EL) statements in frameworks like Java Server Pages (JSP). This allows attackers to inject executable EL expressions that could lead to remote code execution, unauthorized access to data, or other impacts. Mitigations include avoiding using user input in EL statements, validating/encoding any necessary user input, or disabling EL statement processing altogether.
+
+# Summary bullet points
+
+* CWE-917 involves improperly neutralizing user input before inserting it into expression language (EL) statements like those in Java Server Pages (JSP)
+* This could allow attackers to inject malicious EL expressions leading to remote code execution or unauthorized data access
+* Mitigations include avoiding using user input in EL statements, validating/encoding any necessary user input, or disabling EL statement processing
+* Related weaknesses include command injection (CWE-77) and improper neutralization in template engines (CWE-1336)
+* The vulnerability can lead to impacts like remote code execution and unauthorized reading of application data
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 1161
+answer_tokens: 181
+time_taken: 14.99 seconds

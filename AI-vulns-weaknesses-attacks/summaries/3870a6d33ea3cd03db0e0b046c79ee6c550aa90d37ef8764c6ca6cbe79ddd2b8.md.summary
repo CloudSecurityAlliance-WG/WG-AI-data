@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content per your instructions:
+
+# Summary
+
+The content describes the weakness CWE-1278, which is missing protection against hardware reverse engineering of integrated circuits (ICs) using imaging techniques. It explains that information stored in hardware chips can be recovered by attackers using scanning electron microscopy and other IC imaging methods. The goal is often to obtain secret keys, identifiers, code, and designs embedded in the hardware. This can allow attackers to produce counterfeit versions of the chips or access sensitive data. The content recommends mitigations like IC camouflaging, tamper-proof packaging, active shielding, and physical tamper detection. Overall, it highlights the risk of hardware reverse engineering and the need for protections in chip designs.
+
+# Summary bullet points
+
+* Information in hardware chips can be imaged and recovered using electron microscopy 
+* Goals include obtaining secret keys, identifiers, proprietary code/designs in ICs
+* Enables attackers to produce counterfeits or access sensitive data
+* Mitigations include IC camouflaging, tamper-proofing, active shielding 
+* Highlights risk of reverse engineering and need for hardware protections
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1061
+answer_tokens: 191
+time_taken: 14.61 seconds

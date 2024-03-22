@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the provided text on CWE-507: Trojan Horse weakness:
+
+# Summary
+
+The text describes the CWE-507 weakness which is a Trojan Horse - a type of malicious code that appears benign but contains hidden functionality that violates the security policy. A Trojan Horse appears to perform a legitimate function but also contains malicious code disguised to avoid detection. It can allow attackers to execute unauthorized commands and violate confidentiality, integrity and availability. 
+
+Trojan Horses differ from viruses or worms in how they replicate. They are considered a type of embedded malicious code. Mitigations include antivirus scanning and verifying integrity of software before installation. The text provides definitions, relationships to other weaknesses, impacts, modes of introduction, mitigations and mappings for the CWE-507 weakness.
+
+# Summary bullet points
+
+* CWE-507 describes the Trojan Horse weakness where software appears benign but contains hidden malicious code
+* Trojans allow attackers to violate security policies by disguising malicious actions as legitimate functions 
+* Impacts confidentiality, integrity and availability by allowing unauthorized code execution
+* Differs from viruses and worms in how replication occurs
+* Is a type of embedded malicious code 
+* Mitigations include antivirus scanning and integrity verification
+* Provides comprehensive information on the weakness including definitions, relationships, impacts, mitigations
+
+# Geographic information  
+
+Not applicable
+
+# Type of content
+
+Definition 
+================================================================================
+METADATA:
+prompt_tokens: 895
+answer_tokens: 222
+time_taken: 21.79 seconds

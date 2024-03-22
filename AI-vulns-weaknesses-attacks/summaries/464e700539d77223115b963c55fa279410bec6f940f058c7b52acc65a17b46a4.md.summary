@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1312 weakness describes a vulnerability in on-chip fabric firewalls that do not protect mirrored memory or MMIO regions in the same way as the main addressed memory region. This allows attackers to bypass existing read/write protections by accessing the unprotected mirrored regions, leaking or corrupting data. 
+
+The vulnerability exists because while some fabrics mirror memory or address ranges for redundancy and fault tolerance, the firewall only protects the original regions, not the copies. Whatever protections exist for the original should also apply to the mirrored regions. Failing to do so enables attackers to bypass protections by accessing the unprotected mirrors instead of the protected originals.
+
+# Summary bullet points
+
+* CWE-1312 is a weakness whereby on-chip fabric firewalls fail to protect mirrored memory or MMIO regions
+* Mirrored regions contain redundant copies of original data used for fault tolerance 
+* Firewall protects original regions but not the mirrors
+* This allows attackers to bypass read/write protections by accessing unprotected mirrors
+* Protections for original regions should also apply to mirrored ones
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 1031
+answer_tokens: 189
+time_taken: 15.38 seconds

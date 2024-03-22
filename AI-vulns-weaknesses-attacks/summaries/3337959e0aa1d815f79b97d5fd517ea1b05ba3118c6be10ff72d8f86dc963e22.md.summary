@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-671 weakness describes a lack of administrator control over security settings in a product. Specifically, it refers to products that use security features in a way that prevents administrators from tailoring settings to the environment. This introduces weaknesses, prevents desired security levels, and hinders protecting the product from threats. Examples are hard-coded account credentials that administrators can't change, exposing systems to attacks.
+
+# Summary bullet points
+
+* CWE-671 is a weakness related to lack of administrator control over security in a product
+* It covers products that use security features preventing admin tailoring of settings
+* This prevents achieving desired security levels and protecting from threats
+* Examples are hard-coded credentials that admins can't change, enabling attacks
+* It's a child of CWE-657 Violation of Secure Design Principles 
+* Consequences vary by context but impact security and enable attacks
+* Examples are device firmware and software with hard-coded admin passwords
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 859
+answer_tokens: 167
+time_taken: 12.84 seconds

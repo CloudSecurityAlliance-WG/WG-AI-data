@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The text describes the weakness CWE-153: Improper Neutralization of Substitution Characters. This weakness occurs when a product receives input from an upstream component but does not properly neutralize or incorrectly neutralizes special elements that could be interpreted as substitution characters when sent to a downstream component. This can lead to unexpected states and information exposure if malicious actors inject substitution characters that get interpreted and executed by the downstream component. 
+
+To mitigate this weakness, developers should validate inputs to ensure only valid, expected input is processed. Encoding outputs is also recommended to properly quote arguments and escape special characters. Input validation should consider length, type, range of values, syntax, consistency and business rules. Exclusively looking for malicious inputs is not sufficient as it may miss undesirable inputs when the environment changes. Inputs should be canonicalized before validation to avoid double decoding issues.
+
+# Summary bullet points
+
+* CWE-153 is an improper neutralization of substitution characters weakness that occurs when upstream input is not properly sanitized
+* Can lead to unexpected states and information exposure through injection of unescaped substitution characters  
+* Recommended mitigations include thorough input validation considering length, type, values, syntax, consistency, business rules
+* Output encoding also recommended to quote arguments and escape special characters 
+* Exclusively denylisting inputs is insufficient as it may miss undesirable inputs when environment changes
+* Inputs should be canonicalized to avoid double decoding issues
+
+# Geographic information
+Not applicable
+
+# Type of content
+Information page on a software weakness from the CWE website
+================================================================================
+METADATA:
+prompt_tokens: 1036
+answer_tokens: 262
+time_taken: 25.24 seconds

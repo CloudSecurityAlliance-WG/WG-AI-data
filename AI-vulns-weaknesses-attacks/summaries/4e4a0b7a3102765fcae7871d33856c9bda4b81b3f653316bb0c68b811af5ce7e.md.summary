@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a weakness where a function does not properly handle missing parameters. This can lead to crashes, denial of service, arbitrary code execution, and information disclosure if the function expects more parameters than are provided. The problem arises when too few arguments are passed to a function but it still tries to pop the expected number from the stack, potentially exhausting the stack. Proper forward declaration of functions is recommended to catch parameter mismatches during compilation. The entry brings together data from the PLOVER and CLASP taxonomies which used the term "missing parameter" differently - PLOVER referred to malformed inputs lacking required parameters while CLASP covered functions called with an incorrect number of arguments. The observed examples demonstrate denial of service, information disclosure, and source code access vulnerabilities that have resulted.
+
+# Summary bullet points
+
+* Functions continuing to pop arguments from the stack even when too few are provided can lead to crashes, arbitrary code execution, DoS, and info leaks
+* Merging of data from PLOVER and CLASP which used "missing parameter" differently - one referring to malformed input lacking params, other referring to functions called with incorrect number of args 
+* Proper forward function declaration can catch parameter mismatches during compilation
+* Observed examples include DoS, information disclosure, and source code access via this weakness
+* Recommended to deprecate/split this CWE entry due to different meanings combined 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1207
+answer_tokens: 248
+time_taken: 21.94 seconds

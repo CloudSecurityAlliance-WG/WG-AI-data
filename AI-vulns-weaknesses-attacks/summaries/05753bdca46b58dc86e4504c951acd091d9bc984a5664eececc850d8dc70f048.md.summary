@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text summarizes CWE-5, a common weakness enumeration related to J2EE misconfiguration leading to data transmission without encryption. It describes how information sent unencrypted over a network can be compromised, allowing an attacker to read or modify data. This is a child of CWE-319 Cleartext Transmission of Sensitive Information. It mainly affects confidentiality and integrity. Mitigations involve using SSL or strong encryption for all access-controlled pages. The text mentions it is easy for SSL to be bypassed if URLs are manually typed without HTTPS, attackers send users to HTTP pages, or links between pages don't switch protocols. It also maps this weakness to the "J2EE Misconfiguration: Insecure Transport" node in the Pernicious Kingdoms taxonomy.
+
+# Summary bullet points
+
+* Information sent unencrypted over networks can be read or modified by attackers
+* CWE-5 is a J2EE misconfiguration weakness allowing data transmission without encryption 
+* Child of CWE-319 Cleartext Transmission of Sensitive Information
+* Impacts confidentiality and integrity of data
+* Mitigations involve using SSL or strong encryption for all access-controlled web pages
+* SSL often bypassed by not using HTTPS, attackers sending HTTP links, or internal page links not switching protocols
+* Mapped to "J2EE Misconfiguration: Insecure Transport" in Pernicious Kingdoms taxonomy
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 818
+answer_tokens: 218
+time_taken: 15.44 seconds

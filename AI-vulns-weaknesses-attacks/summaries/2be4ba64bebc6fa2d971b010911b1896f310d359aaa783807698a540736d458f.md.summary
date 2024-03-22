@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-649, a weakness related to the reliance on obfuscation or encryption of security-relevant inputs without integrity checking. It explains that if systems use obfuscation or encryption to protect mutable inputs that affect security decisions or state, but don't check the integrity of those inputs, attackers may be able to traverse the space of possible input values to gain an advantage. Integrity checks should be used to detect if protected inputs have been modified. Without them, the system cannot determine if critical data has been tampered with. Protecting confidentiality via encryption is not sufficient to provide integrity protection.
+
+# Summary bullet points
+
+* CWE-649 involves relying on obfuscation or encryption to protect mutable, security-relevant inputs without integrity checks
+* This allows attackers to traverse the space of possible input values to try and gain an advantage 
+* Goals include elevating privileges, disclosing information, or changing system behavior
+* Integrity checks needed to detect if protected inputs have been modified
+* Protecting confidentiality does not provide integrity protection
+* Real-world example is 2005 IPSec vulnerability allowing packet destination IP modification
+* Mitigations include integrity protection of inputs and locking accounts after invalid input attempts
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1303
+answer_tokens: 220
+time_taken: 19.66 seconds

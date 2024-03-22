@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This article from MITRE ATLAS discusses the technique "LLM Plugin Compromise", where adversaries may leverage their access to a large language model (LLM) that is integrated with other systems in order to compromise connected plugins. Specifically, LLMs often have plugins to expand their capabilities, such as integrations with other applications, access to sensitive data sources, and the ability to execute code. Adversaries can exploit these plugins to escalate privileges on the larger system by making API calls to connected apps, stealing data from integrated data sources, or executing arbitrary code using an LLM plugin connected to a script interpreter. This highlights risks related to the integration of AI systems like LLMs with other enterprise resources and the need for proper access controls and sandboxing around LLMs.
+
+# Summary bullet points
+
+* Adversaries can exploit LLM plugins to increase attack capabilities 
+* LLM plugins may enable access to other apps, sensitive data sources, and code execution
+* Risks from integrating LLMs with broader enterprise systems
+* Adversaries can use plugins to escalate privileges, steal data, or run arbitrary code
+* Need for proper LLM access controls and sandboxing
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Article
+================================================================================
+METADATA:
+prompt_tokens: 613
+answer_tokens: 199
+time_taken: 17.80 seconds

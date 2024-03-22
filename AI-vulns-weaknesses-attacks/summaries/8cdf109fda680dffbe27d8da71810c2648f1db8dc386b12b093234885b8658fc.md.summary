@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+Inherited permissions refer to the permissions that an object inherits when it is copied or derived from another object. Insecure inherited permissions occur when an object inherits a set of insecure permissions from its parent without user awareness. This can lead to confidentiality and integrity issues, as sensitive data may be inappropriately accessed or modified due to the insecure permissions. Specifically, CWE-278 describes a weakness where a product copies or derives information from an archive file but preserves the insecure permissions of that archive. This could enable attackers to gain unauthorized access to sensitive data.
+
+To mitigate this, permissions and privileges should be carefully managed, with trust zones and separation of privilege implemented. Following the principle of least privilege can also help ensure that privileges are only used when absolutely necessary. Explicitly managing trust boundaries in software is also recommended.
+
+# Summary bullet points
+
+* Insecure inherited permissions refer to an object inheriting insecure permissions from its parent without user awareness 
+* Can occur when copying or deriving information from archive files or other objects
+* Enables unauthorized access or modification of sensitive data
+* Mitigations include managing permissions/privileges, trust zones, separation of privilege, and principle of least privilege
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 766
+answer_tokens: 215
+time_taken: 14.74 seconds

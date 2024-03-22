@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-412, a common weakness in software systems related to unrestricted externally accessible locks. It explains that the weakness occurs when a system properly checks for the existence of a lock, but the lock can still be accessed or influenced by an actor outside of the intended control sphere. This prevents the system from taking actions on associated resources or behaviors controlled by the lock, potentially leading to denial of service if the lock is held indefinitely. 
+
+The document provides background details on CWE-412, including its relationships to other weaknesses, applicable platforms, common consequences, demonstrative code examples, observed instances, potential mitigations, and detection methods. It emphasizes that external control of critical locks can cause programs and systems to pause execution indefinitely, resulting in denial of service impacts for legitimate users. Proper access controls and unpredictable lock identifiers are noted as mitigations.
+
+# Summary bullet points
+
+* CWE-412 involves unrestricted external access to locks used within a software system for synchronization
+* If an external actor can control critical locks, it can prevent the system from taking actions relying on those locks
+* This can lead to denial of service if execution pauses indefinitely waiting for lock release
+* Locks may include mutexes, file locks, shared resource locks that operate as synchronization tools 
+* Lack of proper access controls enables external manipulation of the locks
+* Mitigations include access controls and unpredictable lock names/identifiers
+* Can result in programs hanging and prevention of access for legitimate users
+
+# Geographic information
+Not applicable
+
+# Type of content
+Information page on a specific software weakness from the Common Weakness Enumeration (CWE) community resource
+================================================================================
+METADATA:
+prompt_tokens: 1337
+answer_tokens: 283
+time_taken: 26.28 seconds

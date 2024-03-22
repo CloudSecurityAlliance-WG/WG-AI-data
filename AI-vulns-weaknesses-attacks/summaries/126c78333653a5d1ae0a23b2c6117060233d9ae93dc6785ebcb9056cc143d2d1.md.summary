@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The weakness described is a permission race condition that can occur when copying or cloning a resource. The product does not properly set permissions or access controls on the resource until after the copy operation completes. This leaves the resource exposed to unauthorized access while the copying is still in progress. Common examples occur in file archive extraction or copying deeply nested directories. The larger the archive or more nested directories, the larger the timing window for the race condition exploit. This can lead to unauthorized parties reading or modifying data they should not have access to.
+
+# Summary bullet points
+
+* Weakness involves a race condition in setting permissions when copying/cloning a resource
+* Product does not set resource permissions until copy operation fully completes 
+* Leaves resource exposed during copy process, allowing unauthorized access
+* Common in file archive extraction or copying nested directories
+* The larger the archive/directories, the larger window for exploit
+* Can lead to unauthorized read or modification of data
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 985
+answer_tokens: 188
+time_taken: 14.26 seconds

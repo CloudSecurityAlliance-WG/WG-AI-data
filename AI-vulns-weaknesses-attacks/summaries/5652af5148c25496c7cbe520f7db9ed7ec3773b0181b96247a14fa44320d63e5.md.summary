@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The content describes the weakness CWE-262 regarding not using password aging. Password aging requires users to change their passwords periodically, such as every 30-90 days. It was once considered an important security feature but has fallen out of favor recently as it is less effective against modern threats compared to other mechanisms like slow hashes. However, password aging is still used to meet compliance requirements like PCI DSS. The weakness can allow attackers to compromise aging passwords over time and gain privileges or assume identities. Mitigations include designing systems to require periodic password changes and avoid reusing previous passwords.
+
+# Summary bullet points
+
+* CWE-262 is a weakness regarding not using password aging, which requires periodic password changes
+* Password aging was once considered an important security feature but has fallen out of favor recently
+* It is less effective than other mechanisms like slow hashes against modern threats
+* However, password aging is still used to meet compliance requirements like PCI DSS
+* The weakness can allow attackers to compromise aging passwords over time
+* Mitigations include enforcing periodic password changes and preventing password reuse
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Common Weakness Enumeration reference
+================================================================================
+METADATA:
+prompt_tokens: 1186
+answer_tokens: 212
+time_taken: 17.42 seconds

@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of using the wrong operator when comparing strings in code, such as using "==" instead of ".equals()" in Java. This can lead to unintended comparison results, causing issues with program correctness and potentially enabling security vulnerabilities if used in security decisions. It provides code examples in Java, JavaScript, and PHP showing incorrect and correct usage. The key operators highlighted are:
+
+- In Java, use .equals() instead of == to compare string values 
+- In JavaScript, use == instead of === to compare string values
+- In PHP, use == instead of === to compare a number to a string 
+
+Using the wrong operator compares references or matches on type instead of values. The mitigations advise using the proper operators for value comparison in each language. Automated static analysis tools can detect some instances of this weakness.
+
+# Summary bullet points
+
+* Using wrong operator like == instead of .equals() in Java string comparisons checks references not values 
+* Can impact program correctness and cause security issues if used in security checks
+* Fixes include using .equals() in Java, == in JavaScript, == to compare number and string in PHP  
+* Checks type or references instead of values when wrong operator used
+* Static analysis tools can find some occurrences of this weakness in code
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry - Common Weakness Enumeration
+================================================================================
+METADATA:
+prompt_tokens: 1685
+answer_tokens: 237
+time_taken: 20.72 seconds

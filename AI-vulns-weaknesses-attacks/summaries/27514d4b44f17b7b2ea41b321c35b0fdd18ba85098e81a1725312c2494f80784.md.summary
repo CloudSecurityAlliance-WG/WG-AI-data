@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The weakness described is incorrect register defaults or hardware IP parameters being set to insecure values in hardware description language (HDL) code. This can leave hardware systems in an insecure state at reset and be difficult to address later since changes require modifying silicon rather than software updates. Examples are provided of HDL code showing insecure register default values being used in a design. The mitigations suggest reviewing all system parameters and register defaults during design to identify security sensitive ones and define proper secure values for those settings. Testing should also validate configured values match design specifications.
+
+# Summary bullet points
+
+* Hardware description language (HDL) code can incorrectly define insecure default values for registers and parameters
+* Leaves systems insecure at reset since register/parameter contents initialize from HDL defaults  
+* Difficult to address since requires hardware silicon changes rather than software updates
+* Examples show HDL code with insecure register default values being used
+* Mitigations include:
+    * Review all parameters/defaults to identify security sensitive ones
+    * Define secure values for those settings
+    * Testing to validate configured values match design specifications
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Entry in Common Weakness Enumeration (CWE) catalog
+================================================================================
+METADATA:
+prompt_tokens: 1645
+answer_tokens: 211
+time_taken: 21.16 seconds

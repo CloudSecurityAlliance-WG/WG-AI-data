@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the text, formatted according to the provided template:
+
+# Summary
+
+The text describes CWE-1272, a common weakness related to sensitive information not being properly cleared from memory or storage before a debug or power state transition. It explains that devices and systems often employ various power and sleep states, as well as debug modes. Transitioning between these states can result in sensitive information still being accessible that should no longer be available. This could allow an attacker to access private keys or other privileged data to compromise security. The mitigation is to scrub memory and storage of any sensitive data not needed in the next state before transitioning power or debug modes. 
+
+# Summary bullet points
+
+* Describes CWE-1272 weakness - sensitive information not properly cleared before debug/power state changes
+* Devices use various power, sleep, debug states with restricted info access per state 
+* Transitioning states without clearing sensitive data means it can still be accessible 
+* Attackers could leverage this to access private keys or privileged data
+* Mitigation is scrubbing unneeded data before state transitions
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1182
+answer_tokens: 201
+time_taken: 16.95 seconds

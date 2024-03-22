@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1106 weakness describes insufficient use of symbolic constants in source code. Instead of using symbolic constants that abstract and parameterize values, literal constants are used directly in the code. This makes the code more difficult to maintain over time as the literal values may need to change. It also reduces code readability and indirectly impacts security by making vulnerabilities more difficult to identify and remediate.
+
+# Summary bullet points
+
+* CWE-1106 is about insufficient use of symbolic constants in source code
+* Using literal constants instead of symbolic constants reduces code maintainability over time
+* It makes it harder to update code when hardcoded values need to change
+* Decreases code readability and makes vulnerabilities harder to identify and fix
+* Is considered an indirect weakness that impacts security through reduced maintainability
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 664
+answer_tokens: 149
+time_taken: 11.99 seconds

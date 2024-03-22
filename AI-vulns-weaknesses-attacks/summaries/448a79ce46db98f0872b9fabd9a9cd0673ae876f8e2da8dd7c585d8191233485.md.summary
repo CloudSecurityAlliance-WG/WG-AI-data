@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the provided data:
+
+# Summary
+
+The data describes a weakness (CWE-14) related to compilers removing code that clears sensitive data from memory. This occurs when sensitive data like passwords are stored in memory, code is written to scrub the memory after use by overwriting the data, but an optimizing compiler removes that scrubbing code because the memory is not used afterwards. This leaves the sensitive data exposed in memory. Attackers could then access the memory and obtain the sensitive data. The description provides examples of how this could occur in C and C++ code compiled with common optimizing compilers. It explains the potential impacts being exposure of sensitive data like passwords, which could allow attackers to gain additional access or compromise other resources. The data also covers detection methods, affected resources, mitigations like using volatile memory, and relationships to other weaknesses.
+
+# Summary bullet points
+
+* Sensitive data stored in memory can be left untouched instead of scrubbed if an optimizing compiler removes clearing code as dead stores/unused
+* Occurs because the compiler sees clearing memory that is not read again as a dead store optimization opportunity  
+* Leaves sensitive data like passwords exposed in memory for attackers 
+* Examples given in C and C++ using common optimizing compilers
+* Detection requires white box methods to analyze if compiler would remove clearing code
+* Mitigations include volatile memory, disabling optimizations, encrypting data
+* Memory is the affected resource, leading to exposure of sensitive data
+* Related to other weaknesses around compiler optimization issues
+
+# Geographic information  
+
+Not applicable
+
+# Type of content
+
+Entry from Common Weakness Enumeration (CWE) catalog/taxonomy
+================================================================================
+METADATA:
+prompt_tokens: 1457
+answer_tokens: 276
+time_taken: 21.34 seconds

@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  Here is the summarization and analysis template filled out for the given text:
+
+# Summary
+
+The paper proposes a framework called GRAPHITE for generating physical adversarial attacks on computer vision systems. The framework aims to satisfy three key requirements: 1) Automatically constrain the attack to small regions that could be applied with stickers, 2) Achieve transform-robustness to variations like viewpoint and lighting changes, 3) Enable attacks with only black-box hard-label access to proprietary models. 
+
+The method formulates the attack generation problem as a joint optimization of maximizing transform-robustness while minimizing the perturbation size. Since directly solving this is challenging, the framework alternates between reducing the perturbation area and boosting the attack success within that area. Different instantiations of this framework are presented for white-box and hard-label black-box settings.
+
+Experiments demonstrate successful physical attacks on traffic sign classifiers with printed stickers. The black-box attacks achieve high transform-robustness and small perturbation sizes using an order of magnitude fewer queries than prior hard-label attacks. Tradeoffs are shown between transform-robustness, query budgets, and perturbation sizes. Defenses like PatchGuard are also shown to be insufficient against GRAPHITE's more generalized patch attacks.
+
+# Summary bullet points
+
+* Proposes GRAPHITE framework for generating physical attacks satisfying three key requirements: automatic space constraint, physical robustness, and black-box hard-label access
+* Formulates attack generation as joint optimization of maximizing transform-robustness and minimizing perturbation size
+* Alternates between reducing perturbation area and boosting attack success within that area
+* Presents white-box and hard-label black-box instantiations of the framework 
+* Demonstrates successful physical attacks on traffic sign classifiers using printed stickers
+* Black-box attacks achieve high robustness and small perturbations with 10x fewer queries than prior attacks
+* Shows tradeoffs between robustness, queries, and perturbation sizes
+* Bypasses defenses like PatchGuard with more generalized patch attacks
+
+# Geographic information
+
+The attacks and defenses evaluated are not specific to any geographic region. The traffic sign experiments use the German Traffic Sign Recognition Benchmark (GTSRB) dataset.
+
+# Type of content
+
+Academic paper / conference paper presented at IEEE Symposium on Security and Privacy 2022
+================================================================================
+METADATA:
+prompt_tokens: 16103
+answer_tokens: 341
+time_taken: 37.51 seconds

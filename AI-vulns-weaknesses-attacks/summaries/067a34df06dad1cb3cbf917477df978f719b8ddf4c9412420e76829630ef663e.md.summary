@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text describes the weakness CWE-911 in the Common Weakness Enumeration (CWE) system, which categorizes different types of software weaknesses that can lead to vulnerabilities. Specifically, CWE-911 deals with improper update of reference counts, which are used in some software to track how many objects are using a particular resource like memory. If the reference count is not properly updated, it could reach zero prematurely while the resource is still in use, leading it to be de-allocated too soon. Or the reference count may never reach zero even when no objects are using the resource anymore, preventing the resource from being freed. This can lead to issues like memory leaks, use-after-free conditions, resource exhaustion, crashes, or potential code execution.
+
+The entry provides background details, relationships to other CWE weaknesses, languages where it is prevalent, likelihood of exploit, real-world vulnerability examples, membership in weakness categories, and references. It notes that CWE-911 exists at the base level of abstraction, making it a good candidate for mapping to real vulnerabilities.
+
+# Summary bullet points
+
+* CWE-911 deals with improper update of reference counts used to manage resources like memory
+* If count updated incorrectly, resource may be freed too soon while still in use or not freed when no longer used
+* Can lead to memory leaks, use-after-free, resource exhaustion, crashes, code execution
+* Applies to languages like C and C++ that use memory management and reference counting
+* Medium likelihood of exploit 
+* Real-world examples listed like CVE security vulnerabilities
+* Mapped to base weakness abstraction level suitable for mapping real bugs
+
+# Geographic information
+Not applicable
+
+# Type of content
+Definition from Common Weakness Enumeration (CWE) system
+================================================================================
+METADATA:
+prompt_tokens: 1003
+answer_tokens: 278
+time_taken: 20.33 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-345 outlines the weakness of insufficient verification of data authenticity in software products. This occurs when a product does not adequately verify the origin or authenticity of data inputs, causing it to potentially accept invalid data. The consequences can range from denial of service to execution of malicious code. 
+
+Recent research examined 10 Operational Technology (OT) products from various vendors in industries like power, water and electricity. 56 vulnerabilities were found where products did not sign firmware images or relied only on insecure checksums for integrity checking. If exploited, attackers could change product operation or code execution, with safety implications. Proper cryptographic signatures and integrity checks should be implemented to prevent unauthorized modification of critical data inputs.
+
+# Summary bullet points
+
+* CWE-345 covers insufficient verification of data inputs in software, allowing invalid data to be accepted
+* Recent research found 56 vulnerabilities in 10 OT vendor products, including lack of firmware signing
+* Consequences range from denial of service to malicious code execution or hazardous physical impacts 
+* Vendors relied only on insecure checksums instead of cryptographic signatures for integrity checks
+* Firmware images should be properly signed and critical data inputs checked for authenticity
+
+# Geographic information
+Not applicable
+
+# Type of content
+Encyclopedia entry (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1264
+answer_tokens: 218
+time_taken: 21.67 seconds

@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+This article from MITRE ATLAS discusses the technique of exfiltrating private information via machine learning (ML) model inference APIs. It explains that ML models can leak private details about their training data, allowing adversaries to infer things like training data membership or invert the model. The model itself could also be extracted for intellectual property theft. This raises privacy issues since training data may contain sensitive personal information. The main mitigation strategies are to restrict the number of queries to ML models and control access to them in production environments.
+
+# Summary bullet points
+
+* Adversaries can exfiltrate private training data via ML model inference APIs
+* ML models may leak private information about their training data
+* Techniques like inferring training data membership and inverting ML models are possible
+* The ML models themselves could also be extracted for intellectual property theft  
+* This exposes sensitive personal information in training data, raising privacy issues
+* Main mitigations are restricting queries and controlling access to production ML models
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Article
+================================================================================
+METADATA:
+prompt_tokens: 673
+answer_tokens: 180
+time_taken: 13.39 seconds

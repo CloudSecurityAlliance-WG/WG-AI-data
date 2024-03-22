@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1275 weakness describes a vulnerability where sensitive cookies lack the SameSite attribute or have an insecure SameSite value set, enabling cross-site request forgery (CSRF) attacks. Specifically, without the 'Lax' or 'Strict' SameSite values set, cookies may be sent with cross-domain POST requests, allowing malicious sites to perform actions on a victim's behalf. This could lead to unauthorized modifications of data. Proper use of the SameSite attribute restricts cookies to same-site usage, mitigating this weakness.
+
+# Summary bullet points
+
+* CWE-1275 refers to improper or missing SameSite attributes on sensitive cookies, enabling CSRF attacks
+* The SameSite attribute controls if cookies are sent on cross-domain requests 
+* Using the 'None' value allows cookies to be sent on cross-domain POST requests
+* This enables CSRF attacks where a malicious site performs unauthorized actions by sending victim cookies
+* The mitigation is to set the SameSite attribute to 'Strict' or 'Lax' to restrict cookies to same-domain usage
+* Lax allows some cross-domain GET requests, while Strict further restricts cookie usage 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1308
+answer_tokens: 181
+time_taken: 16.86 seconds

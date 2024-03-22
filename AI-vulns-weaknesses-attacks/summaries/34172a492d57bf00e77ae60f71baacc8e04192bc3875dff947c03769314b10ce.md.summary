@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-479, a weakness related to the use of non-reentrant functions in signal handlers. Non-reentrant functions cannot safely be interrupted and recalled before the first call finishes, which can lead to memory corruption. Using such functions in signal handlers is dangerous because signals can interrupt execution asynchronously. If a non-reentrant function like malloc/free gets interrupted by a signal and the signal handler calls the same non-reentrant function, it can cause undefined behavior and memory corruption. This weakness can enable denial of service attacks or even arbitrary code execution through write-what-where conditions.
+
+# Summary bullet points
+
+* CWE-479 involves using non-reentrant functions like malloc/free in signal handlers
+* Non-reentrant functions cannot be safely interrupted and recalled
+* Interrupting them can cause memory corruption and undefined behavior
+* If a signal interrupts a non-reentrant function and the handler calls the same function, corruption can occur
+* This can lead to denial of service or arbitrary code execution via write-what-where conditions
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1297
+answer_tokens: 173
+time_taken: 15.67 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-379, a weakness related to the creation of temporary files with insecure permissions. Specifically, it involves creating temporary files in directories that allow unintended actors to access the files. This can reveal sensitive information about what the user is doing and the applications they are running. Attackers could use this to breach higher levels of security. The document provides extended description, relationships to other weaknesses, common consequences, examples, potential mitigations, and detection methods related to CWE-379.
+
+# Summary bullet points
+
+* CWE-379 involves creating temporary files in directories with permissions allowing unintended access
+* Can reveal what user is doing and applications running to attackers
+* Consequences include exposing sensitive application data
+* Mitigations include using proper temporary file functions and storing files in non-world readable directories 
+* Can be detected via static analysis searching for vulnerable data flow patterns
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 1286
+answer_tokens: 168
+time_taken: 14.67 seconds

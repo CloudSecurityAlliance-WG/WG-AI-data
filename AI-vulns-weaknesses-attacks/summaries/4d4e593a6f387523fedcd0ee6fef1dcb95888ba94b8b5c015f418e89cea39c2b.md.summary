@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes an weakness related to improper translation of security attributes when converting between different hardware fabric protocols. Specifically, it refers to issues that can arise in bridges that allow IP blocks using different fabric protocols to communicate. These fabric protocols have dedicated signals to carry security attributes like identity, privilege level, etc. If the bridge does not properly translate these security attributes from one protocol to another, it can result in access control bypass, privilege escalation or denial of service. For example, an untrusted identity could be mapped to a trusted one when going across the bridge. The mitigations suggest ensuring proper translation mappings in the architecture/design and implementation phases.
+
+# Summary bullet points
+
+* Bridges allow communication between IP blocks using different hardware fabric protocols
+* Fabric protocols have special signals to carry security attributes 
+* If bridge does not properly translate security attributes between protocols, attackers could exploit this
+* Potential impacts include access control bypass, privilege escalation, denial of service
+* Suggested mitigations are to ensure proper translation mappings in architecture/design and implementation  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry 
+================================================================================
+METADATA:
+prompt_tokens: 1239
+answer_tokens: 192
+time_taken: 17.73 seconds

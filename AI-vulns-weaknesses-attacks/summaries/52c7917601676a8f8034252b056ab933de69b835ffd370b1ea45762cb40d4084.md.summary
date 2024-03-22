@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of an obsolete user interface (UI) function that is no longer supported in a product but the product does not warn the user about it. This can lead to quality degradation and impact that varies by context. It is a child of UI discrepancy for security features and part of user interface security issues.
+
+# Summary bullet points
+
+* Describes weakness of obsolete UI function still present but product does not warn user
+* Can lead to quality degradation and impacts that vary by context
+* Child of UI discrepancy for security features 
+* Part of user interface security issues
+* Suggested mitigations are to remove obsolete feature or warn user it's no longer supported
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 645
+answer_tokens: 137
+time_taken: 9.70 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-1336, a weakness related to improper neutralization of special elements used in template engines. Template engines allow developers to insert externally-influenced values into messages or web pages. If input into a template is not properly neutralized, attackers could inject arbitrary expressions and perform injection attacks. Syntax varies by template language. Attacks could lead to cross-site scripting or obscure the root cause. Template injection can happen on the server-side (SSTI) or client-side (CSTI). The weakness is related to improper control of code generation and expression language injection. It can occur if the developer chooses an unsafe template engine or fails to use built-in sandboxes. Consequences include execution of unauthorized code or commands and impacts to integrity. Mitigations include choosing safer template engines and using sandbox modes. 
+
+# Summary bullet points
+
+* CWE-1336 relates to improper neutralization of input into template engines
+* Template engines allow dynamic insertion of values into messages/pages
+* If input not neutralized, attackers could perform injection attacks 
+* Could lead to XSS, code execution, or integrity impacts
+* Affects server-side templates (SSTI) and client-side templates (CSTI)
+* Caused by unsafe engines or failure to use sandboxes
+* Mitigations include safer engines and sandbox modes
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 1161
+answer_tokens: 223
+time_taken: 23.10 seconds

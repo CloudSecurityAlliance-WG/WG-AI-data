@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of incomplete model of endpoint features, where a product acts as an intermediary between two endpoints but does not have a complete understanding of an endpoint's features, behaviors or state. This can cause the product to perform incorrect actions based on its incomplete model. Examples are given of HTTP request smuggling attacks against proxies, and anti-virus products on mail servers that do not know how a client will handle certain attachments, potentially treating them as safe when the client may execute them.
+
+# Summary bullet points
+
+* Weakness involves a product acting as an intermediary between endpoints without complete knowledge of endpoint features and behavior
+* Can cause product to make incorrect decisions based on incomplete model, leading to unexpected state or impacts
+* Examples include HTTP request smuggling attacks confusing proxies, anti-virus products mishandling attachments unknown to client
+* Child of weakness ID 436 - Interpretation Conflict
+* Applicable across multiple languages and platforms
+* Can enable integrity impacts and unexpected system state
+
+# Geographic information  
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 766
+answer_tokens: 186
+time_taken: 17.75 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the provided text:
+
+# Summary
+
+The text describes CWE-290, a weakness related to authentication bypass by spoofing. It occurs when authentication schemes are incorrectly implemented in a way that makes them vulnerable to spoofing attacks. This allows attackers to access resources and gain privileges they should not have access to without proper authentication. Common consequences include bypassing protection mechanisms and assuming a user's identity. Examples are given of relying on IP addresses or DNS lookups for authentication, which attackers can spoof. Recommendations include not relying on a single factor like IP address for authentication.
+
+# Summary bullet points
+
+* CWE-290 is an authentication bypass weakness caused by authentication schemes vulnerable to spoofing 
+* Allows attackers to access protected resources and gain privileges without proper authentication
+* Common consequences are bypassing protections and assuming identities
+* Examples rely on IP addresses or DNS names which can be spoofed
+* Should not rely on just IP address or other single factor for authentication
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 1314
+answer_tokens: 184
+time_taken: 15.75 seconds

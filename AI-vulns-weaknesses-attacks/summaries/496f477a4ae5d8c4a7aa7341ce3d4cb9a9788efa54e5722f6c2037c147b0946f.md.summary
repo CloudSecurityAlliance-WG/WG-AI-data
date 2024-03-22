@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The entry describes the weakness of improper neutralization of special elements in data query logic (CWE-943). This occurs when a product generates a query to access or manipulate data in a database or other data store, but does not properly neutralize or incorrectly neutralizes special elements that can modify the intended logic of the query. This could allow attackers to inject additional logic into the query to modify the selection criteria, append additional commands, return more records than intended, etc. This can lead to confidentiality, integrity, and availability impacts by allowing attackers to bypass protections, read/modify data, or cause unexpected behavior. While most associated with SQL injection, it can occur in other query languages like XPath, LDAP, NoSQL, etc.  
+
+# Summary bullet points
+
+* CWE-943 involves improper neutralization of special elements in data query logic that could allow modification of intended behavior
+* Occurs when generating queries to databases/data stores without properly neutralizing special elements  
+* Can allow attackers to inject additional logic to modify selection criteria, append commands, return more records, etc.
+* Leads to confidentiality, integrity, availability impacts from data exposure, modification, unexpected behavior
+* Associated with SQL injection but also applies to other query languages like XPath, LDAP, NoSQL, etc.
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 1539
+answer_tokens: 225
+time_taken: 18.72 seconds

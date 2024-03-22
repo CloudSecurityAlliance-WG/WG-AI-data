@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-655 - Insufficient Psychological Acceptability, which is a weakness where a protection mechanism in a product is too difficult or inconvenient to use, encouraging users to bypass or disable it. This can lead to the system being left in a less secure state. Examples are complex password rules that cause users to write them down unsafely, CAPTCHAs that are too hard to read causing frustration, and security measures that are disproportionate to the value of protected assets. Potential mitigations include usability testing to identify issues, and making mechanisms seamless while providing feedback on unexpected results.  
+
+# Summary bullet points
+
+* CWE-655 involves protection mechanisms that are too difficult or inconvenient to use
+* This encourages users to bypass or disable the mechanisms accidentally or intentionally
+* Can leave systems in a less secure state than intended by administrators
+* Examples include complex password rules, hard-to-read CAPTCHAs, disproportionate security measures
+* Mitigations include usability testing and improving user experience of mechanisms
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1113
+answer_tokens: 188
+time_taken: 20.12 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text discusses model stealing attacks in AI systems. It explains that in a model stealing attack, attackers recreate the underlying ML model by legitimately querying it. The new stolen model has the same functionality as the original. As an example, researchers were able to steal a credit risk prediction model from BigML using just 1,150 queries in 10 minutes. 
+
+The text warns that if you answer "no" to the question "Are we protected from model stealing attacks?", then you are at risk. It also states that if you are unsure if you are protected, then you might be at risk too. Key recommendations are to ensure protections are in place against model stealing attacks, such as controlling API access and monitoring for suspicious activity.
+
+# Summary bullet points
+
+* Model stealing attacks involve attackers recreating a victim ML model by querying it.
+* The stolen model has the same functionality as the original model. 
+* Researchers stole a BigML credit risk prediction model with 1,150 queries in 10 minutes.
+* Answering "no" or being unsure if protected means risk of attack.  
+* Protections like API access controls and monitoring can help.
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 1759
+answer_tokens: 204
+time_taken: 16.25 seconds

@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-45 describes the weakness of a product accepting path input containing multiple internal dots (e.g. 'file...dir') without appropriate validation. This can lead to ambiguous path resolution and allow an attacker to traverse the file system to unintended locations or access arbitrary files. It is a variant of the more general weakness CWE-44 (Path Equivalence: 'file.name' - Internal Dot).
+
+The impact is that an attacker could potentially read or modify files they should not have access to. The likelihood depends on the specific system, but improperly validated path input is a common vector for attackers.
+
+It is applicable to any software that accepts filepath input from untrusted sources. Removing the dots alone is not sufficient, input validation and neutralization techniques should be used.
+
+# Summary bullet points
+
+* CWE-45 describes the weakness of improperly validated path input with multiple internal dots, which can enable directory traversal attacks
+* Impact is attackers could access or modify unintended files
+* Applicable to any software accepting untrusted filepath input
+* Child weakness of CWE-165 (Improper Neutralization of Multiple Internal Special Elements) and CWE-44 (Path Equivalence: Internal Dot)
+* Proper input validation and neutralization is needed to prevent attack
+* Listed as member of path traversal vulnerabilities and file handling weaknesses
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE definition
+================================================================================
+METADATA:
+prompt_tokens: 684
+answer_tokens: 225
+time_taken: 18.94 seconds

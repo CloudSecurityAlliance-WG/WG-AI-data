@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-1423, a weakness related to the exposure of sensitive information caused by shared microarchitectural predictor state that can influence transient execution across hardware boundaries. The shared predictor state allows code in one component to influence predictions made by code in another component, enabling attackers to infer private data through covert channel monitoring. Examples are given such as Branch Target Injection (BTI) attacks between hardware threads and from user mode to kernel mode by maliciously training shared branch predictors. Potential mitigations involve tagging predictor entries, sanitizing state on context switches, and disabling predictor sharing.  
+
+# Summary bullet points
+
+* Shared microarchitectural predictor state between hardware components allows code in one to influence predictions in another
+* Can enable attackers to expose sensitive data from a victim component through covert channels  
+* Examples include cross-thread Branch Target Injection (BTI) and user to kernel BTI by training shared predictors 
+* Mitigations: predictor entry tagging, state sanitization on context switches, disable sharing
+* Also covers relevant background, consequences, and detection methods
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 3343
+answer_tokens: 195
+time_taken: 21.41 seconds

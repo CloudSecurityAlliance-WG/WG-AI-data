@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+This article from MITRE ATLAS discusses the AI security technique of external harms causing reputational damage. It defines reputational harm as a degradation of public perception and trust in organizations, with examples being scandals or false impersonations. The case study "PoisonGPT" is cited as an example. There are 4 subtechniques listed under external reputational harms: financial harm, societal harm, user harm, and ML intellectual property theft. The key takeaways are that reputational damage can significantly impact public trust in an organization and AI systems should have safeguards against incidents that could enable this type of harm.
+
+# Summary bullet points
+
+* Reputational harm degrades public perception and trust in organizations
+* Examples include scandals and false impersonations 
+* Case study "PoisonGPT" given as example 
+* 4 subtechniques listed under external reputational harm
+* Safeguards needed against incidents enabling this harm
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 539
+answer_tokens: 152
+time_taken: 13.24 seconds

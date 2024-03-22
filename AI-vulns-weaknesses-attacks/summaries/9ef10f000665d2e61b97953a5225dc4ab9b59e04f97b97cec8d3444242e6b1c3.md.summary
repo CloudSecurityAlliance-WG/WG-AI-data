@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-421 weakness describes a race condition vulnerability that can occur when a product opens an alternate channel to communicate with an authorized user, but does not properly restrict access to that channel. This allows an attacker to access the channel before the authorized user, gaining unauthorized access or privileges. The key impacts are gaining privileges or assuming an authorized user's identity, as well as bypassing protection mechanisms. Real-world examples have existed in FTP servers and in the use of Windows named pipes during authentication. Mitigations focus on proper synchronization and access controls over alternate channels.
+
+# Summary bullet points
+
+* CWE-421 documents a race condition vulnerability involving alternate communication channels in software products
+* The vulnerability allows attackers to access a channel before an authorized user, enabling privilege escalation, identity spoofing, and bypassing of security controls
+* Real-world exploits have occurred in FTP products and in Windows named pipe channels used during authentication
+* Consequences include gaining unauthorized privileges or assuming another user's identity
+* Mitigations revolve around proper synchronization and access controls when using alternate channels
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Vulnerability Record
+================================================================================
+METADATA:
+prompt_tokens: 765
+answer_tokens: 195
+time_taken: 17.32 seconds

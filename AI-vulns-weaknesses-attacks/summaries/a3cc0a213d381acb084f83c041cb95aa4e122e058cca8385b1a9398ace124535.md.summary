@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of using duplicate keys in associative lists (alists). This can lead to ambiguity and unintended behavior when searching or sorting these lists. Specifically, duplicate keys may overwrite previous entries or cause sorting to not work as expected. It is recommended to use unique keys in alists or use hash tables instead. This issue impacts software quality and relies on incorrect developer assumptions about uniqueness of keys.
+
+# Summary bullet points
+
+* Duplicate keys in associative lists can lead to ambiguity and unintended behavior when searching/sorting lists
+* May overwrite previous entries or cause incorrect sorting
+* Caused by developer assumption that keys are unique when they are not
+* Recommended mitigations are to use hash tables instead of alists or ensure keys are unique before insertion
+* Impacts software quality and output correctness
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Weakness Description Entry
+================================================================================
+METADATA:
+prompt_tokens: 830
+answer_tokens: 154
+time_taken: 15.57 seconds

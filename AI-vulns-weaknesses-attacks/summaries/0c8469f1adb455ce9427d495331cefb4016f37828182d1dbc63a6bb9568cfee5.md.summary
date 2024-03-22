@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper adherence to coding standards in software development. Not following established coding rules and best practices can lead to vulnerabilities and increase their severity. It is a very high-level, conceptual weakness that acts as a parent to many more specific weaknesses related to violating coding standards.
+
+# Summary bullet points
+
+* CWE-710 is a high-level conceptual weakness describing improper adherence to coding standards
+* Not following coding rules in development can cause vulnerabilities or make them worse
+* It is considered too abstract on its own to map to real-world issues
+* Acts as a parent to many specific weaknesses related to coding standard violations
+* Following standards and using automated checkers can help mitigate this
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 833
+answer_tokens: 139
+time_taken: 13.06 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-791, a weakness related to incomplete filtering of special elements in software. It involves a product receiving data from an upstream component but failing to completely filter out special elements like "../" before sending the data downstream. This can enable attacks like relative path traversal (CWE-23) by allowing attackers to craft inputs with malicious special elements that get through the filter. An example is provided of a Perl script that uses a regular expression to filter "../" from user input, but fails to use the global flag so only the first instance gets removed. This allows specially crafted inputs with multiple "../" to traverse up the directory structure when concatenated to a file path.
+
+# Summary bullet points
+
+* CWE-791 relates to incomplete filtering of special elements like "../" in software
+* Involves data flowing from upstream components to downstream without full filtering
+* Can enable attacks like relative path traversal (CWE-23) 
+* Example shows Perl script filtering "../" but only first instance without global flag
+* Allows specially crafted inputs with multiple "../" to traverse directories when used in file paths
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 782
+answer_tokens: 210
+time_taken: 17.12 seconds

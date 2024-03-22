@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes a technique called "User Harm" which is a subtechnique under the broader category of "External Harms" in the MITRE ATT&CK framework for artificial intelligence (AI) security. User harms refer to negative impacts that are felt directly by individual users, rather than harm to an organization. Examples given include financial and reputational damage. Two case studies are mentioned as examples - "Indirect Prompt Injection Threats" involving data privacy issues with Bing Chat and ChatGPT, and "ChatGPT Plugin Privacy Leak". The document states there are 4 other subtechniques under External Harms, and User Harm falls under the Impact tactic.
+
+# Summary bullet points
+
+* User Harm is a subtechnique under the broader External Harms technique in the MITRE ATT&CK framework for AI security
+* Refers to harms directly impacting individual users rather than organizational harms
+* Includes financial damage, reputational damage, privacy violations as examples 
+* Names 2 case studies demonstrating user harms via AI systems - Bing Chat & ChatGPT
+* There are 4 other subtechniques under External Harms
+* User Harm falls under the Impact tactic
+
+# Geographic information
+Not applicable
+
+# Type of content
+Framework Documentation
+================================================================================
+METADATA:
+prompt_tokens: 572
+answer_tokens: 192
+time_taken: 17.32 seconds

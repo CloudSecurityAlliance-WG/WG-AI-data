@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of mismatched memory management routines in software. It occurs when a program attempts to return a memory resource to the system by calling a release function that is not compatible with the function originally used to allocate that resource. For example, allocating memory on the stack but freeing it with free() which is meant for heap memory, or allocating with malloc() but deleting with the delete operator in C++. This causes unpredictable behavior like memory corruption, crashes, or code execution.
+
+The consequences vary in severity depending on the implementation of the routines and object being managed. It is applicable in any language that allows manual memory management like C and C++. Mitigations involve using matching allocation and deallocation functions, using languages or frameworks with automatic memory management, or tools that detect memory issues dynamically.
+
+# Summary bullet points
+
+* Attempting to return memory resource using a release function incompatible with the original allocation function
+* Mismatching routines like malloc/free, new/delete, stack/free()
+* Causes memory corruption, crashes, code execution
+* Applicable in languages with manual memory management like C, C++
+* Mitigations: match allocation/deallocation functions, use automatic memory management, use dynamic checking tools
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 1318
+answer_tokens: 214
+time_taken: 18.44 seconds

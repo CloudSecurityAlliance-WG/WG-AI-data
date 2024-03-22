@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the text:
+
+# Summary
+
+The text is from a website called PLOT4ai, which contains a library of 86 threats related to AI and machine learning. The threats are classified into 8 categories. The excerpt shows one specific threat related to limiting an individual's right to be heard when automatic decisions are made about them by an AI system. It states that if your system makes decisions that impact an individual and there is no way for them to contest it, then it risks violating their right to be heard. An example is determining the right medical treatment for a patient based on data that may not be representative enough. It advises that if you answer yes that your system limits the right to be heard or if you are unsure, then you are at risk.
+
+The key points relate to ensuring AI systems that make decisions about individuals allow for a way to appeal, contest or request human review of the decision, in order to uphold vital human rights and avoid ethical issues. The text references the increased risk as AI systems take on more impactful decision making affecting individuals' lives.
+
+# Summary bullet points
+
+* Website PLOT4ai contains threats library related to AI/ML, classified into 8 categories
+* Excerpt shows threat regarding limiting right to be heard from automatic AI decisions
+* If AI system decisions impact individual and no way to contest, risks right to be heard   
+* Example of determining patient medical treatment with non-representative data
+* Advises allowing individuals to appeal/contest AI decisions made about them
+* Not allowing appeals risks violating human rights and poses ethical issues
+* As AI handles more impactful decisions, increased risks of limiting rights
+
+# Geographic information  
+
+Not applicable
+
+# Type of content
+
+Website, specifically a page containing an entry in an AI threats library 
+================================================================================
+METADATA:
+prompt_tokens: 1435
+answer_tokens: 312
+time_taken: 25.25 seconds

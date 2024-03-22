@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text discusses CWE-246, a weakness in J2EE applications that directly use sockets for communication instead of using the J2EE framework's built-in methods. This bypasses security protections and quality assurance measures of the framework. The standard recommends only using sockets to interface with legacy systems when no higher-level protocol is available. Implementing custom communication protocols opens up security issues that likely won't receive enough scrutiny from developers. Even custom implementations of standard protocols can be problematic since attackers have access to documentation on securing those protocols too. This weakness enables quality degradation and impacts technical factors in the system. It is detectable by static analysis since it involves control flow and data flow deviations. The recommended mitigation is to use the J2EE framework's built-in methods for communication instead of directly using sockets.
+
+# Summary bullet points
+
+* CWE-246 is a weakness where J2EE applications directly use sockets for communication instead of the framework's methods
+* This bypasses the security protections and quality assurance of the J2EE framework
+* The J2EE standard says sockets should only be used to interface with legacy systems lacking a higher-level protocol
+* Implementing custom communication protocols opens up hard-to-catch security issues 
+* Even custom standard protocol implementations have risks since attackers can access security docs
+* Enables quality degradation issues and impacts technical factors
+* Detectable via static analysis of control flow and data flow
+* Mitigate by using framework's built-in communication methods instead of sockets
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Common Weakness Enumeration reference
+================================================================================
+METADATA:
+prompt_tokens: 967
+answer_tokens: 258
+time_taken: 23.86 seconds

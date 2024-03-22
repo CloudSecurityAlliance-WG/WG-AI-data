@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of storing sensitive information in cleartext on disk or in a file. This allows attackers with access to the file or disk to read the sensitive information. Even if the information is encoded in a non-human readable format, attackers may be able to determine the encoding and then decode the information. Examples are provided of Java and ASP.NET configuration files that store database credentials in cleartext. The impact is read access to sensitive information, and the likelihood depends on who has access to the file or disk. Recommendations are to encrypt sensitive information where possible.  
+
+# Summary bullet points
+
+* Storing sensitive information in cleartext on disk or in files allows attackers with file/disk access to read it 
+* Even non-human readable encoded data may be decodable by attackers
+* Java and ASP.NET config files often store DB credentials in cleartext 
+* Impact is read access to sensitive information
+* Likelihood depends on who has file/disk access  
+* Recommendations are to encrypt sensitive information where possible
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1069
+answer_tokens: 185
+time_taken: 12.87 seconds

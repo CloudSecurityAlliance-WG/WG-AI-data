@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  Here is a summary of the content on wrap-around errors in CWE-128:
+
+# Summary
+
+Wrap-around errors occur when a value is incremented past its maximum and "wraps around" to a very small, negative, or undefined value. This happens because computers perform addition by incrementing bits as if extra space is still available even when a primitive has exceeded its storage capacity. When primitives interpreted as signed wrap, they may take on very large negative values. 
+
+Wrap-around errors typically lead to crashes, denial of service through resource consumption, data corruption, infinite loops, and potential memory corruption enabling arbitrary code execution. They are common in C and C++ code that performs insecure integer calculations.
+
+Recommend mitigations include using languages not susceptible to these issues, providing clear bounds for protocols, and validating that incremented variables remain within reasonable limits.
+
+An example shows vulnerable C code that allocates an image table without proper bounds checking, risking subsequent out-of-bounds issues. Proper validation of the table size calculation is needed.
+
+# Summary bullet points
+
+* Wrap-around errors occur when values exceed primitive storage bounds and "wrap" to invalid values
+* Lead to crashes, denial of service, data corruption, code execution
+* Common in C/C++ code with insecure integer math
+* Mitigations: choose safe languages, provide bounds checks, validate calculations
+* Example shows C code with potential out-of-bounds table allocation
+
+# Geographic information
+Not applicable
+
+# Type of content
+Definition
+================================================================================
+METADATA:
+prompt_tokens: 1166
+answer_tokens: 233
+time_taken: 25.41 seconds

@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+Insufficient Session Expiration is a weakness where a website allows an attacker to reuse old session credentials or session IDs for authorization. This can enable attacks like session hijacking or accessing private user pages by clicking the browser's back button after a user has left a public computer. The mitigation is to set short session expiration times.
+
+# Summary bullet points
+
+* Insufficient Session Expiration allows reusing old session credentials for authorization
+* Attacks enabled include session hijacking and browser back button access after a user leaves a public computer 
+* Mitigation is to set short session expiration times
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 972
+answer_tokens: 115
+time_taken: 8.83 seconds

@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of performing the same operation on a resource multiple times when it should only be done once (CWE-675). This can lead to various vulnerabilities and issues, such as double freeing memory, binding multiple sockets to the same port, or unlocking a mutex multiple times. Some key aspects highlighted include:
+
+- Performing an operation like freeing memory or binding a socket multiple times usually indicates a flaw in the program logic and flow. It often happens due to error handling issues or confusion over responsibilities.
+
+- Consequences can include crashing the program, data corruption, information leaks, or opening up vectors for attackers to exploit. For example, double unlocking a mutex could enable race conditions.
+
+- It typically represents a violation of the intended API contract and proper usage of functions that operate on resources.
+
+- There are various types of "doubling" issues that can occur beyond just freeing memory twice, including duplicate keys, duplicate validation routines, etc.
+
+# Summary bullet points
+
+* Performing the same operation multiple times on a resource when it should only happen once, such as freeing memory twice
+* Often arises from flaws in error handling logic or confusion about responsibilities
+* Can cause crashes, data corruption, information leaks, or openings for attackers
+* Examples include double freeing memory, binding multiple sockets to one port, unlocking mutexes multiple times
+* Usually represents a violation of API contracts and proper usage of functions operating on resources  
+* Related to other "doubling" problems like duplicate keys or duplicate validation
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 995
+answer_tokens: 272
+time_taken: 21.93 seconds

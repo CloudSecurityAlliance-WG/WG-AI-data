@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content you provided:
+
+# Summary
+
+The content describes an issue called "Insufficient Granularity of Address Regions Protected by Register Locks" (CWE-1222) that can occur in hardware design. The problem arises when a large address region is protected by the same register lock control bit. This can cause a conflict between the need for software to modify certain addresses during operation and the security requirement to lock down the configuration after boot. 
+
+The problem occurs because the protected region is defined too broadly without enough granularity. Once the lock bit is set, the hardware configuration cannot be changed without modifying the hardware itself. This means necessary software functions can be blocked by the overbroad access controls.
+
+The content provides an example of a 32 KB configuration space where the first 8 KB contains security sensitive data. If a 1 KB granularity lock is used but a register in the first 1 KB range also needs to be software writable at runtime, that is blocked once the lock bit is set.
+
+# Summary bullet points
+
+* Issue arises from insufficient granularity in defining address regions protected by register lock bits
+* Locking large regions can conflict with need for software to write certain addresses 
+* Occurs because protected region definitions are too broad
+* Once lock set, hardware change needed to modify access controls
+* Example with 32 KB space and 1 KB lock granularity blocking needed software write
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1133
+answer_tokens: 259
+time_taken: 24.59 seconds

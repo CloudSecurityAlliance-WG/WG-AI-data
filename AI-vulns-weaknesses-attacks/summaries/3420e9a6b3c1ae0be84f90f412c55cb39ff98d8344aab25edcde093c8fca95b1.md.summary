@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a vulnerability where assumed-immutable data like bootloaders, device identifiers, and write-once configuration settings are stored in writable memory instead of read-only memory. This allows attackers to modify data that is supposed to be immutable, undermining security services like secure boot, authentication, attestation, and integrity checks that rely on the immutability of such data. The consequence is compromised integrity at both the technical and system level, with severity depending on context. Mitigation involves storing immutable assets in hardware protected read-only or write-once memory instead.
+
+# Summary bullet points
+
+* Assumed-immutable data like bootloaders and device IDs stored in writable instead of read-only memory
+* Allows attackers to modify data supposed to be immutable 
+* Undermines security services relying on immutable data integrity 
+* Consequence is compromised integrity, severity varies by context
+* Mitigate by storing immutable assets in hardware protected read-only/write-once memory
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 922
+answer_tokens: 161
+time_taken: 13.21 seconds

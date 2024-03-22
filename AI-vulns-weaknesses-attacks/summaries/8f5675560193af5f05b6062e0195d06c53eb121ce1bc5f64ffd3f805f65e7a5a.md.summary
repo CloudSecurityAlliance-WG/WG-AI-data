@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The excerpt describes the Command and Scripting Interpreter technique that adversaries may use to execute commands, scripts, or binaries on targeted systems. It explains that most operating systems come with built-in command-line interfaces and scripting capabilities (e.g. Unix Shell, Windows Command Shell, PowerShell) that allow interacting with and controlling computer systems. Adversaries can abuse these technologies to run arbitrary commands and scripts, which may be delivered through initial access payloads or downloaded from an existing command and control server. The commands can also be executed through interactive shells/terminals or remote services. Overall, the adversary aims to achieve remote code execution on the victim's system.
+
+# Summary bullet points
+
+* Adversaries can abuse command and script interpreters present on most systems to execute commands, scripts, binaries
+* Common interfaces include Unix Shell, Windows Command Shell, PowerShell, Python, JavaScript, Visual Basic
+* Commands/scripts can be delivered via initial access payloads or downloaded from C2 servers
+* Can also execute through interactive shells/terminals or remote services 
+* Enables adversaries to achieve remote code execution
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+MITRE ATT&CK Technique Description
+================================================================================
+METADATA:
+prompt_tokens: 631
+answer_tokens: 186
+time_taken: 15.58 seconds

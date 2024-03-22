@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+CWE-806 describes a weakness where a product uses the size of a source buffer when reading from or writing to a destination buffer. This can cause it to access memory outside the bounds of the destination buffer, resulting in a buffer overflow. The extended description explains that when the destination buffer is smaller than the source buffer, an overflow can occur. 
+
+CWE-806 is a child of CWE-805 (Buffer Access with Incorrect Length Value). It is applicable to languages like C and C++ where buffer overflows are prevalent. Common consequences include crashes, denial of service, and arbitrary code execution if buffers are overflowed and used to overwrite control data.  
+
+Potential mitigations involve using abstraction libraries to abstract away risky APIs, automatic overflow detection mechanisms in compilers, following secure coding practices for buffer management, address space layout randomization (ASLR), data execution prevention (DEP), and other environment hardening techniques.
+
+# Summary bullet points
+
+* CWE-806 refers to accessing memory outside bounds of a buffer by using size of a source buffer for a destination buffer
+* Can result in buffer overflows when source buffer is larger than destination
+* Child of CWE-805 (Incorrect Buffer Length Value)
+* Applicable to languages like C/C++
+* Consequences include crashes, denial of service, code execution
+* Mitigations involve abstraction libraries, overflow detection, buffer management best practices, ASLR, DEP
+
+# Geographic information  
+
+Not applicable
+
+# Type of content
+
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 2083
+answer_tokens: 241
+time_taken: 22.73 seconds

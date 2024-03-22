@@ -1,0 +1,37 @@
+Status: SUCCESS
+Message:  Here is the summarization and analysis of the content:
+
+# Summary
+
+The paper presents methods for constructing imperceptible, robust, and targeted adversarial examples for automatic speech recognition (ASR) systems. It focuses on developing adversarial audio perturbations that are inaudible to humans but cause ASR systems to transcribe the audio as a specified target phrase. 
+
+The key techniques include:
+
+- Leveraging psychoacoustic principles of auditory masking to constrain the adversarial perturbation to frequencies that fall under the masking threshold of the original audio. This makes the perturbation imperceptible.
+
+- Using simulated room environments with random impulse responses to train the attack to be robust to distortions introduced by playing audio over speakers and recording with microphones. 
+
+- A two-stage optimization approach that first finds a small perturbation to fool the ASR system, then reduces its perceptibility.
+
+Experiments on the Lingvo ASR system demonstrate the attack can achieve 100% targeted success rate on arbitrary phrases while being almost imperceptible based on human evaluations. Attacks also remain relatively robust in simulated test environments. There is a tradeoff between imperceptibility and robustness.
+
+# Summary bullet points
+
+* Presents attack to generate imperceptible, robust and targeted adversarial examples for automatic speech recognition systems
+* Leverages auditory masking principles from psychoacoustics to hide adversarial perturbations
+* Uses simulated room environments to improve robustness against real-world playback distortions 
+* Achieves high targeted success rate while making perturbations almost inaudible to humans
+* Shows tradeoff between imperceptibility and robustness of attack
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Conference paper published at ICML 2019
+================================================================================
+METADATA:
+prompt_tokens: 8222
+answer_tokens: 258
+time_taken: 33.43 seconds

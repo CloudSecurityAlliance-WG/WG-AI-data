@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes the weakness of having a shell file existing in externally accessible directories like /cgi-bin/. This is extremely dangerous as it can allow an attacker to execute arbitrary commands on the web server. The entry categorizes this issue as a variant of "Files or Directories Accessible to External Parties" (CWE-552) and notes that it can lead to the technical impact of executing unauthorized code or commands. It outlines the mitigation of removing any accessible shells under the web root and sub-directories. The content type is a CWE definition from MITRE.
+
+# Summary bullet points
+
+* Shell file existing in externally accessible directories like /cgi-bin/ is dangerous 
+* Can allow attacker to execute arbitrary commands on the web server
+* Categorized as a variant of CWE-552 "Files or Directories Accessible to External Parties"
+* Leads to technical impact of executing unauthorized code or commands
+* Mitigation is to remove accessible shells under web root and sub-directories
+* Content type is CWE definition from MITRE
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 655
+answer_tokens: 179
+time_taken: 16.45 seconds

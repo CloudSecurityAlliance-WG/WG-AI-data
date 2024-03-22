@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes an improper neutralization of special elements vulnerability that can lead to LDAP injection attacks. The vulnerability occurs when an application constructs all or part of an LDAP query using externally-influenced input without properly neutralizing or escaping special elements. This allows attackers to modify the intended LDAP query and execute unauthorized commands, read/modify sensitive data, or cause other unintended behavior. Common consequences include confidentiality, integrity and availability impacts. To mitigate this, input validation using an "accept known good" strategy is recommended along with neutralizing any potentially malicious input. Automated static analysis tools can also detect some instances of this weakness.
+
+# Summary bullet points
+
+* Vulnerability allows LDAP injection due to improper neutralization of special elements in LDAP queries 
+* Occurs when queries are constructed using external input without validation or escaping
+* Allows unintended commands, data access/modification, denial of service
+* Common impact is compromise of confidentiality, integrity and availability 
+* Mitigations include input validation, neutralization of special elements
+* Automated static analysis can detect some instances
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1271
+answer_tokens: 187
+time_taken: 17.46 seconds

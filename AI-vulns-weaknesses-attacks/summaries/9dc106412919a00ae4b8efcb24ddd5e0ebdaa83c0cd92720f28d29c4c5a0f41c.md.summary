@@ -1,0 +1,33 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes a weakness where a product relies on cookie values to make security decisions without properly validating the cookies. This allows attackers to easily bypass protection mechanisms like authentication by modifying the cookies to contain expected values. Some examples are setting cookie values to claim high privileges or authenticate as a user. 
+
+The key impacts are:
+
+- Bypassing authentication or authorization checks by setting cookie values to expected statuses like "authenticated"
+- Gaining elevated privileges by setting role or access level cookies to admin or high privilege values
+
+To mitigate this, cookie values used for security decisions should be validated server-side and have integrity checks to detect tampering. Cookies relevant to a single session or transaction should also expire quickly to limit potential attacks.
+
+# Summary bullet points
+
+* Reliance on cookie values for security decisions without validation enables attackers to bypass protections
+* Attackers can modify cookies to authenticate as users or gain privileged roles/access
+* Mitigations include:
+  * Server-side validation of cookie data
+  * Adding integrity checks to detect cookie tampering
+  * Setting expirations on security-related cookies
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 1320
+answer_tokens: 196
+time_taken: 20.91 seconds

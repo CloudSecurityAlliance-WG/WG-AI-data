@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-1245 describes an issue with faulty finite state machines (FSMs) in hardware logic that can allow an attacker to put the system into an undefined state. This can lead to denial of service, system instability, or the attacker gaining additional privileges to compromise security. The problem arises when the FSM does not properly account for and handle all possible states. Undefined states that are left unhandled can be exploited.
+
+Proper FSM design requires defining and appropriately handling all possible states, including unused ones. Mitigation involves ensuring the FSM defaults to a secure state and has default behavior defined for unused inputs that could otherwise cause undefined states.
+
+# Summary bullet points
+
+* CWE-1245 involves faulty finite state machines (FSMs) in hardware logic that enable attackers to create undefined states
+* Undefined states can lead to denial of service, system instability, privilege escalation, and security compromise
+* FSMs must define and handle all possible states to avoid vulnerabilities from unhandled undefined states
+* Mitigation involves proper FSM design that defaults to secure states and has default behavior for unused inputs
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE definition
+================================================================================
+METADATA:
+prompt_tokens: 1058
+answer_tokens: 198
+time_taken: 18.14 seconds

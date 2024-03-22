@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of having an excessive volume of commented-out code within an invokable control element like a function or method. This makes the code harder to maintain and indirectly affects security by making it more difficult to find and fix vulnerabilities. It recommends a 2% threshold for commented out code. The issue impacts maintainability and quality.
+
+# Summary bullet points
+
+* Having excessive commented-out code (recommended threshold 2% of lines) in functions/methods reduces maintainability 
+* Harder to maintain code indirectly impacts security by making vulnerabilities harder to find and fix
+* Mostly a quality issue rather than direct security risk
+* Listed as "prohibited" for mapping real-world vulnerabilities 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Common Weakness Enumeration (CWE) definition 
+================================================================================
+METADATA:
+prompt_tokens: 728
+answer_tokens: 130
+time_taken: 11.67 seconds

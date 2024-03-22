@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+Adversaries may exfiltrate machine learning (ML) models, data, or other relevant information to achieve their goals through traditional cyber attack techniques. The MITRE ATT&CK framework details common exfiltration tactics used by cyber attackers. Case studies are provided of attackers compromising cloud platforms like Microsoft Azure, PyTorch dependencies, and Google Colab to steal ML artifacts or execute arbitrary code. 
+
+Mitigation strategies focus on controlling access to ML assets at rest through authentication, authorization, encryption, auditing, and network segmentation. Overall, the document highlights that ML and AI systems face similar cybersecurity risks as traditional IT systems, necessitating proactive security measures tailored to protecting sensitive ML data and models.
+
+# Summary bullet points
+
+* Adversaries can steal ML models, data, and other assets through standard cyber exfiltration techniques
+* Case studies detail attacks on Microsoft Azure, PyTorch, and Google Colab to compromise ML systems
+* Mitigations involve controlling access to ML data and models at rest just like with traditional IT assets
+* ML/AI systems face familiar security risks as traditional IT systems regarding data and code exfiltration
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Attack technique overview
+================================================================================
+METADATA:
+prompt_tokens: 557
+answer_tokens: 191
+time_taken: 15.22 seconds

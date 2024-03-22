@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes the weakness CWE-640, which is a weak password recovery mechanism for forgotten passwords. It allows users to reset their password without knowing the original, but the mechanism is weak and can be exploited. This completely undermines authentication schemes. Weaknesses include easy to guess security questions, implementation issues allowing password resets to wrong accounts, lack of throttling allowing lockouts, sending original instead of temporary passwords. This allows attackers to gain unauthorized access by taking over legitimate accounts. They could also cause denial of service against accounts. The mitigations include validating user input, using strong security questions, throttling guesses, controlling where emails are sent, and using temporary instead of original passwords. This impacts access control and authentication.
+
+# Summary bullet points
+
+* CWE-640 is a weak password recovery mechanism that undermines authentication
+* Allows attackers to gain unauthorized access by taking over legitimate accounts
+* Caused by easy to guess security questions, implementation flaws, lack of throttling, sending original passwords
+* Mitigations include validating input, strong questions, throttling guesses, controlling email destinations, temporary passwords
+* Impacts access control and authentication
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1442
+answer_tokens: 197
+time_taken: 17.12 seconds

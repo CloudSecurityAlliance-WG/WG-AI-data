@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The content describes a weakness called "Mirrored Regions with Different Values" (CWE-1251) which occurs when a product's architecture mirrors regions without ensuring that their contents stay in sync. Having mirrored regions with different values can result in exposure of sensitive information or system compromise. Common examples are caches which keep local copies of data elements for improved performance. However, if the local cached copies get out of sync with the original data, the results will be incorrect. This issue can also occur with other mirrored entities like registers, memory regions, and computational units in hardware. There are various potential root causes for the mirrored copies getting out of sync like lack of update messages, failed updates, race conditions, spoofed updates from attackers, or issues with the update acknowledgment system.
+
+# Summary bullet points
+
+* Weakness called "Mirrored Regions with Different Values" (CWE-1251) when architecture mirrors regions without syncing contents
+* Can expose sensitive information or allow system compromise if mirrored copies get out of sync
+* Common with caches improving performance but local cached copies fall out of sync
+* Also happens with mirrors of registers, memory, and computational units in hardware
+* Causes include missing updates, failed updates, race conditions, spoofed updates, ack issues
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Entry from Common Weakness Enumeration (CWE) community developed dictionary of software weaknesses
+================================================================================
+METADATA:
+prompt_tokens: 1524
+answer_tokens: 237
+time_taken: 20.89 seconds

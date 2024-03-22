@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1065 weakness describes when a product uses deployed components from application servers but also uses low-level functions for resource management instead of the API provided by the application server. This can prevent the product from running reliably and potentially introduce vulnerabilities if the relevant code is reachable by an attacker. The key aspects are:
+
+- Using low-level resource management instead of server APIs
+- Reduces reliability of product and possible vulnerabilities
+- Violates coding standards, poor coding practice
+
+# Summary bullet points
+
+* Weakness is where product uses deployed components from application servers, but also low-level functions for resource management instead of server API
+* Prevents product from running reliably and can introduce vulnerabilities if code is reachable
+* Violates coding standards, poor coding practice
+* Considered a quality issue that indirectly makes it easier to introduce weaknesses
+* Usage is prohibited for mapping to real vulnerabilities - primarily a quality issue
+
+# Geographic information
+"Not applicable"
+
+# Type of content
+Definition from Common Weakness Enumeration (CWE) website
+================================================================================
+METADATA:
+prompt_tokens: 700
+answer_tokens: 171
+time_taken: 14.59 seconds

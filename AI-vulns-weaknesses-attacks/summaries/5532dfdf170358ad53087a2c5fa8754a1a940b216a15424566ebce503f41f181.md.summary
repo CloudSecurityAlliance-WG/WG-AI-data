@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-1384, a weakness related to the improper handling of physical or environmental conditions by hardware products. It explains that hardware is typically only guaranteed to function properly within certain physical limits, but inability to handle conditions outside those limits can undermine security. For example, unexpected conditions could flip bits used for authentication decisions. It lists various concerning atmospheric, interference, light, power, and clock conditions that could occur naturally or be artificially induced by an adversary to trigger vulnerabilities. Consequences depend on the system role but may impact confidentiality, integrity and availability. It suggests requirements, design and implementation mitigations like having components to detect and handle excess conditions by shutting down. It also suggests materials that make attacks more difficult. The entry includes relationships to other CWEs, notes on usage for mapping, and references.
+
+# Summary bullet points
+
+* Hardware products are only guaranteed to behave correctly within certain physical or environmental limits 
+* Inability to handle conditions outside those limits can undermine security, for example by flipping authentication bits
+* Concerning conditions include atmospheric, interference, light, power, clock issues which may occur naturally or via an adversary
+* Consequences depend on system role but may impact confidentiality, integrity and availability 
+* Suggested mitigations include having components to detect and handle excess conditions by shutting down
+* Also suggests shielding/materials to make attacks more difficult for adversaries
+* Related to other CWEs regarding exceptions and external dependencies 
+* Can be used for mapping vulnerabilities but should be reviewed carefully due to abstraction level
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 1077
+answer_tokens: 271
+time_taken: 24.14 seconds

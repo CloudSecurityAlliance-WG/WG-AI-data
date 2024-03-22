@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-243, a weakness related to improperly creating a chroot jail without changing the working directory. A chroot jail restricts a process's access to files outside a designated directory tree. However, if the working directory is not changed after the chroot() call, a process could still access files outside the jail. This could allow attackers to escape the jail or access unauthorized files. 
+
+The document provides background details, examples, detection methods, affected resources, taxonomy mappings, and references related to CWE-243. It explains how FTP servers commonly use chroot jails to prevent processes from accessing sensitive files if compromised. But if the working directory is not changed, pathnames could still reach outside the jail. Overall, it highlights the importance of properly restricting file access when implementing chroot jails.
+
+# Summary bullet points
+
+* CWE-243 refers to improperly creating a chroot jail without changing the working directory, allowing processes to still access unauthorized files
+* chroot() changes a process's perception of the root file system directory, restricting access outside a subdirectory tree 
+* Working directory must be changed after chroot() call, otherwise relative paths can still reach outside the jail 
+* Used by FTP servers and other services to prevent access to sensitive files if a process gets compromised
+* Failure to change working directory allows attackers to escape jail and access restricted files
+* Can be detected via static analysis by modeling data and control flow to identify file access outside jail directory tree
+* Affected resource is the wider file system outside the chroot jail
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1148
+answer_tokens: 273
+time_taken: 22.37 seconds

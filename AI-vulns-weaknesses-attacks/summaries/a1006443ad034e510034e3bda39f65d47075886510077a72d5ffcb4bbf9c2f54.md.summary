@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes the CWE-638 software weakness titled "Not Using Complete Mediation", which refers to when a product does not perform access checks on a resource every time it is accessed. This can allow users to retain access to resources after their privileges have been revoked if the product relies on cached credentials or decisions. It provides background details, relationships to other CWEs, potential consequences, examples, mitigations, and references. The key points are that without complete mediation, users may be able to bypass revoked permissions or gain elevated privileges by exploiting the race condition window between credential changes and access checks. Products should invalidate cached access credentials frequently and perform checks before reusing cached code or content.
+
+# Summary bullet points
+
+* CWE-638 refers to not checking permissions/privileges every time a resource is accessed, relying on cached credentials
+* Can allow users to retain access to resources after permissions revoked, elevated privileges
+* Related to missing authorization checks, violation of secure design principles
+* Consequences include gain privileges, execute unauthorized code, read sensitive data
+* Mitigations include invalidating cached credentials frequently, performing complete auth checks before reusing cached code/data
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1013
+answer_tokens: 211
+time_taken: 24.32 seconds

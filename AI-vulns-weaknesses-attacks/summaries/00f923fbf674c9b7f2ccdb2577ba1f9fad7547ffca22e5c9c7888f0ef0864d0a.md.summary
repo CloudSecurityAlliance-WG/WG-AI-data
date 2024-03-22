@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses the vulnerability of missing custom error pages in ASP.NET applications. Without custom error pages, ASP.NET returns detailed error messages that could expose sensitive information to attackers. It explains that the mode attribute in the web.config file controls whether custom or default error pages are used. Best practice is to configure ASP.NET apps to use custom error pages instead of the built-in default pages to prevent information disclosure. 
+
+# Summary bullet points
+
+* ASP.NET applications should enable custom error pages to prevent detailed error messages being returned to users
+* The mode attribute in the web.config file configures if custom or default error pages are used
+* Default ASP.NET error pages provide detailed stack traces and error information that attackers can leverage
+* Custom error pages should be configured, especially for remote users, to avoid information disclosure
+* Applications should handle exceptions appropriately in code and not attempt to process or mask errors
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 976
+answer_tokens: 171
+time_taken: 11.89 seconds

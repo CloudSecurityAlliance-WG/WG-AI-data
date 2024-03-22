@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of a private data structure being returned from a public method (CWE-495). This allows the private data structure to be modified in unexpected ways from outside the class scope. Examples in Java and C++ show methods returning references to private array and integer members, which are then modified outside the class. Potential mitigations include making the methods private, cloning the data, or using public setter methods to control modifications. The weakness can lead to compromised data integrity if private class data members are modified in unintended ways. Static analysis tools can potentially detect instances of this weakness in code.
+
+# Summary bullet points
+
+* CWE-495 describes returning references to private data structures from public methods
+* This allows unintended modification of private class data members from outside the class scope
+* Demonstrates examples in Java and C++ showing methods returning array and integer references 
+* Modifications to private data members from outside class can violate assumptions and lead to unexpected behavior
+* Potential mitigations highlighted include: making methods private, cloning data, using setter methods 
+* Can compromise integrity of private class data modified in unintended ways
+* Static analysis tools may detect instances of this weakness in code
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 1030
+answer_tokens: 220
+time_taken: 19.31 seconds

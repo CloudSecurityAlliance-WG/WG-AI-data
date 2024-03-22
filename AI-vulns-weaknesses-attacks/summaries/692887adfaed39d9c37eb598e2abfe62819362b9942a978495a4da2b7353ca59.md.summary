@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses CWE-583, a common weakness enumeration related to the finalize() method in Java being declared public. Specifically, it states that declaring the finalize() method as public violates secure coding principles for mobile code and introduces security vulnerabilities. The finalize() method should never be called explicitly except to call super.finalize(). Having a public finalize() method means it could be maliciously invoked by an attacker in a mobile code environment where code from multiple sources runs in the same JVM. This could allow an adversary to alter execution logic or execute unauthorized code. The document provides an example of vulnerable Java code where finalize() is declared public in an applet, demonstrating the security issue. It recommends that finalize() only be declared with protected access as there is no need for it to be public. The weakness can lead to impacts on confidentiality, integrity and availability.
+
+# Summary bullet points
+
+* Declaring finalize() as public in Java mobile code violates secure coding principles
+* finalize() should never be explicitly called except to call super.finalize()
+* Having public finalize() risks malicious invocation by attackers in mobile code environments
+* Can allow adversary to alter execution logic, execute unauthorized code, modify data
+* Example shows Java Applet with mistakenly public finalize() method
+* Should declare finalize() with protected access only, no need to be public
+* Can impact confidentiality, integrity and availability
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 997
+answer_tokens: 245
+time_taken: 17.56 seconds

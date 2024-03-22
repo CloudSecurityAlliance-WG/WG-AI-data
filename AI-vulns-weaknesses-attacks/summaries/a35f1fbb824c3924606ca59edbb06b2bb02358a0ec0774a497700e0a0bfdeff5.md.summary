@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-66, a common weakness enumeration related to the improper handling of file names that identify virtual resources. Virtual file names behave like normal files but are effectively aliases for resources that do not behave like regular files. Not properly handling these virtual file names can cause products to incorrectly perform file operations on non-file resources. This can lead to disclosure of sensitive information or denial of service.
+
+# Summary bullet points
+
+* CWE-66 involves the improper handling of virtual file names that serve as aliases for non-file resources
+* Virtual file names look like regular filenames but behave differently
+* Not properly handling virtual filenames can cause improper file operations on non-file resources
+* This can lead to sensitive information disclosure or denial of service
+* Examples include special filenames in IIS, HFS+, and JSP that provide access to source code, resource forks, and cause denial of service
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1098
+answer_tokens: 167
+time_taken: 16.53 seconds

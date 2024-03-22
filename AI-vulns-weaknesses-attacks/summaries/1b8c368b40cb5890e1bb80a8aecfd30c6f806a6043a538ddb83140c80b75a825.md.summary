@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+Path traversal vulnerabilities allow attackers to access files and directories outside of an intended restricted directory by manipulating pathnames. This is often accomplished by using sequences like "../" to move up directories. Consequences include reading/writing sensitive files, executing code, bypassing authentication mechanisms, denial of service, and more. Proper input validation, canonicalization, and other protections are key to preventing path traversal.  
+
+# Summary bullet points
+
+* Path traversal involves manipulating pathnames to access files/dirs outside an intended restricted directory, often using "../" 
+* Consequences range from reading sensitive files to code execution, authentication bypass, denial of service, etc.
+* Input validation, canonicalization, and other protections are critical to stop path traversal 
+* Variants can use absolute paths, drive letters, null bytes, alternate encodings, and OS-specific features
+* Error messages can expose path info that helps attackers optimize attacks
+* Safe libraries/frameworks, sandboxes, firewalls provide some mitigation capabilities
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE definition from MITRE/CWE
+================================================================================
+METADATA:
+prompt_tokens: 5518
+answer_tokens: 161
+time_taken: 20.97 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a weakness where code contains a class instance that calls a method or function to delete or destroy itself (e.g. using "delete this" in C++). This can reduce reliability of the product, and if reachable by an attacker, could introduce a vulnerability. It is considered a quality issue with indirect security implications.
+
+# Summary bullet points
+
+* Code contains class instance that calls method/function to delete or destroy itself (e.g. "delete this" in C++)
+* Can reduce reliability of product
+* If reachable by attacker, could introduce vulnerability
+* Considered a quality issue with indirect security implications
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 699
+answer_tokens: 117
+time_taken: 9.78 seconds

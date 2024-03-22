@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-1288 describes an input validation weakness where a product receives complex input with multiple elements or fields that must be consistent with each other, but fails to validate or incorrectly validates that the input is actually consistent. This can allow attackers to trigger errors, cause incorrect actions, or exploit other vulnerabilities. 
+
+Examples are given of a product not validating that a start block appears before an end block, an inconsistent size field leading to a buffer over-read, and an inconsistent offset value causing a system crash.
+
+Potential mitigations are to validate all input assuming it is malicious, checking all relevant properties like length, type, range of values, missing or extra inputs, syntax, consistency across fields, and conformance to business rules. Denylists can also be useful to detect attacks or malformed input.
+
+# Summary bullet points
+
+* CWE-1288 involves receiving complex input with multiple interdependent elements/fields
+* Failing to validate consistency between these elements can enable attacks 
+* Examples include invalid start/end blocks, inconsistent size and offset values leading to crashes and over-reads
+* Mitigations involve thoroughly validating all input against length, type, range, missing/extra values, syntax, cross-field consistency, business rules 
+* Denylists also useful for detecting attacks and malformed input
+
+# Geographic information
+Not applicable
+
+# Type of content
+Website - Common Weakness Enumeration reference entry
+================================================================================
+METADATA:
+prompt_tokens: 926
+answer_tokens: 224
+time_taken: 21.35 seconds

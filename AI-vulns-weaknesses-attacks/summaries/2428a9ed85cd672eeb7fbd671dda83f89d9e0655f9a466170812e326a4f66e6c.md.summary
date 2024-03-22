@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-520 weakness describes allowing .NET applications to run with elevated privileges, which can enable various attacks. The issue stems from .NET's ability to execute using the identity of an authenticated client user. This impersonation feature intends to bypass access controls in the app code by relying on NTFS permissions. However, it means the app runs on the server with the user's level of access. This can let the app access resources and execute code as that user, gaining unintended privileges. 
+
+The weakness can introduce incorrect privilege assignments, enabling attackers to gain elevated access or assume unauthorized identities. Proper mitigation involves running .NET apps with limited privileges to the underlying OS and files.
+
+# Summary bullet points
+
+* CWE-520 is a weakness related to insecure .NET app configuration that allows unintended privilege escalation
+* .NET can impersonate authenticated client users to bypass access controls in the app code
+* This means the app runs on the server with the user's level of access
+* Attackers could leverage this to gain elevated privileges or assume unauthorized identities
+* Mitigation involves limiting .NET app privileges to the underlying OS and files
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 761
+answer_tokens: 205
+time_taken: 15.67 seconds

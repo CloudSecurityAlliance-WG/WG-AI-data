@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of relying on a component that cannot be updated or patched to remove vulnerabilities or significant bugs (CWE-1329). If a vulnerability is discovered in such a component, the product owner cannot protect against it since the component cannot be fixed with an update or patch. The only option may be full replacement, which can be prohibitively expensive. This impacts industries like healthcare running decades-old "legacy" devices. The inability to update leaves products perpetually vulnerable to exploitation. Relevant examples are a hackable refrigerator and immutable ROM code in a System-on-Chip.
+
+# Summary bullet points
+
+* CWE-1329 involves relying on a component that cannot be updated or patched to remove vulnerabilities, leaving the product perpetually exposed.
+* If a vulnerability is found in an unpatchable component, the only recourse may be full replacement, which can be too expensive.  
+* This impacts products like medical devices and hardware components like ROM.
+* An internet-connected refrigerator is given as an example of a hackable consumer product that cannot be patched.
+* An example system-on-chip uses immutable ROM code for its root of trust, meaning discovered vulnerabilities cannot be patched.
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1811
+answer_tokens: 204
+time_taken: 20.02 seconds

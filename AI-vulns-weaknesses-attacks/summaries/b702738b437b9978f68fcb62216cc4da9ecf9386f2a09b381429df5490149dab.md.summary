@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1122 weakness describes excessive Halstead complexity in code, which makes the code more difficult to understand and maintain. This can indirectly reduce security by making it harder to find and fix vulnerabilities. The Halstead complexity measures evaluate program vocabulary size and volume as indicators of complexity. High Halstead complexity is considered a code quality issue rather than a direct security weakness.
+
+# Summary bullet points
+
+* CWE-1122 covers excessive Halstead complexity in code
+* High Halstead complexity makes code harder to understand and maintain
+* This can indirectly harm security by increasing difficulty of finding/fixing vulnerabilities 
+* Halstead measures evaluate vocabulary size and volume as complexity indicators
+* Considered a code quality issue rather than direct security weakness
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 672
+answer_tokens: 135
+time_taken: 11.77 seconds

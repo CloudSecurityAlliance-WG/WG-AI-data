@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of using a comparison operator instead of an assignment operator (CWE-482). This can happen due to typos or confusion between the similar syntax of these operators. The result is that values are not properly assigned as intended, leading to unexpected program state and behaviors. This can manifest as availability and integrity issues. 
+
+The entry provides code examples in C and C++ showing this weakness, where a pointer push method tries to assign a value to the stack using "==" rather than "=". It won't properly add the values. Potential mitigations include testing tools and static analysis that can detect such issues.
+
+# Summary bullet points
+
+* CWE-482 refers to using a comparison operator instead of an intended assignment operator, often due to typos or confusion over similar syntax
+* This leads to values not being assigned as expected and can cause availability and integrity issues from the unexpected program state
+* Code examples in C and C++ demonstrate the weakness 
+* Testing tools and static analysis can help detect instances of this weakness
+* Proper code reviews and following secure coding standards can also help avoid the introduction of this weakness
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1053
+answer_tokens: 212
+time_taken: 20.51 seconds

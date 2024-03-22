@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-64, a common weakness in software systems related to improperly handling Windows shortcut (.LNK) files. The weakness stems from products not sufficiently validating shortcut files that point outside the intended directory structure, enabling attackers to access unauthorized files. Consequences include reading/modifying files attackers lack permissions for. Mitigations focus on properly compartmentalizing file systems and following principle of least privilege when assigning file access rights.  
+
+# Summary bullet points
+
+* CWE-64 involves products improperly handling Windows shortcut (.LNK) files whose target is outside intended control sphere
+* Can allow attackers to cause product to operate on unauthorized files 
+* Shortcuts permit accessing files/dirs attacker has no permission for originally  
+* Impact includes reading or modifying unauthorized files
+* Mitigations include compartmentalization and principle of least privilege for file access
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1026
+answer_tokens: 147
+time_taken: 16.23 seconds

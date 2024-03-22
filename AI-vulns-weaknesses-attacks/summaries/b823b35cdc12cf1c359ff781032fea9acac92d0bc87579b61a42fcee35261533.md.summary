@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-1258, a weakness where hardware fails to fully clear security-sensitive data like keys or intermediate cryptographic operation values when debug mode is entered. This exposes the sensitive information to attackers who can access it via debuggers. It provides background on the issue and an example involving a cryptographic core in a System-on-a-Chip (SoC) that stores keys and intermediate crypto values in internal registers accessible through the debug interface. The registers are not cleared when debug mode is entered, allowing attackers running debuggers to access the sensitive data. A potential mitigation is clearing all registers with sensitive assets whenever debug mode is enabled.
+
+# Summary bullet points
+
+* CWE-1258 is a weakness where hardware fails to clear sensitive data like keys or intermediate crypto values when entering debug mode
+* This exposes the data to attackers who can access it with debuggers 
+* Provides an example with a cryptographic SoC core that stores keys and intermediate crypto values in registers accessible via the debug interface
+* The registers are not cleared when entering debug mode, allowing debugger access
+* Potential mitigation is clearing all registers with sensitive data when debug mode enabled
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 962
+answer_tokens: 219
+time_taken: 18.02 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-158, a weakness related to the improper neutralization of null bytes or NUL characters when processing input in software systems. Specifically, it points out that if null bytes are not properly handled, attackers could inject them into input vectors to terminate strings prematurely or bypass validation checks, enabling further attacks. This could allow disclosure of source code, execution of unintended code, bypassing of access controls or triggering denial of service. The document provides examples of CVEs related to null byte issues and recommendations for prevention through input validation, decoding/canonicalization and denying by default while allowlisting known good input. Overall, improper null byte handling is a common weakness that can have serious integrity and availability impacts.
+
+# Summary bullet points
+
+* CWE-158 refers to the improper neutralization of null bytes and NUL characters when processing input
+* If null bytes are not handled properly, attackers can use them to prematurely terminate strings or bypass application checks
+* This enables attacks like source code disclosure, unintended code execution, bypass authentication or access controls
+* Can also be used in denial of service attacks by interfering with logging and monitoring
+* Examples provided of past CVEs related to null byte injection vulnerabilities  
+* Recommends input validation, decoding/canonicalizing input, deny by default allowlisting good input as mitigations
+* Overall an important and common weakness related to input handling that enables integrity and availability attacks
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE Weakness Description - Common Weakness Enumeration standard
+================================================================================
+METADATA:
+prompt_tokens: 1331
+answer_tokens: 252
+time_taken: 22.04 seconds

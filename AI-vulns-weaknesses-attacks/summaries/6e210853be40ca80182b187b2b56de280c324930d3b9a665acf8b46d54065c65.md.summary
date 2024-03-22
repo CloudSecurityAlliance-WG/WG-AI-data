@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+Active Scanning is a reconnaissance technique where an adversary directly interacts with a victim system to gather information for targeting. This differs from more passive reconnaissance activities that do not involve probing or scanning the victim. The technique allows adversaries to discover vulnerabilities or misconfigurations that could be exploited.
+
+# Summary bullet points
+
+* Active Scanning involves directly interacting with a victim system to gather info, unlike passive reconnaissance  
+* It can involve probing or scanning to find vulnerabilities or misconfigurations to exploit
+* The goal is to gather targeting information for future attacks
+* It is considered a reconnaissance tactic
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - MITRE ATT&CK Encyclopedia 
+================================================================================
+METADATA:
+prompt_tokens: 457
+answer_tokens: 117
+time_taken: 8.37 seconds

@@ -1,0 +1,36 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes the weakness CWE-643 - Improper Neutralization of Data within XPath Expressions ('XPath Injection'). XPath injection occurs when untrusted user input is used to dynamically construct an XPath query to an XML database without proper neutralization, allowing an attacker to modify the structure of the query. This could let them bypass authentication, access unauthorized data, or modify application logic.
+
+The document provides background details, relationships to other weaknesses, modes of introduction, applicable platforms, common consequences, likelihood of exploit, examples, potential mitigations, detection methods and mappings. Key points:
+
+- XPath injection stems from failing to properly validate/sanitize untrusted input used in XPath queries.
+
+- Attackers can bypass authentication, access restricted data, modify application flow/logic.
+
+- High likelihood of exploit. 
+
+- Use parameterized queries and validate user input.
+
+# Summary bullet points
+
+* XPath injection occurs when untrusted input used in XPath queries to XML databases isn't properly neutralized
+* Enables attackers to bypass authentication, access unauthorized data, modify application logic
+* Caused by failing to validate/sanitize untrusted input used in queries 
+* High likelihood of exploit
+* Use parameterized XPath queries and validate user input to prevent
+* Relationships and similarities to SQL injection, command injection, etc.
+* Can control application flow, read restricted data
+* Potential mitigations and detection methods like static analysis
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Weakness Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1160
+answer_tokens: 229
+time_taken: 24.75 seconds

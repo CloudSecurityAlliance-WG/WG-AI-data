@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses physical environment access, which refers to adversaries exploiting the physical environment to influence machine learning models that interact with real-world data. For example, an adversary could modify the input data being collected to perform evasion attacks or backdoor attacks. Specifically, two case studies are mentioned: one involving manipulating someone's physical appearance to evade a facial recognition system, and one involving backdooring a deep learning model used in a mobile app.
+
+To mitigate such physical environment attacks, the document recommends using multi-modal sensors that incorporate different data sources, making the system more robust to manipulation of one data source. Overall, the key point is that along with digital attacks, adversaries can also attack machine learning systems by influencing real-world data collection. Defenses should account for this physical dimension as well.
+
+# Summary bullet points
+
+* Adversaries can exploit the physical environment to attack machine learning models that interact with real-world data 
+* Examples include modifying input data to evade or backdoor models
+* Case studies involve facial recognition evasion and backdooring a mobile app deep learning model
+* Mitigation is to use multi-modal sensors with different data sources to increase robustness
+* Physical attacks should be considered alongside digital attacks when defending machine learning systems
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 596
+answer_tokens: 219
+time_taken: 17.31 seconds

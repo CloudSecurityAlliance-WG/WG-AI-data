@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes the weakness of out-of-bounds read, where a product reads data past the end or before the beginning of the intended buffer. This typically allows attackers to read sensitive information from other memory locations or cause a crash. It can occur when the code assumes a sentinel value exists to stop the read but it is not present in the out-of-bounds memory, causing excessive data to be read. It may also happen when an index or pointer is incorrectly calculated, referencing a location outside the buffer boundaries. The consequences include accessing confidential information or bypassing protection mechanisms to improve reliability of exploiting other weaknesses to achieve code execution instead of just denial of service.
+
+# Summary bullet points
+
+* Out-of-bounds read weakness involves a product reading data past the end or before the beginning of an intended buffer
+* Typically allows attackers to read sensitive information or cause a crash
+* Can occur due to assumption of sentinel value in buffer that doesn't exist in out-of-bounds memory 
+* Also results from incorrect index or pointer calculation referencing outside buffer boundaries
+* Consequences include accessing confidential data or bypassing protections to improve exploitation of other weaknesses
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 2055
+answer_tokens: 214
+time_taken: 19.76 seconds

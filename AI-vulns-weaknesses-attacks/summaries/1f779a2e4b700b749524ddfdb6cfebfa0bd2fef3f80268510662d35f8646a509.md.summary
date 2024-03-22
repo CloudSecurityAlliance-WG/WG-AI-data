@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses CWE-144, a weakness related to improper neutralization of line delimiters. Specifically, it covers how input from an upstream component may not properly neutralize or incorrectly neutralizes special elements that could be interpreted as line delimiters when sent to a downstream component. This can allow injected/absent/malformed delimiters to cause unexpected actions during parsing. It provides examples of potential consequences like unexpected states. The document then suggests mitigations like input validation, output encoding, quoting arguments, and decoding/canonicalizing inputs before validation.
+
+# Summary bullet points
+
+* CWE-144 is about improper neutralization of line delimiters 
+* Occurs when input isn't properly neutralized and delimiter elements can be incorrectly interpreted 
+* Can cause unexpected behavior during parsing
+* Potential impacts include unexpected states
+* Suggested mitigations:
+  * Input validation using allowlists
+  * Output encoding 
+  * Quote arguments to prevent injection
+  * Decode/canonicalize input before validation
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1163
+answer_tokens: 156
+time_taken: 15.86 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes the weakness CWE-1321, which is about improperly controlled modification of object prototype attributes, also known as "prototype pollution". This happens when a product receives input that specifies attributes to initialize or update in an object, but does not properly control modifications to the object's prototype. By manipulating the prototype, attackers can add or replace critical attributes that exist on every object, which can be problematic if the product relies on certain attributes. This is usually exploited by using special attributes like proto, constructor or prototype that give access to the prototype. It often occurs when code assigns object attributes based on user input or recursively clones/merges objects. Consequences include modifying application data and crashing the application by overriding attributes with incompatible types. Mitigations focus on blocking prototype modifications, validating input, and using Maps instead of objects.
+
+# Summary bullet points
+
+* CWE-1321 describes the weakness of improperly controlled modification of object prototypes, also called "prototype pollution"
+* Occurs when input specifies object attributes to set but modifications to prototype are not controlled 
+* By manipulating the prototype, attackers can add/replace attributes that exist on all objects
+* Often exploited by using special attributes like proto, constructor and prototype to access the prototype
+* Frequently found when object attributes are set based on user input or objects are recursively merged/cloned 
+* Consequences include modifying application data and crashing apps by overriding attributes
+* Mitigations include blocking prototype modifications, validating input, and using Maps instead of objects
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1225
+answer_tokens: 264
+time_taken: 25.98 seconds

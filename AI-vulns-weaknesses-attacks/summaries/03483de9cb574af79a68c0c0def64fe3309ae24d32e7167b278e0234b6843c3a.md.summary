@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-26, a weakness related to path traversal vulnerabilities. Specifically, it covers how software can be vulnerable if it uses external input to construct pathnames without properly neutralizing "/dir/../filename" sequences. This allows attackers to traverse outside intended directories and access unauthorized files and directories. Mitigations focus on input validation strategies such as allowlists to restrict inputs to expected values.  
+
+# Summary bullet points
+
+* CWE-26 refers to path traversal vulnerabilities from unneutralized "/dir/../filename" input sequences 
+* Allows accessing files/directories outside intended restricted directories
+* Useful for attackers bypassing some path traversal protections 
+* Applicable for web servers and other languages
+* Leads to unauthorized access to read/modify files  
+* Mitigations include stringent input validation and allowlists for inputs like filenames
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Definition
+================================================================================
+METADATA:
+prompt_tokens: 1098
+answer_tokens: 134
+time_taken: 15.41 seconds

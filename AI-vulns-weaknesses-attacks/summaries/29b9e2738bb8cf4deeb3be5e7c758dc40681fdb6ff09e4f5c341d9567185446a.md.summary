@@ -1,0 +1,22 @@
+Status: SUCCESS
+Message:  # Summary
+
+Adversaries may search publicly available research to identify targets and tailor attacks against an organization's machine learning systems. The research can reveal details on how and where machine learning is used within a victim organization. Knowing the underlying model architectures allows adversaries to craft more realistic proxy models to evade defenses. Research materials that may be searched include academic papers, pre-print repositories, and technical blogs authored by the victim organization's employees. 
+
+# Summary bullet points
+
+* Adversaries can search public research to learn how/where ML is used in a victim organization to identify targets or tailor attacks
+* Research reveals details on underlying ML model architectures used in production systems
+* This knowledge allows adversaries to build better proxy models to evade defenses 
+* Materials searched may include academic papers, pre-prints, and technical blogs by victim organization's employees
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 660
+answer_tokens: 150
+time_taken: 14.70 seconds

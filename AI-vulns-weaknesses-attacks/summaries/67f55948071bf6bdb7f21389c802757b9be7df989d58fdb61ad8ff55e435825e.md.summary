@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+Transient execution refers to when processor operations execute but do not commit to architectural state. This can expose sensitive data over covert channels when incorrect or transient operations access confidential data. There are two main methods to exploit this: 1) Attacker generates code that exposes data during transient execution and triggers that execution. Some variants only expose accessible data while others expose protected data. 2) Attacker identifies vulnerable code sequences in a victim program, triggers mis-prediction to execute code out-of-bounds, exposing victim data through covert channel side effects. Mitigations focus on constraining speculation/transient execution, using separate address spaces for sandboxes, serializing execution to prevent events leading to transient execution, restricting high-resolution timers needed to monitor covert channels, and recompiling code to prevent affected instructions.
+
+# Summary bullet points
+
+* Transient execution allows incorrect processor operations to execute without committing state changes, potentially exposing sensitive data
+* Attacker can generate code that exposes data when executed transiently and trigger that execution
+* Attacker can also identify vulnerable sequences in victim code, mis-predict branches to trigger out-of-bounds access and observe side effects
+* Some variants expose accessible data, others expose protected data outside program scope 
+* Mitigations constrain speculation, isolate sandboxes, serialize execution, limit timers for monitoring channels, rewrite code 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) entry
+================================================================================
+METADATA:
+prompt_tokens: 3452
+answer_tokens: 224
+time_taken: 31.41 seconds

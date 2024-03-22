@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-910 weakness describes the use of a file descriptor after it has been closed. This can lead to reading data from the wrong file, crashing the program, or other unexpected behavior since the reused file descriptor may reference a different file. After a descriptor is closed, it can be allocated again and point somewhere else entirely. Proper file handling requires tracking descriptor state to avoid errors.
+
+# Summary bullet points
+
+* CWE-910 refers to using a file descriptor after it has been closed
+* Can lead to reading the wrong file, crashes, or unexpected behavior
+* Closed descriptor can be reallocated and point somewhere else entirely
+* Must track descriptor state to avoid incorrect file access
+* Can happen in C, C++, or other languages that use file descriptors
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 764
+answer_tokens: 146
+time_taken: 11.77 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the technique "Discover ML Artifacts" (AML.T0007) from the MITRE ATT&CK framework for adversarial machine learning. It explains that adversaries may search private sources to identify machine learning models, data, and other artifacts that exist on a system in order to gather information about them. This information can then be used to identify targets for further data collection, exfiltration, or disruption of the models. The article recommends encrypting sensitive information as a mitigation and categorizes this technique as part of the "Discovery" tactic.
+
+# Summary bullet points
+
+* Adversaries may search private sources to identify machine learning artifacts on a system like models, data, software stacks, etc.
+* Information gathered can be used to identify targets for more attacks like data collection, exfiltration, model disruption
+* Encrypting sensitive information recommended as mitigation
+* Categorized as "Discovery" tactic in MITRE ATT&CK framework
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Description of technique in MITRE ATT&CK framework
+================================================================================
+METADATA:
+prompt_tokens: 518
+answer_tokens: 163
+time_taken: 9.28 seconds

@@ -1,0 +1,22 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-108, a common weakness in software systems related to improper validation of input data in Apache Struts action forms. Specifically, it points out that every Struts action form mapping must have a corresponding validation form defined. If an action form lacks validation, it leaves the system vulnerable to attacks like cross-site scripting, SQL injection, and process control exploits that rely on unchecked input. The document recommends adding a Struts validator form for every action form as a mitigation strategy to ensure basic input validation.
+
+# Summary bullet points
+
+* CWE-108 refers to a weakness where Struts action form mappings in Java web apps lack corresponding validation forms
+* This leaves systems open to attacks like XSS, SQLi, process control exploits relying on unchecked input
+* Recommends mitigation by adding Struts validator forms to validate input for every action form mapping
+* Consequences can include loss of confidentiality, integrity, availability of data/system
+
+# Geographic information
+Not applicable
+
+# Type of content
+Website / Webpage 
+================================================================================
+METADATA:
+prompt_tokens: 874
+answer_tokens: 168
+time_taken: 14.47 seconds

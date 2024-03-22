@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1069 weakness describes empty exception handling blocks in code that do not contain any handling logic. This can reduce reliability by failing to appropriately deal with exceptions. The example shows Java code with an empty catch block that catches an ArithmeticException but takes no action. The improved code logs the error and sets the problematic value to a default.
+
+# Summary bullet points
+
+* CWE-1069 refers to empty exception handling blocks in code that fail to take any action
+* Can reduce reliability by not properly dealing with exceptions
+* Example shows Java code catching an ArithmeticException but empty catch block takes no action 
+* Improved code logs error and sets problematic value to default
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 856
+answer_tokens: 129
+time_taken: 13.47 seconds

@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article summarizes the technique of crafting adversarial data to attack machine learning models. It explains that adversarial data are inputs to ML models that have been modified to cause a desired adversarial effect, such as misclassification, missed detections, or maximizing energy consumption. The modifications are typically constrained so humans still perceive the data as normal. Different algorithm classes can develop adversarial examples based on the adversary's knowledge and access to the target model. The adversary may optimize attacks and verify they work before using them to accomplish goals like evading or eroding the ML model. A case study of poisoning the VirusTotal ML model is provided as an example.
+
+# Summary bullet points
+
+* Adversarial data are inputs to ML models modified to cause desired effects like misclassification while still appearing normal to humans
+* Effects range from misclassifications to missed detections to maximizing energy consumption 
+* Modifications are constrained so humans still perceive data as unaltered
+* Algorithms to develop attacks depend on adversary's knowledge of and access to target model
+* Adversary may optimize and verify attacks before using them against target systems
+* Goals include evading or eroding integrity of ML models  
+* Case study of poisoning the VirusTotal ML model provided
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Article
+================================================================================
+METADATA:
+prompt_tokens: 725
+answer_tokens: 218
+time_taken: 16.40 seconds

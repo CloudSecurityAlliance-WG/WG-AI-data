@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-694, a weakness related to the use of multiple resources with duplicate identifiers in contexts where unique identifiers are required. If a product assumes resources have unique IDs but attackers can create duplicates, the product may operate on the wrong resource. This can allow attackers to bypass access controls or cause quality degradation. The weakness is applicable across languages and platforms. It is a child of broader weaknesses related to specification violation and improper control of identifiers. Potential mitigations include using unique identifiers where possible and not operating on any resource with a non-unique ID, instead reporting errors.  
+
+# Summary bullet points
+
+* Describes CWE-694 weakness - using duplicate resource identifiers where unique IDs are required
+* Can allow attackers to bypass access controls or reduce quality by operating on wrong resource
+* Applicable across languages and platforms 
+* Child of specification violation and improper ID control weaknesses  
+* Mitigations include using unique IDs and not operating on resources with duplicate IDs
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website / Reference document
+================================================================================
+METADATA:
+prompt_tokens: 896
+answer_tokens: 189
+time_taken: 15.90 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-135 weakness describes an issue where software incorrectly calculates the length of strings containing multi-byte or wide characters. This can lead to buffer overflows and out-of-bounds memory access when those incorrect lengths are used for memory allocation and copy operations. Specifically, using byte-based string functions like strlen() on multi-byte strings will produce incorrect lengths. This can result in allocating too little memory when copying strings and lead to buffer overflows. Mixing standard and multi-byte string functions can also cause issues. Proper validation of string lengths using the correct multi-byte functions like wcslen() is recommended to prevent problems.  
+
+# Summary bullet points
+
+* CWE-135 deals with incorrect calculation of multi-byte or wide character string lengths
+* Using byte-based functions like strlen() on multi-byte strings produces wrong lengths 
+* Can result in too little memory allocated when copying strings, leading to buffer overflows
+* Mixing standard and multi-byte string functions can also cause issues
+* Proper validation using correct multi-byte functions like wcslen() is recommended
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1360
+answer_tokens: 180
+time_taken: 19.38 seconds

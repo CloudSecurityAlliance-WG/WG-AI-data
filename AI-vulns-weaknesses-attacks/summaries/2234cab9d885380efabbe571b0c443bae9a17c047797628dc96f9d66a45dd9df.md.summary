@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the provided data:
+
+# Summary
+
+The document describes CWE-1333, an information security weakness related to inefficient regular expression complexity. Regular expressions with exponential worst-case computational complexity can consume excessive CPU cycles if crafted input triggers excessive backtracking. This can lead to denial of service attacks where attackers provide inputs designed to intentionally spike CPU usage. Mitigations include using regular expressions that don't support backtracking, setting backtracking limits, avoiding backtracking expressions, and limiting input length.
+
+# Summary bullet points
+
+* CWE-1333 covers inefficent regular expression complexity which can enable denial of service attacks
+* Certain regular expressions with features like backtracking can have exponential worst-case complexity
+* If crafted input triggers lots of backtracking, it can cause excessive CPU usage, denying service
+* Effective mitigations include no-backtracking expressions, limits, and validating input length
+* Real attacks have exploited this via long user agents, time parsing, and other features
+* It enables attackers to intentionally create inputs to spike CPU and deny service
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1414
+answer_tokens: 179
+time_taken: 17.32 seconds

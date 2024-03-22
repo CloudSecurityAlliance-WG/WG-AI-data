@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the paper:
+
+# Summary
+
+The paper proposes a new black-box attack method called ZOO (Zeroth Order Optimization) to generate adversarial examples that fool deep neural networks (DNNs) without needing access to the model internals or training substitute models. The key ideas are:
+
+- Formulate the attack as an optimization problem to minimize the distortion between the original and adversarial image, while maximizing the loss for the target misclassification. 
+- Use zeroth order optimization with coordinate descent to estimate gradients and attack the DNN. This allows a "pseudo backpropagation" without internal access.
+- Employ dimension reduction, hierarchical attacks, and importance sampling to make attacks scalable to large models like Inception-v3.  
+
+Experiments on MNIST, CIFAR10, and ImageNet show ZOO can achieve comparable attack success rate and distortion to state-of-the-art white-box attacks, and significantly outperforms existing black-box attacks using substitute models. ZOO is also far more efficient than substitute models for large datasets like ImageNet.
+
+# Summary bullet points
+
+* Proposes ZOO, a black-box attack using zeroth order optimization, without substitute models
+* Formulates attack as optimization problem with dimension reduction and sampling techniques 
+* Achieves pseudo backpropagation and white-box attack effectiveness
+* Matches state-of-the-art white box attacks on MNIST, CIFAR10, ImageNet 
+* Far more efficient for large models like Inception-v3 than substitute models
+* Significantly outperforms existing black-box attacks with substitute models
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Academic paper
+================================================================================
+METADATA:
+prompt_tokens: 10838
+answer_tokens: 240
+time_taken: 23.75 seconds

@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-914 weakness describes a vulnerability where a product does not properly restrict reading from or writing to dynamically-identified variables. This allows attackers to modify sensitive data or program variables, execute unauthorized code or commands, or alter execution logic in ways that vary by context. The weakness stems from powerful language features that allow programmers to access arbitrary variables specified by input strings. While convenient, this flexibility can be extremely dangerous if attackers can modify unintended variables with security implications. 
+
+CWE-914 is related to improper control of dynamically-managed code resources (CWE-913) and improper control of resource identifiers (CWE-99). It can lead to variable extraction errors (CWE-621) and dynamic variable evaluation (CWE-627). The weakness represents a resource management error (CWE-399) that allows attackers to modify application data or gain elevated privileges.
+
+# Summary bullet points
+
+* CWE-914 involves improperly restricting access to dynamically-identified variables, enabling attackers to modify unexpected data or behavior
+* Powerful programming language features allow flexibility in accessing variables, but can be dangerous if input strings specify unintended variables
+* Attackers could modify sensitive data, execute unauthorized commands, or alter program logic in ways that vary by context
+* Related to improper control of dynamic code resources (CWE-913) and resource identifiers (CWE-99)
+* Can lead to variable extraction issues (CWE-621) and dynamic variable evaluation (CWE-627) 
+* Represents a resource management error (CWE-399) allowing unauthorized data modification or elevated privileges
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE definition
+================================================================================
+METADATA:
+prompt_tokens: 961
+answer_tokens: 244
+time_taken: 22.06 seconds

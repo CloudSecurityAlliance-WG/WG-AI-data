@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-603 weakness describes the use of client-side authentication without corresponding server-side authentication, which allows server-side protections to be easily bypassed by modifying the client to skip authentication checks. This enables attackers to access privileged parts of an application and assume identities. It stems from flawed authentication design and has been observed in real-world SCADA and other systems. The 2022 OT:ICEFALL study found 56 related vulnerabilities in 10 OT vendor products that could enable denial of service, code execution, and even safety issues. Recommended mitigations include performing authentication checks on the server side rather than relying solely on client-side protections.
+
+# Summary bullet points
+
+* CWE-603 refers to client-side only authentication, allowing server protections to be bypassed 
+* Enables attackers to access privileged application areas and assume identities
+* Caused by poor authentication design 
+* Observed in real-world SCADA and other systems
+* 2022 OT:ICEFALL study found 56 related vulns in 10 vendor products
+* Allows denial of service, code execution, safety issues
+* Mitigate by implementing server-side authentication checks 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 926
+answer_tokens: 186
+time_taken: 17.18 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+Processor optimizations built into hardware can sometimes remove or modify security-critical code in unintended ways. This can allow attackers to bypass protections and access sensitive data. Recently disclosed attacks like Spectre, Meltdown, and variants have shown how speculative execution and other processor optimizations can be exploited in this manner. Mitigations exist but require changes to processor hardware, operating systems, and applications.
+
+# Summary bullet points
+
+* Processor optimizations can unintentionally remove or alter security mechanisms in software
+* This allows attackers to bypass protections and access sensitive data
+* Recent attacks like Spectre and Meltdown exploited speculative execution
+* Requires changes to hardware, OS, and apps to fully mitigate
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1065
+answer_tokens: 125
+time_taken: 11.00 seconds

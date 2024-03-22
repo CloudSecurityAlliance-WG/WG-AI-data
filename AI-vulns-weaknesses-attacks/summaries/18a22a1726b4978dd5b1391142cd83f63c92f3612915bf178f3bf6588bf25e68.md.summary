@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-780 weakness describes the use of the RSA encryption algorithm without Optimal Asymmetric Encryption Padding (OAEP). Using RSA without OAEP padding weakens the encryption and makes it easier for attackers to decrypt data or infer patterns from the ciphertext. Proper padding schemes like OAEP help nullify predictable common text and complicate attack efforts. This weakness enables the bypassing of protection mechanisms through weakened encryption.
+
+# Summary bullet points
+
+* CWE-780 refers to using RSA encryption without OAEP padding
+* Lack of padding weakens RSA encryption and enables easier cryptanalysis attacks
+* OAEP padding nullifies predictable plaintext patterns and complicates attacks  
+* Consequence is bypassing of access controls and protection mechanisms
+* Static analysis can detect some instances of RSA use without proper padding
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition 
+================================================================================
+METADATA:
+prompt_tokens: 981
+answer_tokens: 137
+time_taken: 13.25 seconds

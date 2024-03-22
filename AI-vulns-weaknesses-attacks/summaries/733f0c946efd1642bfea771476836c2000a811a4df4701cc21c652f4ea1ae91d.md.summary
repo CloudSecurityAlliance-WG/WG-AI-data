@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-830, a weakness related to including third-party web functionality, such as widgets or scripts, from an untrusted source. This introduces security risks as the external code runs within the domain of the host application and can potentially access sensitive data or take control. Even trusted third-party code poses risks if it gets compromised. This is common in web mashups using JavaScript includes. An example shows vulnerable login page code that includes a weather widget script that an attacker could modify to steal user credentials. 
+
+# Summary bullet points
+
+* CWE-830 relates to including web widgets, scripts or other functionality from untrusted third-party sources
+* Runs the external code within the domain of the host app with access to DOM, cookies etc.
+* Poses confidentiality, integrity and availability security risks 
+* Attackers could add malicious scripts if they compromise the external domain
+* Common in web mashup development using JavaScript includes
+* Example shows login page that includes weather widget an attacker modifies to steal credentials
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1001
+answer_tokens: 193
+time_taken: 17.52 seconds

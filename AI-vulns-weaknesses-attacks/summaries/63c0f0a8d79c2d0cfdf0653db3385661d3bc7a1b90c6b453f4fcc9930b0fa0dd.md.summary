@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summarization with analysis template filled out:
+
+# Summary
+
+The CWE-369 weakness describes when a product divides a value by zero, typically occurring when an unexpected input value is provided or an error is not properly handled. This can lead to crashes, exits/restarts, denial of service, and other availability impacts. Recommendations include validating inputs used as denominators to prevent divide by zero, and implementing error handling to catch divide by zero errors to prevent crashes. Examples are provided in Java, C, and C# code.
+
+# Summary bullet points
+
+* CWE-369 covers dividing values by zero, often from unexpected inputs or unhandled errors
+* Can lead to crashes, exits, restarts, denial of service impacting availability 
+* Recommendations: validate denominator inputs to prevent divide by zero, implement error handling to catch errors
+* Code examples provided in Java, C, and C#
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1583
+answer_tokens: 155
+time_taken: 15.94 seconds

@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of unconditional control flow transfer (such as goto statements) in code outside of branching structures like switch blocks. This makes the code more complex and harder to maintain, indirectly harming security by increasing vulnerability risks. 
+
+# Summary bullet points
+
+* Describes the weakness of using unconditional control flow transfers like goto statements outside of switch blocks
+* Makes code more complex and difficult to maintain
+* Indirectly harms security by increasing vulnerability risks
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 732
+answer_tokens: 95
+time_taken: 6.58 seconds

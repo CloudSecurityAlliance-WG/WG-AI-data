@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-1276, a weakness related to the incorrect connection of a hardware IP child block to its parent system. This can happen when integrating IP into a parent design during implementation. If connections between the IP and system are wrong, it can cause security issues even if there are no functional problems. An example is improperly connecting the privilege or security level signal of an IP to ground rather than the proper signal, allowing privilege escalation of data. The document gives Verilog examples of incorrect and correct connection of privilege and interrupt signals between modules. It suggests testing system-level interactions between blocks to catch connection issues. Overall, improper connections between hardware IP blocks and parent systems during integration can open security vulnerabilities even without functional problems.
+
+# Summary bullet points
+
+* CWE-1276 covers incorrect or improper connections between a hardware IP child block and parent system
+* Can happen when integrating IP into a design, even if no functional issues
+* Examples: connecting privilege/security signal to ground rather than proper signal
+* Allows privilege escalation of data or failure to handle interrupts properly 
+* Verilog examples show incorrect and correct signal connections
+* Suggests system-level testing to catch integration connection issues
+* Can create security vulnerabilities with no functional problems
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Weakness description from Common Weakness Enumeration (CWE) community
+================================================================================
+METADATA:
+prompt_tokens: 1313
+answer_tokens: 231
+time_taken: 24.48 seconds

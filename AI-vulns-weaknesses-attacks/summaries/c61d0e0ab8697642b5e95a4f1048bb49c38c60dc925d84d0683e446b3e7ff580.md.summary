@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-172, an encoding error weakness that occurs when a product does not properly encode or decode data, resulting in unexpected values. This can allow attackers to bypass validation checks or insert malicious code. Some common consequences are unexpected application states and impacts to data integrity. Examples of this weakness include forum software improperly decoding URLs, bypassing XSS protection via double encoded slashes, and exposing source code via Unicode encoding. Mitigations focus on proper input validation, output encoding, and ensuring inputs are decoded and canonicalized before validation. The content describes relationships to other weaknesses like path traversal and equivalence issues. It also maps to various attack patterns involving encoding techniques to bypass application logic.
+
+# Summary bullet points
+
+* CWE-172 is an encoding error weakness where data is not properly encoded or decoded
+* Can result in unexpected values and bypass of validation checks
+* Examples include forum software, XSS protection bypass, and source code exposure 
+* Consequences relate to unexpected state changes and data integrity impacts
+* Mitigations involve input validation, output encoding, decoding inputs properly
+* Related to path traversal and equivalence weaknesses
+* Enables attack techniques like double encoding and Unicode encoding to bypass logic
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Information security weakness definition (CWE) 
+================================================================================
+METADATA:
+prompt_tokens: 1166
+answer_tokens: 225
+time_taken: 23.12 seconds

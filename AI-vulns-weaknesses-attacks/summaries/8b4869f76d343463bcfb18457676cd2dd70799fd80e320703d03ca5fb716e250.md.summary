@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes the weakness CWE-326 - Inadequate Encryption Strength. This refers to a product that stores or transmits sensitive data using an encryption scheme that is theoretically sound but not strong enough to adequately protect the data. A weak encryption scheme can be broken with brute force attacks. This can allow attackers to decrypt sensitive data. The document provides details on the weakness, including its relationships to other weaknesses, applicable platforms, common consequences, observed examples, potential mitigations, and detection methods. It highlights that architects should use an encryption scheme considered currently strong by experts to avoid this weakness.
+
+# Summary bullet points
+
+* CWE-326 refers to products using encryption schemes that are theoretically sound but not strong enough to protect sensitive data
+* Weak encryption leaves data vulnerable brute force attacks that can decrypt the data
+* Consequences include attackers gaining access to confidential data by breaking the weak encryption
+* Examples of weak encryption leading to vulnerabilities are provided 
+* Architects should use encryption schemes currently considered strong by experts to avoid this weakness
+* Static analysis tools can detect some instances of weak encryption code 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1022
+answer_tokens: 213
+time_taken: 15.33 seconds

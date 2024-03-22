@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes an information security weakness related to incorrect comparison logic granularity. The weakness occurs when product comparison logic is performed in small steps rather than across the entire input string in one operation. If there is a failure at one step, it could allow timing side-channel attacks to guess secrets like passwords. 
+
+The extended description explains how comparison logic is used to validate things like passwords and MACs. If the comparison is done in a fine-grained way (e.g. byte-by-byte) and fails fast on mismatch, an attacker can exploit the timing difference to guess the correct secret through repeated attempts.
+
+Examples are given of real-world CVEs related to incorrect comparison logic granularity allowing timing attacks against passwords and HMAC comparisons.
+
+The potential mitigations suggest ensuring comparison logic compares the entire input string in one operation rather than smaller chunks.
+
+# Summary bullet points
+
+* Comparison logic validated things like passwords and MACs is vulnerable if done in small steps rather than across entire input
+* Fine-grained comparison that fails fast allows timing attacks to guess secrets through repeated attempts
+* Real-world examples given of CVEs related to incorrect granularity comparison logic
+* Mitigation is to compare entire input string in one operation rather than smaller chunks
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1114
+answer_tokens: 224
+time_taken: 16.80 seconds

@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the paper "Query-efficient Black-box Adversarial Examples":
+
+# Summary
+
+The paper introduces new methods for generating adversarial examples against neural network classifiers in restricted black-box threat models where the attacker only has query access to the model's outputs. 
+
+The first method uses Natural Evolution Strategies (NES) to estimate gradients and generate adversarial examples with 2-3 orders of magnitude fewer queries compared to prior approaches. This enables attacks in situations with constraints like rate-limiting.
+
+The second method generates targeted adversarial examples in a "partial information" setting where the attacker only has access to the top-k class labels and scores from the model. An optimization strategy is presented that perturbs an image of the target class to be misclassified as that target class. 
+
+These methods are used to generate the first transformation-robust black-box adversarial examples using Expectation over Transformation, and targeted adversarial examples against Google Cloud Vision, a commercial computer vision API. This demonstrates the efficacy against real-world cloud APIs.
+
+# Summary bullet points
+
+* Introduces NES-based method to generate black-box adversarial examples with 2-3 orders of magnitude fewer queries
+* Relates NES gradient estimates to finite differences over Gaussian random bases 
+* Achieves 99.6% success rate on CIFAR-10 and 99.2% on ImageNet with under 50K queries
+* Presents optimization strategy for "partial information" targeted attacks 
+* Generates first transformation-robust black-box adversarial examples using EOT
+* Achieves first targeted black-box attack against Google Cloud Vision API
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Academic paper
+================================================================================
+METADATA:
+prompt_tokens: 4651
+answer_tokens: 251
+time_taken: 29.38 seconds

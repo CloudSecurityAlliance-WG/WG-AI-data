@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes a weakness where a product accepts path input with asterisk wildcards ('filedir\*') without appropriate validation, allowing attackers to traverse the file system to unintended locations or access arbitrary files. This can lead to unauthorized access to confidential data. The key impacts are read/modify access to files and directories. Mitigations focus on input validation, properly decoding and canonicalizing path inputs before validation to prevent bypassing allowlists. This is a variant of larger path traversal and improper input neutralization weaknesses.
+
+# Summary bullet points
+
+* Accepts path input with asterisk wildcards ('filedir\*') without validation
+* Allows unintended file system traversal and access to arbitrary files 
+* Impacts confidentiality and integrity through unauthorized file/directory access
+* Mitigations include input validation and canonicalization before validation  
+* Child weakness of improper neutralization of wildcards and improper path resolution
+* Variant of larger path traversal weakness
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Entry 
+================================================================================
+METADATA:
+prompt_tokens: 732
+answer_tokens: 160
+time_taken: 14.77 seconds

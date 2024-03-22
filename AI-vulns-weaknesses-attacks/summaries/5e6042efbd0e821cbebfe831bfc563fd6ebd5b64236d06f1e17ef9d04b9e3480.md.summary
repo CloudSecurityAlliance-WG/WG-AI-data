@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-40, a weakness related to path traversal vulnerabilities in software. Specifically, it involves accepting input that identifies a Windows UNC share (\\UNC\share\name) that could potentially redirect access to an unintended location or arbitrary file. This is a type of path traversal issue that can allow attackers to access sensitive files. The weakness is a child of the more general CWE-36 Absolute Path Traversal. 
+
+Examples are provided such as an FTP server vulnerability that allowed retrieval of privileged web server system information. Mitigations focus on stringent input validation, decoding/canonicalizing input, using allowlists of valid input, and not relying solely on denylists or filters that remove dangerous characters.
+
+# Summary bullet points
+
+* CWE-40 is a path traversal weakness where software accepts Windows UNC share input that could redirect access in unintended ways
+* This could allow attackers to access sensitive unauthorized files 
+* It is a child of the more general absolute path traversal weakness CWE-36
+* An example is an FTP server vulnerability that allowed access to privileged system info
+* Mitigations include input validation, decoding input, allowlisting valid input, not just denylisting bad input
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 1092
+answer_tokens: 205
+time_taken: 16.27 seconds

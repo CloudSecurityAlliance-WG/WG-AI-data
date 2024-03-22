@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-785, a common weakness in software systems related to the use of path manipulation functions without providing a sufficiently large output buffer. Specifically, it points out that functions like realpath(), readlink(), PathAppend() and others that normalize paths or filenames often require output buffers of at least MAX_PATH bytes to prevent buffer overflows. However, sometimes developers pass buffers that are too small, which can then lead to overflows and potential exploits.
+
+The key points around this weakness are:
+
+- Path manipulation functions usually need large output buffers to return canonicalized path names safely
+- Passing inadequately sized buffers to these functions can result in overflows
+- This can allow attackers to modify memory, execute code, or cause denial of service crashes
+- Mitigation focuses on always allocating sufficiently large output buffers
+
+# Summary bullet points
+
+* CWE-785 relates to use of path manipulation functions without adequately sized output buffers
+* Functions like realpath(), readlink(), PathAppend() require buffers >= MAX_PATH bytes  
+* Passing too-small buffers to these can cause overflows 
+* Enables attackers to modify memory, execute code, cause crashes
+* Mitigations involve always allocating large enough output buffers
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1064
+answer_tokens: 203
+time_taken: 19.07 seconds

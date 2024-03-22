@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes an issue called "Incorrect Short Circuit Evaluation" (CWE-768) which can occur in conditional statements in code. It happens when a conditional statement contains multiple logical expressions, and one of the non-leading expressions produces side effects. Due to short-circuit evaluation logic, those side effects may not occur, leading to unexpected program state after the conditional. This could expose information, crash the system, or allow attacker control.
+
+The example shows code where decrementing the loop counter variable `i` produces the side effect of setting a user's privileges. But due to short-circuit evaluation, the last user's privileges don't get set properly. This allows that user to end up with admin privileges unexpectedly.
+
+The mitigation is to minimize side effects in conditionals to prevent short-circuit evaluation from altering control flow incorrectly.
+
+# Summary bullet points
+
+* Issue called "Incorrect Short Circuit Evaluation" (CWE-768) happens in conditionals 
+* Occurs when non-leading logical expression produces side effects
+* Short-circuit logic skips those side effects, leading to unexpected program state
+* Effects are information exposure, crashes, attacker control
+* Example shows user privileges not getting set properly
+* Last user ends up with admin privileges unexpectedly
+* Mitigation is minimize side effects in conditionals
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1119
+answer_tokens: 213
+time_taken: 20.83 seconds

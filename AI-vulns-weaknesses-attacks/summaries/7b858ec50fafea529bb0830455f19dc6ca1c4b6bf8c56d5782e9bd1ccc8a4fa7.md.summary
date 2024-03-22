@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the CWE entry on UI Misrepresentation of Critical Information:
+
+# Summary
+
+The Common Weakness Enumeration (CWE) entry describes the weakness of user interfaces failing to properly represent critical information to the user. This allows attackers to obscure or spoof the information or its source, often to trick users into taking unsafe actions. Examples include incorrect UI indicators about system security state, overlaying elements to hide legitimate interface areas, icon manipulation, race conditions causing incorrect temporary indicators, truncating important UI elements, and making critical vs non-critical UI elements too visually similar.
+
+# Summary bullet points
+
+* User interfaces can fail to properly represent critical data, allowing information or source obscuring/spoofing
+* Enables phishing and other attacks tricking users into unsafe actions
+* Incorrect indicators about security state prevent detection of issues  
+* Overlaying UI elements facilitates clickjacking and other attacks
+* Manipulating icons or indicators can hide malicious actions
+* Race conditions briefly show incorrect state indicators
+* Truncating or visually obscuring important UI elements hides critical details
+* Making UI elements too visually similar hides critical vs non-critical differences
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 1865
+answer_tokens: 200
+time_taken: 20.25 seconds

@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-407: Inefficient Algorithmic Complexity, a weakness where an algorithm has inefficient worst-case computational complexity that can be exploited to cause performance issues or denial of service. Algorithms with quadratic or exponential complexity that process untrusted input are vulnerable if attackers can craft inputs that trigger worst-case behavior. Consequences include high CPU, memory, or other resource consumption that degrades or disables the system. Examples are given like regular expressions, hash collisions, date parsing, etc that allow crafted inputs to trigger costly backtracking or an excessive number of computations. Fixes focus on improving algorithm efficiency and preventing inputs from triggering worst-case complexity.  
+
+The core security issues are denial of service through resource exhaustion and algorithmic complexity attacks using crafted inputs. Defenses involve sanitizing untrusted input, improving efficiency to prevent attacks from triggering worst-case performance, and setting limits on resource usage.
+
+# Summary bullet points
+
+* Algorithms with inefficient worst-case complexity allow denial of service through high resource consumption
+* Attacks exploit backtracking, hash collisions, repetitive parsing, etc to degrade performance 
+* Consequences include CPU, memory, and other resource exhaustion leading to unavailability
+* Examples include regular expressions, XML/text parsing, hash tables, date processing code 
+* Solutions involve improving efficiency, sanitizing input, and setting resource limits
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Definition from Common Weakness Enumeration database
+================================================================================
+METADATA:
+prompt_tokens: 1164
+answer_tokens: 232
+time_taken: 25.87 seconds

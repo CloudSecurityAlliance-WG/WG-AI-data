@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-202 weakness describes how an attacker can potentially infer sensitive information through the use of statistical data queries, even when steps have been taken to prevent tying data to individual users. By crafting queries with search terms known to be unique to a particular user, some of their data may be exposed. This can enable unauthorized access to confidential data.
+
+The weakness stems from architectures that allow a large number of users to make scrubbed queries, but fail to adequately protect against attackers piecing together data through a series of targeted queries. 
+
+Best practices involve complex information security tradeoffs between confidentiality, integrity, and availability. Consult resources such as the book "Translucent Databases" for guidance.
+
+# Summary bullet points
+
+* Allowing numerous users to make scrubbed queries can enable attackers to obtain confidential data through statistical inference via a series of targeted queries
+* Crafting queries using terms known to be unique to a user is one attack vector
+* Architectures should aim to balance information security triad of confidentiality, integrity, and availability 
+* Consult resources like "Translucent Databases" book for best practices on allowing scrubbed queries while protecting confidentiality
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 895
+answer_tokens: 204
+time_taken: 15.14 seconds

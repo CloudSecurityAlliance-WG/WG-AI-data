@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text appears to be from a website or online library focused on threats related to AI and machine learning. It discusses various issues such as algorithmic bias, data privacy, adversarial attacks, and model vulnerability. 
+
+The key points covered include:
+
+- There are 86 AI/ML threats classified into 8 categories in this library 
+- Certain machine learning models like SVMs and KNNs embed training data directly into the model, risking exposure of sensitive information
+- Attackers can manipulate training data and exploit algorithmic bias
+- Models should be evaluated for suitability before processing sensitive information 
+- Algorithmic leakage through models is a privacy and security risk that needs to be addressed
+
+The content aims to make AI/ML practitioners aware of various vulnerabilities and encourages risk assessment of models, especially regarding privacy and bias. There is also a license stating content is shared under Creative Commons Attribution-ShareAlike 4.0 International.
+
+# Summary bullet points
+
+* Online library with 86 AI/ML threats classified into 8 categories
+* Machine learning models can embed raw training data, risking exposure 
+* Attackers can manipulate training data and exploit algorithmic bias
+* Models should be vetted for suitability before processing sensitive information
+* Algorithmic leakage through models poses privacy and security risks
+* Content shared under Creative Commons Attribution-ShareAlike 4.0 International license
+
+# Geographic information
+Not applicable
+
+# Type of content
+Website/Online Library
+================================================================================
+METADATA:
+prompt_tokens: 1639
+answer_tokens: 228
+time_taken: 25.38 seconds

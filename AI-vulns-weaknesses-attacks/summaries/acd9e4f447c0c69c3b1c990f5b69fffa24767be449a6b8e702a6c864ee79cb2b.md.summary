@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-375, a common weakness related to returning a mutable object to an untrusted caller in software. It explains that sending non-cloned mutable data as a return value may allow that data to be altered or deleted by the calling function, violating assumptions about the internal state. This can enable attackers to tamper with data they should not have access to. The vulnerability exists in various languages including C, C++, Java, and C#. Recommended mitigations involve declaring returned data as constant/immutable where appropriate or cloning all mutable data before returning references to ensure a valid copy is retained even if changes are made. The vulnerability impacts access control and integrity through the ability of external code to modify internal data structures.
+
+# Summary bullet points
+
+* Sending non-cloned mutable data as a return value may allow that data to be altered by the calling function
+* Can violate assumptions about internal state and enable data tampering by untrusted code
+* Exists in languages like C, C++, Java, C# 
+* Declare returned data as constant/immutable where possible
+* Clone mutable data before returning references to it
+* Enables tampering with private data structures
+* Impacts access control and integrity
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Vulnerability Definition 
+================================================================================
+METADATA:
+prompt_tokens: 999
+answer_tokens: 223
+time_taken: 22.33 seconds

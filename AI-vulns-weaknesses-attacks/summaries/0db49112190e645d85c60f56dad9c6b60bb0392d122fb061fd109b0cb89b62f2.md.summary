@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper protection of alternate paths that allow users to access restricted functionality or resources. It occurs when a product does not sufficiently protect all possible paths a user can take to bypass protections and restrictions. This enables attackers to bypass security controls by directly requesting access to files or functionality through a non-protected alternate path.
+
+The weakness is categorized as a violation of secure design principles and can lead to privilege escalation, assuming a user's identity, or bypassing protection mechanisms. It is applicable across languages and platforms. Potential mitigations include employing defense-in-depth with layered access controls on all endpoints. Proper mediation across all alternate paths to restricted resources is needed.
+
+# Summary bullet points
+
+* Describes weakness of not protecting alternate access paths to restricted resources
+* Attackers can bypass protections by directly requesting access via unprotected paths  
+* Leads to privilege escalation, assuming user identities, bypassing protections
+* Applicable across languages and platforms
+* Mitigations include defense-in-depth, layered access controls, proper mediation across all alternate paths
+
+# Geographic information
+Not applicable
+
+# Type of content
+Common Weakness Enumeration (CWE) entry
+================================================================================
+METADATA:
+prompt_tokens: 716
+answer_tokens: 190
+time_taken: 15.31 seconds

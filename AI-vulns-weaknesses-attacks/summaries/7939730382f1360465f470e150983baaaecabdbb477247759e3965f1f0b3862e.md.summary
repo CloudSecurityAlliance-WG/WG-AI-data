@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-580 weakness describes a vulnerability that can occur when a clone() method does not call super.clone() to obtain the new object. This violates the convention that all clone() implementations should obtain the new object by calling super.clone(). If a subclass's clone() method does not follow this convention, it may return an object of the wrong type. This can lead to unexpected behavior and quality degradation.
+
+The vulnerability enables attackers to produce objects of unintended types through cloning, potentially causing integrity issues. It occurs at the implementation phase when developers do not properly call super.clone(). The vulnerability can be addressed by calling super.clone() within clone() methods to obtain new objects. Static analysis tools can also detect some instances of this weakness.
+
+# Summary bullet points
+
+* CWE-580 is a weakness where a clone() method does not call super.clone() to obtain a new object
+* Violates the convention that clone() methods should call super.clone() 
+* Can cause subclass clone() methods to return objects of the wrong type
+* Leads to unexpected behavior, quality degradation, integrity issues
+* Occurs at implementation when super.clone() is not called properly
+* Can be mitigated by calling super.clone() in clone() methods 
+* Automated static analysis tools can detect some instances
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 882
+answer_tokens: 220
+time_taken: 17.68 seconds

@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper validation of certificate expiration. Specifically, it refers to when a certificate's expiration date is not properly checked or validated, allowing trust to be assigned to expired certificates. This can enable spoofing attacks and compromise data integrity if malicious actors use the expired certificates to impersonate legitimate systems. The entry provides background on certificate validation, consequences of improper validation, and mitigations such as checking for expired certificates and validating all certificate properties before pinning.
+
+# Summary bullet points
+
+* Improper validation of certificate expiration means not properly checking or validating a certificate's expiration date
+* Can allow trust to be assigned to expired certificates 
+* Enables spoofing attacks and compromises data integrity
+* Consequences include technical impacts to authentication and data integrity
+* Mitigations include checking for expired certificates, validating all certificate properties before pinning
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 965
+answer_tokens: 158
+time_taken: 15.43 seconds

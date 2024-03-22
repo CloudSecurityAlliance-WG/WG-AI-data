@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-115 describes the weakness of misinterpretation of input. This occurs when a product misinterprets an input from an attacker or another product in a security-relevant way. This can lead to unexpected states or behaviors that may expose vulnerabilities. Specific examples provided include a product seeing a dangerous file extension in free text and disconnecting all users, or a product not correctly importing and processing security settings from another product. 
+
+To detect this weakness, fuzz testing is recommended, which involves generating diverse inputs to dynamically invoke the code. This can reveal crashes, memory corruption, or other unexpected results that indicate bugs.
+
+The weakness is considered relevant to software design and development concepts and can lead to integrity impacts through unexpected technical states. It is applicable to all programming languages.
+
+# Summary bullet points
+
+* CWE-115 describes the weakness of misinterpreting inputs in a security-relevant way
+* Can occur from inputs from attackers or other products 
+* Can lead to unexpected states and behaviors that create vulnerabilities
+* Examples include disconnecting users from dangerous file extensions or not properly importing security settings
+* Fuzz testing recommended to detect weakness by invoking code with diverse inputs
+* Relevant to software design and development with integrity impacts from unexpected states
+* Applies across programming languages
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry (common weakness enumeration) 
+================================================================================
+METADATA:
+prompt_tokens: 745
+answer_tokens: 233
+time_taken: 21.15 seconds

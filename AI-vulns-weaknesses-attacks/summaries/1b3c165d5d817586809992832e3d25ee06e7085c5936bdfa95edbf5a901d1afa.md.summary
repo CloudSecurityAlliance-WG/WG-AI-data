@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the technique of publishing poisoned datasets, where adversaries intentionally contaminate machine learning training data in order to compromise machine learning systems. When models are trained on these poisoned datasets, they can behave erroneously or give attackers a backdoor into the system. Adversaries may create novel poisoned datasets or insert poisons into existing open datasets that are publicly available. The tainted data could then enter a victim's system through compromises in the machine learning supply chain. The mitigation suggested is to thoroughly verify machine learning artifacts like models and datasets before use to ensure no poisons are present. Overall, the article highlights threats to information and AI security stemming from data poisoning attacks against machine learning systems.
+
+# Summary bullet points
+
+* Adversaries can intentionally poison ML training data to compromise ML systems when used
+* Poisoned data makes models behave incorrectly or gives attackers backdoor access 
+* Poisoned datasets may be novel or insertions into existing public datasets
+* Compromised ML supply chain can introduce poisoned data into victim systems
+* Suggested mitigation is rigorous verification of datasets, models before use
+* Data poisoning attacks present infosec and AI security threats
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 498
+answer_tokens: 206
+time_taken: 14.55 seconds

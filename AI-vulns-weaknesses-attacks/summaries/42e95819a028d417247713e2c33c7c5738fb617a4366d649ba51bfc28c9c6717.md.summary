@@ -1,0 +1,35 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text appears to be extracted from a website called PLOT4ai, which contains a library of threats related to AI and ML. It classifies threats into 8 different categories. The page shows threats related to insider threats - where AI designers and developers may deliberately expose data and algorithms for malicious reasons like revenge or extortion. This impacts data confidentiality and integrity. 
+
+The text seems to be prompting the reader to assess if they are protected against such insider threats to AI systems. If not protected, the systems and data are at risk from malicious insiders. It also references the ENISA source for the insider threat information.
+
+Overall, the key focus areas are:
+- Insider threats to AI/ML systems 
+- Data and algorithm exposure
+- Impacts to confidentiality and integrity 
+- Need for protections and controls
+
+# Summary bullet points
+
+* PLOT4ai contains library of 86 threats related to AI/ML, organized in 8 categories
+* Focuses on insider threat of deliberate data exposure by AI designers/developers
+* Reasons include revenge, extortion 
+* Impacts data confidentiality and integrity
+* Prompts reader to assess protections against such threats
+* References ENISA as source of insider threat info
+* Lack of protections puts systems and data at risk
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Threat library
+================================================================================
+METADATA:
+prompt_tokens: 1471
+answer_tokens: 220
+time_taken: 19.20 seconds

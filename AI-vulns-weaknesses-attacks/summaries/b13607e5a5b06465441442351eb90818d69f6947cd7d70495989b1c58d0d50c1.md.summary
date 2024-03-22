@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the given text:
+
+# Summary
+
+The text describes the technique "Valid Accounts" (AML.T0012) used by adversaries to gain initial access in attacks against machine learning systems. It explains how adversaries may obtain credentials of existing user and service accounts to access ML resources and artifacts. Compromised credentials provide increased privileges that allow adversaries to discover additional artifacts, as well as read and write access that enables data and model manipulation. The text lists three case studies demonstrating how this technique has been used in real-world attacks on ML systems.
+
+# Summary bullet points
+
+* Adversaries use compromised credentials of existing ML system accounts as a means of gaining initial access 
+* Credentials can be usernames/passwords for user accounts or API keys for programmatic access
+* Access allows adversaries to discover additional artifacts and gain elevated privileges
+* With sufficient privileges, adversaries can manipulate data and models
+* Describes use of this technique in attacks documented in three case studies
+
+# Geographic information
+Not applicable
+
+# Type of content
+Encyclopedia article
+================================================================================
+METADATA:
+prompt_tokens: 529
+answer_tokens: 177
+time_taken: 16.44 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the technique of adversaries gaining access to machine learning models via legitimate access to inference APIs. Inference API access can allow adversaries to discover information about the model, craft adversarial data to attack the model, or introduce data to evade or erode the integrity of the model. Four case studies are provided of attacks leveraging inference API access: attacks on machine translation services like Google Translate, a Microsoft Azure service disruption, Microsoft Edge AI evasion, and evasion of a facial identification system. The key mitigation strategy proposed is to control access to ML models and data in production environments.
+
+# Summary bullet points
+
+* Adversaries can gain access to models via legitimate inference API access
+* Inference API access can enable discovery of model information, staging of attacks, or impacting model behavior 
+* Four case studies given: Attacks on translation services, Azure service disruption, Edge AI evasion, and facial recognition evasion
+* Proposed mitigation is controlling access to production ML models and data
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website Article
+================================================================================
+METADATA:
+prompt_tokens: 603
+answer_tokens: 179
+time_taken: 10.74 seconds

@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The CWE entry describes the weakness of replicating malicious code, including viruses and worms, which attempt to attack other systems once they have compromised the target system. It is a child of the Trojan Horse weakness. The main consequence is executing unauthorized code or commands, impacting confidentiality, integrity and availability. Potential mitigations include using antivirus software to scan for malware and verifying the integrity of software before installation. 
+
+# Summary bullet points
+
+* Describes weakness of replicating malicious code like viruses and worms that spread to other systems
+* Is a child of the Trojan Horse weakness 
+* Main consequence is execution of unauthorized code, impacting confidentiality, integrity and availability
+* Mitigations include antivirus software and verifying software integrity before installation
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 640
+answer_tokens: 143
+time_taken: 11.65 seconds

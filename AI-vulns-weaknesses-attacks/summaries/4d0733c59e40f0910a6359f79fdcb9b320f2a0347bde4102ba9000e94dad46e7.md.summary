@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-325 weakness describes a situation where a required cryptographic step is missing from an implementation, resulting in weaker encryption than expected. This can happen when developers try to optimize performance by skipping expensive steps or when requirements don't clearly specify all necessary steps. Consequences include the ability for attackers to more easily bypass protections, access sensitive data, hide activities, and subvert systems dependent on cryptographic assurances. An example demonstrates the problem in a hardware implementation of HMAC authentication that can only handle 512 bit messages rather than properly handling iterative hashing. Mitigations focus on ensuring complete implementations and clear requirements.
+
+# Summary bullet points
+
+* CWE-325 refers to missing required steps in cryptographic implementations
+* Leads to weaker encryption than algorithms intend 
+* Developers may skip steps to optimize performance 
+* Unclear requirements can fail to specify all necessary steps
+* Enables attackers to more easily bypass protections and access sensitive data
+* Example shows HMAC implementation handling only 512 bits instead of full iterative hashing
+* Mitigations include complete implementations and clear requirements
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1139
+answer_tokens: 188
+time_taken: 19.23 seconds

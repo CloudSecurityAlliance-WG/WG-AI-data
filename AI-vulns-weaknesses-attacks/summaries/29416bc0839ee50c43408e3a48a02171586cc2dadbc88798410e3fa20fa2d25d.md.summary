@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+This document describes a technique called "Exfiltration via ML Inference API: Extract ML Model" which allows adversaries to extract a copy of a private machine learning model by repeatedly querying the victim's ML Model Inference API. The collected inferences are used to train a separate model offline that mimics the behavior of the target model. This can allow adversaries to avoid paying per query fees in a machine learning as a service setting or to steal ML intellectual property. MITRE provides mitigation suggestions like obfuscating ML output and restricting the number of allowed model queries.
+
+# Summary bullet points
+
+* Adversaries can extract copies of private ML models by repeatedly querying victim's Model Inference API 
+* Collected inferences used to train mimic model offline
+* Allows adversaries to avoid per query fees or steal ML intellectual property
+* Suggested mitigations include obfuscating ML output and restricting number of allowed queries
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website
+================================================================================
+METADATA:
+prompt_tokens: 653
+answer_tokens: 162
+time_taken: 11.07 seconds

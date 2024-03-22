@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This text discusses the technique of obtaining software tools to support adversarial operations against machine learning systems. It states that adversaries may search for and repurpose legitimate software, or modify software, to achieve their malicious goals. While the software tools themselves may not employ machine learning, they can be used to mount attacks. The text specifically calls out one subtechnique for obtaining adversarial machine learning attack implementations. It also mentions a case study involving hijacking a camera feed to fool a facial recognition system. Overall, it focuses on the ways adversaries can develop resources like software tools to carry out attacks on machine learning and AI systems.
+
+# Summary bullet points
+
+* Adversaries may obtain legitimate software tools and repurpose or modify them to support attacks on ML systems
+* Software tools used in ML system attacks do not necessarily employ ML themselves 
+* Subtechnique mentioned for obtaining adversarial ML attack implementations specifically
+* Case study provided of camera hijack to fool facial recognition
+* Focuses on resource development tactics like obtaining software tools for attacks against ML
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Specifically a description of the ATT&CK technique "Obtain Capabilities: Software Tools" from the MITRE ATLAS site.
+================================================================================
+METADATA:
+prompt_tokens: 579
+answer_tokens: 207
+time_taken: 16.60 seconds

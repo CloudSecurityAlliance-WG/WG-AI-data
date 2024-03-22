@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-441, a common weakness enumeration related to an unintended proxy or intermediary ("confused deputy") vulnerability. This occurs when a product receives a request from an upstream component and forwards it to an external system without preserving the original source of the request. This causes the product to appear as the source of the request, allowing it to act as an unintended proxy between the upstream component and external system. Attackers can exploit this to bypass access controls or hide the source of malicious requests. The key is that the intermediary system fails to maintain the true identity of the original requester when forwarding messages.
+
+# Summary bullet points
+
+* CWE-441 refers to an unintended proxy/intermediary ("confused deputy") vulnerability whereby a system forwards requests without preserving identity of original requester
+* Occurs when a product receives a request from upstream, does not preserve original source, and forwards to external system, causing it to appear as source 
+* Allows attackers to bypass access controls or hide source of attacks by proxying through the intermediary system
+* Key aspect is the failure of the intermediary to maintain the identity of the original requester when forwarding messages
+* Becomes a vulnerability when intermediary system runs with different privileges/access than original requester and attacker can't access target directly
+* Also known as the "Confused Deputy Problem"  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1789
+answer_tokens: 249
+time_taken: 21.87 seconds

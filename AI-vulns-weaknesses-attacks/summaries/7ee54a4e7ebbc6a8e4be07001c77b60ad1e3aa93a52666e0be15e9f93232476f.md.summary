@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-650 weakness deals with trusting HTTP permission methods on the server side. Specifically, it refers to servers that assume HTTP GET requests will not cause state changes, allowing attackers to bypass access restrictions and modify or delete resources. The HTTP spec requires GET requests not have side effects, but nothing prevents them from altering data. Developers may allow GETs to update data, but must properly enforce access control in these cases. Assumptions that only PUT, POST, DELETE etc. can alter data may enable attackers to escalate privileges, modify application data, or obtain sensitive information with GET requests. 
+
+# Summary bullet points
+
+* CWE-650 involves servers trusting HTTP GET requests not to change state, allowing bypass of access controls
+* HTTP spec says GET requests should not change state but does not prevent it 
+* Developers may code apps to allow GETs to alter data, requiring proper access control
+* Assuming only PUT, POST, DELETE etc. alter state, not GET, enables attackers to escalate privileges and access/modify data
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 908
+answer_tokens: 183
+time_taken: 16.56 seconds

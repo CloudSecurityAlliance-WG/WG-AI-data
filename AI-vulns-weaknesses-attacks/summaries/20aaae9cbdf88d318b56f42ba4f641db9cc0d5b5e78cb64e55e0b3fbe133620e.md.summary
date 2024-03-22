@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-186 describes the weakness of using an overly restrictive regular expression that fails to match all intended values. This can lead to false positives or false negatives when the regex is used to identify acceptable values or spot unwanted terms. For example, the regex /[0-8]/ intended to match digits 0-9 would fail to match the digit 9. This could allow dangerous values to bypass protections or cause critical values to be omitted.
+
+The consequences include bypassing access controls and failing to detect security-relevant values. Potential mitigations include simplifying complex regular expressions, thorough testing, and refactoring regexes when exploits are found.
+
+# Summary bullet points
+
+* CWE-186 involves using an overly restrictive regular expression that fails to match all intended values
+* This can lead to false positives or negatives when regex used to identify acceptable values or spot unwanted terms
+* For example, regex /[0-8]/ fails to match digit 9, allowing dangerous values to bypass protections
+* Consequences include bypassing access controls and failing to detect security-relevant values 
+* Mitigations include simplifying regexes, thorough testing, and refactoring regexes when exploits found
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 850
+answer_tokens: 203
+time_taken: 13.87 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+This MITRE ATLAS entry provides information on the machine learning technique "ML Artifact Collection" (AML.T0035). It states that adversaries may collect ML artifacts like models, datasets, and telemetry data produced when interacting with a model for purposes such as exfiltration or use in ML attack staging. Two case studies are provided as examples - the Microsoft Azure service disruption and arbitrary code execution with Google Colab. The key mitigation strategy recommended is to encrypt sensitive information. 
+
+# Summary bullet points
+
+* Adversaries may collect ML artifacts like models, datasets, and telemetry data for exfiltration or ML attack staging
+* Case studies: Microsoft Azure service disruption, arbitrary code execution with Google Colab  
+* Key mitigation: Encrypt sensitive information
+* Tactic: Collection
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Webpage - ML technique description from MITRE ATLAS framework
+================================================================================
+METADATA:
+prompt_tokens: 539
+answer_tokens: 140
+time_taken: 11.93 seconds

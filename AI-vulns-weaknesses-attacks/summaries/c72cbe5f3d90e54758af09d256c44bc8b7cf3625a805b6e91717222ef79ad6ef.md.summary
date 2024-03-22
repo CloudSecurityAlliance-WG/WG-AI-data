@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-834 weakness describes excessive iteration, where a product performs a loop or iteration without properly limiting the number of times it is executed. This can allow attackers to consume excessive resources like CPU cycles or memory. Even if not infinite, a loop can cause resource issues if allowed to run too many times. This impacts availability by enabling denial of service through resource consumption, slow system performance, crashes, or other stability issues.
+
+Key factors enabling this weakness include insufficient control flow management, uncontrolled recursion, infinite loops with unreachable exit conditions, unchecked loop conditions, and insufficient precision of real numbers used in loop conditions. Consequences include denial of service through CPU, memory or other resource consumption, amplification attacks, system instability, crashes, or delayed responses. Remediation focuses on validating inputs related to loop conditions, setting reasonable limits on iterations, and ensuring loop exit conditions can be reached.
+
+# Summary bullet points
+
+* Product performs excessive iteration without limiting loop execution
+* Enables denial of service via excessive CPU, memory, or other resource consumption
+* Impacts availability through crashes, instability, amplification attacks 
+* Caused by uncontrolled recursion, infinite loops, unchecked conditions
+* Validate inputs to loops, ensure reachable exit conditions
+* Set reasonable limits on number of iterations
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1354
+answer_tokens: 222
+time_taken: 23.92 seconds

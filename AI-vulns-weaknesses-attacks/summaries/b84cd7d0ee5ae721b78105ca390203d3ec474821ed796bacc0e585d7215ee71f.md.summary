@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-831 weakness describes a vulnerability where the same function is used to handle multiple signals in a program. This can lead to race conditions if the handler function uses any shared state or has side effects. An attacker could send one signal to invoke the handler, then send another associated signal to interrupt it and potentially corrupt shared state. Consequences range from denial of service crashes to bypassing of security mechanisms to privilege escalation or information exposure. 
+
+# Summary bullet points
+
+* CWE-831 is a weakness where the same signal handler function is associated with multiple signals
+* Can lead to race conditions if the handler uses shared state or has side effects 
+* Attacker can send one signal to invoke handler, then another to interrupt it
+* Potentially corrupts shared state due to the race condition
+* Consequences range from crashes to security bypass, privilege escalation, information leaks
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1343
+answer_tokens: 163
+time_taken: 17.75 seconds

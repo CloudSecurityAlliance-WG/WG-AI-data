@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-481 weakness describes cases where code accidentally uses an assignment operator instead of a comparison operator, typically due to a typo. This causes unexpected behavior, like an if statement always evaluating to true or false. Examples are shown in C, C++, C#, and Java code where = is used instead of ==, resulting in a variable being reassigned rather than compared. This can bypass input validation or alter program logic. The likelihood of exploit is considered low, but the impact can be altering execution logic. Recommendations include avoiding boolean comparisons in Java in favor of letting the boolean value stand for itself, and being careful about parameter passing to avoid unintended side effects.
+
+# Summary bullet points
+
+* CWE-481 refers to using an assignment operator instead of a comparison operator, typically due to a typo
+* This causes if statements to not behave as expected, altering execution logic
+* Examples are shown in C, C++, C#, and Java code using = instead of ==
+* Can result in input validation being skipped or unintended program logic
+* Likelihood of exploit is low but impact can be high by altering logic
+* Recommendations include avoiding boolean comparisons in Java and being careful with parameter passing
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1056
+answer_tokens: 221
+time_taken: 16.03 seconds

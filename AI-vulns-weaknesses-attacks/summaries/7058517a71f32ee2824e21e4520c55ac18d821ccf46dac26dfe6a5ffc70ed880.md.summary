@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-113 describes the weakness of improper neutralization of CRLF sequences in HTTP headers, also known as HTTP request/response splitting. This occurs when a web application or component does not properly sanitize user input containing carriage return (CR) and line feed (LF) characters before using it in HTTP headers. Attackers can exploit this to inject malicious CRLF sequences and gain control over the structure of the HTTP request and response. Consequences include cross-site scripting, web cache poisoning, cross-user defacement, and page hijacking. Proper input validation and output encoding are recommended to mitigate this weakness. 
+
+# Summary bullet points
+
+* CWE-113 involves improper neutralization of CRLF sequences allowing HTTP request/response splitting attacks
+* CRLF sequences can be injected via untrusted user input into vulnerable web apps/components 
+* Consequences include XSS, web cache poisoning, cross-user defacement, page hijacking
+* Occurs when CRLF sequences in HTTP headers are not properly sanitized 
+* Proper input validation and output encoding recommended as mitigations
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 2601
+answer_tokens: 185
+time_taken: 20.09 seconds

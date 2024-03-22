@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-687, a common weakness enumeration related to calling functions with incorrectly specified argument values. It explains that this weakness occurs when a product calls a function, procedure, or routine but the caller specifies an argument containing the wrong value. This can lead to resultant weaknesses. 
+
+The consequences of this weakness are a reduction in quality and technical impact. It often occurs in rarely tested code since the wrong argument value can change the semantic meaning and lead to incorrect behavior. It can also result from improper variable assignment where the wrongly assigned variable is later used in a function call.
+
+# Summary bullet points
+
+* Describes CWE-687 - Calling functions with incorrectly specified argument values
+* Occurs when caller passes wrong argument value to a function 
+* Can lead to resultant weaknesses
+* Causes quality degradation and technical impact
+* Often appears in rarely tested code 
+* Can result from improper variable assignment followed by function calls using the wrong variable value
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) Definition
+================================================================================
+METADATA:
+prompt_tokens: 877
+answer_tokens: 181
+time_taken: 13.25 seconds

@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+This short article from MITRE ATLAS outlines a potential technique that adversaries could use to exfiltrate sensitive information from large language models (LLMs) like ChatGPT. Specifically, it notes that adversaries may be able to craft prompts that trick the LLM into leaking private user data, proprietary training data, or other sensitive information. As a case study, it points to an incident where a ChatGPT plugin leaked private user data. The key risk highlighted is that LLMs may inadvertently expose sensitive information they have access to or have stored in their training data.
+
+# Summary bullet points
+
+* Adversaries could craft prompts that trick LLMs like ChatGPT into leaking sensitive information 
+* Information leaked could include private user data, proprietary training data, or other sensitive information
+* ChatGPT plugin case study where plugin leaked private user data
+* Main risk is LLMs inadvertently exposing sensitive information they have access to
+* Tactic outlined is exfiltration of this sensitive information
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 449
+answer_tokens: 170
+time_taken: 10.19 seconds

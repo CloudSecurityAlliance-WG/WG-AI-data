@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a weakness where code contains a function or method operating in a multi-threaded environment but owns an unsafe non-final static storable or member data element. This can prevent the product from running reliably and potentially introduce vulnerabilities if reachable by attackers. It is categorized as an improper synchronization issue and a concurrency issue. The consequence is reduced reliability.
+
+# Summary bullet points
+
+* Code contains function/method running in multi-threaded environment with unsafe non-final static data element
+* Can prevent reliable execution of product
+* If reachable by attackers, could introduce vulnerabilities
+* Categorized as improper synchronization and concurrency issue
+* Consequence is reduced reliability
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 738
+answer_tokens: 124
+time_taken: 10.15 seconds

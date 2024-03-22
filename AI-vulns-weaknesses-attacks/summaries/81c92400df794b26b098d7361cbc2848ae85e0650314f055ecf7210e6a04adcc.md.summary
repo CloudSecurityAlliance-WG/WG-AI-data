@@ -1,0 +1,38 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-273 describes the weakness of improper check for dropped privileges. This occurs when a product attempts to drop privileges but fails to check or incorrectly checks whether the drop succeeded. If the drop fails, the product continues running with raised privileges, potentially allowing unprivileged users to gain unauthorized access. 
+
+The entry provides background details, potential mitigations, detection methods, affected resources, taxonomy mappings, and references. Key points include:
+
+- If privilege dropping fails, users may retain higher privileges and access rights than intended
+- This may allow attackers to exploit the behavior to access restricted files/resources
+- On Windows, ensure process tokens have proper privileges to enable privilege demotion 
+- Check return values of functions that drop privileges to confirm expected behavior
+- Use privilege separation and compartmentalization in system design to limit privilege scope
+
+Overall, the entry highlights the need to validate that privilege lowering succeeds as expected to prevent unintended elevated access.
+
+# Summary bullet points
+
+* Attempts to drop privileges but fails to check or incorrectly checks if it succeeded
+* If dropping privileges fails, continues running with raised privileges 
+* Can allow unprivileged users to gain unauthorized access or perform restricted actions
+* May enable attackers to exploit behavior to access restricted files/resources
+* Background on privilege management, impersonation on Windows
+* Potential mitigations include privilege separation, compartmentalization
+* Check return values of privilege dropping functions to confirm success
+* Ensure Windows process tokens have proper privileges for demotion
+* Use automated static analysis to detect flaws
+* Affects system processes and security controls
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry from MITRE/CWE
+================================================================================
+METADATA:
+prompt_tokens: 1355
+answer_tokens: 278
+time_taken: 27.28 seconds

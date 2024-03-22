@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper neutralization of formula elements in CSV files (CWE-1236). When user-provided data is exported to a CSV file and opened in a spreadsheet program, entries starting with '=' are interpreted as formulas and executed. Attackers can exploit this to exfiltrate data or execute malicious commands when the CSV file is opened. The mitigations suggest properly escaping or removing risky formula characters like '=', '+', '-' from data before exporting to CSV, prepending formulas with ' to prevent execution in Excel, or configuring spreadsheet programs to disallow formula execution from untrusted files.
+
+# Summary bullet points
+
+* CWE-1236 describes the weakness of improper neutralization of formula elements like '=' in CSV files 
+* Spreadsheet programs interpret '=' entries in CSV files as formulas and execute them
+* Attackers can exploit this to exfiltrate data or execute commands when a CSV file is opened
+* Suggested mitigations include escaping formula elements before export to CSV, prepending formulas with ' in Excel, or configuring spreadsheet programs to disallow formula execution from untrusted files
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 1143
+answer_tokens: 193
+time_taken: 16.02 seconds

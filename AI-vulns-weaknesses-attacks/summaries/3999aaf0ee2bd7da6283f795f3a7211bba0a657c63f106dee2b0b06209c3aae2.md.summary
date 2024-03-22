@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') is a weakness where user-controllable input is used to construct SQL queries without properly neutralizing or escaping special elements. This allows attackers to modify the SQL logic to bypass security checks, access or modify data, or execute system commands. Common consequences include loss of confidentiality, bypassing protection mechanisms, and modifying application data. SQL injection is very common in web applications using databases and has a high likelihood of exploit. 
+
+Mitigations focus on using proper input validation, output encoding, stored procedures and prepared statements, limiting account privileges, and application firewalls. Input validation alone is not sufficient - output encoding and escaping is critical. The most important mitigation is to properly handle user input by parameterizing queries to separate data from code.
+
+# Summary bullet points
+
+* SQL injection allows attackers to modify SQL logic by using un-neutralized user input in queries
+* Consequences include loss of confidentiality, bypassing access controls, and data modification
+* Very common attack against web apps using databases
+* High likelihood of exploit due to easy detection and automation
+* Mitigations should focus on input validation, output encoding, limiting privileges, prepared statements
+* Proper handling of user input by parameterizing queries is the most effective mitigation
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 5174
+answer_tokens: 227
+time_taken: 20.92 seconds

@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the research paper:
+
+# Summary
+
+The paper presents a new gradient-based attack method to evaluate the robustness of neural network models against adversarial examples. The key ideas are:
+
+1. Starting from an adversarial point far from the clean input, iteratively move along the decision boundary towards the clean input to find the closest adversarial example. 
+2. In each step, an optimization problem is solved that estimates the optimal step towards the clean input based on the local geometry of the decision boundary.
+3. The proposed attacks outperform state-of-the-art attacks across different norms (L0, L1, L2, Linf), models and attack scenarios in terms of success rate, query efficiency and reliability.
+
+The attacks only require a single hyperparameter (the trust region radius) and are robust against suboptimal parameter settings. This makes the evaluation of model robustness more reliable compared to prior gradient-based attacks. The improved attacks have the potential to accelerate progress towards developing robust machine learning models.
+
+# Summary bullet points
+
+* Start from adversarial point far from clean input and iteratively move along decision boundary
+* Estimate optimal step towards clean input using local geometry of boundary  
+* Outperform state-of-the-art across norms, models and scenarios
+* Higher success rates, more query efficient, more reliable
+* Single hyperparameter, robust against suboptimal settings
+* More reliable evaluation to find robust models
+
+# Geographic information
+
+"Not applicable"
+
+# Type of content 
+
+Research Paper
+================================================================================
+METADATA:
+prompt_tokens: 5335
+answer_tokens: 237
+time_taken: 30.54 seconds

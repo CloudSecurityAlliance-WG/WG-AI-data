@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+This text discusses the threat of malicious AI/ML providers being able to recover private training data from models they have provided to customers. It explains how researchers have shown it is possible for a malicious provider to present a backdoored model to a customer, where the provider can later query the model to recover the original private training data used to train it. This allows sensitive texts and images used in training to be exposed given only access to the model itself.
+
+The text recommends organizations using outsourced model training assess whether they are at risk from such attacks, considering the sensitivity of their training data and the level of trust with their providers. It also advises reusing publicly available models where possible to mitigate this threat. An example is given of researchers who inserted malicious code into a public image recognition model and used it to recover private images.
+
+Overall the key message is that malicious model providers pose a real threat to privacy of training data, especially where sensitive data is used. Caution should be exercised in selecting providers and reuse of public models is safer when feasible.
+
+# Summary bullet points
+
+* Malicious AI/ML providers can recover private training data by querying models they provide to customers
+* Researchers have demonstrated attacks where backdoored models allow full training data recovery 
+* Images, text and other sensitive training data can be exposed
+* Organizations outsourcing model training should assess their level of risk
+* Publicly available models should be reused where possible to mitigate risks
+* Example attack involved researchers inserting malicious code in public image recognition model to capture private images
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 2215
+answer_tokens: 286
+time_taken: 29.47 seconds

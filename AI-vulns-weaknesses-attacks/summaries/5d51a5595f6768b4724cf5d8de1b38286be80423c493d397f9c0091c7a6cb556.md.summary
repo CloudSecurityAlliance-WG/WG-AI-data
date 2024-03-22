@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes the weakness CWE-776: Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'). This weakness occurs when a product uses XML documents and allows their structure to be defined with a Document Type Definition (DTD), but does not properly control the number of recursive definitions of entities. If the DTD contains a large number of nested or recursive entities, this can lead to explosive growth of data when parsed, causing a denial of service attack known as an "XML bomb". 
+
+The document provides details on the weakness including its description, extended description, alternate terms like XEE and Billion Laughs attack, relationships to other weaknesses, applicable platforms like XML, common consequences like denial of service through resource consumption, potential mitigations, detection methods, related attack patterns, and external references. It highlights that this is a common weakness that can have serious impacts if not properly restricted in XML parsing software, leading to out-of-control resource consumption.
+
+# Summary bullet points
+
+* Weakness ID CWE-776: Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')
+* Occurs when XML parser does not restrict recursive entity definitions in DTD
+* Can lead to exponential entity expansion known as XML bomb/XEE attack  
+* Causes denial of service through extensive resource consumption
+* Alternate terms: XEE, Billion Laughs Attack, XML Bomb
+* Mitigations include prohibiting DTD use, limiting entity expansion, scanning for recursive entities
+* Detected through static analysis of source/binary code
+* Part of OWASP Top 10 2017 (A4) and 2021 (A05)
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 1226
+answer_tokens: 274
+time_taken: 28.24 seconds

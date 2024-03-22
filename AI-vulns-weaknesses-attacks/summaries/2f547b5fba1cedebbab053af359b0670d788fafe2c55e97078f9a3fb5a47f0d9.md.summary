@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of always-incorrect control flow implementation in code. This refers to when a control flow path in the code does not accurately reflect the intended algorithm, leading to incorrect behavior when that path executes. Some examples provided include omitting braces in C code blocks, leading to unintended execution of statements, and omitting break statements in switch blocks in languages like Java and C, causing unintended fall-through to subsequent case blocks. The consequences relate to altered execution logic, enabling things like denial of service attacks or access to unintended code segments.
+
+# Summary bullet points
+
+* Always-incorrect control flow implementation refers to when a control flow path in code does not match the intended algorithm
+* Examples include omitting braces in C code blocks, leading to unintended statement execution
+* Also includes omitting break statements in switch blocks in Java/C, enabling unintended fall-through
+* Can enable consequences like denial of service attacks or access to unintended code
+* Overall allows incorrect control flow and unintended execution logic
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1268
+answer_tokens: 187
+time_taken: 17.68 seconds

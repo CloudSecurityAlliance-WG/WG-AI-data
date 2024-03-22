@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of using an out-of-range pointer offset when performing pointer arithmetic. This can cause the pointer to point outside the intended memory location, allowing attackers to potentially read sensitive memory, cause denial of service, or execute unauthorized code. The extended description explains that while pointers reference arbitrary memory locations, programs intend to access limited memory regions like arrays. Offsets used in pointer arithmetic may be out-of-range if from untrusted sources, due to incorrect calculations, or other errors. If attackers control the offset to point outside the intended structure boundaries, they could change program state, crash the program, or achieve code execution.
+
+# Summary bullet points
+
+* CWE-823 describes the use of out-of-range pointer offsets during pointer arithmetic, causing the pointer to reference unintended memory regions
+* Programs intend to use pointers to access limited memory regions like arrays, but incorrect offsets can point outside these boundaries 
+* Attacks may originate from untrusted offset sources, incorrect calculations, or other errors
+* Consequences include reading sensitive memory, denial of service crashes, or executing unauthorized code
+* Automated static analysis can detect some instances by modeling data and control flow to identify vulnerable patterns
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 1389
+answer_tokens: 212
+time_taken: 22.09 seconds

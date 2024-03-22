@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text is from a library of AI/ML threats called PLOT4ai. It contains 86 threats classified into 8 categories. The specific threat shown talks about the challenge of AI/ML systems being robust to distributions changes when deployed in real-world settings. The system could encounter unfamiliar situations that are hard to handle, leading to harmful actions. It asks if your system can handle distribution changes, saying no or unsure means you are at risk.
+
+# Summary bullet points
+
+* PLOT4ai is a library of 86 AI/ML threats in 8 categories 
+* Shows an example threat about distribution robustness for real-world AI deployments
+* Says unfamiliar situations could lead to harmful AI system actions
+* Asks if your system can handle distribution changes 
+* Not being robust to distribution changes puts you at risk
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website/Library
+================================================================================
+METADATA:
+prompt_tokens: 1771
+answer_tokens: 144
+time_taken: 16.52 seconds

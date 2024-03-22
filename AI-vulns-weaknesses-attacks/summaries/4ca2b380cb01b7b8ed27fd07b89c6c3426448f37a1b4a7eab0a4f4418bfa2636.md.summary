@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the potential vulnerability that can arise in J2EE applications when unserializable objects are written to disk by the application framework under heavy load. Specifically, if session or application scoped entities in a J2EE application do not implement the Serializable interface, attempts by the framework to serialize them to disk under high load may fail and crash the application. An attacker could exploit this by sending enough requests to force objects to disk. The solution is to ensure all such entities implement Serializable.
+
+# Summary bullet points
+
+* J2EE frameworks may write objects to disk under high load to manage memory
+* If entities used as session/application scoped objects don't implement Serializable, serialization may fail
+* This can allow an attacker to crash the app with enough requests to force serialization
+* Entities that may get written to disk should implement Serializable 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1002
+answer_tokens: 157
+time_taken: 14.96 seconds

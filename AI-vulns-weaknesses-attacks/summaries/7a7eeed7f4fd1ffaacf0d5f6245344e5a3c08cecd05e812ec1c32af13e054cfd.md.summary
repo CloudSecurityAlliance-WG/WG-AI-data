@@ -1,0 +1,36 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-154, a weakness related to improper neutralization of variable name delimiters. It explains that the weakness occurs when a product receives input but does not properly neutralize or incorrectly neutralizes special elements that could be interpreted as variable name delimiters. This can allow an attacker to inject delimiters that may cause unexpected behavior or actions that result in an attack. Examples of delimiters include "$" for environment variables. 
+
+The weakness is a child of CWE-138 Improper Neutralization of Special Elements. It is applicable across languages and platforms. Potential impacts include unexpected application state and integrity issues. Observed examples involve the "%" and macro characters being used to trigger commands or exposure of information.
+
+Mitigations focus on input validation using allowlists, ensuring inputs conform strictly to specifications, and rejecting or transforming invalid inputs. Output encoding by quoting arguments and escaping special characters is also recommended where dynamic query strings/code/commands can't be avoided. Decoding and canonicalizing inputs before validation is another mitigation.
+
+The weakness is considered under-studied and maps to the PLOVER taxonomy's Variable Name Delimiter node. It is a member of weaknesses related to tainted input to commands and improper neutralization.
+
+# Summary bullet points
+
+* Weakness related to improper neutralization of variable name delimiters which may allow unexpected behavior or attacks
+* Occurs when input is not neutralized or incorrectly neutralized 
+* Injected delimiters like "$" can trigger unexpected actions 
+* Child of improper neutralization of special elements weakness
+* Applicable across languages and platforms
+* Potential impacts include unexpected state changes and integrity issues
+* Observed examples use "%" and macros to trigger commands or exposure
+* Mitigations focus on allowlists, input validation, output encoding, decoding/canonicalizing before validation
+* Considered under-studied, maps to PLOVER Variable Name Delimiter node 
+* Member of weaknesses for tainted input to commands and improper neutralization
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Article from Common Weakness Enumeration community site
+================================================================================
+METADATA:
+prompt_tokens: 1092
+answer_tokens: 322
+time_taken: 28.26 seconds

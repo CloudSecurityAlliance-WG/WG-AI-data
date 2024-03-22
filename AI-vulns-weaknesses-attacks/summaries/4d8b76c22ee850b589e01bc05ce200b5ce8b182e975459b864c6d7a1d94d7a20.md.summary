@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+Insufficient Control of Network Message Volume (CWE-406) refers to a vulnerability where a product does not properly monitor or restrict the volume of network traffic it transmits. This allows an attacker to cause the product to send more traffic than it should for a particular user, resulting in amplification attacks that can consume excessive system resources and degrade network performance. The key consequences include denial of service through resource exhaustion, crashes, or network saturation. CWE-406 is related to asymmetric resource consumption and applies primarily to network-facing software.
+
+# Summary bullet points
+
+* CWE-406 involves insufficient control of outbound network traffic volume, enabling amplification attacks
+* Attackers can spoof requests to cause excessive outbound traffic to be sent to victims 
+* Can result in denial of service through resource exhaustion, crashes, or network performance degradation
+* Associated with lack of policies restricting asymmetric resource consumption
+* Mostly affects software with network connectivity and transmission capabilities
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1089
+answer_tokens: 167
+time_taken: 15.08 seconds

@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-1322, a weakness related to the use of blocking code in single-threaded, non-blocking contexts. It explains that in single-threaded models that rely on non-blocking code for scalability, the inclusion of blocking code can lead to denial of service through resource consumption or hanging. Examples of problematic blocking code include expensive computations, exclusive file operations, and network operations. The document notes that blocking code stops the event loop in single-threaded, non-blocking models common in Python, Node.js and other frameworks. It advises replacing blocking calls with asynchronous alternatives and offloading expensive computations to worker threads.
+
+# Summary bullet points
+
+* CWE-1322 refers to the use of blocking code in single-threaded, non-blocking contexts
+* Can lead to denial of service through resource consumption, hanging, freezing
+* Stopping the event loop in common single-threaded, non-blocking models
+* Examples include expensive computations, exclusive file/network operations 
+* Mitigations: replace blocking calls with asynchronous alternatives, offload expensive computations to worker threads
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 866
+answer_tokens: 173
+time_taken: 13.44 seconds

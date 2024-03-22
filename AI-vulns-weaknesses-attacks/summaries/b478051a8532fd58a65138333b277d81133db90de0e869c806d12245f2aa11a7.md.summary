@@ -1,0 +1,33 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+This CWE entry describes the weakness of unintended reentrant invocation of non-reentrant code via nested calls. Non-reentrant code relies on preserving state across calls, but does not protect against unexpected nested calls that could modify that state prematurely. This can occur in complex systems where a single function call can lead to many nested calls along different code paths. If one of those paths invokes the non-reentrant code again in an unexpected way, it could corrupt state and cause crashes, memory issues, or unintended code execution. 
+
+The entry provides examples in C++ showing widget and request handling classes that are not designed to be reentrant. An attacker could exploit this by registering malicious script handlers that make unexpected nested calls back into the classes, modifying state in unexpected ways.
+
+Potential mitigations focus on making the vulnerable code properly reentrant, or executing untrusted event handlers asynchronously to strictly serialize access to non-reentrant code.
+
+# Summary bullet points
+
+* Describes weakness where non-reentrant code is invoked in unintended, nested way that corrupts state
+* Can occur in complex systems with deeply nested calls along many code paths 
+* Attackers can exploit by manipulating inputs to achieve unintended control flows
+* Shows C++ widget and request handler examples that are not reentrant
+* Attackers register malicious scripts that make unexpected nested calls
+* Corrupts state like pointers and credentials leading to crashes or unintended execution
+* Mitigations focus on making code reentrant and serializing access to non-reentrant code
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 1566
+answer_tokens: 267
+time_taken: 28.54 seconds

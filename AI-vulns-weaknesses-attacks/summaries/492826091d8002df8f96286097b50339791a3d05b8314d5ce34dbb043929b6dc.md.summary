@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-641, a common weakness enumeration related to the improper restriction of names for files and other resources. Specifically, it refers to when a product constructs the name of a file or resource using upstream input but does not properly restrict the resulting name. This can lead to resultant weaknesses - for example, if the resource names contain scripts that could get executed in a client's browser. It could also cause crashes or denial of service if the resources are consumed by a vulnerable parser. The weakness can allow execution of arbitrary code or commands, read application data, or cause denial of service crashes. Recommended mitigations include whitelist input validation, rejecting bad filenames instead of cleansing them, and ensuring consuming technologies are not themselves vulnerable in a way that enables code execution from malformed inputs.
+
+# Summary bullet points
+
+* CWE-641 refers to improper restriction of names for files and other resources
+* Occurs when a product constructs a resource name from input but doesn't restrict the name properly
+* Can result in arbitrary code execution, data leaks, or denial of service crashes
+* Mitigations include whitelist input validation, rejecting bad names, and securing consuming technologies 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 945
+answer_tokens: 214
+time_taken: 14.70 seconds

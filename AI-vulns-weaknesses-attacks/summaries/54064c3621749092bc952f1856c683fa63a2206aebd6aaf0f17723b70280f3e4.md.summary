@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-299, an improper check for certificate revocation weakness. This occurs when a product does not properly check the revocation status of a digital certificate or incorrectly checks it. This can allow the use of a compromised or revoked certificate, enabling an attacker to impersonate a trusted entity. The failure to check certificate revocation is more serious than other certificate issues, since revoked certificates are likely being used maliciously. It can lead to privilege escalation, data disclosure, and data integrity issues. 
+
+Implementers may fail to properly validate all certificate properties when using certificate pinning. To prevent CWE-299 issues, certificates should have their revocation status checked before being used. Automated static analysis tools can also detect some instances of this weakness.
+
+# Summary bullet points
+
+* CWE-299 involves not properly checking digital certificate revocation status or incorrectly checking it
+* Can allow the use of compromised/revoked certificates and impersonation of trusted entities
+* More serious than other certificate weaknesses since revoked certificates indicate malicious activity
+* Leads to privilege escalation, info disclosure, data integrity issues
+* Can occur with improper validation when using certificate pinning
+* Need to check certificate revocation status before use 
+* Automated static analysis tools can detect some cases
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1255
+answer_tokens: 229
+time_taken: 21.59 seconds

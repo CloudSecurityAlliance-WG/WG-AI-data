@@ -1,0 +1,22 @@
+Status: SUCCESS
+Message:  # Summary
+
+Adversaries may replicate a private machine learning (ML) model by repeatedly querying the victim's ML model inference API to collect the model's inferences into a dataset. The inferences are used as labels to train a separate model offline that mimics the behavior and performance of the target model. A replicated model can be used to stage attacks by crafting adversarial data to evade the victim's model, spam it with chaff data, etc. Case studies demonstrate attacks replicating machine translation services from Google, Microsoft, and Systran as well as Proofpoint's email security product.
+
+# Summary bullet points
+
+* Adversaries can replicate private ML models by repeatedly querying victim's model inference API and collecting the inferences as training data
+* The collected inferences are used to train a separate model offline that mimics the target model
+* Replicated models enable attackers to craft adversarial data to evade, spam, or otherwise attack the victim's model
+* Case studies have replicated ML models behind Google Translate, Microsoft Translator, Systran, and Proofpoint email security
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 676
+answer_tokens: 181
+time_taken: 10.64 seconds

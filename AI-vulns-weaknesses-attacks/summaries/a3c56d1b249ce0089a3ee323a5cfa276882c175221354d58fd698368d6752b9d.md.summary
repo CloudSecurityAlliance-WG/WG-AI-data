@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses the technique "Search for Publicly Available Adversarial Vulnerability Analysis" used in adversarial machine learning. It explains that adversaries will often search for existing research and implementations that identify vulnerabilities in models they are targeting for attack. This allows them to leverage prior work to develop effective attacks instead of starting from scratch. The document provides the technique ID, lists associated case studies demonstrating uses of the technique, identifies it as a reconnaissance tactic, and links to further details on adversarial ML attack techniques.
+
+# Summary bullet points
+
+* Adversaries will try to find existing research on vulnerabilities in models they are targeting to attack
+* This includes identifying details of successful attacks and implementations of those attacks
+* Allows adversaries to leverage prior work instead of developing attacks completely from scratch 
+* Technique ID: AML.T0001
+* Case studies: Confusing Antimalware Neural Networks, Achieving Code Execution in MathGPT via Prompt Injection
+* Identified as a reconnaissance tactic
+* Links to more info on adversarial ML attack techniques
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website
+================================================================================
+METADATA:
+prompt_tokens: 606
+answer_tokens: 181
+time_taken: 15.25 seconds

@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text discusses potential risks related to processing sensitive personal data under the EU's General Data Protection Regulation (GDPR). It explains that Article 9 of the GDPR restricts processing certain categories of sensitive personal data like racial/ethnic origin, political opinions, religious beliefs, etc without explicit consent. The key risk highlighted is that AI/ML models may use features that correlate or serve as "proxies" for these protected characteristics. If so, the models could be unlawfully processing sensitive data even without those data fields directly. The guidance suggests that if unsure whether such proxy risks exist, organizations should consider themselves at risk of GDPR non-compliance around sensitive data processing. Overall, the text serves as a warning about potential GDPR violations when building AI/ML models using personal data.
+
+# Summary bullet points
+
+* Article 9 of GDPR limits processing of sensitive personal data like racial origin, political views, health data, etc.
+* AI/ML models may use proxies that correlate with protected data categories.
+* Use of proxies would count as unlawful processing of sensitive data.  
+* If unsure whether risk exists, organizations should presume GDPR compliance risk.
+* Guidance aims to warn about sensitive data processing risks with AI/ML.
+
+# Geographic information
+Not applicable
+
+# Type of content
+Library entry
+================================================================================
+METADATA:
+prompt_tokens: 1759
+answer_tokens: 209
+time_taken: 19.79 seconds

@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-1105, a common weakness related to insufficient encapsulation of machine-dependent functionality in software. Specifically, it refers to software that uses functionality specific to the underlying hardware or operating system, but does not properly isolate or abstract this in a portable way. This makes the software harder to maintain and port to other environments. It also introduces potential vulnerabilities by exposing more internal details than necessary.
+
+The description explains how relying on low-level, hardware-specific functionality without proper encapsulation reduces code maintainability and portability. It becomes more difficult to find and fix vulnerabilities as the software grows more complex. Specific vulnerabilities can also be introduced if internal data structures are exposed. 
+
+To mitigate this, key hardware- or OS-dependent functions should be wrapped in well-defined interfaces to abstract the implementation details. This allows the low-level code to change without impacting the rest of the application. Proper encapsulation boundaries make software easier to maintain and secure over time.
+
+# Summary bullet points
+
+* CWE-1105 refers to insufficient encapsulation of hardware or OS dependent functionality
+* Can reduce portability, maintainability of software over time
+* Harder to find/fix vulnerabilities with complex machine dependencies 
+* May expose internal data structures, introducing new vulnerabilities
+* Solution is to encapsulate machine dependencies behind well-defined interfaces
+* Allows low-level details to change without affecting rest of application
+* Enables better long term maintainability and security
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 777
+answer_tokens: 242
+time_taken: 22.48 seconds

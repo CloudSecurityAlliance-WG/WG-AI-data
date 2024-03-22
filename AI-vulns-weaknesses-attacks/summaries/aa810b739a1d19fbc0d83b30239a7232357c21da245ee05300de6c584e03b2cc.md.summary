@@ -1,0 +1,41 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document discusses the MITRE ATLAS technique AML.T0048.000 External Harms: Financial Harm. This technique involves the loss of wealth, property, or other monetary assets due to theft, fraud, forgery, or pressure to provide financial resources to an adversary. It is a subtechnique under the broader External Harms parent technique and is part of the Impact tactics. 
+
+The document provides three case studies demonstrating financial harm:
+
+- Camera Hijack Attack on Facial Recognition System
+- Achieving Code Execution in MathGPT via Prompt Injection  
+- Bypassing ID.me Identity Verification
+
+It also lists four other related subtechniques:
+
+- External Harms: Reputational Harm
+- External Harms: Societal Harm  
+- External Harms: User Harm
+- External Harms: ML Intellectual Property Theft
+
+The key points are that financial harm involves monetary losses to individuals or organizations through malicious techniques leveraging weaknesses in AI/ML systems. The case studies and related subtechniques demonstrate specific ways financial harm can occur.
+
+# Summary bullet points
+
+* Financial harm involves loss of wealth, property, monetary assets due to theft, fraud, forgery, pressure to provide financial resources to adversary
+* Subtechnique under broader External Harms parent technique 
+* Part of Impact tactics in MITRE ATLAS
+* 3 case studies demonstrate financial harm: Camera hijack attack on facial recognition, Code execution in MathGPT via prompt injection, Bypassing ID.me identity verification 
+* 4 other related subtechniques listed
+* Involves malicious techniques exploiting weaknesses in AI/ML systems resulting in monetary losses
+
+# Geographic information  
+
+Not applicable
+
+# Type of content
+
+MITRE ATLAS Technique page
+================================================================================
+METADATA:
+prompt_tokens: 583
+answer_tokens: 251
+time_taken: 33.07 seconds

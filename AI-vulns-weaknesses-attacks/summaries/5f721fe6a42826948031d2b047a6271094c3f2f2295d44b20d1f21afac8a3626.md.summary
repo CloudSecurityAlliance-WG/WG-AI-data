@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content according to your prompt:
+
+# Summary
+
+This document describes the weakness CWE-338 regarding the use of cryptographically weak pseudo-random number generators (PRNGs) in security contexts. It explains that using non-cryptographic PRNGs to generate random values for cryptography can expose the system to attacks. For example, if a weak PRNG generates values used in authentication, attackers could more easily guess session IDs or keys to bypass access controls. The document provides code examples in Java and C demonstrating the problem, references real-world vulnerabilities resulting from weak PRNGs, and recommends using cryptographically strong hardware-based RNGs as the solution. Potential mitigations are to use cryptographic functions like CryptGenRandom on Windows or hw_rand() on Linux.
+
+# Summary bullet points
+
+* Using non-cryptographic PRNGs in cryptography can enable attacks 
+* Weak PRNGs used for authentication can allow guessing of session IDs/keys to bypass access controls
+* Examples show predictable rand() and Random.nextInt() functions 
+* Real vulnerabilities have allowed brute forcing and session hijacking
+* Hardware-based cryptographic RNGs recommended as the solution
+* Mitigations include CryptGenRandom and hw_rand()
+
+# Geographic information
+"Not applicable"
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1289
+answer_tokens: 195
+time_taken: 20.60 seconds

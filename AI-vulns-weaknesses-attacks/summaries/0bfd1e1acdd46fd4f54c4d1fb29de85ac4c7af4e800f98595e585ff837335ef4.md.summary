@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry provides information on CWE-205 - Observable Behavioral Discrepancy. This weakness occurs when a product's behaviors indicate important differences that may be observed by unauthorized actors, revealing either its internal state/decision process or differences from equivalent products. This allows attackers to simplify or optimize attacks using their knowledge of the product's internal operations. Related weaknesses include observable internal behavioral discrepancies (CWE-206) and observable discrepancies between equivalent products (CWE-207). The entry provides descriptions, relationships with other CWEs, applicable platforms, common consequences, real-world examples, and taxonomy mappings.
+
+# Summary bullet points
+
+* CWE-205 involves a product's observable behaviors indicating internal differences that could help attackers
+* These differences may reveal the product's internal state, decision process, or variations from equivalent products 
+* Attackers can use knowledge of a product's internal operations to simplify or optimize attacks
+* Related weaknesses include observable internal behavioral discrepancies (CWE-206) and discrepancies between equivalent products (CWE-207)
+* Consequences include attackers reading application data and bypassing protections by leveraging observed behavioral differences
+* Real-world vulnerabilities demonstrating this weakness have allowed products to be fingerprinted
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) reference entry
+================================================================================
+METADATA:
+prompt_tokens: 758
+answer_tokens: 198
+time_taken: 14.56 seconds

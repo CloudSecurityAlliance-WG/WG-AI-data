@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The text discusses perturbation attacks on AI/ML systems. These are attacks where the attacker stealthily modifies the input query to an AI/ML system in order to get a desired, potentially harmful response. Examples are given such as adding noise to an X-ray image to change a diagnosis from normal to abnormal, or manipulating characters in a text translation system to result in incorrect translations. Protection against these attacks is important. Additional related attacks mentioned are random perturbation of labels and adversarial label noise. Sources cited include Microsoft, ENISA, and an AI/ML threat modeling document.
+
+# Summary bullet points
+
+* Perturbation attacks stealthily modify input queries to AI/ML systems to elicit harmful responses
+* Example attack given of adding noise to X-ray images to change diagnosis
+* Example attack of manipulating text translation to mistranslate or suppress words
+* Random perturbation of labels and adversarial label noise are related attacks
+* Lack of protection against these attacks puts systems at risk
+* Microsoft and ENISA cited as sources on the attacks
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website Article
+================================================================================
+METADATA:
+prompt_tokens: 2215
+answer_tokens: 189
+time_taken: 15.83 seconds

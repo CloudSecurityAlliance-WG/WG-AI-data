@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+This MITRE document provides an overview of a machine learning supply chain compromise technique involving compromised ML software. It states that many ML systems rely on a limited set of frameworks which can provide a large attack surface if compromised. Open source ML algorithm implementations may also be strategically compromised to target specific systems. Two case studies are cited demonstrating supply chain attacks on PyTorch and Google Colab. Suggested mitigations include ensemble methods and code signing.
+
+# Summary bullet points
+
+* Many ML systems rely on limited ML frameworks which can be compromised
+* Open source ML algorithm implementations can also be strategically compromised 
+* Case studies show compromise of PyTorch and Google Colab ML platforms
+* Suggested mitigations are ensemble methods and code signing
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+MITRE document
+================================================================================
+METADATA:
+prompt_tokens: 641
+answer_tokens: 138
+time_taken: 10.62 seconds

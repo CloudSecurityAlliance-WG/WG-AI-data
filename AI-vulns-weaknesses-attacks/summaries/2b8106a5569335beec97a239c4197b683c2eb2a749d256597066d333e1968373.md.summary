@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summarization and analysis template filled in for the given text:
+
+# Summary
+
+The paper proposes Square Attack, a score-based black-box adversarial attack that does not rely on gradient information and thus avoids issues with gradient masking defenses. The attack is based on a randomized search scheme that selects localized square-shaped updates at random image positions, so perturbations are situated at the boundary of the allowed norm ball. Experiments across MNIST, CIFAR-10 and ImageNet show Square Attack requires significantly fewer queries to find adversarial examples compared to prior state-of-the-art, especially for untargeted attacks. On ImageNet, query efficiency improves by at least 1.8x and up to 3x over the best prior method. Despite being black-box, Square Attack can also outperform white-box attacks, achieving state-of-the-art robust test accuracy on defended MNIST models. Theoretical analysis provides convergence guarantees for a variant of the method. Design choices like square regions and constant sign are motivated by maximizing activation change in early network layers.
+
+# Summary bullet points
+
+* Proposes Square Attack, a score-based black-box adversarial attack using randomized search with square region updates 
+* Does not require gradient information so avoids issues with gradient masking defenses
+* Experiments show 1.8-3x query efficiency gains over state-of-the-art on ImageNet
+* Despite being black-box, can outperform white-box attacks on defended MNIST models 
+* Convergence guarantees provided for a variant using different sign in each square cell
+* Square regions and constant sign maximize activation change in early convolutional layers
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Conference paper (ICML 2020)
+================================================================================
+METADATA:
+prompt_tokens: 11166
+answer_tokens: 257
+time_taken: 29.21 seconds

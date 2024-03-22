@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+CWE-427 describes the weakness of uncontrolled search path elements, where a software uses a fixed search path to locate resources like executables or libraries, but one or more locations in that path can be modified by an attacker. This allows the attacker to plant malicious code that will be executed with the privileges of the vulnerable software. Common manifestations include hijacking DLL loads in Windows by placing DLLs in the current working directory or in the Windows directory, modifying the PATH environment variable to point to malicious executables with the same name as valid ones, or dependency confusion attacks on package managers by uploading malicious packages to public repositories under the name of private packages. The consequences enable execution of arbitrary unauthorized code and commands.
+
+# Summary bullet points
+
+* Software uses fixed search path to find resources like executables and libraries 
+* Locations in the search path can be controlled by attackers
+* Attackers can plant malicious code that will be loaded/executed instead of legitimate resources
+* Occurs when software loads DLLs in Windows, uses environment variables like PATH, or resolves package dependencies
+* Enables execution of arbitrary unauthorized code/commands with permissions of vulnerable software
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 3005
+answer_tokens: 221
+time_taken: 22.04 seconds

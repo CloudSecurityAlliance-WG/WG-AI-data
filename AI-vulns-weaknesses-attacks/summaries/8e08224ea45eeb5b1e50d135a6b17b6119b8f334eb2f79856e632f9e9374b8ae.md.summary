@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-797, a weakness related to only filtering special elements in input data at an absolute position. This means that input validation only checks for potentially malicious elements like "../" at a specific position in the input, not across the whole input. This could allow an attacker to insert malicious input that evades the filter and exploits the system.
+
+The example shows Perl code that checks if the substring "../" occurs at the start of the input, and removes it if so. However, the filter only checks the start of the input. So if the input contains malicious strings like "../../../etc/passwd" later in the input, they will bypass the filter. When concatenated with the base directory, this allows path traversal to sensitive files.
+
+Proper input validation requires checking across the entire input to filter all potentially malicious substrings. Just checking one position is insufficient and leads to weaknesses that attackers can exploit.
+
+# Summary bullet points
+
+* CWE-797 refers to only filtering potentially malicious input at an absolute position, not across the whole input
+* This allows attackers to bypass filters by inserting malicious strings at other positions
+* Example shows Perl code that checks for "../" only at start of input, doesn't catch later occurrences 
+* Malicious strings later in input like "../../../etc/passwd" bypass filter
+* When base directory is concatenated, allows path traversal to sensitive system files
+* Proper input validation requires filtering entire input for malicious substrings
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 791
+answer_tokens: 258
+time_taken: 23.29 seconds

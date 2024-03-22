@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-157, a weakness related to the failure to properly sanitize paired delimiters like brackets, quotes, and parentheses in input. This can lead to crashes, buffer overflows, or unexpected system states if malicious input is able to manipulate or inject unmatched delimiters. It provides examples of past vulnerabilities related to unmatched delimiters, potential mitigations like input validation and output encoding, and related taxonomy mappings. The key points focus on anticipating delimiter injection, denying bad input, validating good input against specifications, encoding output properly, and canonicalizing input.
+
+# Summary bullet points
+
+* CWE-157 is a weakness related to failing to handle paired delimiter characters properly in input
+* Can lead to crashes, buffer overflows, or unexpected system states
+* Gives examples like crashes from missing quote marks 
+* Mitigations include input validation, output encoding, anticipating manipulation
+* Validate input strictly against specifications 
+* Encode output to handle special characters
+* Canonicalize input before validation
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1100
+answer_tokens: 171
+time_taken: 14.09 seconds

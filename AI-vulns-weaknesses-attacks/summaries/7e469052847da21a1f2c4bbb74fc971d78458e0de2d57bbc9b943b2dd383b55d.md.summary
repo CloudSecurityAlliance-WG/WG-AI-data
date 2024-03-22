@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the text related to information security and AI security:
+
+# Summary
+
+The text presents research demonstrating the existence of targeted audio adversarial examples against automatic speech recognition systems. The authors are able to construct small perturbations that are nearly inaudible to humans, but cause speech-to-text systems like Mozilla's DeepSpeech to transcribe audio signals to any target phrase chosen by the adversary with 100% success. They apply iterative optimization-based white-box attacks starting from the raw audio samples through the entire DeepSpeech model pipeline. The findings introduce concerning implications for the security and robustness of speech recognition systems against adversarial threats.
+
+Key capabilities demonstrated include turning arbitrary audio waveforms into a specific targeted transcription, embedding speech into non-speech signals like music that should not be recognized as speech, hiding speech from being transcribed, and more. The attacks indicate that speech recognition systems do not gracefully handle maliciously constructed out-of-distribution inputs. Defending against such adversarial examples remains an open challenge. The audio adversarial example concept opens a new domain for studying adversarial threats to machine learning systems.
+
+# Summary bullet points
+
+* White-box iterative optimization attacks can construct targeted audio adversarial examples against DeepSpeech speech-to-text system 
+* Adding small nearly inaudible perturbations causes audio signals to be transcribed as any phrase chosen by the attacker
+* 100% success in getting targeted phrases from arbitrary audio waveforms with mean distortion of -31 dB
+* Can embed speech into non-speech signals, hide speech from being transcribed
+* Attacks exploit model's inability to handle maliciously crafted out-of-distribution adversarial inputs 
+* Audio adversarial examples open new challenging domain to explore defenses and properties of adversarial threats to ML
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Academic paper (conference)
+================================================================================
+METADATA:
+prompt_tokens: 5887
+answer_tokens: 292
+time_taken: 37.51 seconds

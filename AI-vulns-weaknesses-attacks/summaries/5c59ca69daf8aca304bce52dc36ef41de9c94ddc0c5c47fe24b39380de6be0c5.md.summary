@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-602, a weakness related to client-side enforcement of server-side security. It explains that this weakness refers to products where the server relies on the client to implement security protections intended to protect the server. However, attackers can modify the client to bypass these protections, resulting in unexpected interactions between client and server.
+
+Consequences include attackers being able to bypass authentication or input validation checks on the client-side, allowing them to escalate privileges, crash the server, or gain unintended access. The document advises duplicating all security checks performed on the client-side on the server-side as well to mitigate this weakness. It also recommends using tools like fuzz testing, robustness testing, and fault injection to uncover instances of this weakness.
+
+# Summary bullet points
+
+* Weakness where server relies on client to implement security protections intended to protect server
+* Attacker can modify client to bypass protections, causing unexpected client-server interactions 
+* Consequences include privilege escalation, denial of service, gaining unintended access
+* Mitigations include duplicating client-side checks on server-side, fuzz/robustness/fault injection testing
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1844
+answer_tokens: 199
+time_taken: 19.20 seconds

@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of missing write protection for parametric data values in hardware sensors. Sensors often have thresholds and limits set in hardware to prevent damage from operating outside safe parameters. The raw sensor values are converted to standard units using parametric data values that may not have write protections. By manipulating these unprotected calibration values, an attacker could trick the sensor into reporting safe values while actually exceeding safe limits, potentially causing physical damage or disabling the device. 
+
+Key aspects:
+
+- Sensors have thresholds to prevent damage from unsafe operation
+- Raw sensor values converted to standard units using unprotected parametric data  
+- Attacker can manipulate conversion values to bypass thresholds
+- Can cause physical damage or denial-of-service by false shutdown
+
+# Summary bullet points
+
+* Various sensors detect when hardware is operating outside safe limits set by fuses or firmware
+* The threshold values are protected but the parametric data used to convert raw sensor values may not be
+* By changing the unprotected parametric data, attackers can manipulate the scaled sensor output  
+* May allow exceeding safe operational limits, causing physical damage or false fault shutdown
+* Should protect access to parametric data values similarly to protected threshold limit values
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1314
+answer_tokens: 222
+time_taken: 21.76 seconds

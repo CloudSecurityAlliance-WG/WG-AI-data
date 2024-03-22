@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes non-replicating malicious code, which only resides on the system or product that is attacked and does not attempt to spread to other systems. It is a type of Trojan horse and can execute unauthorized code or commands, impacting confidentiality, integrity and availability. Potential mitigations include using antivirus software to detect known malicious code and verifying the integrity of software before installation.
+
+# Summary bullet points
+
+* Describes non-replicating malicious code that resides only on the attacked system
+* Is a type of Trojan horse 
+* Can execute unauthorized code or commands
+* Impacts confidentiality, integrity and availability 
+* Potential mitigations include antivirus software and verifying software integrity before installation
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weaknesses Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 627
+answer_tokens: 129
+time_taken: 9.97 seconds

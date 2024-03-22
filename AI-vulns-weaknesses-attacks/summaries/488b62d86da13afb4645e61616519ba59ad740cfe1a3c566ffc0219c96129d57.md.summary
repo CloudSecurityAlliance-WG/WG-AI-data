@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses CWE-94, a common weakness related to improper control of code generation, also known as code injection. It involves constructing code segments using externally-influenced input without properly neutralizing special elements that could modify the code's behavior. This could allow attackers to craft inputs that alter control flow and execute arbitrary commands. Consequences include bypassing protections, gaining privileges, losing integrity, hiding activities, and executing unauthorized code. 
+
+The article provides examples of code injection in PHP, Perl, and Python applications where unvalidated user input is unsafely passed to dangerous functions like eval() or system(). It explains how the input can break out of the intended data context and be interpreted as code instead. Preventative measures summarized include:
+
+- Refactoring applications to avoid dynamic code generation 
+- Using strict allowlists and validation on all inputs
+- Running code in sandboxes to restrict access
+- Tools and techniques to automatically detect code injection flaws
+
+The article also maps the weakness to security standards and references common code injection attack patterns.
+
+# Summary bullet points
+
+* CWE-94 involves constructing code using un-neutralized external input, enabling code injection to alter control flow
+* Consequences include bypassing protections, elevation of privilege, data integrity loss, hidden activities, and unauthorized code execution
+* Examples show injection into dangerous functions like eval() and system() in PHP, Perl, Python where input breaks out of data context
+* Preventative measures include refactoring to avoid dynamic code gen, strict input validation, sandboxes, and automated detection
+* Mapped to security standards, references common code injection attack patterns
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Weakness Description and Analysis
+================================================================================
+METADATA:
+prompt_tokens: 3074
+answer_tokens: 271
+time_taken: 26.32 seconds

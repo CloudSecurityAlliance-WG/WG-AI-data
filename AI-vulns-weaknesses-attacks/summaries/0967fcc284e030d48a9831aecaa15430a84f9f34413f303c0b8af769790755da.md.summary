@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes the weakness CWE-72 in the Common Weakness Enumeration system, which covers the improper handling of special paths in the Apple HFS+ file system that can identify the data or resource fork of a file. If products that interact with files on HFS+ do not properly control access to these special paths, attackers may be able to bypass access restrictions or cause unexpected behavior. Specifically, the weakness outlines how the HFS+ system allows files to have multiple data streams accessible through paths like "/..namedfork/rsrc" or extended attributes. Programs that rely on file paths need to handle these special cases correctly. Failure to do so could allow attackers to read file contents or metadata that was intended to be restricted. The consequence is reduced confidentiality and integrity of file system data.
+
+# Summary bullet points
+
+* Apple HFS+ file system allows multiple data forks per file accessible via special paths 
+* Special paths like "/..namedfork/rsrc" point to resource fork data
+* Programs should control access to these paths if behavior depends on file paths
+* Failure to handle special paths could let attackers bypass access restrictions
+* Attackers may read hidden file data or trigger unintended logic by accessing special paths
+* Impact is reduced confidentiality and integrity of HFS+ file data
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 960
+answer_tokens: 229
+time_taken: 15.68 seconds

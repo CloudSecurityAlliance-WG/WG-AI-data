@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+A pseudo-random number generator (PRNG) that uses a small seed space is more susceptible to brute force attacks. An attacker could potentially guess the seed value by trying all possible values, allowing them to predict future outputs of the PRNG. This can compromise systems relying on the PRNG to produce unpredictable values like cryptographic keys. The weakness can be mitigated by using PRNGs with larger seed spaces of at least 256 bits.
+
+# Summary bullet points
+
+* PRNGs with small seed spaces are vulnerable to brute force attacks to guess the seed
+* If seed is known, attacker can predict future PRNG outputs 
+* Can allow attacker to break crypto keys relying on unpredictable PRNG output
+* Seed space should be at least 256 bits to make brute force infeasible 
+* Use well-vetted PRNGs conforming to standards like FIPS 140-2/3
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1077
+answer_tokens: 156
+time_taken: 15.39 seconds

@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the provided content on CWE-187: Partial String Comparison:
+
+# Summary
+
+The document describes a software weakness (CWE-187) related to performing partial string comparisons. This occurs when a product only examines a portion of an input string before determining if there is a match. For example, an authentication system may only check the first few characters of a password against the expected value. This enables attackers to authenticate by providing short inputs that match the beginning of the expected value. The document provides a code example in C demonstrating this weakness, where the authenticate function uses the `strncmp()` function to only compare a portion of the provided password to the expected value based on the length of the user input. This significantly reduces the search space for brute force attacks. Potential mitigations include thoroughly testing comparison functionality, including negative test cases. 
+
+The document explains how partial string comparison relates conceptually to other weaknesses like insufficient verification and regex errors. It provides examples of real-world vulnerabilities stemming from this issue in various products. The weakness can enable attackers to bypass access controls or alter program logic.
+
+# Summary bullet points
+
+* CWE-187 refers to partial string comparison weaknesses where only a portion of an expected string is checked before determining a match
+* Enables issues like improper authentication where attackers can provide short inputs matching beginnings of expected values 
+* Shown in a code example where `strncmp()` only compares first N characters of passwords based on user input length
+* Reduces search space required for brute force attacks
+* Related to insufficient verification and incorrect regex weaknesses
+* Potential mitigations include thorough testing of comparison functionality
+* Can enable attackers to bypass access controls or alter program logic
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Definition
+================================================================================
+METADATA:
+prompt_tokens: 1143
+answer_tokens: 303
+time_taken: 26.95 seconds

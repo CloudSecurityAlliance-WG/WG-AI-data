@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes an authentication bypass weakness that occurs when the authentication algorithm is sound, but the implementation allows it to be bypassed due to a separate primary weakness. This enables attackers to bypass access controls that rely on the compromised authentication. The weakness typically allows easy guessing or bypassing of passwords.
+
+# Summary bullet points
+
+* The authentication algorithm is secure, but the implementation allows bypass due to another weakness 
+* Enables attackers to bypass access controls relying on that authentication
+* Often allows easy password guessing or bypass
+* Resultant weakness, not primary - most authentication bypasses are resultant of other weaknesses
+* Can allow elevated privileges through bypassing admin authentication
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry 
+================================================================================
+METADATA:
+prompt_tokens: 746
+answer_tokens: 130
+time_taken: 11.29 seconds

@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-686, a common weakness enumeration related to calling functions with incorrect argument types in software. It explains that passing arguments of the wrong data type into functions can lead to unexpected behavior or software vulnerabilities. The key points are:
+
+- CWE-686 refers to calling functions with arguments of incorrect data types, often occurring in loosely typed languages or where variable types aren't enforced at compile time. This can lead to software quality issues or vulnerabilities.
+
+- Consequences include degraded software quality, unexpected behavior, and potential vulnerabilities if the incorrect arguments lead to exploitable issues.
+
+- Mitigations focus on testing to detect the incorrect calls and exercise all control paths to uncover the weakness.
+
+- CWE-686 is related to broader concepts like using incorrect arguments for functions and software faults related to computational glitches.
+
+- It maps to various secure coding standards that emphasize using proper arguments for functions like putenv(), character handling, input/output, etc.
+
+# Summary bullet points
+
+* CWE-686 refers to calling functions with arguments of the wrong data type
+* Can occur in loosely typed languages or where variable types aren't enforced
+* Leads to quality degradation, unexpected behavior, potential vulnerabilities
+* Testing and code review can uncover the incorrect calls  
+* Related to using incorrect arguments and faults stemming from computation glitches
+* Maps to various secure coding standards enforcing proper function arguments
+
+# Geographic information
+Not applicable
+
+# Type of content
+Encyclopedia Entry
+================================================================================
+METADATA:
+prompt_tokens: 934
+answer_tokens: 242
+time_taken: 20.79 seconds

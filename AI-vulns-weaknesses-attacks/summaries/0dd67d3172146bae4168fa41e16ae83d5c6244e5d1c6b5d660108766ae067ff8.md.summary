@@ -1,0 +1,37 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the paper:
+
+# Summary
+
+The paper introduces a new class of algorithms to systematically craft adversarial samples that are misclassified by deep neural networks (DNNs). The key ideas are:
+
+- Adversarial samples are inputs crafted with the intent of causing DNNs to misclassify them. They are created by making small perturbations to legitimate inputs that are imperceptible to humans but cause the DNN to output an incorrect classification.
+
+- The algorithms work by computing the forward derivative of the DNN to construct an adversarial saliency map. This map identifies input features that will most significantly impact the output classification if perturbed. The adversary then modifies those features to gradually cause the misclassification.
+
+- The algorithms are validated on a DNN for handwritten digit recognition using the MNIST dataset. It is shown they can reliably misclassify digits into any target class by modifying on average only 4.02% of pixels. The distortions introduced are not perceptible to humans.
+
+- A hardness measure is introduced to quantify the robustness of different input classes to adversarial attack. This lays the groundwork for potential defense mechanisms. 
+
+- Defenses are suggested in the form of adversarial sample detection and improvements to the DNN training procedure. However, designing effective defenses remains an open problem.
+
+# Summary bullet points
+
+* Adversarial samples cause DNNs to misclassify inputs by making small perturbations imperceptible to humans
+* New algorithms introduced that use the forward derivative and adversarial saliency maps 
+* Algorithms shown to reliably misclassify handwritten digits by modifying only 4.02% of pixels on average
+* Hardness measure proposed to quantify robustness of inputs to attack 
+* Defenses suggested but designing effective defenses remains an open problem
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Academic paper
+================================================================================
+METADATA:
+prompt_tokens: 11795
+answer_tokens: 297
+time_taken: 34.52 seconds

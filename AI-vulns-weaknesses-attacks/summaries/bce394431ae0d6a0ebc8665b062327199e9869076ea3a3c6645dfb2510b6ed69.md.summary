@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the data:
+
+# Summary
+
+The paper proposes an ensemble of diverse parameter-free attacks called AutoAttack to reliably evaluate the adversarial robustness of machine learning models. The attacks in AutoAttack include two new variants of PGD that automatically adapt the step size based on the iteration budget (APGD-CE and APGD-DLR), the targeted FAB attack, and the score-based Square Attack. Experiments on over 50 recently published defense models show that AutoAttack reduces the reported robust accuracy in almost all cases, often by over 10%, without any parameter tuning. Thus it reliably uncovers overestimations of robustness. The results also provide an updated perspective on the state-of-the-art of provably robust models, with adversarial training-based methods currently being the most resistant on datasets like CIFAR-10.
+
+# Summary bullet points
+
+* Proposes AutoAttack, an ensemble of parameter-free attacks to reliably evaluate adversarial robustness 
+* Includes APGD-CE, APGD-DLR (new adaptive PGD variants), targeted FAB, and Square Attack
+* Evaluated on 50+ recently published defense models
+* Reduces reported robust accuracy in almost all cases, often by 10%+
+* Reliably uncovers overestimations of robustness without parameter tuning
+* Provides updated perspective on state-of-the-art provably robust models
+* Adversarial training methods currently most resistant on CIFAR-10
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Academic paper
+================================================================================
+METADATA:
+prompt_tokens: 14200
+answer_tokens: 215
+time_taken: 44.05 seconds

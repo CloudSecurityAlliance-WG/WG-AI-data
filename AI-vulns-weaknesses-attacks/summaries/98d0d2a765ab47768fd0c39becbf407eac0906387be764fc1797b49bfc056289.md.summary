@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-1285, a weakness related to improper validation of specified index, position, or offset in input. It occurs when a product receives input expected to specify an index, position, or offset into an indexable resource like a buffer or file, but fails to properly validate that the specified index/position/offset has the required properties. This could enable attackers to access unauthorized portions of resources, cause buffer overflows or excessive resource allocation.
+
+Examples are provided of potential vulnerabilities resulting from improper validation, such as allowing user input to directly specify array indices without validation. Mitigations focus on rigorous input validation, rejecting inputs that don't strictly conform to specifications and assuming all inputs may be malicious.
+
+# Summary bullet points
+
+* CWE-1285 relates to improper validation of indices, positions or offsets from input used to access resources like buffers and files
+* Failing to validate indices/positions/offsets can enable unauthorized access or denial of service 
+* Attacks can access unauthorized memory, cause buffer overflows or resource exhaustion
+* Examples show vulnerabilities from unchecked user input for array indices  
+* Mitigations involve careful input validation and rejecting non-conforming input
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Weakness Description (Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 1766
+answer_tokens: 203
+time_taken: 24.45 seconds

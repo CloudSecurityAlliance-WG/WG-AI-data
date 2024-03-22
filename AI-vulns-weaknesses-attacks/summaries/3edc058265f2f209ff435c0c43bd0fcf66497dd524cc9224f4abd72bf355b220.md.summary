@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the data:
+
+# Summary
+
+The document defines CWE-311, a common weakness related to missing encryption of sensitive data. It explains that the lack of proper encryption compromises confidentiality, integrity, and accountability of sensitive data. Without encryption, an attacker could sniff network traffic and uncover application data. It encourages using strong cryptographic algorithms to encrypt sensitive data in storage or transmission, avoiding developing custom algorithms. The document describes relationships to other CWEs, relevant attack patterns, and potential mitigations like clearly identifying data needing encryption and ensuring it is integrated into system design with separation of privilege principles. It discusses detection techniques and membership in weaknesses lists like OWASP Top 10.
+
+# Summary bullet points
+
+* CWE-311 involves failure to encrypt sensitive or critical data before storage or transmission
+* Lack of encryption compromises confidentiality, integrity and accountability of data
+* Can allow attackers to sniff packets, uncover data, modify application data 
+* Should use strong, well-vetted encryption algorithms for data requiring protection
+* Custom cryptographic algorithms likely to be weak and exposed to common attacks
+* Encryption should be integrated into system design with privilege separation
+* Related attack patterns include sniffing, navigation remapping, code sniffing
+* Mitigations include identifying sensitive data, threat modeling for vulnerabilities
+* Member of multiple weaknesses lists like OWASP Top 10 and CERT Oracle guidelines
+
+# Geographic information  
+Not applicable
+
+# Type of content
+Definition from Common Weakness Enumeration website
+================================================================================
+METADATA:
+prompt_tokens: 2957
+answer_tokens: 241
+time_taken: 23.28 seconds

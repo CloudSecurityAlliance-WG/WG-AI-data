@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document summarizes the "Develop Capabilities" technique used by adversaries to support operations against machine learning (ML) systems. It involves identifying requirements, building solutions, and deploying capabilities to conduct attacks. Examples of capabilities include setting up websites with adversarial information or creating Jupyter notebooks with obfuscated exfiltration code. These capabilities don't necessarily use ML themselves but support attacks on ML systems. The document lists some case studies demonstrating this technique, like executing arbitrary code in Google Colab and privacy leaks in ChatGPT plugins. It also mentions a subtechnique focused on developing adversarial ML attacks specifically.
+
+# Summary bullet points
+
+* Adversaries identify requirements, build solutions, and deploy capabilities to support operations against ML systems
+* Capabilities help conduct attacks but don't necessarily use ML themselves 
+* Examples include websites with adversarial information and Jupyter notebooks with obfuscated code
+* Case studies listed demonstrate technique, like arbitrary code execution in Colab and ChatGPT plugin leaks
+* Subtechnique focuses on developing adversarial ML attacks specifically
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 577
+answer_tokens: 175
+time_taken: 13.77 seconds

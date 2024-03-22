@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-130 weakness describes a situation where a product parses a formatted message or structure but does not properly handle a length field that is inconsistent with the actual length of the associated data. This could allow attackers to provide abnormally large input to overwhelm buffers or process unexpected data that modifies the application state. Known consequences include buffer overflows, out-of-bounds reads, denial of service, and remote code execution. 
+
+# Summary bullet points
+
+* CWE-130 refers to improper handling of inconsistent length parameters during input parsing
+* Can result in buffer overflows, out-of-bounds reads, denial of service, code execution
+* Attacker provides malformed input with length field not matching actual data size  
+* Motives include oversizing input to overwhelm buffers or process unexpected data
+* Affects formatted messages, structures with length fields separate from content
+* Has led to vulnerabilities like Heartbleed due to length manipulation
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1882
+answer_tokens: 162
+time_taken: 18.17 seconds

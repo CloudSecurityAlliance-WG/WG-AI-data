@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1119 weakness describes excessive use of unconditional branching in code, such as overuse of "goto" statements. This makes the code more difficult to understand and maintain, which can indirectly lead to vulnerabilities by making it harder to find and fix security issues. It also increases complexity which makes introducing new vulnerabilities more likely. This is considered more of a quality issue rather than a direct security risk.
+
+# Summary bullet points
+
+* CWE-1119 excessive use of unconditional branching like "goto" statements
+* Makes code harder to understand and maintain
+* Can indirectly lead to vulnerabilities by making fixes more difficult
+* Increases code complexity, making new vulnerabilities more likely 
+* Considered a quality issue rather than direct security risk
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 652
+answer_tokens: 136
+time_taken: 10.89 seconds

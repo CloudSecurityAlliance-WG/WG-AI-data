@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The document describes the weakness CWE-96: Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection'). This refers to a vulnerability where an application receives input from an upstream component but does not properly neutralize code syntax before inserting the input into an executable resource like a library, config file, or template. This could allow an attacker to inject arbitrary code that gets executed when the resource is used. Consequences include accessing restricted data/files, bypassing access controls, executing unauthorized commands, hiding activities by avoiding logging, and compromising data integrity. Examples are given such as injecting PHP code by submitting it in a web form field that gets written directly to a PHP file. Mitigations focus on proper input and output validation and encoding.
+
+# Summary bullet points
+
+* CWE-96 is a software weakness where input is inserted into executable code/files without properly neutralizing code syntax 
+* This could allow arbitrary unauthorized code execution when the executable resource is used
+* Consequences include file access, bypassing access controls, data integrity loss, hidden activities
+* Occurs when software writes input directly to executable files like code, scripts, config files 
+* Example with PHP web app writing user input to PHP file that can be executed
+* Mitigations involve proper input and output validation, output encoding
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1400
+answer_tokens: 236
+time_taken: 24.28 seconds

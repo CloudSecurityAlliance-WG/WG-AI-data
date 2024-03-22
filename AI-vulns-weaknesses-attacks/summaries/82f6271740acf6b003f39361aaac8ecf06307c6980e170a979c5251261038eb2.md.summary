@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the CWE data:
+
+# Summary
+
+The document describes CWE-81, a common weakness enumeration related to improper neutralization of script in error messages on web pages. When special characters in user input are not properly handled, attackers can inject malicious scripts into error pages, enabling cross-site scripting (XSS) attacks. This can allow attackers to steal session cookies, deface web sites, insert hostile content, conduct phishing attacks, and take over user accounts. The mitigations focus on properly validating and encoding all user input reflected in error pages, setting security headers like HttpOnly cookies, and implementing defense-in-depth strategies.
+
+# Summary bullet points
+
+* CWE-81 involves improper neutralization of user input leading to XSS in error pages 
+* Unhandled script elements in user input can enable attackers to conduct various XSS attacks when reflected in error pages
+* Consequences include stealing session cookies, defacing sites, phishing, account takeover
+* Key mitigations are input validation, output encoding, HttpOnly cookies, defense-in-depth
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Reference page on Common Weakness Enumeration website
+================================================================================
+METADATA:
+prompt_tokens: 1232
+answer_tokens: 178
+time_taken: 14.60 seconds

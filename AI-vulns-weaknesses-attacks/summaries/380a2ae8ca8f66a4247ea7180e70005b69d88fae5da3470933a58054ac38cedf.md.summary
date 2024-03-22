@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-212 weakness describes the improper removal of sensitive information from resources like documents, packets, or messages before making those resources available to unauthorized actors. This can expose confidential data to attackers. Resources may contain useful information for an individual or small group but need cleansing before sharing outside that trusted group. Examples include documents with reviewer comments or local pathnames, proxies that leak internal IP addresses, or debug information not properly cleared from released software. Mitigations include clearly specifying private data and requiring functionality to remove it before publishing, compartmentalizing systems to create trust boundaries, using strong types and naming conventions to make sensitive data easier to spot, and properly shutting down resources to avoid leftover sensitive data.  
+
+# Summary bullet points
+
+* CWE-212 involves improperly removing sensitive information from resources like documents, packets, or messages before allowing access to untrusted actors
+* Can expose confidential data including system internals, allowing more targeted attacks
+* Resources often contain data useful to individuals or small groups but needing removal before wider sharing 
+* Examples include documents with comments/pathnames, proxies leaking IP addresses, uncleared debug symbols
+* Mitigations include specifying private data and requiring cleansing functionality, compartmentalization, conventions to spot sensitive data, properly releasing resources
+
+# Geographic information
+Not applicable
+
+# Type of content
+Entry from Common Weakness Enumeration (CWE) community database of software & hardware weaknesses
+================================================================================
+METADATA:
+prompt_tokens: 1566
+answer_tokens: 228
+time_taken: 19.63 seconds

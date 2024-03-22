@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-143 weakness describes a vulnerability where a product receives input but does not properly neutralize or incorrectly neutralizes special elements that could be interpreted as record delimiters. This can allow attackers to inject delimiters that cause unexpected actions during parsing. Proper input validation using allowlists and escaping/filtering of delimiters is recommended to prevent exploitation.
+
+# Summary bullet points
+
+* CWE-143 is about not properly neutralizing record delimiter characters in input
+* Can allow attackers to inject delimiters that alter how input is parsed 
+* Delimiters can cause unexpected actions or data processing
+* Recommends input validation with allowlists and escaping/filtering delimiters
+* Affects integrity and leads to unexpected system state
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1085
+answer_tokens: 127
+time_taken: 15.95 seconds

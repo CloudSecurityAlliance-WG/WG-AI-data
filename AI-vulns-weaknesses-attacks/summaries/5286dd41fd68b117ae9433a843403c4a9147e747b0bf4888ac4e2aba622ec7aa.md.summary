@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The CWE entry describes an incorrect comparison weakness where a product compares two entities for security purposes but the comparison is flawed, leading to vulnerabilities. This covers cases where the comparison checks the wrong factors, fails to check necessary factors, or checks a factor incorrectly. The consequences vary by context but can enable attacks. Examples are provided such as comparing Truck objects based only on make and model but not manufacture year, and authenticating users by doing a partial string comparison of the password using the length of user input instead of the full stored password.
+
+# Summary bullet points
+
+* Covers products doing flawed security-relevant comparisons of two entities
+* Flaws include checking wrong factors, missing necessary factors, checking a factor wrong
+* Enables vulnerabilities and attacks depending on the context
+* Examples include Truck comparison missing manufacture year and authentication checking only start of password from user input length
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry
+================================================================================
+METADATA:
+prompt_tokens: 1543
+answer_tokens: 170
+time_taken: 16.50 seconds

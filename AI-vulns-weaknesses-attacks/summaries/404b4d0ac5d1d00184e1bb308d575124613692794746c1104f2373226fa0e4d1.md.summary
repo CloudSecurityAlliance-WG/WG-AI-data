@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-433 weakness describes a vulnerability where raw content or supporting code is stored under the web document root with an extension that is not specifically handled by the server. If files like .inc or .pl are requested directly and the web server does not have a handler for that extension, it may return the unparsed file contents directly to the requester, exposing sensitive information like database credentials. 
+
+# Summary bullet points
+
+* CWE-433 refers to unparsed raw web content delivery, when files with extensions not handled by the web server are stored under the web root and returned unprocessed.
+* If .inc, .pl or other files contain sensitive data like credentials and are requested directly without parsing, this data could be exposed. 
+* Web servers should perform type checking before interpreting files and sensitive data should not be stored in files that may be misinterpreted.
+* This can allow attackers to compromise the application or associated components by accessing unparsed file contents.
+* It overlaps issues like direct request, alternate path, insufficient permissions, and sensitive data under web root.
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 963
+answer_tokens: 196
+time_taken: 18.14 seconds

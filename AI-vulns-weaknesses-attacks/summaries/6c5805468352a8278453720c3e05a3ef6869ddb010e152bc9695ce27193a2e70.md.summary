@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+Improper Neutralization of Server-Side Includes (SSI) Within a Web Page is a weakness where a web page fails to properly sanitize user input that could be interpreted as server-side include (SSI) directives. This allows attackers to inject SSI directives to execute unauthorized code or commands on the server. It can result in compromise of confidentiality, integrity and availability. This is a variant of the broader Improper Neutralization of Directives in Statically Saved Code weakness. It is relevant to injection vulnerabilities and improper neutralization of input.
+
+# Summary bullet points
+
+* The product generates a web page but does not properly neutralize user input that could be SSI directives
+* This allows attackers to inject SSI directives and execute unauthorized code/commands on the server
+* Can compromise confidentiality, integrity and availability 
+* A variant of Improper Neutralization of Directives in Statically Saved Code
+* Relevant to injection vulnerabilities and improper neutralization of input
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 728
+answer_tokens: 168
+time_taken: 13.16 seconds

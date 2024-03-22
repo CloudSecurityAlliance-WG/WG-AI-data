@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-666, a weakness related to operating on a resource during the wrong phase of its lifetime. This can lead to unexpected behaviors as each phase of a resource's lifecycle has specific operating guidelines. For example, using a resource before initialization could cause data corruption. This is related to improper control over a resource's lifetime and can lead to specific issues like double free vulnerabilities and premature resource release. The key aspects relate to properly tracking and controlling resources through each phase and not violating expected lifecycle operations.
+
+# Summary bullet points
+
+* CWE-666 involves operating on a resource in the wrong phase of its lifetime
+* Can lead to unexpected behaviors as phases have specific operating guidelines 
+* Phases include initialization, use, and release
+* Related to improper lifecycle control and weaknesses like double frees
+* Key is properly tracking resource phases and not violating expected operations
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 930
+answer_tokens: 163
+time_taken: 14.98 seconds

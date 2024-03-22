@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-374, a common weakness related to passing mutable objects to untrusted methods in software. It explains that sending non-cloned mutable data as an argument to a method or function allows that method to potentially alter or delete the data, violating assumptions about state. This is applicable in C, C++, Java, C#, and other languages. It can lead to data being unexpectedly modified and impacts integrity. The mitigations are to pass in immutable/constant data when possible or clone mutable data before passing to external functions.  
+
+Examples are provided in C and Java to demonstrate passing object references, which allows underlying mutable data to be modified by the receiving method. A Java mitigation is shown making a clone of a Book object before passing to a sales update method to prevent changes.
+
+# Summary bullet points
+
+* Sending non-cloned mutable data to methods allows unexpected modification and deletes
+* Applicable in C, C++, Java, C# and other languages 
+* Leads to violating assumptions about object state
+* Enables unintentional data tampering
+* Integrity is impacted
+* Mitigations include using immutable data or cloning objects
+* Examples in C and Java demonstrate problem and mitigation
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1438
+answer_tokens: 220
+time_taken: 20.80 seconds

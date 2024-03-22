@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the text, formatted according to the provided template:
+
+# Summary
+
+The text describes a weakness related to inconsistent assignment of policy privileges between control and data agents in hardware products. Specifically, it discusses a scenario where hardware-enforced access control for a resource like encryption keys does not properly account for differences in privileges granted to control policies versus data write policies. This could enable a malicious or untrusted agent to gain elevated privileges by modifying data write policies to permit access that should not be allowed.
+
+The example describes a system with four AES encryption key registers and three separate policy registers that control read, write, and control access to those keys. The control policy dictates which agents can modify the read and write policies. Due to improper privilege separation between the control policy and write policy, an untrusted agent is able to modify the write policy to allow itself to directly write the AES key registers, gaining unauthorized access. 
+
+Proposed mitigations include sufficiently testing access control policy definitions and programming flow in both pre-silicon and post-silicon stages.
+
+# Summary bullet points
+
+* Hardware products may enforce access control to sensitive resources like encryption keys through policy registers
+* Policies typically include a control policy, read policy, and write policy with separate privileges 
+* Failing to properly separate privileges between control and data policies can enable escalation of privilege
+* Example shows system with AES key registers and associated policy registers controlling access
+* Untrusted agent 3 has privileges to modify read/write policies but not read/write keys directly
+* By modifying write policy, agent 3 can add itself and gain direct access to AES key registers
+* Suggest testing access control policies thoroughly pre- and post-silicon to catch issues
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1685
+answer_tokens: 312
+time_taken: 33.34 seconds

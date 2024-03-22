@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1062 weakness describes a software code issue where a parent class contains direct references to a child class, its methods, or members. This tight coupling between parent and child classes violates encapsulation best practices. The main risk is reduced reliability - if the child class changes, the parent may break in unexpected ways. There are no direct security implications, but poor coding practices indirectly harm security.
+
+# Summary bullet points
+
+* CWE-1062 is a software weakness related to poor encapsulation and tight coupling between parent and child classes
+* The main risk is reduced reliability if child classes change unexpectedly
+* No direct security impact, but poor coding indirectly enables vulnerabilities
+* References between parent and child classes should use inheritance and polymorphism 
+* Weakness has indirect ordinality - a quality issue that enables other weaknesses
+
+# Geographic information
+Not applicable
+
+# Type of content
+Definition - Common Weakness Enumeration
+================================================================================
+METADATA:
+prompt_tokens: 677
+answer_tokens: 153
+time_taken: 13.83 seconds

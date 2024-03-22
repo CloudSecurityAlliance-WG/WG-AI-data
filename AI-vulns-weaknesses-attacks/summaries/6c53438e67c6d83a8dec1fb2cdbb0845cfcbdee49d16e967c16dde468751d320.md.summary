@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1335 weakness describes the vulnerability of incorrectly shifting integer bit values in code, either by shifting by a negative amount or by an amount greater than or equal to the number of bits in the value. This causes unexpected or undefined behavior. Languages and architectures handle these invalid shifts differently, but they generally lead to crashes, denial of service, or logical errors. Mitigations focus on checking shift amounts before bitwise operations to ensure validity. 
+
+Examples include divide-by-zero errors, out of bounds memory access, compression function failures, and privilege escalation attacks. Real-world vulnerabilities span operating systems, drivers, applications, and more. Careful input validation and tightening shift amount checking would prevent weaknesses from being exploited.
+
+# Summary bullet points
+
+* CWE-1335 is the incorrect bitwise shift of an integer value by a negative amount or an overshift
+* Leads to undefined behavior, crashes, denial of service attacks, logical errors
+* Languages and architectures handle invalid shifts differently but generally poorly
+* Mitigations involve checking shift amounts before bitwise operations
+* Has enabled divide-by-zero bugs, out of bounds access, compression failures, escalation
+* Affects operating systems, drivers, applications - input validation is key
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1184
+answer_tokens: 204
+time_taken: 17.77 seconds

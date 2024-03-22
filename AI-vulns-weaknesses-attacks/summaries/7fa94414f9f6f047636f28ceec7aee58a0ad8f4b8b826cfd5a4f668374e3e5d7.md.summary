@@ -1,0 +1,32 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the provided data:
+
+# Summary
+
+The document describes CWE-1054, a weakness in software coding practices related to invoking code at an unnecessarily deep horizontal layer. This makes the software more difficult to understand and maintain, indirectly harming security. The key points are:
+
+- CWE-1054 involves invoking code that skips architectural layers, going deeper than the adjacent layer. This is poor coding practice.
+
+- It reduces maintainability of the software by making the connections between components more confusing. 
+
+- Lower maintainability indirectly harms security by making it harder to find and fix vulnerabilities.
+
+# Summary bullet points
+
+* Weakness involves invoking code at an unnecessarily deep horizontal layer, skipping layers 
+* Reduces maintainability of software
+* Harder to understand and change software
+* Indirectly harms security by increasing difficulty of finding and fixing vulnerabilities
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Common Weakness Enumeration reference entry
+================================================================================
+METADATA:
+prompt_tokens: 737
+answer_tokens: 156
+time_taken: 16.18 seconds

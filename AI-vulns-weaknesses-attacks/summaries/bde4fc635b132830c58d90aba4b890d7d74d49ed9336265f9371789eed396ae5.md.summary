@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improper handling of missing special elements in input. It occurs when a product receives input from an upstream component but does not properly handle or incorrectly handles when an expected special element is missing from the input. This can lead to crashes, denial of service, or other availability issues.
+
+The entry provides examples of crashes or denial of service caused by missing separator characters or CRLF sequences in inputs. It recommends input validation strategies to anticipate and handle missing special elements, such as using allowlists and denylists to ensure only valid and expected input is processed. Potential mitigations also include decoding and canonicalizing input before validation and not decoding the same input twice.
+
+# Summary bullet points
+
+* Occurs when product does not handle or incorrectly handles missing expected special elements in input
+* Can lead to crashes, denial of service, or other availability issues
+* Examples include crashes from missing separator chars or CRLF sequences
+* Recommends input validation with allowlists and denylists 
+* Also recommends decoding/canonicalizing input before validation
+* And not decoding the same input twice
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 976
+answer_tokens: 202
+time_taken: 16.14 seconds

@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-73, a common weakness related to the external control of file names or paths in software systems. It allows user input to control or influence file paths used in file system operations, which could enable attackers to access or modify system files or other critical files. This can violate integrity and confidentiality if attackers can specify arbitrary paths to read/write sensitive files. It can also cause denial of service by specifying paths to very large files or special device files. The document outlines several mitigations, including input validation, sandboxing, server-side checks of client-side inputs, and using built-in path canonicalization functions. It also maps CWE-73 to relevant weaknesses, attack patterns, and external references.
+
+# Summary bullet points
+
+* CWE-73 involves external control over file paths used internally in software systems
+* This could allow attackers to read/write sensitive files or trigger denial of service
+* Possible mitigations include:
+  * Input validation using allowlists and business rules
+  * Sandboxing the software
+  * Server-side checking of client inputs
+  * Path canonicalization functions
+* CWE-73 enables other file-related weaknesses like path traversal and insecure file uploads
+* It is mapped to weaknesses, attack patterns, and external references
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE (Common Weakness Enumeration) definition 
+================================================================================
+METADATA:
+prompt_tokens: 2419
+answer_tokens: 221
+time_taken: 21.78 seconds

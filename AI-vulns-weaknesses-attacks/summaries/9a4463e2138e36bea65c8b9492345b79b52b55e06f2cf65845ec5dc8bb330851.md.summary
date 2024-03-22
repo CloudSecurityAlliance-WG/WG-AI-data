@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes the weakness of improperly handling missing values in software. Specifically, it refers to when a parameter, field, or argument is specified but the associated value is missing, empty, blank, or null. This can lead to unexpected behavior or crashes. Examples are provided of vulnerabilities or information leaks caused by blank or null values being passed to software without proper validation. The consequences can include unexpected application state, information disclosure, and denial of service. Proper input validation and handling of missing values is highlighted as an important secure coding practice.
+
+# Summary bullet points
+
+* Describes the weakness of improperly handling missing parameter, field, or argument values in software 
+* Associated values may be empty, blank, null resulting in unexpected behavior
+* Can lead to unexpected application state, information disclosure, denial of service
+* Provides examples of real-world vulnerabilities caused by missing values
+* Emphasizes importance of proper input validation and handling missing values as secure coding practice
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 822
+answer_tokens: 177
+time_taken: 15.36 seconds

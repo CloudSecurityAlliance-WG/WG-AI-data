@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes an weakness where a product fails to properly preserve permissions when copying, restoring, or sharing objects. This causes the objects to have less restrictive permissions than intended. Specifically, it notes that ACLs, symbolic links, backup files, and cloned files can be impacted. This creates confidentiality and integrity issues, allowing attackers to read or modify sensitive application data that they should not have access to. The weakness is classified as resultant, meaning it enables other more direct weaknesses. It is relevant for access control and impacts permission assignments.
+
+# Summary bullet points
+
+* Products may fail to preserve permissions when copying, restoring or sharing objects
+* Can cause objects to have less restrictive permissions than intended 
+* ACLs, symbolic links, backup files, and cloned files can be impacted
+* Enables attackers to read or modify sensitive application data
+* Classified as a resultant weakness that makes other weaknesses easier to introduce 
+* Relevant for access control and permission assignments
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 763
+answer_tokens: 178
+time_taken: 14.76 seconds

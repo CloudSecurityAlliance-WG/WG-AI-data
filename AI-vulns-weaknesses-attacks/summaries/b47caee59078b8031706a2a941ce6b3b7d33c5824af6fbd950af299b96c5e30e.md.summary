@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  Here is the summarization and analysis:
+
+# Summary
+
+This CWE entry describes the weakness of sensitive non-volatile information not being protected during debug operations. Certain security-sensitive values like encryption keys, manufacturing data, etc. are stored in fuses and accessed at boot or runtime. These values are stored temporarily in registers/memories and access-protected. However, debug access to these temporary locations is not blocked, allowing unauthorized access to the sensitive data.  
+
+# Summary bullet points
+
+* Security-sensitive data like keys stored in fuses, accessed at boot/runtime and temporarily held in registers/memories
+* Temporary storage locations access-controlled during normal operation
+* Debug access to temporary locations not blocked, allowing unauthorized data access
+
+# Geographic information  
+Not applicable
+
+# Type of content
+CWE entry - Common Weakness Enumeration
+================================================================================
+METADATA:
+prompt_tokens: 1411
+answer_tokens: 124
+time_taken: 15.34 seconds

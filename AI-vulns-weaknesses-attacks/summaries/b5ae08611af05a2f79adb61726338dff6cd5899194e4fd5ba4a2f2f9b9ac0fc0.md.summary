@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is a summary, bullet point list, geographic information, and type of content for the given text:
+
+# Summary
+
+The paper proposes a simple yet highly effective black-box adversarial attack method called Simple Black-box Attack (SimBA). The key idea is to iteratively pick a random direction from a predefined orthogonal basis, use the model's confidence scores to determine if that direction points towards or away from the decision boundary, and perturb the image by adding/subtracting a small step along that direction. This gradually moves the image across the decision boundary to cause misclassification. The attack requires only 20 lines of PyTorch code due to its simplicity. 
+
+Empirical results demonstrate unprecedented query efficiency compared to state-of-the-art black-box attacks on ImageNet. For instance, SimBA achieves 98.6% attack success rate using only 1,665 queries on average while other methods require tens or hundreds of thousands of queries. Attacks on Google Cloud Vision also succeed with 70% probability using fewer than 5,000 queries. The proposed method establishes a new strong baseline for black-box adversarial attacks.
+
+# Summary bullet points
+
+* Proposes SimBA, an extremely simple yet highly effective black-box adversarial attack 
+* Key idea is to iteratively perturb image along random orthogonal directions based on model confidence scores
+* Achieves state-of-the-art attack success rates with orders of magnitude fewer model queries
+* For example, 98.6% success on ImageNet using only 1,665 queries on average
+* 70% success attacking Google Cloud Vision API within 5,000 queries
+* Sets new strong baseline for query-efficient black-box attacks
+
+# Geographic information  
+
+Not applicable
+
+# Type of content  
+
+Conference paper published at ICML 2019
+================================================================================
+METADATA:
+prompt_tokens: 6800
+answer_tokens: 265
+time_taken: 34.80 seconds

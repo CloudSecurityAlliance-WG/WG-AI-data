@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the text you provided:
+
+# Summary
+
+The text is from a website called PLOT4ai that contains a library of 86 threats related to AI and ML. The threats are classified into 8 different categories. The page shows one threat related to data retention and storage limitations. It asks if you can comply with storage limitations, if you know how long to keep training data, model outputs, etc, and if you need to comply with any data retention rules. It states that if you answered no or are unsure, you are at risk of not meeting requirements.
+
+The key points relate to ensuring you comply with any data retention rules and storage limitations when implementing AI/ML systems. Failing to do so puts organizations at risk of non-compliance.
+
+# Summary bullet points
+
+* PLOT4ai contains library of 86 AI/ML threats in 8 categories 
+* Page shows threat related to data retention and storage limitations
+* Asks if you comply with storage limits and data retention rules 
+* Says if you don't comply or unsure, you risk non-compliance
+* Must meet storage and retention requirements for AI/ML data
+* Failing to do so creates compliance risk
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website
+================================================================================
+METADATA:
+prompt_tokens: 1411
+answer_tokens: 210
+time_taken: 21.11 seconds

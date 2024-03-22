@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes an SQL injection vulnerability that can occur when using Hibernate to build dynamic SQL queries with user-controlled input. This allows an attacker to modify the query's meaning or execute arbitrary SQL commands. It is categorized as a child of broader SQL injection weaknesses. The impact is read and modification of application data at the technical level, compromising confidentiality and integrity. Mitigations highlighted include using a non-SQL database, following principle of least privilege for database accounts, duplicating server-side any security checks made client-side, using prepared statements with bound variables, allowlisting user input, and narrowly defining the set of safe characters expected for input parameters. The vulnerability is applicable for mapping to real-world weaknesses.
+
+# Summary bullet points
+
+* Describes SQL injection vulnerability when using Hibernate to build dynamic SQL queries with user input
+* Attacker can modify query meaning or execute arbitrary SQL commands
+* Child category of broader SQL injection weaknesses
+* Impacts confidentiality and integrity by allowing read and modification of application data
+* Mitigations include: non-SQL database, least privilege database accounts, duplicate server-side checks, prepared statements with variables, allowlisting input, narrowly defining expected safe input characters
+* Applicable for mapping to real-world vulnerabilities
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 960
+answer_tokens: 215
+time_taken: 21.00 seconds

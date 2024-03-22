@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content:
+
+# Summary
+
+The weakness described is called "Improper Setting of Bus Controlling Capability in Fabric End-point". It involves enabling certain bits in the registers of peripheral devices connected to a system bus or fabric. This allows peripherals that should only respond to bus transactions to initiate and control transactions themselves. If left enabled, this could allow a peripheral to access or modify privileged system resources, compromising security. 
+
+The example gives a phone platform with various components like CPU, memory, modems etc connected over a PCIe fabric. The audio codec peripheral has the bus control bit enabled, allowing it to master transactions to other chips. This could let it modify protected assets and "subvert system security".
+
+Mitigations focus on setting the bus control bits to disabled by default in hardware, preventing untrusted entities from modifying the bits, and securely configuring/checking the bits during boot flows.
+
+# Summary bullet points
+
+* Weakness involves improperly enabling bus control capability bits in peripheral devices
+* Allows peripheral devices to initiate and control bus transactions instead of only responding 
+* Can let them access privileged system resources, modifying protected assets
+* Example is audio chip in phone platform with control bit set
+* Allows it to master PCIe transactions to CPU and other components
+* Mitigations disable bits by default in hardware, prevent untrusted modification, secure boot checking
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE definition 
+================================================================================
+METADATA:
+prompt_tokens: 1187
+answer_tokens: 243
+time_taken: 25.69 seconds

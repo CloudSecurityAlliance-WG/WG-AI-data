@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summarized content formatted using the provided template:
+
+# Summary
+
+The CWE entry describes a weakness where a process does not properly close sensitive file descriptors before spawning a child process. This allows the child process to perform unauthorized I/O operations using those descriptors if it has fewer privileges than the parent. This exposure of descriptors introduces a vulnerability, enabling unintended access to resources. The entry discusses how inherited open file descriptors can lead to vulnerabilities when privileges differ between parent and child processes. Examples highlight server hijacking, reading restricted files, bypassing restrictions, and exposing user terminals.
+
+# Summary bullet points
+
+* Process failing to close sensitive file descriptors enables child process to access them
+* Child process can then perform unauthorized I/O with exposed descriptors 
+* Occurs when child process has fewer privileges than parent 
+* Examples include server hijacking, reading restricted files, bypassing restrictions
+* Vulnerability from unintended access to resources via open descriptors
+* Inherited descriptors allow vulnerabilities when privilege levels differ
+
+# Geographic information
+
+Not applicable
+
+# Type of content 
+
+CWE Entry
+================================================================================
+METADATA:
+prompt_tokens: 996
+answer_tokens: 178
+time_taken: 16.26 seconds

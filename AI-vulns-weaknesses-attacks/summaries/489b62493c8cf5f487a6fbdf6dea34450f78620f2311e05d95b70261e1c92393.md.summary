@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-239 weakness describes a failure to properly handle when a particular element in a request or data stream is not fully specified or is incomplete. This can lead to problems like resource exhaustion, unexpected application states, or denial of service. Some examples are not properly timing out or handling partial HTTP requests, leading to CPU and memory issues on a server. Proper input validation and checking for incomplete elements is important to avoid related problems.
+
+# Summary bullet points
+
+* CWE-239 deals with failure to handle incomplete data elements in requests/data streams
+* Can lead to CPU/memory exhaustion, unexpected application states, denial of service
+* Examples include partial HTTP requests not timing out properly, leading to resource issues
+* Important to validate input properly and check for incomplete elements
+* Can impact availability and integrity of systems and data
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 676
+answer_tokens: 156
+time_taken: 12.09 seconds

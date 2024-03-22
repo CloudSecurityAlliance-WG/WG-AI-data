@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the data you provided:
+
+# Summary
+
+The data describes CWE-91, a weakness related to XML injection vulnerabilities. It occurs when a product fails to properly neutralize special characters used in XML, allowing attackers to modify the syntax, content, or commands before processing. Consequences include execution of unauthorized code or commands and modification of application data. Mitigations focus on input validation, assuming all inputs as malicious and rejecting improper inputs. The weakness relates conceptually to injection flaws and is broadly applicable across languages and platforms. Membership in several vulnerability categorizations like OWASP Top 10 reflects its commonality. The provided description and references provide additional context on blind XPath injection specifics.
+
+# Summary bullet points
+
+* CWE-91 describes XML injection vulnerabilities resulting from failure to neutralize special XML characters
+* Enables attackers to modify XML syntax, content, commands before processing 
+* Consequences include unauthorized code execution, data access/modification
+* Cross-language, platform independent 
+* Mitigate via input validation, sanitize/reject improper inputs
+* Membership in common vulnerability rankings like OWASP Top 10 reflects prevalence  
+* Specifically relevant to blind XPath injection variants
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 1286
+answer_tokens: 197
+time_taken: 19.81 seconds

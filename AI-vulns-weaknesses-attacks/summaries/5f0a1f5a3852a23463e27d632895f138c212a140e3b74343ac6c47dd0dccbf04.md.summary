@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1092 weakness describes the use of the same control element across multiple architectural layers in a software product. This makes the product more difficult to understand and maintain, indirectly reducing security by making vulnerabilities harder to find and fix. It also might enable the introduction of new vulnerabilities more easily.
+
+# Summary bullet points
+
+* CWE-1092 is about using the same control element in multiple architectural layers
+* This reduces maintainability and indirectly harms security
+* It makes finding/fixing vulnerabilities more difficult and time-consuming
+* It might make introducing new vulnerabilities easier
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 692
+answer_tokens: 109
+time_taken: 8.01 seconds

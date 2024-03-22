@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry provides information about the weakness CWE-391 Unchecked Error Condition, which is related to ignoring exceptions and error conditions that could allow an attacker to induce unexpected behavior. It is planned for deprecation in favor of more specific related weaknesses like CWE-252 Unchecked Return Value, CWE-248 Uncaught Exception, and CWE-1069 Empty Exception Block. The weakness can lead to unexpected state or behavior changes and alter execution logic. It is applicable across languages and platforms. The entry provides examples of the weakness in code and recommendations for catching all relevant exceptions to handle errors properly. It also maps the weakness to related weaknesses, secure coding standards, and taxonomies.
+
+# Summary bullet points
+
+* CWE-391 Unchecked Error Condition involves ignoring exceptions and error conditions
+* Planned for deprecation in favor of more specific related weakness entries 
+* Can allow attackers to induce unexpected behavior unnoticed
+* Leads to unexpected state changes, altered execution logic
+* Applicable across languages and platforms
+* Examples provided of weakness in code 
+* Recommends catching all relevant exceptions and handling errors properly
+* Mapped to related weaknesses, coding standards, taxonomies
+
+# Geographic information  
+Not applicable
+
+# Type of content
+Entry from Common Weakness Enumeration (CWE) community database of software and hardware weakness types that can lead to vulnerabilities
+================================================================================
+METADATA:
+prompt_tokens: 1449
+answer_tokens: 215
+time_taken: 21.42 seconds

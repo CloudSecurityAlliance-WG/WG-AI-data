@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is a summary and analysis of the content based on the prompt:
+
+# Summary
+
+The content describes CWE-77, a common weakness related to improper neutralization of special elements used in a command, also known as command injection. It explains that this happens when an application constructs a command using externally-influenced input that is not properly neutralized. Attackers can inject additional commands by adding separators like semi-colons. This can allow them to execute arbitrary unauthorized commands with the privileges of the vulnerable application. 
+
+The content provides extended descriptions, relationships to other weaknesses, examples of vulnerable code, real-world vulnerabilities, potential mitigations like input validation and run time policy enforcement, and references. It notes that CWE-77 is often misused when OS command injection (CWE-78) was the actual weakness.
+
+# Summary bullet points
+
+* CWE-77 relates to improper neutralization of input leading to command injection vulnerabilities
+* Happens when apps construct commands using input that is not properly neutralized 
+* Attackers inject separators like semi-colons to add unauthorized commands
+* Can allow execution of commands with privileges of vulnerable app
+* Provides examples of vulnerabilities and example vulnerable code 
+* Suggests mitigations like input validation and run time policy enforcement
+* Commonly misused when OS command injection (CWE-78) should be used instead
+
+# Geographic information
+Not applicable
+
+# Type of content
+Article
+================================================================================
+METADATA:
+prompt_tokens: 2614
+answer_tokens: 219
+time_taken: 22.75 seconds

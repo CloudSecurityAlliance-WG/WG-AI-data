@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-277 weakness describes a situation where a software product defines insecure permissions that are then inherited by objects created by that program. This can lead to confidentiality and integrity issues, allowing attackers to read or modify sensitive application data that they should not have access to. The key impacts are unauthorized access to read or modify application data.
+
+This weakness typically occurs during implementation or architecture/design phases when privilege separation principles are not properly followed. Architects should carefully manage trust zones and compartmentalize systems to create "safe" areas with unambiguous trust boundaries. Sensitive data should not be allowed to flow freely outside trusted compartments. 
+
+# Summary bullet points
+
+* CWE-277 refers to insecure inherited permissions in software 
+* Permissions defined by a product propagate insecurely to created objects
+* Can enable unauthorized reading or modification of application data
+* Tends to occur from improper management of privileges and trust zones
+* Safe compartments should be created with strict trust boundaries
+* Sensitive data should stay within trusted compartments
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Database Entry
+================================================================================
+METADATA:
+prompt_tokens: 792
+answer_tokens: 186
+time_taken: 14.74 seconds

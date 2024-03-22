@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-317 weakness describes the cleartext storage of sensitive information in a graphical user interface (GUI). Even if the information is hidden or encoded, an attacker may be able to access it from the GUI using APIs. This can lead to unauthorized access and exposure of sensitive data.
+
+# Summary bullet points
+
+* CWE-317 refers to cleartext storage of sensitive information in a GUI
+* Attackers can often obtain data from a GUI even if hidden or encoded by using APIs to access GUI objects
+* This can allow attackers to decode and access sensitive information leading to unauthorized access
+* Applies to software that stores unencrypted sensitive data in fields, variables or objects in a GUI or front-end code
+* Can compromise confidentiality by enabling attackers to read sensitive memory contents and application data
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 790
+answer_tokens: 151
+time_taken: 13.77 seconds

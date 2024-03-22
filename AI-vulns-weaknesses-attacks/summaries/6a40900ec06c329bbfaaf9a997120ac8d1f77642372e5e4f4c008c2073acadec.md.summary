@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-95 weakness describes improper neutralization of directives in dynamically evaluated code, also known as 'eval injection'. This occurs when an application receives input that is not properly sanitized before being passed to an eval() or similar dynamic evaluation call. This enables an attacker to inject arbitrary code and execute it on the server. Consequences include potential remote code execution, information disclosure, bypassing authorization checks, and more. Factors such as special characters can increase exploitability. Examples are provided in Perl, Python and PHP. Mitigations focus on refactoring code to avoid eval() entirely and employing strict input validation on any data passed to dynamic evaluation functions. The weakness is included in the OWASP Top 10.
+
+# Summary bullet points
+
+* Describes improper neutralization of directives in dynamically evaluated code ('eval injection') where user input is passed unchecked into eval() or similar functions
+* Enables arbitrary remote code execution on the server 
+* Can lead to information disclosure, bypassing access controls, loss of data integrity 
+* Examples provided in Perl, Python and PHP
+* Mitigations include refactoring code to avoid eval() and performing strict input validation
+* Part of OWASP Top 10 (A3 Malicious File Execution in 2007 version, A06 Injection Flaws in 2004)
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 2421
+answer_tokens: 218
+time_taken: 20.76 seconds

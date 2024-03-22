@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+CWE-612 is about improper authorization of an index containing sensitive information. It occurs when a search index of private or sensitive documents is created but access to the index is not properly limited to only authorized users. This allows unauthorized parties to potentially obtain portions of private documents by conducting searches and viewing the results. The risk is increased if search results include surrounding text not in the query. Even without permissions to directly download files, users could read file contents this way.
+
+# Summary bullet points
+
+* CWE-612 is about improper authorization of search indexes with private/sensitive info
+* Occurs when search index access not properly limited to authorized users 
+* Allows unauthorized users to obtain private document content via searches
+* Especially risky if search results contain text around query terms
+* Users can read file contents without download permissions through searches
+
+# Geographic information
+
+Not applicable
+
+# Type of content 
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 795
+answer_tokens: 166
+time_taken: 12.71 seconds

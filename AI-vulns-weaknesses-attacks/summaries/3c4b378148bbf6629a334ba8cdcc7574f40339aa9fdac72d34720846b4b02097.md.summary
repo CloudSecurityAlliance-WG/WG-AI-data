@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+This CWE entry describes a reflection attack vulnerability that can occur in mutual authentication protocols that use the same preshared key for multiple entities. An attacker can impersonate a valid user and trick the server into revealing the secret shared between it and the user. The attacker then uses this secret to authenticate as the valid user. This can allow unauthorized access and privilege escalation. 
+
+Key mitigations include using different keys for the initiator and responder and requiring the initiator to prove its identity before proceeding with authentication.
+
+# Summary bullet points
+
+* Vulnerability occurs in mutual authentication protocols using the same pre-shared key with multiple entities
+* Attacker impersonates valid user and tricks server into revealing secret shared with user 
+* Attacker uses revealed secret to authenticate as valid user
+* Can allow unauthorized access and privilege escalation
+* Mitigations include using different keys for initiator/responder and requiring initiator to prove identity first
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry
+================================================================================
+METADATA:
+prompt_tokens: 1216
+answer_tokens: 167
+time_taken: 12.01 seconds

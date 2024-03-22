@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  # Summary
+
+The Common Weakness Enumeration (CWE) entry CWE-138 discusses the weakness of improper neutralization of special elements in software. Special elements refer to characters, reserved words, or symbols that can have control implications if not properly handled. If uncontrolled external input containing such elements is passed to downstream components, it could alter the intended control flow and logic of the software. Consequences include execution of unauthorized code, altered execution logic, and denial of service. 
+
+The entry provides background details, relationships to other weaknesses, code examples from past vulnerabilities (CVEs), potential mitigations focused on input validation, output encoding, and allowlisting. It also outlines associated attack patterns involving HTTP request/response splitting and command delimiters. Key takeaways relate to assuming all untrusted input is malicious, strictly validating/filtering input against an allowlist of known good values, properly encoding outputs, and appropriately quoting special elements in dynamic queries or commands. Proper handling of special elements is critical for security and intended functionality.
+
+# Summary bullet points
+
+* Special elements like characters or reserved words can alter control flow if unchecked
+* Consequences include code execution, altered logic, denial of service 
+* Mitigations include strict input validation/filtering against an allowlist 
+* Encode outputs properly and quote special elements in dynamic code
+* Attack patterns involve HTTP splitting and command delimiters
+* Assume all external input is malicious
+* Validation must conform strictly to specifications 
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE entry
+================================================================================
+METADATA:
+prompt_tokens: 1580
+answer_tokens: 240
+time_taken: 25.08 seconds

@@ -1,0 +1,22 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes the "Discover ML Model Family" technique that adversaries may use to gather information about a machine learning model. It notes that adversaries can discover the general family of a model through documentation or by constructing examples and analyzing the model's responses. Knowing the model family can help the adversary identify ways to attack the model and tailor the attack. The document lists some possible mitigations like passive ML output obfuscation, restricting the number of queries, and using ensemble methods.
+
+# Summary bullet points
+
+* Adversaries may discover the general family of an ML model through documentation or carefully constructed examples
+* Analyzing the model's responses can help categorize the model family 
+* Knowledge of the model family helps identify means of attack and tailor the attack
+* Possible mitigations: passive ML output obfuscation, restrict number of queries, use ensemble methods
+
+# Geographic information
+Not applicable
+
+# Type of content
+Encyclopedia / Knowledge base
+================================================================================
+METADATA:
+prompt_tokens: 581
+answer_tokens: 158
+time_taken: 10.09 seconds

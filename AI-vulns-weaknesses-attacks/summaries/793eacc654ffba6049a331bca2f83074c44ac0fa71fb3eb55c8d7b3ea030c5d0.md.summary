@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes the weakness of double-checked locking in concurrent programming. Double-checked locking refers to first checking if a resource has been initialized, then grabbing a lock, checking again if it has been initialized, and initializing it if not. The problem is that the ordering of operations across threads is not guaranteed, so another thread may see uninitialized values. This can lead to race conditions and incorrect application behavior. The document specifically calls out that in Java, double-checked locking is broken before Java 1.5 and should be avoided. After Java 1.5, using the volatile keyword allows it to work properly. It recommends using explicit synchronization instead of double-checked locking when possible.
+
+# Summary bullet points
+
+* Double-checked locking refers to first checking a resource, grabbing a lock, checking again, and initializing if needed - this is broken in some languages
+* Other threads may see uninitialized values or operations in a different order leading to race conditions 
+* Specifically broken in Java before 1.5, should just use synchronization instead 
+* After Java 1.5 volatile keyword allows double-checked locking to work correctly
+* Explicit synchronization is preferred approach rather than double-checked locking
+
+# Geographic information
+Not applicable
+
+# Type of content
+Website - Common Weakness Enumeration (CWE) definition
+================================================================================
+METADATA:
+prompt_tokens: 1052
+answer_tokens: 209
+time_taken: 21.22 seconds

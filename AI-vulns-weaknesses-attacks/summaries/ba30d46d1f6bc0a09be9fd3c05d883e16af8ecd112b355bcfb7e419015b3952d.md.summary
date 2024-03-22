@@ -1,0 +1,29 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The document describes CWE-605, a weakness where multiple sockets are allowed to bind to the same port. This allows services on that port to be stolen or spoofed by attackers. The extended description explains that on most systems, setting the SO_REUSEADDR socket option and calling bind() allows any process to bind to a port another process has already bound to with INADDR_ANY. This enables attackers to bind to the address of a server bound to INADDR_ANY and steal its UDP packets or TCP connections. Examples are provided of code that could allow an attacker to steal packets meant for a secure FTP server.
+
+The key information security issues are that binding multiple sockets to the same port can allow attackers to steal or spoof connections and packets meant for other services. System administrators and developers need to be aware of this weakness and ensure proper socket configuration and coding to prevent multiple binds to critical ports.
+
+# Summary bullet points
+
+* Multiple socket binds to a port can allow services on that port to be stolen or spoofed 
+* Setting SO_REUSEADDR and bind() to INADDR_ANY allows processes to bind to ports others have bound
+* Attackers can leverage this to steal UDP packets or TCP connections
+* Code examples show binding FTP server socket in a way that could enable stealing packets
+* Proper socket configuration and coding is needed to prevent unauthorized multiple binds
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 886
+answer_tokens: 254
+time_taken: 19.77 seconds

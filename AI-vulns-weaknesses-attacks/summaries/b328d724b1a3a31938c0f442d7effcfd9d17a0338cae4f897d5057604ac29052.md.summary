@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-221 weakness describes a situation where a product fails to properly record security-relevant information, leading to incorrect decisions or hampering later analysis. This can be due to the information being truncated, omitted entirely, obscured by an alternate name, or misrepresented in the UI. Consequences include enabling attackers to hide their activities and tricking users into unsafe actions. Examples include not logging all failed login attempts, showing truncated filenames that hide dangerous extensions, and failing to warn users about dangerous document functions.
+
+# Summary bullet points
+
+* CWE-221 covers failure to properly record security-relevant information by a product
+* This can lead to incorrect decisions or limited later analysis
+* Caused by truncation, omission, obscuring information, or UI misrepresentation 
+* Enables attackers to hide activities or trick users into unsafe actions
+* Examples include limited login attempt logging, truncated filenames, lack of function warnings
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE weakness description (MITRE)
+================================================================================
+METADATA:
+prompt_tokens: 849
+answer_tokens: 159
+time_taken: 13.31 seconds

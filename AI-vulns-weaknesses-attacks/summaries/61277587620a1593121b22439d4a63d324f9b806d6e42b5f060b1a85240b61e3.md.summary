@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The text describes CWE-600, an uncaught exception vulnerability in servlets. Servlets are Java programs that run inside a web server to dynamically generate content. The vulnerability occurs when a servlet does not catch all possible exceptions, allowing sensitive error messages to be returned to the user. This reveals debugging info like stack traces, SQL queries, database type and version, etc. Attackers can use this info to target known flaws. The text recommends catching all exception types to prevent exposure of sensitive data.
+
+# Summary bullet points
+
+* CWE-600 is an uncaught exception vulnerability in Java servlets
+* Occurs when a servlet does not catch all possible exceptions
+* Allows sensitive debugging info to be returned in error messages
+* Info like stack traces, SQL, database details can be exposed 
+* Attackers use this info to target known vulnerabilities
+* Should catch all exceptions to prevent data exposure
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Wiki Article
+================================================================================
+METADATA:
+prompt_tokens: 841
+answer_tokens: 170
+time_taken: 14.66 seconds

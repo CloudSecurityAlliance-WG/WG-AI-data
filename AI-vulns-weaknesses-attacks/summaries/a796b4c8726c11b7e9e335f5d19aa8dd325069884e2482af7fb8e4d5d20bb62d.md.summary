@@ -1,0 +1,33 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the text, formatted according to the provided template:
+
+# Summary
+
+CWE-705 describes incorrect control flow scoping, where a product does not properly return control flow to the right location after completing a task or detecting an unusual condition. This can alter execution logic and impact other technical operations. It is a weakness that can allow attackers to bypass intended control flow, leading to unauthorized access or denial of service.
+
+Examples are provided such as uncaught exceptions causing infinite loops, incorrect use of goto statements bypassing validation checks, exiting prematurely from finally blocks, and inappropriate use of methods like Thread.stop() and System.exit(). These demonstrate ways attackers could exploit the weakness.
+
+The entry describes relationships to other CWE entries, like insufficient control flow management being a parent weakness, and uncaught exceptions and use of System.exit() as child weaknesses. Membership in various security standards is also listed, relating to secure coding best practices around control flow, error handling, exceptions, and environment/context.  
+
+# Summary bullet points
+
+* Incorrect control flow scoping means improperly returning control flow after completing a task or upon error conditions
+* Can alter execution logic and affect technical operations
+* Enables attackers to bypass intended control flow for unauthorized access or denial of service 
+* Examples include uncaught exceptions, incorrect goto statements, exiting finally blocks prematurely 
+* Child weaknesses include uncaught exceptions, use of System.exit()
+* Related to insecure coding practices around control flow, error handling, exceptions
+* Covered by various software security standards for languages like C, C++, Java, Perl
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE entry 
+================================================================================
+METADATA:
+prompt_tokens: 1208
+answer_tokens: 271
+time_taken: 26.61 seconds

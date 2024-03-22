@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a weakness in ASP.NET applications where improperly configured impersonation allows the application to run with unnecessary privileges. This can allow the application access beyond what it requires to function, violating the principle of least privilege. It is categorized as incorrect privilege assignment, allowing the application privileges it does not need. This misconfiguration could enable escalation of privileges or assuming other identities. The mitigation is to properly restrict privileges per the least privilege principle when configuring ASP.NET impersonation.
+
+# Summary bullet points
+
+* CWE-556 describes an ASP.NET misconfiguration weakness allowing excess privileges through impersonation
+* Applications may access resources and identities beyond intended permissions
+* Violates principle of least privilege by granting unnecessary privileges 
+* Enables privilege escalation, assuming other identities
+* Mitigation is restrict impersonation privileges per the least privilege principle
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Entry
+================================================================================
+METADATA:
+prompt_tokens: 667
+answer_tokens: 148
+time_taken: 13.98 seconds

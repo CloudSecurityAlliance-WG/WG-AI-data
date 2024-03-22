@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The article discusses the technique of creating proxy machine learning models that adversaries can use to simulate access to a victim's actual machine learning model. It states that adversaries may obtain proxy models by training models on representative datasets, attempting to replicate models from victim inference APIs, or using available pre-trained models. These proxy models allow adversaries to test attacks against machine learning systems in an offline manner without needing direct access to the actual systems. The goal is to eventually evade or confuse the victim's machine learning models once effective attack methods have been developed using the proxies. Key aspects covered relate to machine learning security, data security, and simulating access to restricted systems via proxy models.
+
+# Summary bullet points
+
+* Adversaries can create proxy ML models to simulate access to a victim's actual model
+* Proxies allow offline attack testing without needing direct access to victim systems
+* Proxies can be obtained by training on representative data, replicating from APIs, or using pre-trained models  
+* Goals include developing attacks to eventually evade or confuse victim ML models
+* Allows testing attacks on ML systems without direct access 
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Article
+================================================================================
+METADATA:
+prompt_tokens: 638
+answer_tokens: 202
+time_taken: 14.70 seconds

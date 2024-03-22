@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a web application weakness where user-controlled input is not properly filtered for executable scripts disguised by doubling script command characters. This allows cross-site scripting (XSS) attacks where malicious scripts can be injected into web pages viewed by other users. It is a variant of the broader cross-site scripting weakness (CWE-79).
+
+The key impacts are that attackers can read sensitive application data and execute unauthorized commands. Examples of actual exploits using doubled characters are given. Mitigations focus on properly validating/filtering all user input, encoding output data appropriately, setting security headers like HttpOnly cookies, and reducing the attack surface exposed.
+
+# Summary bullet points
+
+* Describes a web app weakness allowing XSS via doubling special characters like "<script" to bypass filters
+* Is a variant of the broader cross-site scripting weakness (CWE-79)
+* Enables attackers to steal sensitive data and execute unauthorized commands
+* Actual exploits are shown using doubled "<", "script", etc. 
+* Mitigations include comprehensive input validation, output encoding, HttpOnly cookies
+* Focuses on reducing exposed attack surface area
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Entry
+================================================================================
+METADATA:
+prompt_tokens: 1120
+answer_tokens: 189
+time_taken: 15.19 seconds

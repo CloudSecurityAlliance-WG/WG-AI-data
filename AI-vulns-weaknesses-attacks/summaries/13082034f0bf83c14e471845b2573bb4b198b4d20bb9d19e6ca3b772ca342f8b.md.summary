@@ -1,0 +1,34 @@
+Status: SUCCESS
+Message:  # Summary
+
+Uncontrolled resource consumption occurs when a product does not properly restrict or throttle the amount of limited system resources that can be consumed by users. This enables attackers to consume excessive amounts of resources like CPU, memory, storage, or connections - eventually exhausting the available supply and causing denial of service. Safeguards like access controls, throttling mechanisms, caps on resource usage, and handling failures safely can help mitigate such attacks.  
+
+Key problematic behaviors that can lead to resource exhaustion include:
+
+- Not limiting the number of allocated resources like processes or database connections
+- Losing references to resources before they are properly released
+- Failing to close and release resources after use
+
+The most likely consequence is degradation or denial of service through resource starvation. In some cases, it may also be possible to bypass access controls or compromise system state when failure occurs.
+
+# Summary bullet points
+
+* Limited system resources like memory, storage, CPU cycles, or network sockets can be starved through excessive allocation
+* Not tracking or limiting number of resources allocated enables attackers to trigger resource exhaustion 
+* Forgetting to release resources or references to them causes leakage over time
+* Failure to handle errors or exemptional cases safely can leave resources locked
+* Consequences range from performance degradation to total denial of service
+* May also result in failure handling that compromises security checks or system state
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Reference document from MITRE organization detailing a specific class of software weakness related to security 
+================================================================================
+METADATA:
+prompt_tokens: 3854
+answer_tokens: 258
+time_taken: 27.15 seconds

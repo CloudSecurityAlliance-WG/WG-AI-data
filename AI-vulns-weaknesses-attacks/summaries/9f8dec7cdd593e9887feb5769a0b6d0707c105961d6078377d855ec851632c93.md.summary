@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes the weakness CWE-636: Not Failing Securely ('Failing Open') in software. When an error condition or failure occurs, the software is designed to fall back to a less secure state rather than a more secure option. This results in weaker security protections, false sense of security for administrators, and easier compromise. It is related to improper handling of errors and violating secure design principles. Examples are given of products reverting to less secure ciphers or allowing traffic to be exposed. Recommendations include designing components to fail safely without compromising the whole system.
+
+# Summary bullet points
+
+* When errors/failures occur, software falls back to less secure state rather than more secure options
+* Results in weaker security, false sense of security, easier compromise
+* Related to improper error handling and violation of secure design principles 
+* Examples of weaker ciphers or exposed traffic given
+* Recommendations to fail components safely without compromising whole system
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 1104
+answer_tokens: 172
+time_taken: 16.86 seconds

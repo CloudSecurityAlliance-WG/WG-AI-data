@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the text, formatted according to the provided template:
+
+# Summary
+
+The text describes CWE-1385, a weakness related to missing origin validation in WebSockets. WebSockets provide low latency, persistent communication between a client and server, but are not restricted by browser protections like CORS. Without origin validation, CSRF attacks become more powerful. The consequence is that attackers could perform any operations as the victim, potentially gaining complete control or access to data. Examples are provided of gaming, SIEM, and developer tools that were vulnerable due to missing WebSocket origin validation.
+
+# Summary bullet points
+
+* WebSockets enable persistent, low latency client-server communication not restricted by CORS browser protections
+* Missing origin validation makes CSRF attacks more powerful through WebSockets 
+* Attacker can perform any action as victim, fully compromising app or stealing data
+* Gaming apps, SIEM tools, developer tools vulnerable due to missing validation
+* Enable origin validation, CSRF tokens, TLS, auth, rate limiting as mitigations
+
+# Geographic information
+
+Not applicable
+
+# Type of content  
+
+CWE Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1216
+answer_tokens: 176
+time_taken: 15.99 seconds

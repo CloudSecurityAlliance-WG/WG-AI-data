@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-511 weakness describes logic/time bombs, which are code designed to disrupt normal operation of a product when certain conditions are met. These bombs can perform denial of service attacks by crashing systems, deleting files, or slowing response times. They may be part of replicating or non-replicating Trojan horses. Triggers can include system dates, random numbers, or counters waiting for an opportunity. Properly testing code coverage and verifying integrity of installed products can help mitigate this weakness.
+
+# Summary bullet points
+
+* Logic/time bombs are code that disrupts normal operation when conditions are met
+* Can crash systems, delete files, slow responses as part of denial of service 
+* May be in replicating or non-replicating Trojan horses
+* Triggers can include dates, random numbers, counters
+* Testing code coverage and verifying product integrity can help mitigate
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Weakness Description
+================================================================================
+METADATA:
+prompt_tokens: 766
+answer_tokens: 150
+time_taken: 13.20 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes a weakness where a signal handler in a product shares state with other signal handlers but does not properly prevent those other handlers from executing while the original handler is still running. This can allow an attacker to corrupt the shared state by sending another signal before the first handler finishes. The key impacts are integrity issues from attackers modifying application data. It recommends disabling dangerous signal handlers during sensitive operations to mitigate this.
+
+# Summary bullet points
+
+* Describes a weakness where a signal handler shares state with other handlers but does not mask/disable other handlers from running during its execution
+* This allows attackers to corrupt shared state by sending more signals before the original handler completes
+* Main impact is integrity issues from attackers modifying application data
+* Recommends disabling dangerous signal handlers during sensitive operations to mitigate
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) entry
+================================================================================
+METADATA:
+prompt_tokens: 722
+answer_tokens: 161
+time_taken: 11.03 seconds

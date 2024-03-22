@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text appears to be extracted from a website called PLOT4ai, which is a library containing threats related to AI and machine learning. The site has classified 86 threats into 8 different categories. The threats seem to be in the form of questions to assess if an AI system is at risk. 
+
+The document repeats the same content over multiple pages. The key message is that APIs connect systems and can expose information about an AI system or model. Not properly testing or securing APIs can put an AI system at risk of threats. Companies should "red team" and penetration test their AI systems before deployment to identify risks.
+
+# Summary bullet points
+
+* PLOT4ai is a library with 86 ML/AI threats classified into 8 categories 
+* Threats are questions to assess if an AI system is at risk
+* APIs connect components and can expose details about AI systems
+* Not testing APIs can leave AI systems vulnerable
+* Companies should red team and pentest AI before deployment
+* Repeated statements that improper API security puts AI systems at risk
+
+# Geographic information
+Not applicable
+
+# Type of content
+Website/Library
+================================================================================
+METADATA:
+prompt_tokens: 1339
+answer_tokens: 193
+time_taken: 19.02 seconds

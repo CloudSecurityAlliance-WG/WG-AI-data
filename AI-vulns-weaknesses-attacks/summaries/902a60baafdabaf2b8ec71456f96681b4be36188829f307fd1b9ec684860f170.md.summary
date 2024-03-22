@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-685, a weakness where a function, procedure, or routine is called with an incorrect number of arguments. This can lead to undefined behavior and resultant weaknesses. It typically occurs due to programmer typos or copy/paste errors. The incorrect call will often produce incorrect behavior that can be detected during testing or operation. It may also be caught by compilers in some languages. This weakness is at the variant level of abstraction, making it a preferred level for mapping to vulnerability root causes.
+
+# Summary bullet points
+
+* CWE-685 is calling a function with too many or too few arguments
+* Can lead to undefined behavior and resultant weaknesses 
+* Typically occurs due to typos or copy/paste errors by programmers
+* Often produces incorrect behavior detected in testing or operation
+* May be caught by compilers in some languages
+* At variant level of abstraction, good for mapping to vulnerability root causes
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Entry from Common Weakness Enumeration database
+================================================================================
+METADATA:
+prompt_tokens: 848
+answer_tokens: 180
+time_taken: 14.85 seconds

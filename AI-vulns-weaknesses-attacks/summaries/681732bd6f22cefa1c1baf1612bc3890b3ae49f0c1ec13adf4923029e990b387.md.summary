@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis of the content:
+
+# Summary
+
+The document describes CWE-386, a common weakness enumeration related to symbolic names not mapping to the correct object. It occurs when a constant symbolic reference to an object is used, but the reference can resolve to a different object over time. This can enable attackers to gain unauthorized access, modify data, files or directories, read sensitive information, hide activities, and more. The weakness is applicable across multiple languages and platforms. It is child of CWE-706 Use of Incorrectly-Resolved Name or Reference and a peer of other concurrency and reference issues. The document provides details on consequence scopes, technical impacts, relationships to other weaknesses, taxonomy mappings, submission history, and notes on usage and rationale.
+
+# Summary bullet points
+
+* CWE-386 covers symbolic names not mapping to the correct object over time
+* Enables attackers to gain access, modify data, hide activities via race conditions 
+* Child of CWE-706, peer of other concurrency and reference weaknesses
+* Applicable across languages and platforms
+* Details provided on technical impacts, relationships, taxonomy mappings, etc.
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Common Weakness Enumeration (CWE) Definition  
+================================================================================
+METADATA:
+prompt_tokens: 834
+answer_tokens: 195
+time_taken: 14.51 seconds

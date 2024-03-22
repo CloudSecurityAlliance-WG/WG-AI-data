@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-58, a common weakness related to path equivalence issues with Windows 8.3 filenames. It explains that some products restrict access to long filenames on Windows, but fail to properly restrict the equivalent 8.3 short filenames. This enables attackers to bypass access controls by using the 8.3 names. 
+
+The document provides background on 8.3 filenames in Windows and how they can act as alternate names for files with long names. It outlines the impact as allowing attackers to read or modify files they should not have access to. Examples of real-world vulnerabilities exploiting this weakness are provided.
+
+Potential mitigations are suggested, like disabling support for 8.3 filenames in Windows, although it is noted this does not remove previously generated 8.3 names. The weakness is considered under-studied but relevant to path traversal issues.
+
+# Summary bullet points
+
+* CWE-58 relates to products that restrict long filenames on Windows but allow access via equivalent 8.3 short names
+* 8.3 filenames act as alternate names for long filenames on newer Windows OSes 
+* Impact is attackers can bypass access controls and read/modify unauthorized files
+* Examples of real vulnerabilities leveraging this weakness are provided
+* Mitigation is to disable 8.3 filename support in Windows (doesn't remove existing 8.3 names)
+* Considered an understudied issue relevant to path traversal weaknesses
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 831
+answer_tokens: 234
+time_taken: 21.36 seconds

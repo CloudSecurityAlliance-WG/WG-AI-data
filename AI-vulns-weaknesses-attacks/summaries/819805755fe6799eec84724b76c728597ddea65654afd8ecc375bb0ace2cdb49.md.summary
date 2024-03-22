@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-538, a weakness related to the insertion of sensitive information into externally accessible files or directories. Specifically, it involves placing sensitive data into files/directories that authorized actors can access, even though they should not have access to that particular sensitive information. This can lead to exposure of confidential data to unauthorized parties. An example is provided of logging a username and credit card number, exposing that sensitive data. Potential mitigations include not exposing file/directory info to users and using automated static analysis tools to detect instances of this weakness. The weakness is related conceptually to sensitive data exposure, information management errors, and access control issues. It can allow attackers to access confidential data. Critical details cover the weakness definition, consequences, examples, mitigations, and related concepts.
+
+# Summary bullet points
+
+* CWE-538 involves inserting sensitive data into externally accessible files or directories 
+* It entails putting sensitive information into files/folders authorized actors can access but shouldn't have access to that specific sensitive data
+* This can result in exposure of confidential data to unauthorized parties
+* An example is logging usernames and credit card numbers, exposing that sensitive information
+* Potential mitigations include not exposing file/directory information to users and using automated static analysis tools
+* The weakness is conceptually related to sensitive data exposure, information management errors, and access control
+* It can enable attackers to access confidential information
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Entry in Common Weakness Enumeration (CWE) catalog of software and hardware weaknesses
+================================================================================
+METADATA:
+prompt_tokens: 1012
+answer_tokens: 255
+time_taken: 22.21 seconds

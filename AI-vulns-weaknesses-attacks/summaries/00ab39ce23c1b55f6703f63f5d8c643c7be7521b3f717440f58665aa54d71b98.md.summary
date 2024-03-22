@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE entry describes spyware as software that collects personally identifiable information about users or their activities without requiring the user's explicit approval. It does so by accessing information from resources other than itself. The entry notes that the term "spyware" has many definitions, but generally refers to products that collect information or install functionality that users might not allow if they were fully aware. An example is provided of gaming software obtaining a social security number from tax software data, which a user would not expect.
+
+The entry states that spyware can compromise confidentiality by reading application data without the user's consent. It is characterized as a type of embedded malicious code. Potential mitigations include using spyware detection/removal software and verifying integrity of products before installing them.
+
+# Summary bullet points
+
+* Spyware collects personal user info or tracks activities without explicit user approval, using external resources 
+* Term has many definitions, generally means software takes actions users wouldn't allow if fully informed
+* Example given of gaming software accessing social security # from tax software
+* Can compromise confidentiality through unauthorized data access
+* Characterized as a type of embedded malicious code
+* Mitigations include spyware detection/removal tools and verifying product integrity before installation
+
+# Geographic information
+Not applicable
+
+# Type of content
+CWE entry - common weakness enumeration
+================================================================================
+METADATA:
+prompt_tokens: 723
+answer_tokens: 223
+time_taken: 15.73 seconds

@@ -1,0 +1,31 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text describes the weakness CWE-548 - Exposure of Information Through Directory Listing. It explains that this weakness occurs when a directory listing is inappropriately exposed, providing attackers potentially sensitive information about the files and directories on a system. Some key points:
+
+- Directory listings give attackers an index of all resources in a directory, enabling them to access or exploit files. The risks vary based on the specific files listed.
+
+- It can allow attackers to gain access to source code, obtain information to devise exploits by seeing file details like creation times, or compromise private/confidential data.  
+
+- Recommended mitigations include restricting access to important directories using need-to-know access control, and disabling automatic directory listings.
+
+- Static analysis tools can detect some cases of this weakness by modeling data/control flow to find potentially vulnerable patterns connecting sources to sinks.
+
+# Summary bullet points
+
+* Directory listings inappropriately exposed to attackers provide a complete file/directory index 
+* Risks vary based on the specific files listed and accessible  
+* Can allow access to source code, information to devise exploits, compromise of private data
+* Mitigations: restrict directory access, disable automatic listings 
+* Static analysis tools can detect some cases by identifying vulnerable source-sink patterns
+
+# Geographic information
+Not applicable
+
+# Type of content
+Information security weakness description (CWE - Common Weakness Enumeration)
+================================================================================
+METADATA:
+prompt_tokens: 904
+answer_tokens: 223
+time_taken: 18.28 seconds

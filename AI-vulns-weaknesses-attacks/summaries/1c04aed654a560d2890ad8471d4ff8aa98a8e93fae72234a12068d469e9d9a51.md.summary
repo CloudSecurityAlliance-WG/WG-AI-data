@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-382, a weakness in J2EE applications that call System.exit(). This shuts down the application container and provides an avenue for denial of service (DoS) attacks. The mitigations suggest separating privileged functions, avoiding calls that shutdown the VM, and not throwing exceptions to the container.
+
+# Summary bullet points
+
+* CWE-382 is a weakness where J2EE applications call System.exit(), shutting down the container
+* This provides an avenue for denial of service (DoS) attacks
+* Mitigations involve separating privileged functions, avoiding VM shutdown calls, and not throwing exceptions to the container
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) definition
+================================================================================
+METADATA:
+prompt_tokens: 1030
+answer_tokens: 109
+time_taken: 10.95 seconds

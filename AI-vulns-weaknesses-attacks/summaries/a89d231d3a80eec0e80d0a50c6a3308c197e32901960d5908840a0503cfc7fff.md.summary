@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is a summary of the key information from the CWE page on Improper Control of Resource Identifiers ('Resource Injection'), along with a bullet point list of critical facts and ideas:
+
+# Summary
+
+The page defines the weakness of improper control of resource identifiers, also known as resource injection. This occurs when an attacker can specify an identifier used to access a system resource like a file name or port number, gaining capabilities that would not normally be permitted. This may enable the attacker to access or modify sensitive data or system resources. Mitigations focus on input validation, restricting what identifiers can be used to carefully vetted allowlists.
+
+# Summary bullet points
+
+* Resource injection happens when attacker-controlled input is used as a resource identifier without sufficient validation, enabling unauthorized access or modification of data
+* Relevant resources include files, directories, database records, variable names, or network ports 
+* Consequences include exposure of sensitive data, modification of critical files like configuration files
+* Mitigations involve input validation based on allowlists of known good values
+* Also known as insecure direct object references
+* Related to path manipulation and external control of file name or path weaknesses
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Reference - Common Weakness Enumeration entry
+================================================================================
+METADATA:
+prompt_tokens: 1704
+answer_tokens: 211
+time_taken: 22.48 seconds

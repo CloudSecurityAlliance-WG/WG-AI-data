@@ -1,0 +1,28 @@
+Status: SUCCESS
+Message:  Here is the summarization and analysis template filled for the given text:
+
+# Summary
+
+The paper proposes two novel decision-based membership inference attacks against machine learning models, including transfer attack and boundary attack. The transfer attack assumes an adversary has a shadow dataset from the same distribution as the target model's training data. The adversary uses the target model to label the shadow data, trains a shadow model on it, and launches a score-based attack using the shadow model's outputs. The boundary attack does not require any shadow data. It queries the target model to find the minimum perturbation needed to change a sample's label, with the insight that larger perturbations indicate membership. Experiments on image datasets show both attacks outperform prior decision-based attacks and even score-based attacks in some cases. Analysis provides new perspective that member samples are farther from a model's decision boundary than non-members. Most defenses are shown vulnerable to the new attacks.
+
+# Summary bullet points
+
+* Proposes two new decision-based membership inference attacks: transfer attack using shadow model and boundary attack using label perturbations
+* Transfer attack achieves better performance than prior decision-based attacks and outperforms score-based attacks on some datasets  
+* Boundary attack perturbs samples to change predicted labels, with magnitude of perturbation indicating membership
+* Boundary attack matches or exceeds score-based attacks without needing any shadow data
+* Analysis shows member samples are more distant from decision boundaries than non-members 
+* Evaluates defenses and shows vulnerability remains to new decision-based attacks
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Academic Paper
+================================================================================
+METADATA:
+prompt_tokens: 12460
+answer_tokens: 259
+time_taken: 36.56 seconds

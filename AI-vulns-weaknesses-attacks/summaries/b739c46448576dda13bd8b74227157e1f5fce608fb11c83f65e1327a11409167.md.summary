@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text discusses phishing, a form of social engineering attack where adversaries send electronic messages to gain access to victim systems. It can be targeted (spearphishing) to specific individuals or companies, or untargeted via mass malicious spam campaigns. The text highlights how new AI technologies like generative language models (LLMs) that can generate synthetic text, deepfake images/video, and deepfake audio enable adversaries to scale and personalize phishing attacks more effectively. For example, LLMs can carry out conversations to phish for sensitive info, while deepfakes can aid impersonation. Overall, the text warns that these emerging AI capabilities can empower more harmful, tailored phishing efforts.
+
+# Summary bullet points
+
+* Phishing is an electronically-delivered social engineering attack used to gain access to victim systems
+* Can be targeted (spearphishing) or untargeted via mass spam campaigns 
+* New AI like generative language models, deepfake images/video, deepfake audio enable more scalable, personalized phishing 
+* LLMs can converse to phish for sensitive info, while deepfakes aid impersonation
+* AI empowers more harmful, tailored phishing campaigns  
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Webpage
+================================================================================
+METADATA:
+prompt_tokens: 598
+answer_tokens: 182
+time_taken: 17.23 seconds

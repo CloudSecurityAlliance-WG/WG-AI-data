@@ -1,0 +1,30 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1123 weakness describes the excessive use of self-modifying code, which makes software more difficult to understand and maintain. This indirectly impacts security by increasing the difficulty of finding and fixing vulnerabilities. It also may enable the easier introduction of new vulnerabilities. The key concepts are:
+
+- Overuse of self-modifying code hinders understandability and maintainability 
+- Reduced maintainability indirectly harms security over time
+- May allow easier insertion of vulnerabilities through code complexity
+
+# Summary bullet points
+
+* CWE-1123 covers the weakness of using too much self-modifying code
+* This makes software harder to understand and maintain over time
+* Reduced maintainability indirectly impacts security over the long run 
+* Can also allow vulnerabilities to be introduced more easily
+* Is considered an indirect weakness that enables other quality and security issues
+* Belongs to categories covering poor coding practices and code complexity
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 681
+answer_tokens: 159
+time_taken: 14.05 seconds

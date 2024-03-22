@@ -1,0 +1,26 @@
+Status: SUCCESS
+Message:  Here is the summary and analysis:
+
+# Summary
+
+The weakness described is the exposure of private personal information to unauthorized actors. This includes information like government identifiers, contact details, location data, employment history, financial information, media files, behavioral data, relationships, communications, health data, account credentials etc. The exposure may be due to missing security protections during design or development. It can violate privacy laws and regulations. Even non-sensitive data can become sensitive in different contexts. 
+
+# Summary bullet points
+
+* Describes exposure of private personal info like government IDs, contact info, location, employment history etc to unauthorized actors
+* Can happen due to missing security protections in design or development phases 
+* Violates privacy laws and regulations
+* Even non-sensitive data can become sensitive in different contexts
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Website - Common Weakness Enumeration reference definition
+================================================================================
+METADATA:
+prompt_tokens: 2134
+answer_tokens: 143
+time_taken: 17.21 seconds

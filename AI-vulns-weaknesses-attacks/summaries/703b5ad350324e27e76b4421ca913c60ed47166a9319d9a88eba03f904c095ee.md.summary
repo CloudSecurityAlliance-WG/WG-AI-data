@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-579 weakness describes storing non-serializable objects in an HttpSession attribute in a J2EE application. This can hurt reliability and availability when the application is deployed across multiple JVMs for scalability and redundancy. To enable session replication across JVMs, all session data must be serializable. Storing non-serializable objects prevents session replication and reduces reliability.
+
+# Summary bullet points
+
+* Storing non-serializable objects in HttpSession attributes hurts reliability of J2EE applications deployed across multiple JVMs
+* Session replication requires all session data to be serializable 
+* Storing non-serializable objects prevents session replication across JVMs
+* Reduces availability and reliability of scaled out J2EE applications
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition
+================================================================================
+METADATA:
+prompt_tokens: 905
+answer_tokens: 119
+time_taken: 10.52 seconds

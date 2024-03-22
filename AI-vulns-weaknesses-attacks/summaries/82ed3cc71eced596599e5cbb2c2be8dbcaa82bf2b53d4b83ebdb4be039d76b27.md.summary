@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The text describes the technique "Acquire Public ML Artifacts: Models" from the MITRE ATT&CK framework for adversarial machine learning. It explains that adversaries may acquire public machine learning models, including model architectures and pre-trained models, to use in their operations against a victim organization. These models can be acquired from public sources and searched for using common model file formats. Acquired models are useful for tailoring attacks to the victim's models. The text provides 4 case studies demonstrating how public models have been acquired and used maliciously. It also suggests a mitigation of limiting public release of model artifacts to protect against this technique.
+
+# Summary bullet points
+
+* Adversaries may acquire public ML models to use against victim organizations, including model architectures and pre-trained models
+* Models can be searched for in public sources using common model file formats like ONNX, HDF5, PyTorch, TensorFlow 
+* Acquired models help adversaries tailor attacks to victim models
+* 4 case studies show public models being acquired and used to attack ML systems
+* Suggested mitigation is limiting public release of ML model artifacts
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+Webpage
+================================================================================
+METADATA:
+prompt_tokens: 668
+answer_tokens: 193
+time_taken: 13.11 seconds

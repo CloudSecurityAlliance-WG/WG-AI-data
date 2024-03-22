@@ -1,0 +1,25 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-1241 weakness describes the use of predictable algorithms in random number generators. Such pseudo-random number generators are predictable over time and can compromise randomness or expose internal state. This can enable attacks and compromise confidentiality of cryptographic systems relying on secure randomness. Hardware-based true random number generators using physical sources of randomness are recommended instead.
+
+# Summary bullet points
+
+* CWE-1241 involves using predictable pseudo-random number generator (PRNG) algorithms instead of secure true random number generators (TRNGs)
+* PRNGs like linear feedback shift registers (LFSRs) have finite state spaces that cause repeating patterns over time
+* This predictability compromises randomness and enables attacks like reverse engineering and tampering
+* TRNGs utilize hardware-based physical sources of randomness and are cryptographically secure
+* TRNGs should be specified in architecture/design and properly implemented for cryptographic functions needing secure randomness
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE (Common Weakness Enumeration) Definition 
+================================================================================
+METADATA:
+prompt_tokens: 1160
+answer_tokens: 153
+time_taken: 13.35 seconds

@@ -1,0 +1,24 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes CWE-106, a weakness related to not using the Struts validation framework in Java applications. Specifically, it states that not using input validation frameworks like the Struts Validator leads to a greater risk of vulnerabilities due to insufficient input validation. Common consequences include unexpected application state, cross-site scripting, process control, and SQL injection attacks. It provides code examples showing improper and proper usage of the Struts validation framework. Potential mitigations focus on using input validation frameworks like Struts to validate all input.
+
+# Summary bullet points
+
+* Not using input validation frameworks like Struts Validator leads to insufficient input validation and vulnerabilities
+* Common consequences include unexpected state, XSS, process control, SQLi 
+* Code examples show improper and proper Struts validation framework usage
+* Mitigations recommend using frameworks like Struts to validate all input
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE Definition
+================================================================================
+METADATA:
+prompt_tokens: 1202
+answer_tokens: 149
+time_taken: 15.82 seconds

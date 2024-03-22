@@ -1,0 +1,23 @@
+Status: SUCCESS
+Message:  # Summary
+
+The document describes the technique "Data from Local System" (AML.T0037) used by adversaries to search local system sources like file systems, configuration files, or local databases to find files of interest and sensitive data prior to exfiltration. This can include basic fingerprinting information and sensitive data such as SSH keys. The technique is part of the "Collection" tactic.
+
+# Summary bullet points
+
+* Adversaries may search local system sources to find files of interest and sensitive data 
+* Local system sources include file systems, configuration files, local databases
+* Data collected can include basic fingerprinting information and sensitive data like SSH keys
+* Data is collected prior to exfiltration
+* The technique "Data from Local System" (AML.T0037) is part of the "Collection" tactic
+
+# Geographic information
+Not applicable
+
+# Type of content
+MITRE ATT&CK Technique page
+================================================================================
+METADATA:
+prompt_tokens: 484
+answer_tokens: 138
+time_taken: 10.31 seconds

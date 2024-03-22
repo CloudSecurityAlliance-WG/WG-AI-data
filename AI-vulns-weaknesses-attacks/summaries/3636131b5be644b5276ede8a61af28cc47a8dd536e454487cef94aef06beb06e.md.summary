@@ -1,0 +1,27 @@
+Status: SUCCESS
+Message:  # Summary
+
+The CWE-342 weakness describes when an exact value or random number can be precisely predicted by observing previous values. This enables attackers to spoof connections or queries by predicting values that are used to generate identifiers or initiate connections. The key impacts relate to compromised confidentiality and integrity when attackers can spoof trusted systems or hide malicious activity.
+
+To mitigate this weakness, products and modules should use cryptographic functions that conform to standards like FIPS 140-2 to ensure proper entropy and unpredictability. PRNGs should also periodically re-seed themselves from high-quality entropy sources to increase unpredictability, but not too frequently to avoid blocking the entropy source. Careful use of vetted randomness libraries can help avoid easily predictable values.
+
+# Summary bullet points
+
+* Describes the weakness where exact values or random numbers can be predicted by observing previous values
+* Enables attackers to spoof connections or queries via predictable identifiers or sequence numbers
+* Can compromise confidentiality and integrity when attackers spoof or hide activity 
+* Mitigations relate to using vetted crypto modules and PRNGs with high entropy re-seeding to increase unpredictability
+* Careful use of randomness libraries also helps avoid the weakness
+
+# Geographic information
+
+Not applicable
+
+# Type of content
+
+CWE definition 
+================================================================================
+METADATA:
+prompt_tokens: 911
+answer_tokens: 205
+time_taken: 16.05 seconds
